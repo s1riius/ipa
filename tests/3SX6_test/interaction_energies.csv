@@ -1,0 +1,14 @@
+[H]SSSC[C@@]([H])(C=O)N([H])C=O:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+ALA;A;158;0;ALA158;False;0.121466;-0.867876
+ILE;A;261;0;ILE261;False;-4.422519;-0.750551
+PRO;A;319;0;PRO319;False;-4.897400;-1.937617
+H2S;A;505;0;H2S505;False;-4.087887;0.000000
+
+[H]OC=C(N([H])C=O)CSSS[H]:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+ALA;A;158;0;ALA158;False;-7.745314;-0.837781
+ILE;A;261;0;ILE261;False;-10.603207;-0.679786
+PRO;A;319;0;PRO319;False;-11.525439;-2.056850
+H2S;A;505;0;H2S505;False;-11.015762;0.000000
+

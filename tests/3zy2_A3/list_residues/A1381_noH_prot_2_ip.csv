@@ -1,0 +1,29 @@
+path-to-geometries: tests/3zy2_A3/geometries/ip/
+extension: .xyz
+ligand: A1381_noH_prot_2_ip -3
+r:ARG;A;40;+1;ARG_A40_prot_1_ip
+r:PHE;A;41;0;PHE_A41_ip
+r:GLY;A;42;0;GLY_A42_ip
+r:ASN;A;43;0;ASN_A43_ip
+r:HIS;A;238;0;HIS_A238_ip
+r:HIS;A;238;-1;HIS_A238_prot_2_ip
+r:HIS;A;238;0;HIS_A238_prot_3_ip
+r:HIS;A;238;+1;HIS_A238_prot_4_ip
+r:ARG;A;240;+1;ARG_A240_prot_1_ip
+r:ALA;A;307;0;ALA_A307_ip
+r:SER;A;308;0;SER_A308_ip
+r:SER;A;308;0;SER_A308_flip_ip
+r:ASP;A;309;0;ASP_A309_ip
+r:ASP;A;309;-1;ASP_A309_prot_2_ip
+r:ASP;A;334;0;ASP_A334_ip
+r:ASP;A;334;-1;ASP_A334_prot_2_ip
+r:MET;A;336;0;MET_A336_ip
+r:SER;A;355;0;SER_A355_ip
+r:SER;A;355;0;SER_A355_flip_ip
+r:THR;A;356;0;THR_A356_ip
+r:THR;A;356;0;THR_A356_flip_ip
+r:PHE;A;357;0;PHE_A357_ip
+r:MN;A;1380;+2;MN_A1380_ip
+r:ASN;A;43;0;ASN_A43f_ip
+r:HIS;A;238;0;HIS_A238f_ip
+r:HIS;A;238;-1;HIS_A238f_prot_2_ip

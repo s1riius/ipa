@@ -1,0 +1,24 @@
+[H][Se]C[C@@]([H])(C=O)N([H])C=O:
+    Deformation Energy:          7.47 kcal/mol
+    Distortion:                  23.38 kcal/mol
+    Energy Chemical State:       0.00 kcal/mol
+    IPA Interaction Energy:      -17.69 kcal/mol
+    IPA Binding Energy:          -10.22 kcal/mol
+    IPA Model Score:             -0.44
+    IPA Binding Score:           -1.37
+    Chemical State Total Energy: -26.3308940 Hartree
+    RMSD IPA:                    0.25 Å
+    RMSD full-relax:             0.67 Å
+
+[H]OC=C(N([H])C=O)C[Se][H]:
+    Deformation Energy:          37.74 kcal/mol
+    Distortion:                  63.96 kcal/mol
+    Energy Chemical State:       24.35 kcal/mol
+    IPA Interaction Energy:      -98.92 kcal/mol
+    IPA Binding Energy:          -36.83 kcal/mol
+    IPA Model Score:             -0.58
+    IPA Binding Score:           -0.98
+    Chemical State Total Energy: -26.2920930 Hartree
+    RMSD IPA:                    0.42 Å
+    RMSD full-relax:             0.97 Å
+

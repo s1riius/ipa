@@ -1,0 +1,20 @@
+path-to-geometries: tests/3SXT_test/geometries/ip/
+extension: .xyz
+ligand: E57_noH_prot_2_tautomer_2_ip -1
+r:SER;E;30;0;SER_E30_ip
+r:SER;E;30;0;SER_E30_flip_ip
+r:ASP;E;32;0;ASP_E32_ip
+r:ASP;E;32;-1;ASP_E32_prot_2_ip
+r:TYR;E;74;0;TYR_E74_ip
+r:TYR;E;74;-1;TYR_E74_prot_2_ip
+r:TYR;E;74;0;TYR_E74_flip_ip
+r:ASP;E;76;0;ASP_E76_ip
+r:ASP;E;76;-1;ASP_E76_prot_2_ip
+r:GLU;E;101;0;GLU_E101_ip
+r:GLU;E;101;-1;GLU_E101_prot_2_ip
+r:ALA;E;103;0;ALA_E103_ip
+r:ASN;E;104;0;ASN_E104_ip
+r:ILE;E;106;0;ILE_E106_ip
+r:THR;E;122;0;THR_E122_ip
+r:THR;E;122;0;THR_E122_flip_ip
+r:ASN;E;104;0;ASN_E104f_ip

@@ -1,0 +1,12 @@
+path-to-geometries: tests/5A0Y_1_test/geometries/ip/
+extension: .xyz
+ligand: D257_noH_tautomer_2_ip 0
+r:TYR;D;253;0;TYR_D253_ip
+r:TYR;D;253;-1;TYR_D253_prot_2_ip
+r:TYR;D;253;0;TYR_D253_flip_ip
+r:ALA;D;255;0;ALA_D255_ip
+r:GLU;D;259;0;GLU_D259_ip
+r:GLU;D;259;-1;GLU_D259_prot_2_ip
+r:VAL;D;260;0;VAL_D260_ip
+r:TP7;A;557;-2;TP7_A557_prot_1_ip
+r:TP7;A;557;-3;TP7_A557_prot_2_ip

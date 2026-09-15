@@ -1,0 +1,23 @@
+path-to-geometries: tests/3zy2_A2/geometries/ip/
+extension: .xyz
+ligand: A1381_noHH_ip -3
+r:ARG;A;40;+1;ARG_A40H_ip
+r:PHE;A;41;0;PHE_A41H_ip
+r:GLY;A;42;0;GLY_A42H_ip
+r:ASN;A;43;0;ASN_A43H_ip
+r:HIS;A;238;0;HIS_A238H_ip
+r:ARG;A;240;+1;ARG_A240H_ip
+r:ALA;A;307;0;ALA_A307H_ip
+r:SER;A;308;0;SER_A308H_ip
+r:SER;A;308;0;SER_A308H_flip_ip
+r:ASP;A;309;-1;ASP_A309H_ip
+r:ASP;A;334;-1;ASP_A334H_ip
+r:MET;A;336;0;MET_A336H_ip
+r:SER;A;355;0;SER_A355H_ip
+r:SER;A;355;0;SER_A355H_flip_ip
+r:THR;A;356;0;THR_A356H_ip
+r:THR;A;356;0;THR_A356H_flip_ip
+r:PHE;A;357;0;PHE_A357H_ip
+r:MN;A;1380;+2;MN_A1380_ip
+r:ASN;A;43;0;ASN_A43fH_ip
+r:HIS;A;238;0;HIS_A238fH_ip

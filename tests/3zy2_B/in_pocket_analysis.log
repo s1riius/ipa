@@ -1,0 +1,65 @@
+2026-05-04 15:32:08,664 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:32:08,664 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:32:08,664 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:32:08,664 - __main__.InPocketAnalyzer - INFO - Detected mmCIF format
+2026-05-04 15:32:08,664 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:32:08,664 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:32:08,664 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/3ZY2.cif
+2026-05-04 15:32:08,841 - __main__.InPocketAnalyzer - INFO - Found active residue: GDP
+2026-05-04 15:32:08,841 - __main__.InPocketAnalyzer - INFO - Found 694 protein residues
+2026-05-04 15:32:08,841 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.18 seconds
+2026-05-04 15:32:08,841 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:32:08,848 - __main__.InPocketAnalyzer - WARNING - WriteSDF: connectivity referenced 15 atom names not in atomtype. Examples: ['H1*', 'H2*', 'H3*', 'H4*', 'H5*', 'H5**', 'H8', 'HN1', 'HN21', 'HN22']
+2026-05-04 15:32:08,848 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/3zy2_B/geometries/A1381_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:32:08,879 - __main__.InPocketAnalyzer - INFO - Generated 1 ligand states
+2026-05-04 15:32:08,879 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.04 seconds
+2026-05-04 15:32:08,879 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:32:08,880 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:32:08,886 - __main__.InPocketAnalyzer - INFO -     ARG A 40 3.24 Å
+2026-05-04 15:32:08,887 - __main__.InPocketAnalyzer - INFO -     PHE A 41 3.13 Å
+2026-05-04 15:32:08,887 - __main__.InPocketAnalyzer - INFO -     GLY A 42 2.80 Å
+2026-05-04 15:32:08,966 - __main__.InPocketAnalyzer - INFO -     HIS A 238 3.02 Å
+2026-05-04 15:32:08,967 - __main__.InPocketAnalyzer - INFO -     ARG A 240 2.81 Å
+2026-05-04 15:32:08,969 - __main__.InPocketAnalyzer - INFO -     TRP A 245 3.46 Å
+2026-05-04 15:32:08,994 - __main__.InPocketAnalyzer - INFO -     ALA A 307 3.17 Å
+2026-05-04 15:32:08,994 - __main__.InPocketAnalyzer - INFO -     SER A 308 3.03 Å
+2026-05-04 15:32:08,995 - __main__.InPocketAnalyzer - INFO -     ASP A 309 3.48 Å
+2026-05-04 15:32:09,006 - __main__.InPocketAnalyzer - INFO -     ASP A 334 2.77 Å
+2026-05-04 15:32:09,007 - __main__.InPocketAnalyzer - INFO -     MET A 336 3.44 Å
+2026-05-04 15:32:09,014 - __main__.InPocketAnalyzer - INFO -     SER A 355 2.60 Å
+2026-05-04 15:32:09,014 - __main__.InPocketAnalyzer - INFO -     THR A 356 2.81 Å
+2026-05-04 15:32:09,015 - __main__.InPocketAnalyzer - INFO -     PHE A 357 3.59 Å
+2026-05-04 15:32:09,025 - __main__.InPocketAnalyzer - WARNING - Metal-containing system found for MN A 1380: interaction energies with isolated metals are unreliable
+2026-05-04 15:32:09,025 - __main__.InPocketAnalyzer - WARNING - Metal-containing system found for MN A 1380: interaction energies with isolated metals are unreliable
+2026-05-04 15:32:09,025 - __main__.InPocketAnalyzer - WARNING - Metal-containing system found for MN A 1380: interaction energies with isolated metals are unreliable
+2026-05-04 15:32:09,025 - __main__.InPocketAnalyzer - INFO -     MN A 1380 1.98 Å
+2026-05-04 15:32:09,025 - __main__.InPocketAnalyzer - INFO - Found 15 neighbor residues
+2026-05-04 15:32:09,026 - __main__.InPocketAnalyzer - INFO - Added caps to 14 neighbour residues
+2026-05-04 15:32:09,026 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.15 seconds
+2026-05-04 15:32:09,026 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:32:20,621 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:32:20,622 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 20.63 kcal/mol
+2026-05-04 15:32:20,622 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 625.09 kcal/mol
+2026-05-04 15:32:20,622 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 11.60 seconds
+2026-05-04 15:32:20,964 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.34 seconds
+2026-05-04 15:32:20,964 - __main__.BindingCalculator - INFO - Calculating energies for 19 residues
+2026-05-04 15:32:23,222 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:32:55,548 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:32:57,396 - __main__.BindingCalculator - INFO - CapCorr summary: done = 15 skipped = 1 total_unique_base = 16
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO - Binding energy calculation completed in 36.43 seconds
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO - 
+============================================================
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO - INTERACTION ENERGY SUMMARY
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO - Ligand State 1:
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -135.420 kcal/mol
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO -     1. ARG_A40_1: -24.220 kcal/mol
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO -     2. PHE_A357_1: -22.724 kcal/mol
+2026-05-04 15:32:57,397 - __main__.InPocketAnalyzer - INFO -     3. ASP_A334_1: -17.357 kcal/mol
+2026-05-04 15:32:57,399 - __main__.InPocketAnalyzer - INFO - Writing results
+2026-05-04 15:32:57,400 - __main__.InPocketAnalyzer - INFO - Results written to tests/3zy2_B
+2026-05-04 15:32:57,400 - __main__.InPocketAnalyzer - INFO - Results writing completed in 0.00 seconds
+2026-05-04 15:32:57,413 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:32:57,413 - __main__.InPocketAnalyzer - INFO - Analysis completed successfully in 48.75 seconds

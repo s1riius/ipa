@@ -1,0 +1,15 @@
+path-to-geometries: tests/4Z86_test/geometries/ip/
+extension: .xyz
+ligand: B164_noH_tautomer_1_ip 0
+r:GLY;B;104;0;GLY_B104_ip
+r:LYS;B;160;0;LYS_B160_ip
+r:LYS;B;160;+1;LYS_B160_prot_2_ip
+r:GLU;B;161;0;GLU_B161_ip
+r:GLU;B;161;-1;GLU_B161_prot_2_ip
+r:GLN;B;162;0;GLN_B162_ip
+r:ASP;B;166;0;ASP_B166_ip
+r:ASP;B;166;-1;ASP_B166_prot_2_ip
+r:ALA;B;167;0;ALA_B167_ip
+r:ALA;B;168;0;ALA_B168_ip
+r:ALA;B;196;0;ALA_B196_ip
+r:GLN;B;162;0;GLN_B162f_ip

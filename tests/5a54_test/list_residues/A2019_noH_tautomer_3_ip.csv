@@ -1,0 +1,25 @@
+path-to-geometries: tests/5a54_test/geometries/ip/
+extension: .xyz
+ligand: A2019_noH_tautomer_3_ip 0
+r:ILE;A;165;0;ILE_A165_ip
+r:VAL;A;173;0;VAL_A173_ip
+r:ALA;A;186;0;ALA_A186_ip
+r:LYS;A;188;0;LYS_A188_ip
+r:LYS;A;188;+1;LYS_A188_prot_2_ip
+r:GLU;A;203;0;GLU_A203_ip
+r:GLU;A;203;-1;GLU_A203_prot_2_ip
+r:VAL;A;222;0;VAL_A222_ip
+r:PHE;A;238;0;PHE_A238_ip
+r:GLU;A;239;0;GLU_A239_ip
+r:GLU;A;239;-1;GLU_A239_prot_2_ip
+r:MET;A;240;0;MET_A240_ip
+r:LEU;A;241;0;LEU_A241_ip
+r:SER;A;242;0;SER_A242_ip
+r:SER;A;242;0;SER_A242_flip_ip
+r:TYR;A;243;0;TYR_A243_ip
+r:TYR;A;243;-1;TYR_A243_prot_2_ip
+r:TYR;A;243;0;TYR_A243_flip_ip
+r:LEU;A;294;0;LEU_A294_ip
+r:VAL;A;306;0;VAL_A306_ip
+r:ASP;A;307;0;ASP_A307_ip
+r:ASP;A;307;-1;ASP_A307_prot_2_ip

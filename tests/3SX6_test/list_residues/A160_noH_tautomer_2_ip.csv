@@ -1,0 +1,7 @@
+path-to-geometries: tests/3SX6_test/geometries/ip/
+extension: .xyz
+ligand: A160_noH_tautomer_2_ip 0
+r:ALA;A;158;0;ALA_A158_ip
+r:ILE;A;261;0;ILE_A261_ip
+r:PRO;A;319;0;PRO_A319_ip
+r:H2S;A;505;0;H2S_A505_ip

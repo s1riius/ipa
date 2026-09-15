@@ -1,0 +1,9 @@
+path-to-geometries: tests/4BKD_test/geometries/ip/
+extension: .xyz
+ligand: A5_noH_tautomer_2_ip 0
+r:PHE;A;3;0;PHE_A3_ip
+r:SER;A;117;0;SER_A117_ip
+r:SER;A;117;0;SER_A117_flip_ip
+r:ASN;A;118;0;ASN_A118_ip
+r:VAL;A;133;0;VAL_A133_ip
+r:ASN;A;118;0;ASN_A118f_ip

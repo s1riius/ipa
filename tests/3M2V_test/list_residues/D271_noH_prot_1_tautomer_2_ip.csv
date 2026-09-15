@@ -1,0 +1,14 @@
+path-to-geometries: tests/3M2V_test/geometries/ip/
+extension: .xyz
+ligand: D271_noH_prot_1_tautomer_2_ip 1
+r:ARG;A;225;+1;ARG_A225_prot_1_ip
+r:LEU;D;267;0;LEU_D267_ip
+r:PRO;D;268;0;PRO_D268_ip
+r:VAL;D;269;0;VAL_D269_ip
+r:ARG;D;273;+1;ARG_D273_prot_1_ip
+r:ASN;D;474;0;ASN_D474_ip
+r:GLU;E;186;0;GLU_E186_ip
+r:GLU;E;186;-1;GLU_E186_prot_2_ip
+r:TP7;D;1;-2;TP7_D1_prot_1_ip
+r:TP7;D;1;-3;TP7_D1_prot_2_ip
+r:ASN;D;474;0;ASN_D474f_ip

@@ -1,0 +1,160 @@
+2026-05-04 15:29:55,005 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:29:55,005 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:29:55,005 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:29:55,005 - __main__.InPocketAnalyzer - INFO - Detected mmCIF format
+2026-05-04 15:29:55,005 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:29:55,005 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:29:55,006 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/3ZY2.cif
+2026-05-04 15:29:55,381 - __main__.InPocketAnalyzer - INFO - Found active residue: GDP
+2026-05-04 15:29:55,381 - __main__.InPocketAnalyzer - INFO - Found 694 protein residues
+2026-05-04 15:29:55,381 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.38 seconds
+2026-05-04 15:29:55,381 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:29:55,390 - __main__.InPocketAnalyzer - WARNING - WriteSDF: connectivity referenced 15 atom names not in atomtype. Examples: ['H1*', 'H2*', 'H3*', 'H4*', 'H5*', 'H5**', 'H8', 'HN1', 'HN21', 'HN22']
+2026-05-04 15:29:55,390 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/3zy2_A/geometries/A1381_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:29:55,461 - __main__.InPocketAnalyzer - INFO - Added 4 missing X-H bond(s) to native/original SDF template: A1381.sdf
+2026-05-04 15:29:55,464 - __main__.InPocketAnalyzer - INFO - Generated 1 ligand states
+2026-05-04 15:29:55,465 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.08 seconds
+2026-05-04 15:29:55,465 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:29:55,465 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:29:55,491 - __main__.InPocketAnalyzer - INFO -     ARG A 40 3.16 Å
+2026-05-04 15:29:55,493 - __main__.InPocketAnalyzer - INFO -     PHE A 41 3.47 Å
+2026-05-04 15:29:55,493 - __main__.InPocketAnalyzer - INFO -     GLY A 42 2.69 Å
+2026-05-04 15:29:55,494 - __main__.InPocketAnalyzer - INFO -     ASN A 43 3.15 Å
+2026-05-04 15:29:55,643 - __main__.InPocketAnalyzer - INFO -     HIS A 238 2.99 Å
+2026-05-04 15:29:55,644 - __main__.InPocketAnalyzer - INFO -     ARG A 240 2.82 Å
+2026-05-04 15:29:55,720 - __main__.InPocketAnalyzer - INFO -     ALA A 307 3.28 Å
+2026-05-04 15:29:55,721 - __main__.InPocketAnalyzer - INFO -     SER A 308 3.13 Å
+2026-05-04 15:29:55,722 - __main__.InPocketAnalyzer - INFO -     ASP A 309 3.52 Å
+2026-05-04 15:29:55,738 - __main__.InPocketAnalyzer - INFO -     ASP A 334 3.15 Å
+2026-05-04 15:29:55,739 - __main__.InPocketAnalyzer - INFO -     MET A 336 3.56 Å
+2026-05-04 15:29:55,754 - __main__.InPocketAnalyzer - INFO -     SER A 355 2.66 Å
+2026-05-04 15:29:55,758 - __main__.InPocketAnalyzer - INFO -     THR A 356 2.52 Å
+2026-05-04 15:29:55,759 - __main__.InPocketAnalyzer - INFO -     PHE A 357 3.34 Å
+2026-05-04 15:29:55,775 - __main__.InPocketAnalyzer - WARNING - Metal-containing system found for MN A 1380: interaction energies with isolated metals are unreliable
+2026-05-04 15:29:55,775 - __main__.InPocketAnalyzer - WARNING - Metal-containing system found for MN A 1380: interaction energies with isolated metals are unreliable
+2026-05-04 15:29:55,775 - __main__.InPocketAnalyzer - INFO -     MN A 1380 2.09 Å
+2026-05-04 15:29:55,775 - __main__.InPocketAnalyzer - INFO - Found 15 neighbor residues
+2026-05-04 15:29:55,775 - __main__.InPocketAnalyzer - INFO - Added caps to 14 neighbour residues
+2026-05-04 15:29:55,776 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.31 seconds
+2026-05-04 15:29:55,776 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:30:14,500 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:30:14,500 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 19.47 kcal/mol
+2026-05-04 15:30:14,500 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 820.96 kcal/mol
+2026-05-04 15:30:14,501 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 18.72 seconds
+2026-05-04 15:30:14,984 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.48 seconds
+2026-05-04 15:30:14,985 - __main__.BindingCalculator - INFO - Calculating energies for 20 residues
+2026-05-04 15:30:17,500 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:30:45,094 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:30:45,601 - __main__.BindingCalculator - ERROR - CapCorr FAILED: base_id = HIS_A238 residue = HIS_A238_1 cap_atoms = 2 cap_geom = 2 protonated_file = tests/3zy2_A/geometries/HIS_A238H.xyz error = RuntimeError('align.exe failed\nCommand: /Users/sirius/MolPhys/IPA-repo/align.exe tests/3zy2_A/geometries/HIS_A238_capH_tmp.xyz /Users/sirius/MolPhys/IPA-repo/util/formaldehyde/CH2O_water_tmp.xyz tests/3zy2_A/geometries/HIS_A238_capH_tmp2\nstdout:\n\nstderr:\nlibc++abi: terminating due to uncaught exception of type std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>\n\n')
+Traceback (most recent call last):
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1225, in _calculate_cap_corrections
+    lig_correction = self._calculate_single_cap_correction(residue,ligand_states,formaldehyde_energy,formaldehyde_file)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1302, in _calculate_single_cap_correction
+    FORM.ReorientCap(formaldehyde_file,str(cap_file))
+  File "/Users/sirius/MolPhys/IPA-repo/util/Formaldehyde.py", line 123, in ReorientCap
+    AlignMolecules(temp_prot_filename + ".xyz",temp_opt_filename + ".xyz",temp_prot_filename + "2")
+  File "/Users/sirius/MolPhys/IPA-repo/util/Formaldehyde.py", line 95, in AlignMolecules
+    raise RuntimeError("align.exe failed\n"
+RuntimeError: align.exe failed
+Command: /Users/sirius/MolPhys/IPA-repo/align.exe tests/3zy2_A/geometries/HIS_A238_capH_tmp.xyz /Users/sirius/MolPhys/IPA-repo/util/formaldehyde/CH2O_water_tmp.xyz tests/3zy2_A/geometries/HIS_A238_capH_tmp2
+stdout:
+
+stderr:
+libc++abi: terminating due to uncaught exception of type std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>
+
+
+2026-05-04 15:30:45,603 - __main__.InPocketAnalyzer - ERROR - Unexpected error: align.exe failed
+Command: /Users/sirius/MolPhys/IPA-repo/align.exe tests/3zy2_A/geometries/HIS_A238_capH_tmp.xyz /Users/sirius/MolPhys/IPA-repo/util/formaldehyde/CH2O_water_tmp.xyz tests/3zy2_A/geometries/HIS_A238_capH_tmp2
+stdout:
+
+stderr:
+libc++abi: terminating due to uncaught exception of type std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>
+
+Traceback (most recent call last):
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 3648, in run_analysis
+    binding_results = self.calculate_binding_energies(ligand_states,processed_residues)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 3159, in calculate_binding_energies
+    return self.binding_calculator.calculate_binding_energies(ligand_states,processed_residues)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 793, in calculate_binding_energies
+    cap_corrections = self._calculate_cap_corrections(ligand_states,residues)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1225, in _calculate_cap_corrections
+    lig_correction = self._calculate_single_cap_correction(residue,ligand_states,formaldehyde_energy,formaldehyde_file)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1302, in _calculate_single_cap_correction
+    FORM.ReorientCap(formaldehyde_file,str(cap_file))
+  File "/Users/sirius/MolPhys/IPA-repo/util/Formaldehyde.py", line 123, in ReorientCap
+    AlignMolecules(temp_prot_filename + ".xyz",temp_opt_filename + ".xyz",temp_prot_filename + "2")
+  File "/Users/sirius/MolPhys/IPA-repo/util/Formaldehyde.py", line 95, in AlignMolecules
+    raise RuntimeError("align.exe failed\n"
+RuntimeError: align.exe failed
+Command: /Users/sirius/MolPhys/IPA-repo/align.exe tests/3zy2_A/geometries/HIS_A238_capH_tmp.xyz /Users/sirius/MolPhys/IPA-repo/util/formaldehyde/CH2O_water_tmp.xyz tests/3zy2_A/geometries/HIS_A238_capH_tmp2
+stdout:
+
+stderr:
+libc++abi: terminating due to uncaught exception of type std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>
+
+
+2026-05-04 15:32:15,810 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:32:15,810 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:32:15,810 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:32:15,810 - __main__.InPocketAnalyzer - INFO - Detected mmCIF format
+2026-05-04 15:32:15,810 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:32:15,810 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:32:15,810 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/3ZY2.cif
+2026-05-04 15:32:15,993 - __main__.InPocketAnalyzer - INFO - Found active residue: GDP
+2026-05-04 15:32:15,993 - __main__.InPocketAnalyzer - INFO - Found 694 protein residues
+2026-05-04 15:32:15,993 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.18 seconds
+2026-05-04 15:32:15,993 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:32:16,000 - __main__.InPocketAnalyzer - WARNING - WriteSDF: connectivity referenced 15 atom names not in atomtype. Examples: ['H1*', 'H2*', 'H3*', 'H4*', 'H5*', 'H5**', 'H8', 'HN1', 'HN21', 'HN22']
+2026-05-04 15:32:16,001 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/3zy2_A/geometries/A1381_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:32:16,032 - __main__.InPocketAnalyzer - INFO - Added 4 missing X-H bond(s) to native/original SDF template: A1381.sdf
+2026-05-04 15:32:16,033 - __main__.InPocketAnalyzer - INFO - Generated 1 ligand states
+2026-05-04 15:32:16,033 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.04 seconds
+2026-05-04 15:32:16,033 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:32:16,034 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:32:16,040 - __main__.InPocketAnalyzer - INFO -     ARG A 40 3.16 Å
+2026-05-04 15:32:16,041 - __main__.InPocketAnalyzer - INFO -     PHE A 41 3.47 Å
+2026-05-04 15:32:16,042 - __main__.InPocketAnalyzer - INFO -     GLY A 42 2.69 Å
+2026-05-04 15:32:16,042 - __main__.InPocketAnalyzer - INFO -     ASN A 43 3.15 Å
+2026-05-04 15:32:16,124 - __main__.InPocketAnalyzer - INFO -     HIS A 238 2.99 Å
+2026-05-04 15:32:16,125 - __main__.InPocketAnalyzer - INFO -     ARG A 240 2.82 Å
+2026-05-04 15:32:16,152 - __main__.InPocketAnalyzer - INFO -     ALA A 307 3.28 Å
+2026-05-04 15:32:16,153 - __main__.InPocketAnalyzer - INFO -     SER A 308 3.13 Å
+2026-05-04 15:32:16,153 - __main__.InPocketAnalyzer - INFO -     ASP A 309 3.52 Å
+2026-05-04 15:32:16,168 - __main__.InPocketAnalyzer - INFO -     ASP A 334 3.15 Å
+2026-05-04 15:32:16,169 - __main__.InPocketAnalyzer - INFO -     MET A 336 3.56 Å
+2026-05-04 15:32:16,177 - __main__.InPocketAnalyzer - INFO -     SER A 355 2.66 Å
+2026-05-04 15:32:16,177 - __main__.InPocketAnalyzer - INFO -     THR A 356 2.52 Å
+2026-05-04 15:32:16,178 - __main__.InPocketAnalyzer - INFO -     PHE A 357 3.34 Å
+2026-05-04 15:32:16,191 - __main__.InPocketAnalyzer - WARNING - Metal-containing system found for MN A 1380: interaction energies with isolated metals are unreliable
+2026-05-04 15:32:16,191 - __main__.InPocketAnalyzer - WARNING - Metal-containing system found for MN A 1380: interaction energies with isolated metals are unreliable
+2026-05-04 15:32:16,192 - __main__.InPocketAnalyzer - INFO -     MN A 1380 2.09 Å
+2026-05-04 15:32:16,192 - __main__.InPocketAnalyzer - INFO - Found 15 neighbor residues
+2026-05-04 15:32:16,192 - __main__.InPocketAnalyzer - INFO - Added caps to 14 neighbour residues
+2026-05-04 15:32:16,193 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.16 seconds
+2026-05-04 15:32:16,193 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:32:30,811 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:32:30,812 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 19.47 kcal/mol
+2026-05-04 15:32:30,812 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 820.96 kcal/mol
+2026-05-04 15:32:30,812 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 14.62 seconds
+2026-05-04 15:32:31,217 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.41 seconds
+2026-05-04 15:32:31,217 - __main__.BindingCalculator - INFO - Calculating energies for 20 residues
+2026-05-04 15:32:33,490 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:32:58,738 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:33:00,608 - __main__.BindingCalculator - INFO - CapCorr summary: done = 16 skipped = 1 total_unique_base = 17
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO - Binding energy calculation completed in 29.39 seconds
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO - 
+============================================================
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO - INTERACTION ENERGY SUMMARY
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO - Ligand State 1:
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -108.720 kcal/mol
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:33:00,608 - __main__.InPocketAnalyzer - INFO -     1. ARG_A40_1: -20.327 kcal/mol
+2026-05-04 15:33:00,609 - __main__.InPocketAnalyzer - INFO -     2. PHE_A357_1: -19.580 kcal/mol
+2026-05-04 15:33:00,609 - __main__.InPocketAnalyzer - INFO -     3. ARG_A240_1: -19.350 kcal/mol
+2026-05-04 15:33:00,612 - __main__.InPocketAnalyzer - INFO - Writing results
+2026-05-04 15:33:00,612 - __main__.InPocketAnalyzer - INFO - Results written to tests/3zy2_A
+2026-05-04 15:33:00,612 - __main__.InPocketAnalyzer - INFO - Results writing completed in 0.00 seconds
+2026-05-04 15:33:00,635 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:33:00,636 - __main__.InPocketAnalyzer - INFO - Analysis completed successfully in 44.83 seconds

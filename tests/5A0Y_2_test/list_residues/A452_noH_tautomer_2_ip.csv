@@ -1,0 +1,24 @@
+path-to-geometries: tests/5A0Y_2_test/geometries/ip/
+extension: .xyz
+ligand: A452_noH_tautomer_2_ip 0
+r:LEU;A;448;0;LEU_A448_ip
+r:GLN;A;449;0;GLN_A449_ip
+r:DYA;A;450;0;DYA_A450_prot_1_ip
+r:DYA;A;450;-1;DYA_A450_prot_2_ip
+r:SER;A;455;0;SER_A455_ip
+r:SER;A;455;0;SER_A455_flip_ip
+r:ASN;A;456;0;ASN_A456_ip
+r:ASN;A;477;0;ASN_A477_ip
+r:GLY;B;350;0;GLY_B350_ip
+r:LYS;B;351;0;LYS_B351_ip
+r:LYS;B;351;+1;LYS_B351_prot_2_ip
+r:HIS;B;384;0;HIS_B384_ip
+r:HIS;B;384;-1;HIS_B384_prot_2_ip
+r:HIS;B;384;0;HIS_B384_prot_3_ip
+r:HIS;B;384;+1;HIS_B384_prot_4_ip
+r:ARG;C;241;+1;ARG_C241_prot_1_ip
+r:GLN;A;449;0;GLN_A449f_ip
+r:ASN;A;456;0;ASN_A456f_ip
+r:ASN;A;477;0;ASN_A477f_ip
+r:HIS;B;384;0;HIS_B384f_ip
+r:HIS;B;384;-1;HIS_B384f_prot_2_ip

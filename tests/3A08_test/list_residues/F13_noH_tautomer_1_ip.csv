@@ -1,0 +1,8 @@
+path-to-geometries: tests/3A08_test/geometries/ip/
+extension: .xyz
+ligand: F13_noH_tautomer_1_ip 0
+r:GLY;D;12;0;GLY_D12_ip
+r:PRO;E;11;0;PRO_E11_ip
+r:GLY;E;12;0;GLY_E12_ip
+r:PRO;F;11;0;PRO_F11_ip
+r:GLY;F;15;0;GLY_F15_ip

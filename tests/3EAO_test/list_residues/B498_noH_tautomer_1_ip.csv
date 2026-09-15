@@ -1,0 +1,10 @@
+path-to-geometries: tests/3EAO_test/geometries/ip/
+extension: .xyz
+ligand: B498_noH_tautomer_1_ip 0
+r:LEU;A;112;0;LEU_A112_ip
+r:GLY;A;115;0;GLY_A115_ip
+r:TYR;A;116;0;TYR_A116_ip
+r:TYR;A;116;-1;TYR_A116_prot_2_ip
+r:TYR;A;116;0;TYR_A116_flip_ip
+r:ALA;A;119;0;ALA_A119_ip
+r:GLY;B;496;0;GLY_B496_ip

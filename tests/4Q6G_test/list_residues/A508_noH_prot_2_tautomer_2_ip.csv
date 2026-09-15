@@ -1,0 +1,19 @@
+path-to-geometries: tests/4Q6G_test/geometries/ip/
+extension: .xyz
+ligand: A508_noH_prot_2_tautomer_2_ip -1
+r:PRO;A;299;0;PRO_A299_ip
+r:MET;A;300;0;MET_A300_ip
+r:VAL;A;301;0;VAL_A301_ip
+r:ALA;A;302;0;ALA_A302_ip
+r:ARG;A;330;+1;ARG_A330_prot_1_ip
+r:PHE;A;342;0;PHE_A342_ip
+r:MET;A;344;0;MET_A344_ip
+r:ASN;A;346;0;ASN_A346_ip
+r:PHE;A;347;0;PHE_A347_ip
+r:TYR;A;384;0;TYR_A384_ip
+r:TYR;A;384;-1;TYR_A384_prot_2_ip
+r:TYR;A;384;0;TYR_A384_flip_ip
+r:TRP;A;417;0;TRP_A417_ip
+r:ANP;A;501;-1;ANP_A501_prot_1_ip
+r:ANP;A;501;-2;ANP_A501_prot_2_ip
+r:ASN;A;346;0;ASN_A346f_ip

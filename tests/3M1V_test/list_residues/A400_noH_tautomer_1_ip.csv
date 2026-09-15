@@ -1,0 +1,13 @@
+path-to-geometries: tests/3M1V_test/geometries/ip/
+extension: .xyz
+ligand: A400_noH_tautomer_1_ip 0
+r:GLN;A;332;0;GLN_A332_ip
+r:GLN;A;395;0;GLN_A395_ip
+r:PHE;A;396;0;PHE_A396_ip
+r:GLY;A;397;0;GLY_A397_ip
+r:GLY;A;398;0;GLY_A398_ip
+r:ALA;A;402;0;ALA_A402_ip
+r:ALA;A;403;0;ALA_A403_ip
+r:VAL;A;404;0;VAL_A404_ip
+r:GLN;A;332;0;GLN_A332f_ip
+r:GLN;A;395;0;GLN_A395f_ip
