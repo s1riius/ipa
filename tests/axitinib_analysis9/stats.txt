@@ -1,0 +1,12 @@
+Ligand state 0/1: 
+    Deformation Energy:          4.72 kcal/mol
+    Distortion:                  20.08 kcal/mol
+    Energy Chemical State:       0.00 kcal/mol
+    IPA Interaction Energy:      -51.63 kcal/mol
+    IPA Binding Energy:          -46.91 kcal/mol
+    IPA Model Score:             -2.34
+    IPA Binding Score:           -9.94
+    Chemical State Total Energy: -75.0583057 Hartree
+    RMSD IPA:                    0.09 Å
+    RMSD full-relax:             0.72 Å
+

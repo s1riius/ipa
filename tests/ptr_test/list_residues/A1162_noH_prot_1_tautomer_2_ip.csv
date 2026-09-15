@@ -1,0 +1,8 @@
+path-to-geometries: tests/ptr_test/geometries/ip/
+extension: .xyz
+ligand: A1162_noH_prot_1_tautomer_2_ip -1
+r:ILE;A;1157;0;ILE_A1157_ip
+r:THR;A;1160;0;THR_A1160_ip
+r:THR;A;1160;0;THR_A1160_flip_ip
+r:ARG;A;1164;+1;ARG_A1164_prot_1_ip
+r:PHE;A;1186;0;PHE_A1186_ip

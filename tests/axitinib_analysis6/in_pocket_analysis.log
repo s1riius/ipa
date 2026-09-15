@@ -1,0 +1,62 @@
+2026-05-04 15:19:32,407 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:19:32,408 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:19:32,408 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:19:32,408 - __main__.InPocketAnalyzer - INFO - Detected mmCIF format
+2026-05-04 15:19:32,408 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:19:32,408 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:19:32,408 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/4WA9.cif
+2026-05-04 15:19:32,944 - __main__.InPocketAnalyzer - INFO - Found active residue: AXI
+2026-05-04 15:19:32,945 - __main__.InPocketAnalyzer - INFO - Found 828 protein residues
+2026-05-04 15:19:32,945 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.54 seconds
+2026-05-04 15:19:32,945 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:19:32,954 - __main__.InPocketAnalyzer - WARNING - WriteSDF: connectivity referenced 18 atom names not in atomtype. Examples: ['H01', 'H04', 'H05', 'H06', 'H08', 'H09', 'H1', 'H12', 'H16', 'H17']
+2026-05-04 15:19:32,954 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/axitinib_analysis6/geometries/B9000_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:19:35,004 - __main__.InPocketAnalyzer - INFO - Generated 1 ligand states
+2026-05-04 15:19:35,005 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 2.06 seconds
+2026-05-04 15:19:35,005 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:19:35,006 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:19:35,020 - __main__.InPocketAnalyzer - INFO -     TYR B 253 2.81 Å
+2026-05-04 15:19:35,027 - __main__.InPocketAnalyzer - INFO -     ALA B 269 3.42 Å
+2026-05-04 15:19:35,028 - __main__.InPocketAnalyzer - INFO -     LYS B 271 3.14 Å
+2026-05-04 15:19:35,046 - __main__.InPocketAnalyzer - INFO -     THR B 315 3.58 Å
+2026-05-04 15:19:35,047 - __main__.InPocketAnalyzer - INFO -     GLU B 316 2.80 Å
+2026-05-04 15:19:35,047 - __main__.InPocketAnalyzer - INFO -     PHE B 317 3.42 Å
+2026-05-04 15:19:35,048 - __main__.InPocketAnalyzer - INFO -     MET B 318 2.75 Å
+2026-05-04 15:19:35,049 - __main__.InPocketAnalyzer - INFO -     GLY B 321 3.60 Å
+2026-05-04 15:19:35,069 - __main__.InPocketAnalyzer - INFO -     ASN B 368 3.55 Å
+2026-05-04 15:19:35,070 - __main__.InPocketAnalyzer - INFO -     LEU B 370 3.39 Å
+2026-05-04 15:19:35,074 - __main__.InPocketAnalyzer - INFO -     ALA B 380 3.56 Å
+2026-05-04 15:19:35,075 - __main__.InPocketAnalyzer - INFO -     PHE B 382 3.48 Å
+2026-05-04 15:19:35,257 - __main__.InPocketAnalyzer - INFO - Found 12 neighbor residues
+2026-05-04 15:19:35,257 - __main__.InPocketAnalyzer - INFO - Added caps to 12 neighbour residues
+2026-05-04 15:19:35,257 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.25 seconds
+2026-05-04 15:19:35,257 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:19:43,693 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:19:43,694 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 4.79 kcal/mol
+2026-05-04 15:19:43,694 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 30.25 kcal/mol
+2026-05-04 15:19:43,694 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 8.44 seconds
+2026-05-04 15:20:01,187 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 17.49 seconds
+2026-05-04 15:20:01,187 - __main__.BindingCalculator - INFO - Calculating energies for 15 residues
+2026-05-04 15:20:02,963 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:20:18,240 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:20:20,135 - __main__.BindingCalculator - INFO - CapCorr summary: done = 13 skipped = 0 total_unique_base = 13
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO - Binding energy calculation completed in 18.95 seconds
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO - 
+============================================================
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO - INTERACTION ENERGY SUMMARY
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO - Ligand State 1:
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO -   SMILES: smile
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -67.646 kcal/mol
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO -     1. LYS_B271_1: -9.066 kcal/mol
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO -     2. TYR_B253_1: -8.751 kcal/mol
+2026-05-04 15:20:20,136 - __main__.InPocketAnalyzer - INFO -     3. MET_B318_1: -6.834 kcal/mol
+2026-05-04 15:20:20,137 - __main__.InPocketAnalyzer - INFO - ligand_states_ip for B9000_noHH: using fallback SDF template B9000_noH.sdf.
+2026-05-04 15:20:20,140 - __main__.InPocketAnalyzer - INFO - Augmented native/original SDF template B9000_noH.sdf with 18 additional H atom(s) from B9000_noHH_ip.xyz and 18 inferred bond(s).
+2026-05-04 15:20:20,140 - __main__.InPocketAnalyzer - INFO - Writing results
+2026-05-04 15:20:20,140 - __main__.InPocketAnalyzer - INFO - Results written to tests/axitinib_analysis6
+2026-05-04 15:20:20,141 - __main__.InPocketAnalyzer - INFO - Results writing completed in 0.00 seconds
+2026-05-04 15:20:20,154 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:20:20,154 - __main__.InPocketAnalyzer - INFO - Analysis completed successfully in 47.75 seconds

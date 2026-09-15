@@ -1,0 +1,5 @@
+path-to-geometries: test_cpr/geometries/ip/
+extension: .xyz
+ligand: A401_noH_tautomer_1_ip 1
+r:PRO;A;136;0;PRO_A136_ip
+r:GLU;A;137;-;GLU_A137_prot_2_ip

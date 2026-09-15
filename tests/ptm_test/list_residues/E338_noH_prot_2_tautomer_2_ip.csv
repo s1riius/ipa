@@ -1,0 +1,12 @@
+path-to-geometries: tests/ptm_test/geometries/ip/
+extension: .xyz
+ligand: E338_noH_prot_2_tautomer_2_ip -2
+r:ASN;E;113;0;ASN_E113_ip
+r:SER;E;114;0;SER_E114_ip
+r:SER;E;114;0;SER_E114_flip_ip
+r:ARG;E;336;+1;ARG_E336_prot_1_ip
+r:ASN;E;340;0;ASN_E340_ip
+r:LYS;E;342;0;LYS_E342_ip
+r:LYS;E;342;+1;LYS_E342_prot_2_ip
+r:ASN;E;113;0;ASN_E113f_ip
+r:ASN;E;340;0;ASN_E340f_ip

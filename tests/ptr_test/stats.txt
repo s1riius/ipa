@@ -1,0 +1,48 @@
+[H]O[P@@](=O)([O-])Oc1ccc(C[C@@]([H])(C=O)N([H])C=O)cc1[H]:
+    Deformation Energy:          3.09 kcal/mol
+    Distortion:                  19.24 kcal/mol
+    Energy Chemical State:       0.00 kcal/mol
+    IPA Interaction Energy:      -19.79 kcal/mol
+    IPA Binding Energy:          -16.70 kcal/mol
+    IPA Model Score:             -0.87
+    IPA Binding Score:           -5.40
+    Chemical State Total Energy: -57.3622818 Hartree
+    RMSD IPA:                    0.18 Å
+    RMSD full-relax:             0.69 Å
+
+[H]OC=C(N([H])C=O)Cc1ccc(O[P@](=O)([O-])O[H])cc1[H]:
+    Deformation Energy:          17.12 kcal/mol
+    Distortion:                  50.73 kcal/mol
+    Energy Chemical State:       11.08 kcal/mol
+    IPA Interaction Energy:      -36.89 kcal/mol
+    IPA Binding Energy:          -8.69 kcal/mol
+    IPA Model Score:             -0.17
+    IPA Binding Score:           -0.51
+    Chemical State Total Energy: -57.3446233 Hartree
+    RMSD IPA:                    0.22 Å
+    RMSD full-relax:             0.68 Å
+
+[H]C(=O)N([H])[C@]([H])(C=O)Cc1ccc(OP(=O)([O-])[O-])cc1[H]:
+    Deformation Energy:          2.55 kcal/mol
+    Distortion:                  12.61 kcal/mol
+    Energy Chemical State:       21.62 kcal/mol
+    IPA Interaction Energy:      -25.57 kcal/mol
+    IPA Binding Energy:          -1.40 kcal/mol
+    IPA Model Score:             -0.11
+    IPA Binding Score:           -0.55
+    Chemical State Total Energy: -57.1626446 Hartree
+    RMSD IPA:                    0.06 Å
+    RMSD full-relax:             0.55 Å
+
+[H]OC=C(N([H])C=O)Cc1ccc(OP(=O)([O-])[O-])cc1[H]:
+    Deformation Energy:          16.27 kcal/mol
+    Distortion:                  43.74 kcal/mol
+    Energy Chemical State:       33.39 kcal/mol
+    IPA Interaction Energy:      -42.90 kcal/mol
+    IPA Binding Energy:          6.76 kcal/mol
+    IPA Model Score:             0.15
+    IPA Binding Score:           0.42
+    Chemical State Total Energy: -57.1438848 Hartree
+    RMSD IPA:                    0.15 Å
+    RMSD full-relax:             0.63 Å
+

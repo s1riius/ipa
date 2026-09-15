@@ -1,0 +1,24 @@
+CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1:
+    Deformation Energy:          7.23 kcal/mol
+    Distortion:                  19.45 kcal/mol
+    Energy Chemical State:       0.00 kcal/mol
+    IPA Interaction Energy:      -66.98 kcal/mol
+    IPA Binding Energy:          -59.74 kcal/mol
+    IPA Model Score:             -3.07
+    IPA Binding Score:           -8.26
+    Chemical State Total Energy: -75.2731069 Hartree
+    RMSD IPA:                    0.04 Å
+    RMSD full-relax:             0.52 Å
+
+CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[n-]c2c1:
+    Deformation Energy:          7.16 kcal/mol
+    Distortion:                  19.48 kcal/mol
+    Energy Chemical State:       33.56 kcal/mol
+    IPA Interaction Energy:      -55.76 kcal/mol
+    IPA Binding Energy:          -15.04 kcal/mol
+    IPA Model Score:             -0.77
+    IPA Binding Score:           -2.10
+    Chemical State Total Energy: -75.0544417 Hartree
+    RMSD IPA:                    0.04 Å
+    RMSD full-relax:             0.72 Å
+

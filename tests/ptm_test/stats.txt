@@ -1,0 +1,48 @@
+[H]O[P@](=O)([O-])OC[C@@]([H])(C=O)N([H])C=O:
+    Deformation Energy:          7.53 kcal/mol
+    Distortion:                  107.31 kcal/mol
+    Energy Chemical State:       0.00 kcal/mol
+    IPA Interaction Energy:      -39.60 kcal/mol
+    IPA Binding Energy:          -32.07 kcal/mol
+    IPA Model Score:             -0.30
+    IPA Binding Score:           -4.26
+    Chemical State Total Energy: -42.4515738 Hartree
+    RMSD IPA:                    0.16 Å
+    RMSD full-relax:             0.46 Å
+
+[H]OC=C(N([H])C=O)CO[P@@](=O)([O-])O[H]:
+    Deformation Energy:          16.35 kcal/mol
+    Distortion:                  140.93 kcal/mol
+    Energy Chemical State:       7.91 kcal/mol
+    IPA Interaction Energy:      -63.68 kcal/mol
+    IPA Binding Energy:          -39.41 kcal/mol
+    IPA Model Score:             -0.28
+    IPA Binding Score:           -2.41
+    Chemical State Total Energy: -42.4389650 Hartree
+    RMSD IPA:                    0.26 Å
+    RMSD full-relax:             0.46 Å
+
+[H]C(=O)N([H])[C@]([H])(C=O)COP(=O)([O-])[O-]:
+    Deformation Energy:          8.41 kcal/mol
+    Distortion:                  117.66 kcal/mol
+    Energy Chemical State:       21.95 kcal/mol
+    IPA Interaction Energy:      -43.73 kcal/mol
+    IPA Binding Energy:          -13.37 kcal/mol
+    IPA Model Score:             -0.11
+    IPA Binding Score:           -1.59
+    Chemical State Total Energy: -42.2514117 Hartree
+    RMSD IPA:                    0.14 Å
+    RMSD full-relax:             0.36 Å
+
+[H]OC=C(N([H])C=O)COP(=O)([O-])[O-]:
+    Deformation Energy:          17.50 kcal/mol
+    Distortion:                  158.19 kcal/mol
+    Energy Chemical State:       31.94 kcal/mol
+    IPA Interaction Energy:      -67.27 kcal/mol
+    IPA Binding Energy:          -17.83 kcal/mol
+    IPA Model Score:             -0.11
+    IPA Binding Score:           -1.02
+    Chemical State Total Energy: -42.2354850 Hartree
+    RMSD IPA:                    0.26 Å
+    RMSD full-relax:             0.79 Å
+

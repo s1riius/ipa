@@ -1,0 +1,219 @@
+#Test 01 - Testing TPO:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/3FJQ.pdb --active-residue 197 --chain E --output tests/tpo_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 02 - Testing SEP:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1ATP.pdb --active-residue 338 --chain E --output tests/ptm_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 03 - Testing PTR:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1IR3.pdb --active-residue 1162 --chain A --output tests/ptr_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 04 - Testing NEP:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/8UHN.cif --active-residue 5 --chain D --output tests/8UHN_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 05 - Testing ALY:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4Q6G.pdb --active-residue 508 --chain A --output tests/4Q6G_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 06 - Testing AME:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1SJA.pdb --active-residue 700 --chain B --output tests/1SJA_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 07 - Testing MLY:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/9DD1.cif --active-residue 23 --chain A --output tests/9DD1_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 08 - Testing MLZ:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/2VYT.pdb --active-residue 1244 --chain B --output tests/2VYT_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 09 - Testing MGN:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/3M1V.pdb --active-residue 400 --chain A --output tests/3M1V_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 10 - Testing AGM:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/3M2V.pdb --active-residue 271 --chain D --output tests/3M2V_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 11 - Testing HIC:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4Y3J.pdb --active-residue 415 --chain A --output tests/4Y3J_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 12 - Testing MHS:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/5A0Y.pdb --active-residue 257 --chain D --output tests/5A0Y_1_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 13 - Testing SMC:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/5A0Y.pdb --active-residue 452 --chain A --output tests/5A0Y_2_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 14 - Testing MMO:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1EB1.pdb --active-residue 3 --chain B --output tests/1EB1_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 15 - Testing SCH:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1YAL.pdb --active-residue 25 --chain A --output tests/1YAL_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 16 - Testing A1I9G:
+#AUTO: false
+#NOTE: MMFF failed, falling back to UFF (no minimization): MMFF parameters missing.
+echo "all" | python in_pocket.py --pdb tests/9QQT.cif --active-residue 159 --chain F --output tests/9QQT_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 17 - Testing TRX:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1K83.pdb --active-residue 2 --chain M --output tests/1K83_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 18 - Testing TOQ:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/3SXT.pdb --active-residue 57 --chain E --output tests/3SXT_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 19 - Testing HYP:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/3A08.pdb --active-residue 13 --chain F --output tests/3A08_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 20 - Testing BHD:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1ERM.pdb --active-residue 214 --chain A --output tests/1ERM_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 21 - Testing BH2:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/6C0H.pdb --active-residue 15 --chain C --output tests/6C0H_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 22 - Testing 4HT:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1RU9.pdb --active-residue 163 --chain L --output tests/1RU9_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 23 - Testing 4PQ:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/7OFV.pdb --active-residue 2 --chain B --output tests/7OFV_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 24 - Testing HRP:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1YIA.pdb --active-residue 1154 --chain B --output tests/1YIA_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 25 - Testing HTR:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1B80.pdb --active-residue 171 --chain A --output tests/1B80_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 26 - Testing UX8:
+#AUTO: true
+#NOTE: Native/Original protonation
+python in_pocket.py --pdb tests/7NRE.pdb --active-residue 3 --chain C --output tests/7NRE_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation native
+
+#Test 27 - Testing KCX:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1EF2.pdb --active-residue 1217 --chain A --output tests/1EF2_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 28 - Testing CSO:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1CXP.pdb --active-residue 150 --chain D --output tests/1CXP_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 29 - Testing 2CO:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4Z86.pdb --active-residue 164 --chain B --output tests/4Z86_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 30 - Testing CSD:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1ACD.pdb --active-residue 117 --chain A --output tests/1ACD_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 31 - Testing 0CS:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/2OGS.pdb --active-residue 408 --chain A --output tests/2OGS_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 32 - Testing CSX:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1F8W.pdb --active-residue 42 --chain A --output tests/1F8W_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 33 - Testing CSS:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1BI0.pdb --active-residue 102 --chain A --output tests/1BI0_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 34 - Testing TSY:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/3SX6.pdb --active-residue 160 --chain A --output tests/3SX6_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 35 - Testing TQZ:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4BKD.pdb --active-residue 5 --chain A --output tests/4BKD_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 36 - Testing TYQ:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1D6U.pdb --active-residue 466 --chain A --output tests/1D6U_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 37 - Testing PCA:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1A39.pdb --active-residue 1 --chain A --output tests/1A39_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 38 - Testing 7YO:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/9DXX.pdb --active-residue 0 --chain E --output tests/9DXX_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 39 - Testing FME:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1BQ9.pdb --active-residue 1 --chain A --output tests/1BQ9_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 40 - Testing LYZ:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/1QGW.pdb --active-residue 4 --chain B --output tests/1QGW_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 41 - Testing MSE:
+#AUTO: false
+#NOTE: MMFF failed, falling back to UFF (no minimization): MMFF parameters missing.
+echo "all" | python in_pocket.py --pdb tests/2O8S.pdb --active-residue 120 --chain B --output tests/2O8S_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 42 - Testing SEC:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/3EAO.pdb --active-residue 498 --chain B --output tests/3EAO_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 43 - Testing "normal" aminoacid with nearby SEC:
+#AUTO: false
+#NOTE: MMFF failed, falling back to UFF: MMFF parameters missing.
+echo "all" | python in_pocket.py --pdb tests/6HN3.pdb --active-residue 81 --chain A --output tests/6HN3_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 44 - Testing M3L:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/7CNA.pdb --active-residue 4 --chain F --output tests/7CNA_test --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise

@@ -1,0 +1,18 @@
+path-to-geometries: tests/tpo_test/geometries/ip/
+extension: .xyz
+ligand: E197_noH_prot_2_tautomer_2_ip -2
+r:HIS;E;87;0;HIS_E87_ip
+r:HIS;E;87;-1;HIS_E87_prot_2_ip
+r:HIS;E;87;0;HIS_E87_prot_3_ip
+r:HIS;E;87;+1;HIS_E87_prot_4_ip
+r:ARG;E;165;+1;ARG_E165_prot_1_ip
+r:LYS;E;189;0;LYS_E189_ip
+r:LYS;E;189;+1;LYS_E189_prot_2_ip
+r:THR;E;195;0;THR_E195_ip
+r:THR;E;195;0;THR_E195_flip_ip
+r:CYS;E;199;0;CYS_E199_ip
+r:TYR;E;215;0;TYR_E215_ip
+r:TYR;E;215;-1;TYR_E215_prot_2_ip
+r:TYR;E;215;0;TYR_E215_flip_ip
+r:HIS;E;87;0;HIS_E87f_ip
+r:HIS;E;87;-1;HIS_E87f_prot_2_ip

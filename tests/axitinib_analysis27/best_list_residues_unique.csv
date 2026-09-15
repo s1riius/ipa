@@ -1,0 +1,6 @@
+path-to-geometries: tests/axitinib_analysis27/geometries/ip/
+extension: .xyz
+ligand: B9000_noH_ip 0
+r:TYR;B;253;-1;TYR_B253_prot_2_ip
+r:GLU;B;316;0;GLU_B316_ip
+r:MET;B;318;0;MET_B318_ip

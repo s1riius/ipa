@@ -1,0 +1,39 @@
+EDDA clash report for ligand: B9000_noH_prot_2_tautomer_1
+SMILES: [H]/C(=C(/[H])c1n[n-]c2cc(Sc3ccccc3C(=O)N([H])C)ccc12)c1ncccc1[H]
+Charge: -1
+
+Residue: MET_B318_1
+  Weird behaviour (score >= +2) (n=0):
+  Sub-optimal interactions (-5 <= score <= -2) (n=1):
+    Ligand:  C,  21, -2.916463
+  Clashes (score <= -5) (n=0):
+
+Residue: TYR_B253_1
+  Weird behaviour (score >= +2) (n=0):
+  Sub-optimal interactions (-5 <= score <= -2) (n=2):
+    Ligand:  N,   3, -2.946400
+    Ligand:  C,  13, -2.806369
+  Clashes (score <= -5) (n=3):
+    Ligand:   C,  28, -52.952598
+    Protein:  CE2, -37.300786
+    Protein:   OH, -11.701489
+
+Residue: TYR_B253_1f
+  Weird behaviour (score >= +2) (n=1):
+    Ligand:  C,  28,  101.226601
+  Sub-optimal interactions (-5 <= score <= -2) (n=2):
+    Ligand:  N,   3, -2.946712
+    Ligand:  C,  13, -2.854835
+  Clashes (score <= -5) (n=2):
+    Protein:  CE2, -59.277307
+    Protein:   OH, -6.504670
+
+Residue: TYR_B253_2
+  Weird behaviour (score >= +2) (n=0):
+  Sub-optimal interactions (-5 <= score <= -2) (n=2):
+    Ligand:  N,   3, -2.877906
+    Ligand:  C,  13, -2.533306
+  Clashes (score <= -5) (n=2):
+    Ligand:   C,  28, -19.150877
+    Protein:  CE2, -66.517348
+

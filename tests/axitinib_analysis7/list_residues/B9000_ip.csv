@@ -1,0 +1,18 @@
+path-to-geometries: tests/axitinib_analysis7/geometries/ip/
+extension: .xyz
+ligand: B9000_ip 0
+r:TYR;B;253;0;TYR_B253H_ip
+r:TYR;B;253;0;TYR_B253H_flip_ip
+r:ALA;B;269;0;ALA_B269H_ip
+r:LYS;B;271;+1;LYS_B271H_ip
+r:THR;B;315;0;THR_B315H_ip
+r:THR;B;315;0;THR_B315H_flip_ip
+r:GLU;B;316;-1;GLU_B316H_ip
+r:PHE;B;317;0;PHE_B317H_ip
+r:MET;B;318;0;MET_B318H_ip
+r:GLY;B;321;0;GLY_B321H_ip
+r:ASN;B;368;0;ASN_B368H_ip
+r:LEU;B;370;0;LEU_B370H_ip
+r:ALA;B;380;0;ALA_B380H_ip
+r:PHE;B;382;0;PHE_B382H_ip
+r:ASN;B;368;0;ASN_B368fH_ip
