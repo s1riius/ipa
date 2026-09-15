@@ -1,0 +1,70 @@
+2026-05-04 16:15:21,844 - __main__.FragmentAnalyzer - INFO - Starting Fragment Analysis
+2026-05-04 16:15:21,844 - __main__.FragmentAnalyzer - INFO - Validating inputs...
+2026-05-04 16:15:21,844 - __main__.FragmentAnalyzer - INFO - Detected mmCIF format
+2026-05-04 16:15:21,844 - __main__.FragmentAnalyzer - INFO - Input validation completed successfully
+2026-05-04 16:15:21,844 - __main__.FragmentAnalyzer - INFO - Reading structure from tests/4WA9.cif
+2026-05-04 16:15:22,037 - __main__.FragmentAnalyzer - WARNING - Failed to process altloc: too many values to unpack (expected 8)
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Splitting structure into fragments
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Getting the active residue list
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Getting the active residue list
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Getting the types of active residues
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Getting the types of active residues
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block A:
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO -     B9000
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - list of connectors for block A:
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block B:
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO -     B253
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO -     B258
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - list of connectors for block B:
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Generating fragment structures
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Extracting subsystem A
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Extracting subsystem B
+2026-05-04 16:15:22,049 - __main__.FragmentAnalyzer - INFO - Counting the number of ATOM and HETATM in residue list A
+2026-05-04 16:15:22,050 - __main__.FragmentAnalyzer - INFO - Counting the number of ATOM and HETATM in residue list B
+2026-05-04 16:15:22,050 - __main__.FragmentAnalyzer - INFO - Assembling geometry A from the collection of residues
+2026-05-04 16:15:22,050 - __main__.FragmentAnalyzer - INFO - Assembling geometry B from the collection of residues
+2026-05-04 16:15:22,051 - __main__.FragmentAnalyzer - INFO - Generating fragment connectivity
+2026-05-04 16:15:22,058 - __main__.FragmentAnalyzer - INFO - Generating fragment connectivity
+2026-05-04 16:15:22,059 - __main__.FragmentAnalyzer - INFO - Protonating all substructures
+2026-05-04 16:15:23,530 - __main__.FragmentAnalyzer - INFO - Searching for tautomers
+2026-05-04 16:15:23,530 - __main__.FragmentAnalyzer - INFO - Searching for tautomers in fragment A
+2026-05-04 16:15:25,087 - __main__.FragmentAnalyzer - INFO - WARNING: several chemical states identified for fragment A:
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]C(=C([H])c1nn([H])c2c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c([H])c12)c1nc([H])c([H])c([H])c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]C(=C([H])c1c2c([H])c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c2nn1[H])c1nc([H])c([H])c([H])c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]C(=C1N=Nc2c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c([H])c21)C([H])([H])c1nc([H])c([H])c([H])c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]C1=C([H])C(=C([H])C([H])=C2N=Nc3c([H])c(Sc4c([H])c([H])c([H])c([H])c4C(=O)N([H])C([H])([H])[H])c([H])c([H])c32)N([H])C([H])=C1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(C([H])=C([H])c3nc([H])c([H])c([H])c3[H])nn([H])c2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(C([H])=C([H])c3nc([H])c([H])c([H])c3[H])n([H])nc2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(c1[H])N=NC2=C([H])C([H])([H])c1nc([H])c([H])c([H])c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(c1[H])N=NC2=C([H])C([H])=C1C([H])=C([H])C([H])=C([H])N1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]/C(=C(/[H])c1c([H])c([H])c([H])c([H])[n+]1[H])c1n[n-]c2c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c([H])c12
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])[n+]3[H])n[n-]c2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]/C(=C(/[H])c1n[n-]c2c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c([H])c12)c1nc([H])c([H])c([H])c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(/C([H])=C(\[H])c3nc([H])c([H])c([H])c3[H])n[n-]c2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]/C(=C(/[H])c1c2c([H])c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c2[n-][n+]1[H])c1nc([H])c([H])c([H])c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(/C([H])=C(\[H])c3nc([H])c([H])c([H])c3[H])[n+]([H])[n-]c2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]C(=C([H])c1c([H])c([H])c([H])c([H])[n+]1[H])c1nn([H])c2c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c([H])c12
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]C(=C([H])c1c([H])c([H])c([H])c([H])[n+]1[H])c1c2c([H])c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c2nn1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]C(=C1N=Nc2c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c([H])c21)C([H])([H])c1c([H])c([H])c([H])c([H])[n+]1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(C([H])=C([H])c3c([H])c([H])c([H])c([H])[n+]3[H])nn([H])c2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(C([H])=C([H])c3c([H])c([H])c([H])c([H])[n+]3[H])n([H])nc2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(c1[H])N=NC2=C([H])C([H])([H])c1c([H])c([H])c([H])c([H])[n+]1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]/C(=C(/[H])c1c([H])c([H])c([H])c([H])[n+]1[H])c1c2c([H])c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c2[n-][n+]1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])[n+]3[H])[n+]([H])[n-]c2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]/C(=C(/[H])c1c2c([H])c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c2n([H])[n+]1[H])c1nc([H])c([H])c([H])c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(/C([H])=C(\[H])c3nc([H])c([H])c([H])c3[H])[n+]([H])n([H])c2c1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]/C(=C(/[H])c1c2c([H])c([H])c(Sc3c([H])c([H])c([H])c([H])c3C(=O)N([H])C([H])([H])[H])c([H])c2n([H])[n+]1[H])c1c([H])c([H])c([H])c([H])[n+]1[H]
+2026-05-04 16:15:25,088 - __main__.FragmentAnalyzer - INFO - [H]OC(=NC([H])([H])[H])c1c([H])c([H])c([H])c([H])c1Sc1c([H])c([H])c2c(/C([H])=C(\[H])c3c([H])c([H])c([H])c([H])[n+]3[H])[n+]([H])n([H])c2c1[H]
+2026-05-04 16:15:25,939 - __main__.FragmentAnalyzer - INFO - WARNING: several chemical states identified for fragment B:
+2026-05-04 16:15:25,940 - __main__.FragmentAnalyzer - INFO - O=CN[C@H](C=O)CCC(=O)O.O=CN[C@H](C=O)Cc1ccc(O)cc1
+2026-05-04 16:15:25,940 - __main__.FragmentAnalyzer - INFO - O=CN[C@H](C=O)CCC(=O)O.O=CN[C@H](C=O)Cc1ccc([O-])cc1
+2026-05-04 16:15:25,940 - __main__.FragmentAnalyzer - INFO - O=CN[C@H](C=O)CCC(=O)[O-].O=CN[C@H](C=O)Cc1ccc([O-])cc1
+2026-05-04 16:15:25,940 - __main__.FragmentAnalyzer - INFO - O=CN[C@H](C=O)CCC(=O)[O-].O=CN[C@H](C=O)Cc1ccc(O)cc1
+2026-05-04 16:15:27,339 - __main__.FragmentAnalyzer - INFO - Fragment Analysis core calculation
+2026-05-04 16:15:32,172 - __main__.FragmentAnalyzer - INFO -     Fragment Analysis on tests/axitinib_fragment_analysis7/geometries/start_xyz/protein_cut_A_tautomer_1_protein_cut_B_prot_4.xyz done
+2026-05-04 16:15:32,172 - __main__.FragmentAnalyzer - INFO - Processing results
+2026-05-04 16:15:32,173 - __main__.FragmentAnalyzer - INFO - Processing fragment 1
+2026-05-04 16:15:32,305 - __main__.FragmentAnalyzer - INFO - Monomers for fragment 1 processed
+2026-05-04 16:15:32,306 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1
+2026-05-04 16:15:33,205 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1 finished
+2026-05-04 16:15:33,205 - __main__.FragmentAnalyzer - INFO - Writing results

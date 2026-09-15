@@ -1,0 +1,2 @@
+EnergyAB(Eh);ErelativeAB(kcal/mol);Ebind(kcal/mol);Erep(kcal/mol);RMSD(A);TotalPolarisabilityAB(a0^3);TotalPolarisabilityA(a0^3);TotalPolarisabilityB(a0^3);Converged
+-439.9261442;                  0.0;        -61.421;        117.22;2.4;                     1370.8;                    286.29;                    1083.9;False

@@ -1,0 +1,84 @@
+2026-05-04 16:12:27,891 - __main__.FragmentAnalyzer - INFO - Starting Fragment Analysis
+2026-05-04 16:12:27,891 - __main__.FragmentAnalyzer - INFO - Validating inputs...
+2026-05-04 16:12:27,891 - __main__.FragmentAnalyzer - INFO - Detected mmCIF format
+2026-05-04 16:12:27,891 - __main__.FragmentAnalyzer - INFO - Input validation completed successfully
+2026-05-04 16:12:27,891 - __main__.FragmentAnalyzer - INFO - Reading structure from tests/4WA9.cif
+2026-05-04 16:12:28,083 - __main__.FragmentAnalyzer - WARNING - Failed to process altloc: too many values to unpack (expected 8)
+2026-05-04 16:12:28,094 - __main__.FragmentAnalyzer - INFO - Splitting structure into fragments
+2026-05-04 16:12:28,094 - __main__.FragmentAnalyzer - INFO - Getting the active residue list
+2026-05-04 16:12:28,094 - __main__.FragmentAnalyzer - INFO - Getting the active residue list
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Getting the types of active residues
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Getting the types of active residues
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Extracting connecting residues
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Extracting connecting residues
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block A:
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO -     B9000
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - list of connectors for block A:
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block B:
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO -     B253
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO -     B254
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO -     B255
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO -     B258
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - list of connectors for block B:
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO -     B256
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO -     B257
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Generating fragment structures
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Extracting subsystem A
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Extracting subsystem B
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Counting the number of ATOM and HETATM in residue list A
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Counting the number of ATOM and HETATM in residue list B
+2026-05-04 16:12:28,095 - __main__.FragmentAnalyzer - INFO - Assembling geometry A from the collection of residues
+2026-05-04 16:12:28,096 - __main__.FragmentAnalyzer - INFO - Assembling geometry B from the collection of residues
+2026-05-04 16:12:28,097 - __main__.FragmentAnalyzer - INFO - Generating fragment connectivity
+2026-05-04 16:12:28,103 - __main__.FragmentAnalyzer - INFO - Generating fragment connectivity
+2026-05-04 16:12:28,105 - __main__.FragmentAnalyzer - INFO - Protonating all substructures
+2026-05-04 16:12:30,326 - __main__.FragmentAnalyzer - INFO - Fragment Analysis core calculation
+2026-05-04 16:12:43,436 - __main__.FragmentAnalyzer - INFO -     Fragment Analysis on tests/axitinib_fragment_analysis2/geometries/start_xyz/protein_cut_ABH.xyz done
+2026-05-04 16:12:43,436 - __main__.FragmentAnalyzer - INFO - Processing results
+2026-05-04 16:12:43,436 - __main__.FragmentAnalyzer - INFO - Processing fragment 1
+2026-05-04 16:12:43,688 - __main__.FragmentAnalyzer - INFO - Monomers for fragment 1 processed
+2026-05-04 16:12:43,688 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1
+2026-05-04 16:12:45,686 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1 finished
+2026-05-04 16:12:45,687 - __main__.FragmentAnalyzer - INFO - Writing results
+2026-05-04 16:13:17,173 - __main__.FragmentAnalyzer - INFO - Starting Fragment Analysis
+2026-05-04 16:13:17,173 - __main__.FragmentAnalyzer - INFO - Validating inputs...
+2026-05-04 16:13:17,173 - __main__.FragmentAnalyzer - INFO - Detected mmCIF format
+2026-05-04 16:13:17,173 - __main__.FragmentAnalyzer - INFO - Input validation completed successfully
+2026-05-04 16:13:17,173 - __main__.FragmentAnalyzer - INFO - Reading structure from tests/4WA9.cif
+2026-05-04 16:13:17,364 - __main__.FragmentAnalyzer - WARNING - Failed to process altloc: too many values to unpack (expected 8)
+2026-05-04 16:13:17,375 - __main__.FragmentAnalyzer - INFO - Splitting structure into fragments
+2026-05-04 16:13:17,375 - __main__.FragmentAnalyzer - INFO - Getting the active residue list
+2026-05-04 16:13:17,375 - __main__.FragmentAnalyzer - INFO - Getting the active residue list
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Getting the types of active residues
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Getting the types of active residues
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Extracting connecting residues
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Extracting connecting residues
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block A:
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO -     B9000
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - list of connectors for block A:
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block B:
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO -     B253
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO -     B254
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO -     B255
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO -     B258
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - list of connectors for block B:
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO -     B256
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO -     B257
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Generating fragment structures
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Extracting subsystem A
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Extracting subsystem B
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Counting the number of ATOM and HETATM in residue list A
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Counting the number of ATOM and HETATM in residue list B
+2026-05-04 16:13:17,376 - __main__.FragmentAnalyzer - INFO - Assembling geometry A from the collection of residues
+2026-05-04 16:13:17,377 - __main__.FragmentAnalyzer - INFO - Assembling geometry B from the collection of residues
+2026-05-04 16:13:17,378 - __main__.FragmentAnalyzer - INFO - Generating fragment connectivity
+2026-05-04 16:13:17,385 - __main__.FragmentAnalyzer - INFO - Generating fragment connectivity
+2026-05-04 16:13:17,386 - __main__.FragmentAnalyzer - INFO - Protonating all substructures
+2026-05-04 16:13:18,782 - __main__.FragmentAnalyzer - INFO - Fragment Analysis core calculation
+2026-05-04 16:13:31,912 - __main__.FragmentAnalyzer - INFO -     Fragment Analysis on tests/axitinib_fragment_analysis2/geometries/start_xyz/protein_cut_ABH.xyz done
+2026-05-04 16:13:31,912 - __main__.FragmentAnalyzer - INFO - Processing results
+2026-05-04 16:13:31,912 - __main__.FragmentAnalyzer - INFO - Processing fragment 1
+2026-05-04 16:13:32,162 - __main__.FragmentAnalyzer - INFO - Monomers for fragment 1 processed
+2026-05-04 16:13:32,163 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1
+2026-05-04 16:13:34,005 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1 finished
+2026-05-04 16:13:34,006 - __main__.FragmentAnalyzer - INFO - Writing results

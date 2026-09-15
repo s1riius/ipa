@@ -1,0 +1,156 @@
+#Test 01 - Basic code run:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose
+
+#Test 02 - Replace ligand topology with sdf file:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis2 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --ligand-topology tests/B9001.sdf
+
+#Test 03 - Basic code run + tautomerisation:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis3 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 04 - Replace ligand topology with sdf file + tautomerisation:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis4 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise --ligand-topology tests/B9001.sdf
+
+#Test 05 - Basic run, no ip-structure:
+#AUTO: true
+#NOTE: PASSED 
+#NOTE: numerical difference between different in the geom optimisation
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis5 --distance 3.6 --alpha 1.0 --kappa 0.025 --verbose
+
+#Test 06 - Obabel run:
+#AUTO: false
+#NOTE: Failed to kekulize aromatic bonds in MOL2 file (title is tests/axitinib_analysis6/geometries/B9000)
+python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis6 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation obabel
+
+#Test 07 - CCD run:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis7 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation ccd --ccd-file tests/AXI.cif
+
+#Test 08 - Basic run, with ligand name instead:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue-name AXI --chain B --output tests/axitinib_analysis8 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose
+
+#Test 09 - CCD run with charge redefined by user:
+#AUTO: false
+#NOTE: proton needs to be removed from pyrazole
+python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis9 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation ccd --ccd-file tests/AXI.cif --charge -1
+
+#Test 10 - Obabel run with charge redefined by user:
+#AUTO: false
+#NOTE: proton needs to be removed from pyrazole
+python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis10 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation obabel --charge -1
+
+#Test 11 - Basic code run with water included:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis11 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --include-water
+
+#Test 12 - Basic code run with protons included in the bias potential (partial optimisation of protons):
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis12 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --inclh
+
+#Test 13 - Basic code run with full geometry optimisation:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis13 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --noip
+
+#Test 14 - Basic code run without capping:
+#AUTO: true
+#NOTE: CHECK
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis14 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --no-cap
+
+#Test 15 - Basic code run without residue flipping:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis15 --distance 8.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --no-flip
+
+#Test 16 - Basic code run without residue HIS flipping:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis16 --distance 8.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --no-flip-HIS
+
+#Test 17 - Basic code run without residue ASN flipping:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis17 --distance 8.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --no-flip-ASN
+
+#Test 18 - Basic code run without residue GLN flipping:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis18 --distance 8.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --no-flip-GLN
+
+#Test 19 - Basic code run with density calculation:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis19 --distance 3.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --calculate-density --cub
+
+#Test 20 - Basic code run without cap correction:
+#AUTO: true
+#NOTE: PASSED
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis20 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --keep-cap-uncorrected
+
+#Test 21 - Basic code run for another pdb
+#AUTO: true
+#NOTE: CHECK - WARNING - ConstrainedEmbed failed.
+echo "all" | python in_pocket.py --pdb tests/3ZY2.cif --active-residue 1381 --chain A --output tests/3zy2_A3 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose
+
+#Test 22 - Basic code run for another pdb
+#AUTO: true
+#NOTE: 
+echo "all" | python in_pocket.py --pdb tests/3ZY2.cif --active-residue 1381 --chain A --output tests/3zy2_A --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation ccd --ccd-file tests/GDP.cif
+
+#Test 23 - Basic code run for another pdb using obabel
+#AUTO: false
+#NOTE: Failed to kekulize aromatic bonds in MOL2 file (title is tests/3zy2_A2/geometries/A1381)
+#NOTE: remove all protons, add protons to keep the phosphates deprotonated, resume with charge -3
+python in_pocket.py --pdb tests/3ZY2.cif --active-residue 1381 --chain A --output tests/3zy2_A2 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation obabel --charge 10
+
+#Test 24 - Basic code run for another pdb, use altloc
+#AUTO: true
+#NOTE: 
+echo "all" | python in_pocket.py --pdb tests/3ZY2.cif --active-residue 1381 --chain A --output tests/3zy2_B --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --protonation ccd --ccd-file tests/GDP.cif --altloc B
+
+#Test 25 - Basic code run with servalcat cif
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/2r10_servalcat_refined.mmcif --active-residue 789 --chain A --output tests/2r10 --distance 5.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose
+
+#Test 26 - EDDA
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis26 --distance 3.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise --edda
+
+#Test 27 - best
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis27 --distance 3.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --best --best-unique
+
+#Test 28 - best
+#AUTO: true
+#NOTE: NO2 sdf patch
+echo "all" | python in_pocket.py --pdb tests/5a54-all-ligs_refined.mmcif --active-residue-name 5PW --chain A --output "tests/5a54_test" --distance 5.0 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise
+
+#Test 29 - evaluate only
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis29 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise --eval
+
+#Test 30 - skip deformation energy calculation too
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis30 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --tautomerise --eval --skipdef
+
+#Test 31 - Using IPA optimised residues:
+#AUTO: true
+#NOTE:
+echo "all" | python in_pocket.py --pdb tests/4WA9.cif --active-residue 9000 --chain B --output tests/axitinib_analysis31 --distance 3.6 --alpha 1.0 --kappa 0.025 --use-ip-structure --verbose --use-ip-residues

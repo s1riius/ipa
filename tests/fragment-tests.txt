@@ -1,0 +1,34 @@
+#Test 01 - Basic code run with RDKit protonation:
+#AUTO: true
+#NOTE: PASSED
+printf "1\n5-7\n" | python FragmentAnalysis.py --pdb tests/4WA9.cif --active-residue-a B9000 --active-residue-b B253,B254,B255,B258  --protonation rdkit --tautomerise --output-folder tests/axitinib_fragment_analysis
+
+#Test 02 - Basic code run with Obabel protonation:
+#AUTO: true
+#NOTE: PASSED
+printf "0,-2\n" | python FragmentAnalysis.py --pdb tests/4WA9.cif --active-residue-a B9000 --active-residue-b B253,B254,B255,B258  --tautomerise --output-folder tests/axitinib_fragment_analysis2
+
+#Test 03 - Basic code run with pocket reconstruction using previous IPA run:
+#AUTO: true
+#NOTE: PASSED
+python FragmentAnalysis.py --pdb tests/4WA9.cif --active-residue-a tests/axitinib_analysis/list_residues/list_residues.csv --active-residue-b B1 --output-folder tests/axitinib_fragment_analysis3
+
+#Test 04 - Identical to the previous code run, but skipping the structural refinement:
+#AUTO: true
+#NOTE: PASSED
+python FragmentAnalysis.py --pdb tests/4WA9.cif --active-residue-a tests/axitinib_analysis/list_residues/list_residues.csv --active-residue-b B253,B254,B255,B258 --calculation-mode no-opt --output-folder tests/axitinib_fragment_analysis4
+
+#Test 05 - Identical to the previous code run, but performed an unrestrained structural refinement:
+#AUTO: true
+#NOTE: PASSED
+python FragmentAnalysis.py --pdb tests/4WA9.cif --active-residue-a tests/axitinib_analysis/list_residues/list_residues.csv --active-residue-b B253,B254,B255,B258 --calculation-mode opt --output-folder tests/axitinib_fragment_analysis5
+
+#Test 06 - Similar to the first test, but including side chains for residues 253 and 258 (the rest only main chain atoms):
+#AUTO: true
+#NOTE: PASSED
+printf "1\n3\n" | python FragmentAnalysis.py --pdb tests/4WA9.cif --active-residue-a B9000 --active-residue-b B253,B258  --protonation rdkit --tautomerise --output-folder tests/axitinib_fragment_analysis6
+
+#Test 07 - Similar to the previous test, but omitted residues excluded:
+#AUTO: true
+#NOTE: PASSED
+printf "1\n4\n" | python FragmentAnalysis.py --pdb tests/4WA9.cif --active-residue-a B9000 --active-residue-b B253,B258  --protonation rdkit --tautomerise --output-folder tests/axitinib_fragment_analysis7 --no-connect-residues

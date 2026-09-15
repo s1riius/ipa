@@ -1,0 +1,43 @@
+2026-05-04 16:12:40,433 - __main__.FragmentAnalyzer - INFO - Starting Fragment Analysis
+2026-05-04 16:12:40,433 - __main__.FragmentAnalyzer - INFO - Validating inputs...
+2026-05-04 16:12:40,433 - __main__.FragmentAnalyzer - INFO - Detected mmCIF format
+2026-05-04 16:12:40,433 - __main__.FragmentAnalyzer - INFO - Input validation completed successfully
+2026-05-04 16:12:40,433 - __main__.FragmentAnalyzer - INFO - Reading structure from tests/4WA9.cif
+2026-05-04 16:12:40,626 - __main__.FragmentAnalyzer - WARNING - Failed to process altloc: too many values to unpack (expected 8)
+2026-05-04 16:12:40,638 - __main__.FragmentAnalyzer - INFO - Splitting structure into fragments
+2026-05-04 16:12:40,638 - __main__.FragmentAnalyzer - INFO - Fetching pocket information from IPA run.
+2026-05-04 16:12:40,639 - __main__.FragmentAnalyzer - ERROR - Unexpected error: [Errno 2] No such file or directory: 'tests/axitinib_analysis/list_residues/list_residues.csv'
+2026-05-04 16:22:14,738 - __main__.FragmentAnalyzer - INFO - Starting Fragment Analysis
+2026-05-04 16:22:14,738 - __main__.FragmentAnalyzer - INFO - Validating inputs...
+2026-05-04 16:22:14,738 - __main__.FragmentAnalyzer - INFO - Detected mmCIF format
+2026-05-04 16:22:14,738 - __main__.FragmentAnalyzer - INFO - Input validation completed successfully
+2026-05-04 16:22:14,739 - __main__.FragmentAnalyzer - INFO - Reading structure from tests/4WA9.cif
+2026-05-04 16:22:14,937 - __main__.FragmentAnalyzer - WARNING - Failed to process altloc: too many values to unpack (expected 8)
+2026-05-04 16:22:14,950 - __main__.FragmentAnalyzer - INFO - Splitting structure into fragments
+2026-05-04 16:22:14,950 - __main__.FragmentAnalyzer - INFO - Fetching pocket information from IPA run.
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block A:
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     A9999
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO - list of connectors for block A:
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO - list of selected active residues for block B:
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B253
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B269
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B271
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B315
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B316
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B317
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B318
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B321
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B368
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B370
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B380
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO -     B382
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO - list of connectors for block B:
+2026-05-04 16:22:14,951 - __main__.FragmentAnalyzer - INFO - Assembling IPA system into fragments
+2026-05-04 16:22:14,965 - __main__.FragmentAnalyzer - INFO - Fragment Analysis core calculation
+2026-05-04 16:25:17,054 - __main__.FragmentAnalyzer - INFO -     Fragment Analysis on tests/axitinib_fragment_analysis3/geometries/start_xyz/protein_cut_AB.xyz done
+2026-05-04 16:25:17,055 - __main__.FragmentAnalyzer - INFO - Processing results
+2026-05-04 16:25:17,055 - __main__.FragmentAnalyzer - INFO - Processing fragment 1
+2026-05-04 16:25:20,374 - __main__.FragmentAnalyzer - INFO - Monomers for fragment 1 processed
+2026-05-04 16:25:20,374 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1
+2026-05-04 16:25:36,013 - __main__.FragmentAnalyzer - INFO - Running EDDA for fragment 1 finished
+2026-05-04 16:25:36,014 - __main__.FragmentAnalyzer - INFO - Writing results
