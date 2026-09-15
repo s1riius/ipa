@@ -1,0 +1,309 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+DJD DJD "4-(6-methyl-1,2,4,5-tetrazin-3-yl)-L-phenylalanine" peptide 32 19 .
+
+data_comp_DJD
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+DJD N    N1   N NT3  1  -21.612 -3.562  29.933
+DJD CA   C1   C CH1  0  -22.962 -3.023  29.594
+DJD C    C2   C C    0  -22.803 -1.862  28.598
+DJD O    O1   O O    0  -23.558 -1.875  27.600
+DJD CB   C3   C CH2  0  -23.752 -2.562  30.828
+DJD CG   C4   C CR6  0  -24.115 -3.663  31.821
+DJD CD1  C5   C CR16 0  -23.334 -3.897  32.957
+DJD CD2  C6   C CR16 0  -25.238 -4.472  31.627
+DJD CE1  C7   C CR16 0  -23.657 -4.897  33.865
+DJD CE2  C8   C CR16 0  -25.572 -5.477  32.525
+DJD CZ   C9   C CR6  0  -24.787 -5.707  33.667
+DJD C01  C10  C CH3  0  -26.103 -9.746  37.295
+DJD C02  C11  C CR6  0  -25.750 -8.665  36.324
+DJD C07  C12  C CR6  0  -25.135 -6.777  34.627
+DJD N03  N2   N NRD6 0  -26.516 -8.515  35.232
+DJD N04  N3   N NRD6 0  -26.202 -7.554  34.371
+DJD N05  N4   N NRD6 0  -24.685 -7.894  36.588
+DJD N06  N5   N NRD6 0  -24.374 -6.934  35.725
+DJD OXT  O2   O OC   -1 -21.941 -0.984  28.841
+DJD H    H    H H    0  -21.670 -4.279  30.478
+DJD H2   H2   H H    0  -21.108 -2.929  30.333
+DJD H3   H3   H H    0  -21.194 -3.821  29.177
+DJD HA   HA   H H    0  -23.479 -3.748  29.150
+DJD HB3  HB3  H H    0  -24.580 -2.130  30.520
+DJD HB2  HB2  H H    0  -23.222 -1.875  31.293
+DJD HD1  HD1  H H    0  -22.570 -3.365  33.113
+DJD HD2  HD2  H H    0  -25.783 -4.336  30.867
+DJD HE1  HE1  H H    0  -23.108 -5.025  34.616
+DJD HE2  HE2  H H    0  -26.335 -6.000  32.361
+DJD H011 H011 H H    0  -25.300 -10.064 37.735
+DJD H013 H013 H H    0  -26.522 -10.483 36.825
+DJD H012 H012 H H    0  -26.716 -9.399  37.960
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+DJD N    N(CCCH)(H)3
+DJD CA   C(CC[6a]HH)(NH3)(COO)(H)
+DJD C    C(CCHN)(O)2
+DJD O    O(CCO)
+DJD CB   C(C[6a]C[6a]2)(CCHN)(H)2
+DJD CG   C[6a](C[6a]C[6a]H)2(CCHH){1|C<3>,2|H<1>}
+DJD CD1  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|H<1>,2|C<3>}
+DJD CD2  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|H<1>,2|C<3>}
+DJD CE1  C[6a](C[6a]C[6a]2)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>,2|N<2>}
+DJD CE2  C[6a](C[6a]C[6a]2)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>,2|N<2>}
+DJD CZ   C[6a](C[6a]C[6a]H)2(C[6a]N[6a]2){1|C<3>,2|H<1>,2|N<2>}
+DJD C01  C(C[6a]N[6a]2)(H)3
+DJD C02  C[6a](N[6a]N[6a])2(CH3){1|C<3>}
+DJD C07  C[6a](C[6a]C[6a]2)(N[6a]N[6a])2{2|H<1>,3|C<3>}
+DJD N03  N[6a](C[6a]N[6a]C)(N[6a]C[6a]){1|C<3>,1|N<2>}
+DJD N04  N[6a](C[6a]C[6a]N[6a])(N[6a]C[6a]){1|C<4>,1|N<2>,2|C<3>}
+DJD N05  N[6a](C[6a]N[6a]C)(N[6a]C[6a]){1|C<3>,1|N<2>}
+DJD N06  N[6a](C[6a]C[6a]N[6a])(N[6a]C[6a]){1|C<4>,1|N<2>,2|C<3>}
+DJD OXT  O(CCO)
+DJD H    H(NCHH)
+DJD H2   H(NCHH)
+DJD H3   H(NCHH)
+DJD HA   H(CCCN)
+DJD HB3  H(CC[6a]CH)
+DJD HB2  H(CC[6a]CH)
+DJD HD1  H(C[6a]C[6a]2)
+DJD HD2  H(C[6a]C[6a]2)
+DJD HE1  H(C[6a]C[6a]2)
+DJD HE2  H(C[6a]C[6a]2)
+DJD H011 H(CC[6a]HH)
+DJD H013 H(CC[6a]HH)
+DJD H012 H(CC[6a]HH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+DJD C   O    DOUBLE n 1.251 0.0183 1.251 0.0183
+DJD CA  C    SINGLE n 1.531 0.0171 1.531 0.0171
+DJD N   CA   SINGLE n 1.489 0.0100 1.489 0.0100
+DJD CA  CB   SINGLE n 1.532 0.0100 1.532 0.0100
+DJD CB  CG   SINGLE n 1.523 0.0100 1.523 0.0100
+DJD CG  CD2  DOUBLE y 1.390 0.0116 1.390 0.0116
+DJD CD2 CE2  SINGLE y 1.384 0.0100 1.384 0.0100
+DJD CG  CD1  SINGLE y 1.390 0.0116 1.390 0.0116
+DJD CE2 CZ   DOUBLE y 1.391 0.0116 1.391 0.0116
+DJD CD1 CE1  DOUBLE y 1.384 0.0100 1.384 0.0100
+DJD CE1 CZ   SINGLE y 1.391 0.0116 1.391 0.0116
+DJD CZ  C07  SINGLE n 1.468 0.0100 1.468 0.0100
+DJD N03 N04  SINGLE y 1.324 0.0100 1.324 0.0100
+DJD C07 N04  DOUBLE y 1.339 0.0100 1.339 0.0100
+DJD C02 N03  DOUBLE y 1.338 0.0100 1.338 0.0100
+DJD C07 N06  SINGLE y 1.339 0.0100 1.339 0.0100
+DJD C02 N05  SINGLE y 1.338 0.0100 1.338 0.0100
+DJD C01 C02  SINGLE n 1.495 0.0100 1.495 0.0100
+DJD N05 N06  DOUBLE y 1.324 0.0100 1.324 0.0100
+DJD C   OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+DJD N   H    SINGLE n 1.018 0.0520 0.902 0.0102
+DJD N   H2   SINGLE n 1.018 0.0520 0.902 0.0102
+DJD N   H3   SINGLE n 1.018 0.0520 0.902 0.0102
+DJD CA  HA   SINGLE n 1.092 0.0100 0.994 0.0200
+DJD CB  HB3  SINGLE n 1.092 0.0100 0.983 0.0163
+DJD CB  HB2  SINGLE n 1.092 0.0100 0.983 0.0163
+DJD CD1 HD1  SINGLE n 1.085 0.0150 0.944 0.0143
+DJD CD2 HD2  SINGLE n 1.085 0.0150 0.944 0.0143
+DJD CE1 HE1  SINGLE n 1.085 0.0150 0.940 0.0101
+DJD CE2 HE2  SINGLE n 1.085 0.0150 0.940 0.0101
+DJD C01 H011 SINGLE n 1.092 0.0100 0.969 0.0178
+DJD C01 H013 SINGLE n 1.092 0.0100 0.969 0.0178
+DJD C01 H012 SINGLE n 1.092 0.0100 0.969 0.0178
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+DJD CA   N   H    109.791 3.00
+DJD CA   N   H2   109.791 3.00
+DJD CA   N   H3   109.791 3.00
+DJD H    N   H2   109.032 3.00
+DJD H    N   H3   109.032 3.00
+DJD H2   N   H3   109.032 3.00
+DJD C    CA  N    109.085 1.50
+DJD C    CA  CB   111.980 3.00
+DJD C    CA  HA   108.746 1.50
+DJD N    CA  CB   109.965 3.00
+DJD N    CA  HA   108.547 1.50
+DJD CB   CA  HA   108.686 1.50
+DJD O    C   CA   117.219 3.00
+DJD O    C   OXT  125.562 1.50
+DJD CA   C   OXT  117.219 3.00
+DJD CA   CB  CG   114.693 2.05
+DJD CA   CB  HB3  108.494 1.50
+DJD CA   CB  HB2  108.494 1.50
+DJD CG   CB  HB3  108.859 1.50
+DJD CG   CB  HB2  108.859 1.50
+DJD HB3  CB  HB2  107.843 2.16
+DJD CB   CG  CD2  121.043 1.50
+DJD CB   CG  CD1  121.043 1.50
+DJD CD2  CG  CD1  117.914 1.50
+DJD CG   CD1 CE1  121.338 1.50
+DJD CG   CD1 HD1  119.290 1.50
+DJD CE1  CD1 HD1  119.372 1.50
+DJD CG   CD2 CE2  121.338 1.50
+DJD CG   CD2 HD2  119.290 1.50
+DJD CE2  CD2 HD2  119.372 1.50
+DJD CD1  CE1 CZ   120.257 1.50
+DJD CD1  CE1 HE1  119.701 1.50
+DJD CZ   CE1 HE1  120.042 1.50
+DJD CD2  CE2 CZ   120.257 1.50
+DJD CD2  CE2 HE2  119.701 1.50
+DJD CZ   CE2 HE2  120.042 1.50
+DJD CE2  CZ  CE1  118.897 1.50
+DJD CE2  CZ  C07  120.552 1.50
+DJD CE1  CZ  C07  120.552 1.50
+DJD C02  C01 H011 109.648 1.50
+DJD C02  C01 H013 109.648 1.50
+DJD C02  C01 H012 109.648 1.50
+DJD H011 C01 H013 109.432 2.61
+DJD H011 C01 H012 109.432 2.61
+DJD H013 C01 H012 109.432 2.61
+DJD N03  C02 N05  123.489 1.50
+DJD N03  C02 C01  118.255 1.50
+DJD N05  C02 C01  118.255 1.50
+DJD CZ   C07 N04  117.813 1.50
+DJD CZ   C07 N06  117.813 1.50
+DJD N04  C07 N06  124.374 1.50
+DJD N04  N03 C02  117.776 1.50
+DJD N03  N04 C07  118.292 1.50
+DJD C02  N05 N06  117.776 1.50
+DJD C07  N06 N05  118.292 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+DJD chi1      N   CA  CB  CG   -60.000 10.0 3
+DJD chi2      CA  CB  CG  CD1  90.000  20.0 6
+DJD const_0   CZ  CE2 CD2 CG   0.000   0.0  1
+DJD const_1   CB  CG  CD1 CE1  0.000   0.0  1
+DJD const_2   CE1 CZ  CE2 CD2  0.000   0.0  1
+DJD const_3   CG  CD1 CE1 CZ   0.000   0.0  1
+DJD const_4   CD1 CE1 CZ  CE2  0.000   0.0  1
+DJD sp2_sp3_1 N03 C02 C01 H011 150.000 20.0 6
+DJD const_5   N05 C02 N03 N04  0.000   0.0  1
+DJD const_6   N03 C02 N05 N06  0.000   0.0  1
+DJD sp2_sp2_1 N04 C07 CZ  CE2  180.000 5.0  2
+DJD const_7   N06 C07 N04 N03  0.000   0.0  1
+DJD const_8   N04 C07 N06 N05  0.000   0.0  1
+DJD sp3_sp3_1 C   CA  N   H    180.000 10.0 3
+DJD const_9   CE2 CD2 CG  CD1  0.000   0.0  1
+DJD sp2_sp3_2 O   C   CA  N    0.000   20.0 6
+DJD const_10  C02 N03 N04 C07  0.000   0.0  1
+DJD const_11  C02 N05 N06 C07  0.000   0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+DJD chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+DJD plan-1 C07 0.020
+DJD plan-1 CB  0.020
+DJD plan-1 CD1 0.020
+DJD plan-1 CD2 0.020
+DJD plan-1 CE1 0.020
+DJD plan-1 CE2 0.020
+DJD plan-1 CG  0.020
+DJD plan-1 CZ  0.020
+DJD plan-1 HD1 0.020
+DJD plan-1 HD2 0.020
+DJD plan-1 HE1 0.020
+DJD plan-1 HE2 0.020
+DJD plan-2 C01 0.020
+DJD plan-2 C02 0.020
+DJD plan-2 C07 0.020
+DJD plan-2 CZ  0.020
+DJD plan-2 N03 0.020
+DJD plan-2 N04 0.020
+DJD plan-2 N05 0.020
+DJD plan-2 N06 0.020
+DJD plan-3 C   0.020
+DJD plan-3 CA  0.020
+DJD plan-3 O   0.020
+DJD plan-3 OXT 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+DJD ring-1 CG  YES
+DJD ring-1 CD1 YES
+DJD ring-1 CD2 YES
+DJD ring-1 CE1 YES
+DJD ring-1 CE2 YES
+DJD ring-1 CZ  YES
+DJD ring-2 C02 YES
+DJD ring-2 C07 YES
+DJD ring-2 N03 YES
+DJD ring-2 N04 YES
+DJD ring-2 N05 YES
+DJD ring-2 N06 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+DJD SMILES           ACDLabs              12.01 "NC(Cc1ccc(cc1)c2nnc(C)nn2)C(O)=O"
+DJD InChI            InChI                1.03  "InChI=1S/C12H13N5O2/c1-7-14-16-11(17-15-7)9-4-2-8(3-5-9)6-10(13)12(18)19/h2-5,10H,6,13H2,1H3,(H,18,19)/t10-/m0/s1"
+DJD InChIKey         InChI                1.03  MLVVYSKCLSLPPD-JTQLQIEISA-N
+DJD SMILES_CANONICAL CACTVS               3.385 "Cc1nnc(nn1)c2ccc(C[C@H](N)C(O)=O)cc2"
+DJD SMILES           CACTVS               3.385 "Cc1nnc(nn1)c2ccc(C[CH](N)C(O)=O)cc2"
+DJD SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "Cc1nnc(nn1)c2ccc(cc2)C[C@@H](C(=O)O)N"
+DJD SMILES           "OpenEye OEToolkits" 2.0.6 "Cc1nnc(nn1)c2ccc(cc2)CC(C(=O)O)N"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+DJD acedrg          290       "dictionary generator"
+DJD acedrg_database 12        "data source"
+DJD rdkit           2019.09.1 "Chemoinformatics tool"
+DJD servalcat       0.4.57    'optimization tool'

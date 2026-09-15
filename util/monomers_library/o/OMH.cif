@@ -1,0 +1,206 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+OMH OMH "O-[(S)-hydroxy(methoxy)phosphoryl]-L-serine" peptide 21 12 .
+
+data_comp_OMH
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+OMH O    O    O O   0  61.322 -36.612 11.393
+OMH C    C    C C   0  60.089 -36.822 11.412
+OMH CA   CA   C CH1 0  59.571 -38.022 10.600
+OMH N    N    N NT3 1  58.620 -38.821 11.425
+OMH CB   CB   C CH2 0  58.918 -37.588 9.299
+OMH OG   OG   O O2  0  59.923 -36.994 8.453
+OMH P    P    P P   0  59.538 -36.489 6.975
+OMH O3   O3   O OP  -1 58.525 -35.412 7.109
+OMH O2   O2   O O   0  59.191 -37.679 6.155
+OMH O1   O1   O O2  0  60.871 -35.807 6.410
+OMH C31  C31  C CH3 0  62.071 -36.593 6.255
+OMH OXT  OXT  O OC  -1 59.245 -36.136 12.036
+OMH HA   HA   H H   0  60.344 -38.602 10.379
+OMH H    H    H H   0  58.316 -39.541 10.973
+OMH H2   H2   H H   0  57.919 -38.317 11.687
+OMH H3   H3   H H   0  59.047 -39.115 12.164
+OMH HB   HB   H H   0  58.206 -36.935 9.479
+OMH HBA  HBA  H H   0  58.517 -38.363 8.846
+OMH H31  H31  H H   0  62.780 -36.034 5.908
+OMH H31A H31A H H   0  61.903 -37.319 5.639
+OMH H31B H31B H H   0  62.334 -36.952 7.114
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+OMH O    O(CCO)
+OMH C    C(CCHN)(O)2
+OMH CA   C(CHHO)(NH3)(COO)(H)
+OMH N    N(CCCH)(H)3
+OMH CB   C(CCHN)(OP)(H)2
+OMH OG   O(CCHH)(PO3)
+OMH P    P(OC)2(O)2
+OMH O3   O(PO3)
+OMH O2   O(PO3)
+OMH O1   O(CH3)(PO3)
+OMH C31  C(OP)(H)3
+OMH OXT  O(CCO)
+OMH HA   H(CCCN)
+OMH H    H(NCHH)
+OMH H2   H(NCHH)
+OMH H3   H(NCHH)
+OMH HB   H(CCHO)
+OMH HBA  H(CCHO)
+OMH H31  H(CHHO)
+OMH H31A H(CHHO)
+OMH H31B H(CHHO)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+OMH O   C    DOUBLE n 1.251 0.0183 1.251 0.0183
+OMH C   OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+OMH C   CA   SINGLE n 1.536 0.0100 1.536 0.0100
+OMH CA  N    SINGLE n 1.487 0.0100 1.487 0.0100
+OMH CA  CB   SINGLE n 1.516 0.0100 1.516 0.0100
+OMH CB  OG   SINGLE n 1.438 0.0200 1.438 0.0200
+OMH OG  P    SINGLE n 1.607 0.0108 1.607 0.0108
+OMH P   O3   SINGLE n 1.485 0.0108 1.485 0.0108
+OMH P   O2   DOUBLE n 1.485 0.0108 1.485 0.0108
+OMH P   O1   SINGLE n 1.599 0.0100 1.599 0.0100
+OMH O1  C31  SINGLE n 1.438 0.0178 1.438 0.0178
+OMH CA  HA   SINGLE n 1.092 0.0100 0.991 0.0200
+OMH N   H    SINGLE n 1.018 0.0520 0.902 0.0102
+OMH N   H2   SINGLE n 1.018 0.0520 0.902 0.0102
+OMH N   H3   SINGLE n 1.018 0.0520 0.902 0.0102
+OMH CB  HB   SINGLE n 1.092 0.0100 0.983 0.0193
+OMH CB  HBA  SINGLE n 1.092 0.0100 0.983 0.0193
+OMH C31 H31  SINGLE n 1.092 0.0100 0.967 0.0160
+OMH C31 H31A SINGLE n 1.092 0.0100 0.967 0.0160
+OMH C31 H31B SINGLE n 1.092 0.0100 0.967 0.0160
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+OMH O    C   OXT  125.602 1.50
+OMH O    C   CA   117.189 1.50
+OMH OXT  C   CA   117.189 1.50
+OMH C    CA  N    109.839 1.50
+OMH C    CA  CB   111.899 1.50
+OMH C    CA  HA   108.235 1.50
+OMH N    CA  CB   109.782 1.50
+OMH N    CA  HA   108.129 1.50
+OMH CB   CA  HA   108.381 1.50
+OMH CA   N   H    109.696 3.00
+OMH CA   N   H2   109.696 3.00
+OMH CA   N   H3   109.696 3.00
+OMH H    N   H2   109.032 3.00
+OMH H    N   H3   109.032 3.00
+OMH H2   N   H3   109.032 3.00
+OMH CA   CB  OG   108.381 1.50
+OMH CA   CB  HB   110.023 1.50
+OMH CA   CB  HBA  110.023 1.50
+OMH OG   CB  HB   109.720 1.95
+OMH OG   CB  HBA  109.720 1.95
+OMH HB   CB  HBA  108.239 1.50
+OMH CB   OG  P    119.008 2.40
+OMH OG   P   O3   107.777 3.00
+OMH OG   P   O2   107.777 3.00
+OMH OG   P   O1   103.482 3.00
+OMH O3   P   O2   119.403 3.00
+OMH O3   P   O1   108.578 3.00
+OMH O2   P   O1   108.578 3.00
+OMH P    O1  C31  118.893 1.50
+OMH O1   C31 H31  109.439 1.50
+OMH O1   C31 H31A 109.439 1.50
+OMH O1   C31 H31B 109.439 1.50
+OMH H31  C31 H31A 109.451 3.00
+OMH H31  C31 H31B 109.451 3.00
+OMH H31A C31 H31B 109.451 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+OMH chi1      N   CA  CB OG -60.000 10.0 3
+OMH sp3_sp3_1 H31 C31 O1 P  180.000 10.0 3
+OMH sp3_sp3_2 C   CA  N  H  180.000 10.0 3
+OMH sp3_sp3_3 CA  CB  OG P  180.000 10.0 3
+OMH sp2_sp3_1 O   C   CA N  0.000   20.0 6
+OMH sp3_sp3_4 C31 O1  P  OG 180.000 10.0 3
+OMH sp3_sp3_5 CB  OG  P  O3 180.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+OMH chir_1 CA N  C  CB positive
+OMH chir_2 P  OG O1 O3 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+OMH plan-1 C   0.020
+OMH plan-1 CA  0.020
+OMH plan-1 O   0.020
+OMH plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+OMH SMILES           ACDLabs              10.04 "O=P(O)(OC)OCC(N)C(=O)O"
+OMH SMILES_CANONICAL CACTVS               3.341 "CO[P@@](O)(=O)OC[C@H](N)C(O)=O"
+OMH SMILES           CACTVS               3.341 "CO[P](O)(=O)OC[CH](N)C(O)=O"
+OMH SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CO[P@](=O)(O)OC[C@@H](C(=O)O)N"
+OMH SMILES           "OpenEye OEToolkits" 1.5.0 "COP(=O)(O)OCC(C(=O)O)N"
+OMH InChI            InChI                1.03  "InChI=1S/C4H10NO6P/c1-10-12(8,9)11-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)(H,8,9)/t3-/m0/s1"
+OMH InChIKey         InChI                1.03  OGIOVQXVFVIGHA-VKHMYHEASA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+OMH acedrg          290       "dictionary generator"
+OMH acedrg_database 12        "data source"
+OMH rdkit           2019.09.1 "Chemoinformatics tool"
+OMH servalcat       0.4.57    'optimization tool'

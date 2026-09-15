@@ -1,0 +1,418 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+F6Q F6Q "N,N-pyridylbenzimidazole derivative-Pd complex" NON-POLYMER 39 24 .
+
+data_comp_F6Q
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+F6Q PD  PD  PD PD   2.00 2.863  -0.163 -0.280
+F6Q OAU OAU O  O    0    -5.137 -1.583 -1.263
+F6Q SAV SAV S  S3   0    -5.688 -0.473 -0.535
+F6Q OAS OAS O  O    0    -5.911 0.760  -1.238
+F6Q OAT OAT O  OH1  0    -6.942 -0.895 0.179
+F6Q CAP CAP C  CH2  0    -4.573 -0.118 0.796
+F6Q CAO CAO C  CH2  0    -3.193 0.324  0.315
+F6Q CAN CAN C  CH2  0    -2.219 0.705  1.420
+F6Q NAM NAM N  NR5  0    -0.875 1.002  0.909
+F6Q CAB CAB C  CR56 0    -0.431 2.291  0.637
+F6Q CAC CAC C  CR16 0    -1.039 3.540  0.748
+F6Q CAD CAD C  CR16 0    -0.288 4.634  0.382
+F6Q CAE CAE C  CR16 0    1.022  4.503  -0.079
+F6Q CAF CAF C  CR16 0    1.624  3.272  -0.190
+F6Q CAA CAA C  CR56 0    0.879  2.151  0.176
+F6Q NAL NAL N  NRD5 1    1.224  0.816  0.167
+F6Q CAG CAG C  CR5  0    0.171  0.148  0.607
+F6Q CAH CAH C  CR6  0    0.418  -1.319 0.638
+F6Q NAQ NAQ N  NRD6 1    1.672  -1.654 0.275
+F6Q CAI CAI C  CR16 0    1.996  -2.954 0.268
+F6Q CAK CAK C  CR16 0    1.122  -3.960 0.599
+F6Q CAJ CAJ C  CR16 0    -0.155 -3.617 0.961
+F6Q CAR CAR C  CR16 0    -0.518 -2.288 0.979
+F6Q CL2 CL2 CL CL   -1   4.636  0.232  1.180
+F6Q CL1 CL1 CL CL   -1   3.385  -0.157 -2.551
+F6Q H16 H16 H  H    0    -7.584 -1.191 -0.343
+F6Q H1  H1  H  H    0    -4.482 -0.910 1.343
+F6Q H2  H2  H  H    0    -4.960 0.579  1.345
+F6Q H3  H3  H  H    0    -3.299 1.099  -0.292
+F6Q H4  H4  H  H    0    -2.792 -0.406 -0.219
+F6Q H5  H5  H  H    0    -2.155 -0.030 2.063
+F6Q H6  H6  H  H    0    -2.565 1.485  1.899
+F6Q H7  H7  H  H    0    -1.922 3.637  1.058
+F6Q H8  H8  H  H    0    -0.669 5.492  0.445
+F6Q H9  H9  H  H    0    1.505  5.273  -0.320
+F6Q H10 H10 H  H    0    2.507  3.186  -0.501
+F6Q H11 H11 H  H    0    2.876  -3.186 0.019
+F6Q H12 H12 H  H    0    1.395  -4.862 0.578
+F6Q H13 H13 H  H    0    -0.780 -4.284 1.194
+F6Q H14 H14 H  H    0    -1.387 -2.046 1.224
+
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+F6Q CL1 n/a PD  START
+F6Q PD  CL1 NAQ .
+F6Q CL2 PD  .   .
+F6Q NAL PD  CAA .
+F6Q CAA NAL CAB .
+F6Q CAF CAA CAE .
+F6Q H10 CAF .   .
+F6Q CAE CAF CAD .
+F6Q H9  CAE .   .
+F6Q CAD CAE CAC .
+F6Q H8  CAD .   .
+F6Q CAC CAD H7  .
+F6Q H7  CAC .   .
+F6Q CAB CAA .   .
+F6Q NAQ PD  CAI .
+F6Q CAI NAQ CAK .
+F6Q H11 CAI .   .
+F6Q CAK CAI CAJ .
+F6Q H12 CAK .   .
+F6Q CAJ CAK CAR .
+F6Q H13 CAJ .   .
+F6Q CAR CAJ CAH .
+F6Q H14 CAR .   .
+F6Q CAH CAR CAG .
+F6Q CAG CAH NAM .
+F6Q NAM CAG CAN .
+F6Q CAN NAM CAO .
+F6Q H5  CAN .   .
+F6Q H6  CAN .   .
+F6Q CAO CAN CAP .
+F6Q H3  CAO .   .
+F6Q H4  CAO .   .
+F6Q CAP CAO SAV .
+F6Q H1  CAP .   .
+F6Q H2  CAP .   .
+F6Q SAV CAP OAT .
+F6Q OAU SAV .   .
+F6Q OAS SAV .   .
+F6Q OAT SAV H16 .
+F6Q H16 OAT .   END
+F6Q NAM CAB .   ADD
+F6Q CAB CAC .   ADD
+F6Q NAL CAG .   ADD
+F6Q CAH NAQ .   ADD
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+F6Q OAU O(SCOO)
+F6Q SAV S(CCHH)(OH)(O)2
+F6Q OAS O(SCOO)
+F6Q OAT O(SCOO)(H)
+F6Q CAP C(CCHH)(SO3)(H)2
+F6Q CAO C(CN[5a]HH)(CHHS)(H)2
+F6Q CAN C(N[5a]C[5a,6a]C[5a])(CCHH)(H)2
+F6Q NAM N[5a](C[5a,6a]C[5a,6a]C[6a])(C[5a]C[6a]N[5a])(CCHH){1|H<1>,1|N<2>,3|C<3>}
+F6Q CAB C[5a,6a](C[5a,6a]C[6a]N[5a])(C[6a]C[6a]H)(N[5a]C[5a]C){2|C<3>,2|H<1>}
+F6Q CAC C[6a](C[5a,6a]C[5a,6a]N[5a])(C[6a]C[6a]H)(H){1|C<4>,1|H<1>,1|N<2>,2|C<3>}
+F6Q CAD C[6a](C[6a]C[5a,6a]H)(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|N<3>}
+F6Q CAE C[6a](C[6a]C[5a,6a]H)(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|N<2>}
+F6Q CAF C[6a](C[5a,6a]C[5a,6a]N[5a])(C[6a]C[6a]H)(H){1|H<1>,1|N<3>,2|C<3>}
+F6Q CAA C[5a,6a](C[5a,6a]C[6a]N[5a])(C[6a]C[6a]H)(N[5a]C[5a]){1|C<4>,2|C<3>,2|H<1>}
+F6Q NAL N[5a](C[5a,6a]C[5a,6a]C[6a])(C[5a]C[6a]N[5a]){1|C<4>,1|H<1>,1|N<2>,3|C<3>}
+F6Q CAG C[5a](C[6a]C[6a]N[6a])(N[5a]C[5a,6a]C)(N[5a]C[5a,6a]){1|H<1>,4|C<3>}
+F6Q CAH C[6a](C[5a]N[5a]2)(C[6a]C[6a]H)(N[6a]C[6a]){1|C<4>,2|H<1>,3|C<3>}
+F6Q NAQ N[6a](C[6a]C[5a]C[6a])(C[6a]C[6a]H){1|C<3>,1|N<2>,1|N<3>,2|H<1>}
+F6Q CAI C[6a](C[6a]C[6a]H)(N[6a]C[6a])(H){1|H<1>,2|C<3>}
+F6Q CAK C[6a](C[6a]C[6a]H)(C[6a]N[6a]H)(H){1|C<3>,1|H<1>}
+F6Q CAJ C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|H<1>,1|N<2>}
+F6Q CAR C[6a](C[6a]C[5a]N[6a])(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|N<2>,1|N<3>}
+F6Q CL2 Cl
+F6Q CL1 Cl
+F6Q H16 H(OS)
+F6Q H1  H(CCHS)
+F6Q H2  H(CCHS)
+F6Q H3  H(CCCH)
+F6Q H4  H(CCCH)
+F6Q H5  H(CN[5a]CH)
+F6Q H6  H(CN[5a]CH)
+F6Q H7  H(C[6a]C[5a,6a]C[6a])
+F6Q H8  H(C[6a]C[6a]2)
+F6Q H9  H(C[6a]C[6a]2)
+F6Q H10 H(C[6a]C[5a,6a]C[6a])
+F6Q H11 H(C[6a]C[6a]N[6a])
+F6Q H12 H(C[6a]C[6a]2)
+F6Q H13 H(C[6a]C[6a]2)
+F6Q H14 H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+F6Q NAL PD  SINGLE n 2.05  0.06   2.05  0.06
+F6Q NAQ PD  SINGLE n 2.05  0.06   2.05  0.06
+F6Q CL2 PD  SINGLE n 2.33  0.05   2.33  0.05
+F6Q PD  CL1 SINGLE n 2.33  0.05   2.33  0.05
+F6Q OAU SAV DOUBLE n 1.437 0.0100 1.437 0.0100
+F6Q SAV OAS DOUBLE n 1.437 0.0100 1.437 0.0100
+F6Q SAV OAT SINGLE n 1.503 0.0200 1.503 0.0200
+F6Q SAV CAP SINGLE n 1.771 0.0100 1.771 0.0100
+F6Q CAP CAO SINGLE n 1.518 0.0200 1.518 0.0200
+F6Q CAO CAN SINGLE n 1.520 0.0100 1.520 0.0100
+F6Q CAN NAM SINGLE n 1.464 0.0100 1.464 0.0100
+F6Q NAM CAB SINGLE y 1.384 0.0100 1.384 0.0100
+F6Q NAM CAG SINGLE y 1.371 0.0116 1.371 0.0116
+F6Q CAB CAC DOUBLE y 1.391 0.0100 1.391 0.0100
+F6Q CAB CAA SINGLE y 1.398 0.0100 1.398 0.0100
+F6Q CAC CAD SINGLE y 1.377 0.0102 1.377 0.0102
+F6Q CAD CAE DOUBLE y 1.396 0.0109 1.396 0.0109
+F6Q CAE CAF SINGLE y 1.375 0.0106 1.375 0.0106
+F6Q CAF CAA DOUBLE y 1.395 0.0100 1.395 0.0100
+F6Q CAA NAL SINGLE y 1.384 0.0115 1.384 0.0115
+F6Q NAL CAG DOUBLE y 1.321 0.0100 1.321 0.0100
+F6Q CAG CAH SINGLE n 1.472 0.0132 1.472 0.0132
+F6Q CAH NAQ DOUBLE y 1.338 0.0188 1.338 0.0188
+F6Q CAH CAR SINGLE y 1.387 0.0100 1.387 0.0100
+F6Q NAQ CAI SINGLE y 1.341 0.0153 1.341 0.0153
+F6Q CAI CAK DOUBLE y 1.376 0.0147 1.376 0.0147
+F6Q CAK CAJ SINGLE y 1.373 0.0140 1.373 0.0140
+F6Q CAJ CAR DOUBLE y 1.377 0.0140 1.377 0.0140
+F6Q OAT H16 SINGLE n 0.972 0.0180 0.879 0.0200
+F6Q CAP H1  SINGLE n 1.092 0.0100 0.967 0.0200
+F6Q CAP H2  SINGLE n 1.092 0.0100 0.967 0.0200
+F6Q CAO H3  SINGLE n 1.092 0.0100 0.990 0.0100
+F6Q CAO H4  SINGLE n 1.092 0.0100 0.990 0.0100
+F6Q CAN H5  SINGLE n 1.092 0.0100 0.979 0.0105
+F6Q CAN H6  SINGLE n 1.092 0.0100 0.979 0.0105
+F6Q CAC H7  SINGLE n 1.085 0.0150 0.941 0.0147
+F6Q CAD H8  SINGLE n 1.085 0.0150 0.941 0.0176
+F6Q CAE H9  SINGLE n 1.085 0.0150 0.940 0.0171
+F6Q CAF H10 SINGLE n 1.085 0.0150 0.940 0.0189
+F6Q CAI H11 SINGLE n 1.085 0.0150 0.944 0.0200
+F6Q CAK H12 SINGLE n 1.085 0.0150 0.943 0.0187
+F6Q CAJ H13 SINGLE n 1.085 0.0150 0.943 0.0195
+F6Q CAR H14 SINGLE n 1.085 0.0150 0.942 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+F6Q PD  NAL CAA 127.2820 5.0
+F6Q PD  NAL CAG 127.2820 5.0
+F6Q PD  NAQ CAH 121.5110 5.0
+F6Q PD  NAQ CAI 121.5110 5.0
+F6Q OAU SAV OAS 117.601  3.00
+F6Q OAU SAV OAT 109.792  3.00
+F6Q OAU SAV CAP 106.718  1.50
+F6Q OAS SAV OAT 109.792  3.00
+F6Q OAS SAV CAP 106.718  1.50
+F6Q OAT SAV CAP 102.407  3.00
+F6Q SAV OAT H16 114.950  3.00
+F6Q SAV CAP CAO 112.856  1.84
+F6Q SAV CAP H1  108.786  1.50
+F6Q SAV CAP H2  108.786  1.50
+F6Q CAO CAP H1  109.266  1.73
+F6Q CAO CAP H2  109.266  1.73
+F6Q H1  CAP H2  107.908  1.50
+F6Q CAP CAO CAN 113.251  3.00
+F6Q CAP CAO H3  109.324  1.50
+F6Q CAP CAO H4  109.324  1.50
+F6Q CAN CAO H3  108.998  1.50
+F6Q CAN CAO H4  108.998  1.50
+F6Q H3  CAO H4  107.693  2.03
+F6Q CAO CAN NAM 112.811  1.74
+F6Q CAO CAN H5  109.107  1.50
+F6Q CAO CAN H6  109.107  1.50
+F6Q NAM CAN H5  108.866  1.50
+F6Q NAM CAN H6  108.866  1.50
+F6Q H5  CAN H6  107.828  1.50
+F6Q CAN NAM CAB 123.811  1.50
+F6Q CAN NAM CAG 129.573  1.50
+F6Q CAB NAM CAG 106.616  1.50
+F6Q NAM CAB CAC 131.798  1.50
+F6Q NAM CAB CAA 105.838  1.50
+F6Q CAC CAB CAA 122.363  1.50
+F6Q CAB CAC CAD 116.707  1.50
+F6Q CAB CAC H7  121.756  1.50
+F6Q CAD CAC H7  121.537  1.50
+F6Q CAC CAD CAE 121.570  1.50
+F6Q CAC CAD H8  119.156  1.50
+F6Q CAE CAD H8  119.274  1.50
+F6Q CAD CAE CAF 121.570  1.50
+F6Q CAD CAE H9  119.274  1.50
+F6Q CAF CAE H9  119.156  1.50
+F6Q CAE CAF CAA 117.708  1.50
+F6Q CAE CAF H10 121.309  1.50
+F6Q CAA CAF H10 120.983  1.50
+F6Q CAB CAA CAF 120.081  1.50
+F6Q CAB CAA NAL 109.923  1.50
+F6Q CAF CAA NAL 129.997  1.50
+F6Q CAA NAL CAG 105.436  1.82
+F6Q NAM CAG NAL 112.187  3.00
+F6Q NAM CAG CAH 127.090  3.00
+F6Q NAL CAG CAH 120.723  3.00
+F6Q CAG CAH NAQ 117.831  2.40
+F6Q CAG CAH CAR 119.386  3.00
+F6Q NAQ CAH CAR 122.782  1.53
+F6Q CAH NAQ CAI 116.978  1.50
+F6Q NAQ CAI CAK 123.825  1.81
+F6Q NAQ CAI H11 117.752  2.03
+F6Q CAK CAI H11 118.423  1.50
+F6Q CAI CAK CAJ 118.439  1.50
+F6Q CAI CAK H12 120.713  1.50
+F6Q CAJ CAK H12 120.848  1.50
+F6Q CAK CAJ CAR 119.141  1.50
+F6Q CAK CAJ H13 120.509  1.50
+F6Q CAR CAJ H13 120.350  1.50
+F6Q CAH CAR CAJ 118.834  3.00
+F6Q CAH CAR H14 120.373  2.66
+F6Q CAJ CAR H14 120.793  1.50
+F6Q NAL PD  NAQ 109.47   5.0
+F6Q NAL PD  CL2 109.47   5.0
+F6Q NAL PD  CL1 109.47   5.0
+F6Q NAQ PD  CL2 109.47   5.0
+F6Q NAQ PD  CL1 109.47   5.0
+F6Q CL2 PD  CL1 109.47   5.0
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+F6Q const_0   CAC CAD CAE CAF 0.000   0.0  1
+F6Q const_1   CAD CAE CAF CAA 0.000   0.0  1
+F6Q const_2   CAB CAA CAF CAE 0.000   0.0  1
+F6Q const_3   CAB CAA NAL CAG 0.000   0.0  1
+F6Q const_4   NAM CAG NAL CAA 0.000   0.0  1
+F6Q sp2_sp2_1 NAM CAG CAH NAQ 0.000   5.0  2
+F6Q const_5   CAG CAH NAQ CAI 180.000 0.0  1
+F6Q const_6   CAG CAH CAR CAJ 180.000 0.0  1
+F6Q const_7   CAK CAI NAQ CAH 0.000   0.0  1
+F6Q const_8   NAQ CAI CAK CAJ 0.000   0.0  1
+F6Q const_9   CAR CAJ CAK CAI 0.000   0.0  1
+F6Q sp3_sp3_1 H16 OAT SAV OAU -60.000 10.0 3
+F6Q sp3_sp3_2 CAO CAP SAV OAU 180.000 10.0 3
+F6Q const_10  CAK CAJ CAR CAH 0.000   0.0  1
+F6Q sp3_sp3_3 CAN CAO CAP SAV 180.000 10.0 3
+F6Q sp3_sp3_4 NAM CAN CAO CAP 180.000 10.0 3
+F6Q sp2_sp3_1 CAB NAM CAN CAO -90.000 20.0 6
+F6Q const_11  NAL CAG NAM CAN 180.000 0.0  1
+F6Q const_12  CAC CAB NAM CAN 0.000   0.0  1
+F6Q const_13  CAF CAA CAB NAM 180.000 0.0  1
+F6Q const_14  NAM CAB CAC CAD 180.000 0.0  1
+F6Q const_15  CAB CAC CAD CAE 0.000   0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+F6Q chir_1 SAV OAU OAS OAT both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+F6Q plan-4 PD  0.060
+F6Q plan-4 NAL 0.060
+F6Q plan-4 CAA 0.060
+F6Q plan-4 CAG 0.060
+F6Q plan-5 PD  0.060
+F6Q plan-5 NAQ 0.060
+F6Q plan-5 CAH 0.060
+F6Q plan-5 CAI 0.060
+F6Q plan-1 CAA 0.020
+F6Q plan-1 CAB 0.020
+F6Q plan-1 CAC 0.020
+F6Q plan-1 CAD 0.020
+F6Q plan-1 CAE 0.020
+F6Q plan-1 CAF 0.020
+F6Q plan-1 H10 0.020
+F6Q plan-1 H7  0.020
+F6Q plan-1 H8  0.020
+F6Q plan-1 H9  0.020
+F6Q plan-1 NAL 0.020
+F6Q plan-1 NAM 0.020
+F6Q plan-2 CAA 0.020
+F6Q plan-2 CAB 0.020
+F6Q plan-2 CAC 0.020
+F6Q plan-2 CAF 0.020
+F6Q plan-2 CAG 0.020
+F6Q plan-2 CAH 0.020
+F6Q plan-2 CAN 0.020
+F6Q plan-2 NAL 0.020
+F6Q plan-2 NAM 0.020
+F6Q plan-3 CAG 0.020
+F6Q plan-3 CAH 0.020
+F6Q plan-3 CAI 0.020
+F6Q plan-3 CAJ 0.020
+F6Q plan-3 CAK 0.020
+F6Q plan-3 CAR 0.020
+F6Q plan-3 H11 0.020
+F6Q plan-3 H12 0.020
+F6Q plan-3 H13 0.020
+F6Q plan-3 H14 0.020
+F6Q plan-3 NAQ 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+F6Q ring-1 CAB YES
+F6Q ring-1 CAC YES
+F6Q ring-1 CAD YES
+F6Q ring-1 CAE YES
+F6Q ring-1 CAF YES
+F6Q ring-1 CAA YES
+F6Q ring-2 NAM YES
+F6Q ring-2 CAB YES
+F6Q ring-2 CAA YES
+F6Q ring-2 NAL YES
+F6Q ring-2 CAG YES
+F6Q ring-3 CAH YES
+F6Q ring-3 NAQ YES
+F6Q ring-3 CAI YES
+F6Q ring-3 CAK YES
+F6Q ring-3 CAJ YES
+F6Q ring-3 CAR YES
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+F6Q acedrg            311       'dictionary generator'
+F6Q 'acedrg_database' 12        'data source'
+F6Q rdkit             2019.09.1 'Chemoinformatics tool'
+F6Q servalcat         0.4.93    'optimization tool'
+F6Q metalCoord        0.1.63    'metal coordination analysis'

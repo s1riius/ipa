@@ -1,0 +1,313 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+MM6 MM6 NICKEL(II)(1,4,8,11-TETRAAZACYCLOTETRADECANE) NON-POLYMER 34 14 .
+
+data_comp_MM6
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+MM6 NI1  NI1  NI NI  4.00 -1.649 28.961 3.430
+MM6 C13  C13  C  CH2 0    0.620  29.960 1.929
+MM6 N14  N14  N  N   -1   -0.303 28.818 2.045
+MM6 C1   C1   C  CH2 0    -0.033 27.573 1.250
+MM6 C12  C12  C  CH2 0    0.418  30.904 3.056
+MM6 N11  N11  N  N   -1   -0.935 30.753 3.621
+MM6 C10  C10  C  CH2 0    -1.354 31.693 4.717
+MM6 C9   C9   C  CH2 0    -1.893 30.954 5.925
+MM6 C8   C8   C  CH2 0    -3.225 30.274 5.686
+MM6 N7   N7   N  N   -1   -3.127 29.175 4.667
+MM6 C6   C6   C  CH2 0    -3.949 27.968 4.865
+MM6 C5   C5   C  CH2 0    -3.795 27.044 3.714
+MM6 N4   N4   N  N   -1   -2.492 27.256 3.065
+MM6 C3   C3   C  CH2 0    -1.919 26.166 2.208
+MM6 C2   C2   C  CH2 0    -0.426 26.322 2.009
+MM6 H131 H131 H  H   0    0.461  30.422 1.079
+MM6 H132 H132 H  H   0    1.547  29.638 1.934
+MM6 H11  H11  H  H   0    0.918  27.519 1.024
+MM6 H12  H12  H  H   0    -0.524 27.611 0.405
+MM6 H121 H121 H  H   0    0.541  31.824 2.740
+MM6 H122 H122 H  H   0    1.084  30.730 3.755
+MM6 H101 H101 H  H   0    -2.037 32.306 4.377
+MM6 H102 H102 H  H   0    -0.596 32.246 4.996
+MM6 H91  H91  H  H   0    -1.989 31.587 6.666
+MM6 H92  H92  H  H   0    -1.239 30.280 6.201
+MM6 H81  H81  H  H   0    -3.880 30.938 5.388
+MM6 H82  H82  H  H   0    -3.553 29.916 6.536
+MM6 H61  H61  H  H   0    -4.891 28.223 4.959
+MM6 H62  H62  H  H   0    -3.670 27.516 5.689
+MM6 H51  H51  H  H   0    -4.512 27.203 3.065
+MM6 H52  H52  H  H   0    -3.864 26.117 4.027
+MM6 H31  H31  H  H   0    -2.366 26.166 1.337
+MM6 H32  H32  H  H   0    -2.095 25.295 2.619
+MM6 H21  H21  H  H   0    0.010  26.334 2.886
+MM6 H22  H22  H  H   0    -0.087 25.540 1.528
+
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+MM6 H22  n/a C2   START
+MM6 C2   H22 C3   .
+MM6 H21  C2  .    .
+MM6 C1   C2  H11  .
+MM6 H12  C1  .    .
+MM6 H11  C1  .    .
+MM6 C3   C2  N4   .
+MM6 H31  C3  .    .
+MM6 H32  C3  .    .
+MM6 N4   C3  C5   .
+MM6 NI1  N4  N14  .
+MM6 N14  NI1 .    .
+MM6 C5   N4  C6   .
+MM6 H51  C5  .    .
+MM6 H52  C5  .    .
+MM6 C6   C5  N7   .
+MM6 H61  C6  .    .
+MM6 H62  C6  .    .
+MM6 N7   C6  C8   .
+MM6 C8   N7  C9   .
+MM6 H81  C8  .    .
+MM6 H82  C8  .    .
+MM6 C9   C8  C10  .
+MM6 H91  C9  .    .
+MM6 H92  C9  .    .
+MM6 C10  C9  N11  .
+MM6 H101 C10 .    .
+MM6 H102 C10 .    .
+MM6 N11  C10 C12  .
+MM6 C12  N11 C13  .
+MM6 H121 C12 .    .
+MM6 H122 C12 .    .
+MM6 C13  C12 H131 .
+MM6 H132 C13 .    .
+MM6 H131 C13 .    END
+MM6 C13  N14 .    ADD
+MM6 N14  C1  .    ADD
+MM6 NI1  N11 .    ADD
+MM6 NI1  N7  .    ADD
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+MM6 C13  C(CHHN)(NC)(H)2
+MM6 N14  N(CCHH)2
+MM6 C1   C(CCHH)(NC)(H)2
+MM6 C12  C(CHHN)(NC)(H)2
+MM6 N11  N(CCHH)2
+MM6 C10  C(CCHH)(NC)(H)2
+MM6 C9   C(CHHN)2(H)2
+MM6 C8   C(CCHH)(NC)(H)2
+MM6 N7   N(CCHH)2
+MM6 C6   C(CHHN)(NC)(H)2
+MM6 C5   C(CHHN)(NC)(H)2
+MM6 N4   N(CCHH)2
+MM6 C3   C(CCHH)(NC)(H)2
+MM6 C2   C(CHHN)2(H)2
+MM6 H131 H(CCHN)
+MM6 H132 H(CCHN)
+MM6 H11  H(CCHN)
+MM6 H12  H(CCHN)
+MM6 H121 H(CCHN)
+MM6 H122 H(CCHN)
+MM6 H101 H(CCHN)
+MM6 H102 H(CCHN)
+MM6 H91  H(CCCH)
+MM6 H92  H(CCCH)
+MM6 H81  H(CCHN)
+MM6 H82  H(CCHN)
+MM6 H61  H(CCHN)
+MM6 H62  H(CCHN)
+MM6 H51  H(CCHN)
+MM6 H52  H(CCHN)
+MM6 H31  H(CCHN)
+MM6 H32  H(CCHN)
+MM6 H21  H(CCCH)
+MM6 H22  H(CCCH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+MM6 N14 NI1  SINGLE n 1.92  0.02   1.92  0.02
+MM6 NI1 N4   SINGLE n 1.92  0.02   1.92  0.02
+MM6 NI1 N11  SINGLE n 1.92  0.02   1.92  0.02
+MM6 NI1 N7   SINGLE n 1.92  0.02   1.92  0.02
+MM6 C13 N14  SINGLE n 1.467 0.0200 1.467 0.0200
+MM6 C13 C12  SINGLE n 1.494 0.0200 1.494 0.0200
+MM6 N14 C1   SINGLE n 1.488 0.0200 1.488 0.0200
+MM6 C1  C2   SINGLE n 1.513 0.0117 1.513 0.0117
+MM6 C12 N11  SINGLE n 1.467 0.0200 1.467 0.0200
+MM6 N11 C10  SINGLE n 1.488 0.0200 1.488 0.0200
+MM6 C10 C9   SINGLE n 1.513 0.0117 1.513 0.0117
+MM6 C9  C8   SINGLE n 1.513 0.0117 1.513 0.0117
+MM6 C8  N7   SINGLE n 1.488 0.0200 1.488 0.0200
+MM6 N7  C6   SINGLE n 1.467 0.0200 1.467 0.0200
+MM6 C6  C5   SINGLE n 1.494 0.0200 1.494 0.0200
+MM6 C5  N4   SINGLE n 1.467 0.0200 1.467 0.0200
+MM6 N4  C3   SINGLE n 1.488 0.0200 1.488 0.0200
+MM6 C3  C2   SINGLE n 1.513 0.0117 1.513 0.0117
+MM6 C13 H131 SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C13 H132 SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C1  H11  SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C1  H12  SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C12 H121 SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C12 H122 SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C10 H101 SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C10 H102 SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C9  H91  SINGLE n 1.092 0.0100 0.979 0.0176
+MM6 C9  H92  SINGLE n 1.092 0.0100 0.979 0.0176
+MM6 C8  H81  SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C8  H82  SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C6  H61  SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C6  H62  SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C5  H51  SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C5  H52  SINGLE n 1.092 0.0100 0.980 0.0171
+MM6 C3  H31  SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C3  H32  SINGLE n 1.092 0.0100 0.978 0.0136
+MM6 C2  H21  SINGLE n 1.092 0.0100 0.979 0.0176
+MM6 C2  H22  SINGLE n 1.092 0.0100 0.979 0.0176
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+MM6 NI1  N14 C13  109.47  5.0
+MM6 NI1  N14 C1   109.47  5.0
+MM6 NI1  N4  C5   109.47  5.0
+MM6 NI1  N4  C3   109.47  5.0
+MM6 NI1  N11 C12  109.47  5.0
+MM6 NI1  N11 C10  109.47  5.0
+MM6 NI1  N7  C8   109.47  5.0
+MM6 NI1  N7  C6   109.47  5.0
+MM6 N14  C13 C12  110.867 1.50
+MM6 N14  C13 H131 109.354 1.50
+MM6 N14  C13 H132 109.354 1.50
+MM6 C12  C13 H131 109.660 1.50
+MM6 C12  C13 H132 109.660 1.50
+MM6 H131 C13 H132 108.181 1.50
+MM6 C13  N14 C1   114.632 3.00
+MM6 N14  C1  C2   112.069 1.50
+MM6 N14  C1  H11  109.670 1.57
+MM6 N14  C1  H12  109.670 1.57
+MM6 C2   C1  H11  109.373 1.50
+MM6 C2   C1  H12  109.373 1.50
+MM6 H11  C1  H12  108.186 3.00
+MM6 C13  C12 N11  110.867 1.50
+MM6 C13  C12 H121 109.660 1.50
+MM6 C13  C12 H122 109.660 1.50
+MM6 N11  C12 H121 109.354 1.50
+MM6 N11  C12 H122 109.354 1.50
+MM6 H121 C12 H122 108.181 1.50
+MM6 C12  N11 C10  114.632 3.00
+MM6 N11  C10 C9   112.069 1.50
+MM6 N11  C10 H101 109.670 1.57
+MM6 N11  C10 H102 109.670 1.57
+MM6 C9   C10 H101 109.373 1.50
+MM6 C9   C10 H102 109.373 1.50
+MM6 H101 C10 H102 108.186 3.00
+MM6 C10  C9  C8   113.113 1.50
+MM6 C10  C9  H91  108.999 1.50
+MM6 C10  C9  H92  108.999 1.50
+MM6 C8   C9  H91  108.999 1.50
+MM6 C8   C9  H92  108.999 1.50
+MM6 H91  C9  H92  107.601 2.35
+MM6 C9   C8  N7   112.069 1.50
+MM6 C9   C8  H81  109.373 1.50
+MM6 C9   C8  H82  109.373 1.50
+MM6 N7   C8  H81  109.670 1.57
+MM6 N7   C8  H82  109.670 1.57
+MM6 H81  C8  H82  108.186 3.00
+MM6 C8   N7  C6   114.632 3.00
+MM6 N7   C6  C5   110.867 1.50
+MM6 N7   C6  H61  109.354 1.50
+MM6 N7   C6  H62  109.354 1.50
+MM6 C5   C6  H61  109.660 1.50
+MM6 C5   C6  H62  109.660 1.50
+MM6 H61  C6  H62  108.181 1.50
+MM6 C6   C5  N4   110.867 1.50
+MM6 C6   C5  H51  109.660 1.50
+MM6 C6   C5  H52  109.660 1.50
+MM6 N4   C5  H51  109.354 1.50
+MM6 N4   C5  H52  109.354 1.50
+MM6 H51  C5  H52  108.181 1.50
+MM6 C5   N4  C3   114.632 3.00
+MM6 N4   C3  C2   112.069 1.50
+MM6 N4   C3  H31  109.670 1.57
+MM6 N4   C3  H32  109.670 1.57
+MM6 C2   C3  H31  109.373 1.50
+MM6 C2   C3  H32  109.373 1.50
+MM6 H31  C3  H32  108.186 3.00
+MM6 C1   C2  C3   113.113 1.50
+MM6 C1   C2  H21  108.999 1.50
+MM6 C1   C2  H22  108.999 1.50
+MM6 C3   C2  H21  108.999 1.50
+MM6 C3   C2  H22  108.999 1.50
+MM6 H21  C2  H22  107.601 2.35
+MM6 N14  NI1 N11  89.74   4.78
+MM6 N14  NI1 N7   176.81  16.21
+MM6 N14  NI1 N4   89.74   4.78
+MM6 N11  NI1 N7   89.74   4.78
+MM6 N11  NI1 N4   176.81  16.21
+MM6 N7   NI1 N4   89.74   4.78
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+MM6 sp2_sp3_1 C1  N14 C13 C12 120.000 20.0 6
+MM6 sp3_sp3_1 N11 C12 C13 N14 180.000 10.0 3
+MM6 sp2_sp3_2 C3  N4  C5  C6  120.000 20.0 6
+MM6 sp2_sp3_3 C5  N4  C3  C2  120.000 20.0 6
+MM6 sp3_sp3_2 C1  C2  C3  N4  180.000 10.0 3
+MM6 sp2_sp3_4 C13 N14 C1  C2  120.000 20.0 6
+MM6 sp3_sp3_3 N14 C1  C2  C3  180.000 10.0 3
+MM6 sp2_sp3_5 C10 N11 C12 C13 120.000 20.0 6
+MM6 sp2_sp3_6 C12 N11 C10 C9  120.000 20.0 6
+MM6 sp3_sp3_4 N11 C10 C9  C8  180.000 10.0 3
+MM6 sp3_sp3_5 N7  C8  C9  C10 180.000 10.0 3
+MM6 sp2_sp3_7 C6  N7  C8  C9  120.000 20.0 6
+MM6 sp2_sp3_8 C8  N7  C6  C5  120.000 20.0 6
+MM6 sp3_sp3_6 N4  C5  C6  N7  180.000 10.0 3
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+MM6 acedrg            311       'dictionary generator'
+MM6 'acedrg_database' 12        'data source'
+MM6 rdkit             2019.09.1 'Chemoinformatics tool'
+MM6 servalcat         0.4.93    'optimization tool'
+MM6 metalCoord        0.1.63    'metal coordination analysis'

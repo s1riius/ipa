@@ -1,0 +1,426 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+SOS SOS "[(1R,2S,4R)-4-({2-AMINO-5-[BENZYL(FORMYL)AMINO]-6-OXO-1,6-DIHYDROPYRIMIDIN-4-YL}AMINO)-2-HYDROXYCYCLOPENTYL]METHYL DIHYDROGEN PHOSPHATE" NON-POLYMER 53 31 .
+
+data_comp_SOS
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+SOS OP3    O OP   -1 -4.187 22.261 47.214
+SOS C15    C CR16 0  -6.217 16.374 45.217
+SOS C14    C CR16 0  -6.594 17.645 45.639
+SOS C13    C CR16 0  -5.713 18.704 45.527
+SOS C12    C CR16 0  -4.454 18.495 44.994
+SOS C11    C CR16 0  -4.076 17.224 44.571
+SOS C10    C CR6  0  -4.955 16.153 44.678
+SOS C9     C CH2  0  -4.544 14.772 44.220
+SOS N7     N NH0  0  -3.707 14.045 45.195
+SOS C8     C C1   0  -2.414 13.729 44.947
+SOS O8     O O    0  -1.666 13.129 45.704
+SOS C5     C CR6  0  -4.340 13.648 46.433
+SOS C6     C CR6  0  -5.310 12.564 46.402
+SOS O6     O O    0  -5.656 11.914 45.407
+SOS N1     N NR16 0  -5.880 12.245 47.644
+SOS C2     C CR6  0  -5.549 12.914 48.786
+SOS N2     N NH2  0  -6.146 12.540 49.921
+SOS N3     N NRD6 0  -4.665 13.907 48.812
+SOS C4     C CR6  0  -4.054 14.309 47.685
+SOS N9     N NH1  0  -3.159 15.334 47.797
+SOS "C1'"  C CH1  0  -3.102 16.313 48.867
+SOS "C6'"  C CH2  0  -4.391 17.114 49.049
+SOS "C2'"  C CH2  0  -2.037 17.387 48.660
+SOS "C3'"  C CH1  0  -2.439 18.502 49.607
+SOS "O3'"  O OH1  0  -1.962 18.211 50.927
+SOS "C4'"  C CH1  0  -3.981 18.519 49.561
+SOS "C5'"  C CH2  0  -4.542 19.638 48.702
+SOS "O5'"  O O2   0  -4.290 20.915 49.330
+SOS P      P P    0  -4.780 22.285 48.614
+SOS OP2    O OP   -1 -4.232 23.419 49.467
+SOS OP1    O O    0  -6.300 22.232 48.611
+SOS H15    H H    0  -6.824 15.655 45.296
+SOS H14    H H    0  -7.454 17.784 46.003
+SOS H13    H H    0  -5.969 19.566 45.814
+SOS H12    H H    0  -3.850 19.215 44.916
+SOS H11    H H    0  -3.215 17.088 44.207
+SOS H91    H H    0  -4.053 14.856 43.371
+SOS H92    H H    0  -5.354 14.243 44.042
+SOS H8     H H    0  -2.055 14.002 44.104
+SOS HN1    H H    0  -6.462 11.603 47.680
+SOS HN21   H H    0  -5.976 12.971 50.667
+SOS HN22   H H    0  -6.707 11.865 49.932
+SOS HN9    H H    0  -2.553 15.407 47.180
+SOS "H1'"  H H    0  -2.906 15.841 49.712
+SOS "H6'1" H H    0  -4.873 17.185 48.193
+SOS "H6'2" H H    0  -4.979 16.671 49.703
+SOS "H2'"  H H    0  -2.034 17.699 47.731
+SOS "H2''" H H    0  -1.147 17.042 48.882
+SOS "H3'"  H H    0  -2.066 19.362 49.293
+SOS "HO3'" H H    0  -2.515 18.159 51.458
+SOS "H4'"  H H    0  -4.318 18.631 50.493
+SOS "H5'"  H H    0  -5.508 19.508 48.587
+SOS "H5''" H H    0  -4.121 19.612 47.817
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+SOS OP3    O(PO3)
+SOS C15    C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,2|H<1>}
+SOS C14    C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|C<4>,1|H<1>}
+SOS C13    C[6a](C[6a]C[6a]H)2(H){1|C<3>,2|H<1>}
+SOS C12    C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|C<4>,1|H<1>}
+SOS C11    C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,2|H<1>}
+SOS C10    C[6a](C[6a]C[6a]H)2(CHHN){1|C<3>,2|H<1>}
+SOS C9     C(C[6a]C[6a]2)(NC[6a]C)(H)2
+SOS N7     N(C[6a]C[6a]2)(CC[6a]HH)(CHO)
+SOS C8     C(NC[6a]C)(H)(O)
+SOS O8     O(CHN)
+SOS C5     C[6a](C[6a]N[6a]N)(C[6a]N[6a]O)(NCC){1|C<3>,1|H<1>}
+SOS C6     C[6a](C[6a]C[6a]N)(N[6a]C[6a]H)(O){1|N<2>,2|N<3>}
+SOS O6     O(C[6a]C[6a]N[6a])
+SOS N1     N[6a](C[6a]C[6a]O)(C[6a]N[6a]N)(H){1|C<3>,1|N<3>}
+SOS C2     C[6a](N[6a]C[6a]H)(N[6a]C[6a])(NHH){1|C<3>,1|N<3>,1|O<1>}
+SOS N2     N(C[6a]N[6a]2)(H)2
+SOS N3     N[6a](C[6a]C[6a]N)(C[6a]N[6a]N){1|C<3>,1|H<1>,1|N<3>}
+SOS C4     C[6a](C[6a]C[6a]N)(N[6a]C[6a])(NC[5]H){1|O<1>,2|N<3>}
+SOS N9     N(C[6a]C[6a]N[6a])(C[5]C[5]2H)(H)
+SOS "C1'"  C[5](C[5]C[5]HH)2(NC[6a]H)(H){1|C<4>,1|O<2>,2|H<1>}
+SOS "C6'"  C[5](C[5]C[5]CH)(C[5]C[5]HN)(H)2{1|O<2>,3|H<1>}
+SOS "C2'"  C[5](C[5]C[5]HN)(C[5]C[5]HO)(H)2{1|C<4>,3|H<1>}
+SOS "C3'"  C[5](C[5]C[5]CH)(C[5]C[5]HH)(OH)(H){1|N<3>,3|H<1>}
+SOS "O3'"  O(C[5]C[5]2H)(H)
+SOS "C4'"  C[5](C[5]C[5]HH)(C[5]C[5]HO)(CHHO)(H){1|N<3>,3|H<1>}
+SOS "C5'"  C(C[5]C[5]2H)(OP)(H)2
+SOS "O5'"  O(CC[5]HH)(PO3)
+SOS P      P(OC)(O)3
+SOS OP2    O(PO3)
+SOS OP1    O(PO3)
+SOS H15    H(C[6a]C[6a]2)
+SOS H14    H(C[6a]C[6a]2)
+SOS H13    H(C[6a]C[6a]2)
+SOS H12    H(C[6a]C[6a]2)
+SOS H11    H(C[6a]C[6a]2)
+SOS H91    H(CC[6a]HN)
+SOS H92    H(CC[6a]HN)
+SOS H8     H(CNO)
+SOS HN1    H(N[6a]C[6a]2)
+SOS HN21   H(NC[6a]H)
+SOS HN22   H(NC[6a]H)
+SOS HN9    H(NC[6a]C[5])
+SOS "H1'"  H(C[5]C[5]2N)
+SOS "H6'1" H(C[5]C[5]2H)
+SOS "H6'2" H(C[5]C[5]2H)
+SOS "H2'"  H(C[5]C[5]2H)
+SOS "H2''" H(C[5]C[5]2H)
+SOS "H3'"  H(C[5]C[5]2O)
+SOS "HO3'" H(OC[5])
+SOS "H4'"  H(C[5]C[5]2C)
+SOS "H5'"  H(CC[5]HO)
+SOS "H5''" H(CC[5]HO)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.aromatic
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+SOS OP3   P      SINGLE n 1.521 0.0200 1.521 0.0200
+SOS C15   C10    DOUBLE y 1.386 0.0102 1.386 0.0102
+SOS C15   C14    SINGLE y 1.386 0.0131 1.386 0.0131
+SOS C14   C13    DOUBLE y 1.375 0.0155 1.375 0.0155
+SOS C13   C12    SINGLE y 1.376 0.0151 1.376 0.0151
+SOS C12   C11    DOUBLE y 1.386 0.0131 1.386 0.0131
+SOS C11   C10    SINGLE y 1.386 0.0102 1.386 0.0102
+SOS C10   C9     SINGLE n 1.512 0.0100 1.512 0.0100
+SOS C9    N7     SINGLE n 1.474 0.0100 1.474 0.0100
+SOS N7    C8     SINGLE n 1.344 0.0164 1.344 0.0164
+SOS N7    C5     SINGLE n 1.443 0.0100 1.443 0.0100
+SOS C8    O8     DOUBLE n 1.221 0.0102 1.221 0.0102
+SOS C5    C6     SINGLE y 1.450 0.0170 1.450 0.0170
+SOS C5    C4     DOUBLE y 1.424 0.0179 1.424 0.0179
+SOS C6    O6     DOUBLE n 1.237 0.0100 1.237 0.0100
+SOS C6    N1     SINGLE y 1.400 0.0100 1.400 0.0100
+SOS N1    C2     SINGLE y 1.360 0.0100 1.360 0.0100
+SOS C2    N3     DOUBLE y 1.324 0.0100 1.324 0.0100
+SOS C2    N2     SINGLE n 1.333 0.0100 1.333 0.0100
+SOS N3    C4     SINGLE y 1.338 0.0100 1.338 0.0100
+SOS C4    N9     SINGLE n 1.348 0.0200 1.348 0.0200
+SOS N9    "C1'"  SINGLE n 1.448 0.0100 1.448 0.0100
+SOS "C1'" "C2'"  SINGLE n 1.527 0.0124 1.527 0.0124
+SOS "C1'" "C6'"  SINGLE n 1.527 0.0124 1.527 0.0124
+SOS "C6'" "C4'"  SINGLE n 1.548 0.0100 1.548 0.0100
+SOS "C2'" "C3'"  SINGLE n 1.519 0.0100 1.519 0.0100
+SOS "C3'" "C4'"  SINGLE n 1.540 0.0166 1.540 0.0166
+SOS "C3'" "O3'"  SINGLE n 1.433 0.0100 1.433 0.0100
+SOS "C4'" "C5'"  SINGLE n 1.518 0.0100 1.518 0.0100
+SOS "C5'" "O5'"  SINGLE n 1.445 0.0200 1.445 0.0200
+SOS "O5'" P      SINGLE n 1.621 0.0100 1.621 0.0100
+SOS P     OP1    DOUBLE n 1.521 0.0200 1.521 0.0200
+SOS P     OP2    SINGLE n 1.521 0.0200 1.521 0.0200
+SOS C15   H15    SINGLE n 1.082 0.0130 0.944 0.0143
+SOS C14   H14    SINGLE n 1.082 0.0130 0.944 0.0180
+SOS C13   H13    SINGLE n 1.082 0.0130 0.944 0.0170
+SOS C12   H12    SINGLE n 1.082 0.0130 0.944 0.0180
+SOS C11   H11    SINGLE n 1.082 0.0130 0.944 0.0143
+SOS C9    H91    SINGLE n 1.089 0.0100 0.984 0.0175
+SOS C9    H92    SINGLE n 1.089 0.0100 0.984 0.0175
+SOS C8    H8     SINGLE n 1.082 0.0130 0.956 0.0200
+SOS N1    HN1    SINGLE n 1.016 0.0100 0.867 0.0111
+SOS N2    HN21   SINGLE n 1.016 0.0100 0.877 0.0200
+SOS N2    HN22   SINGLE n 1.016 0.0100 0.877 0.0200
+SOS N9    HN9    SINGLE n 1.016 0.0100 0.870 0.0200
+SOS "C1'" "H1'"  SINGLE n 1.089 0.0100 0.987 0.0197
+SOS "C6'" "H6'1" SINGLE n 1.089 0.0100 0.985 0.0100
+SOS "C6'" "H6'2" SINGLE n 1.089 0.0100 0.985 0.0100
+SOS "C2'" "H2'"  SINGLE n 1.089 0.0100 0.980 0.0163
+SOS "C2'" "H2''" SINGLE n 1.089 0.0100 0.980 0.0163
+SOS "C3'" "H3'"  SINGLE n 1.089 0.0100 0.988 0.0132
+SOS "O3'" "HO3'" SINGLE n 0.970 0.0120 0.839 0.0200
+SOS "C4'" "H4'"  SINGLE n 1.089 0.0100 0.997 0.0100
+SOS "C5'" "H5'"  SINGLE n 1.089 0.0100 0.981 0.0200
+SOS "C5'" "H5''" SINGLE n 1.089 0.0100 0.981 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+SOS C10    C15   C14    120.461 1.50
+SOS C10    C15   H15    119.732 1.50
+SOS C14    C15   H15    119.807 1.50
+SOS C15    C14   C13    120.272 1.50
+SOS C15    C14   H14    119.809 1.50
+SOS C13    C14   H14    119.919 1.50
+SOS C14    C13   C12    119.965 1.50
+SOS C14    C13   H13    120.018 1.50
+SOS C12    C13   H13    120.018 1.50
+SOS C13    C12   C11    120.272 1.50
+SOS C13    C12   H12    119.919 1.50
+SOS C11    C12   H12    119.809 1.50
+SOS C12    C11   C10    120.461 1.50
+SOS C12    C11   H11    119.807 1.50
+SOS C10    C11   H11    119.732 1.50
+SOS C15    C10   C11    118.568 1.50
+SOS C15    C10   C9     120.716 2.40
+SOS C11    C10   C9     120.716 2.40
+SOS C10    C9    N7     113.662 1.93
+SOS C10    C9    H91    108.734 1.50
+SOS C10    C9    H92    108.734 1.50
+SOS N7     C9    H91    108.756 1.50
+SOS N7     C9    H92    108.756 1.50
+SOS H91    C9    H92    107.727 1.50
+SOS C9     N7    C8     121.897 3.00
+SOS C9     N7    C5     117.642 2.07
+SOS C8     N7    C5     120.460 1.50
+SOS N7     C8    O8     125.315 1.53
+SOS N7     C8    H8     116.841 1.51
+SOS O8     C8    H8     117.840 2.45
+SOS N7     C5    C6     119.324 1.50
+SOS N7     C5    C4     120.295 3.00
+SOS C6     C5    C4     120.381 1.50
+SOS C5     C6    O6     126.222 3.00
+SOS C5     C6    N1     115.292 2.89
+SOS O6     C6    N1     118.486 1.77
+SOS C6     N1    C2     122.265 1.50
+SOS C6     N1    HN1    118.901 1.50
+SOS C2     N1    HN1    118.833 3.00
+SOS N1     C2    N3     122.909 1.50
+SOS N1     C2    N2     117.389 1.50
+SOS N3     C2    N2     119.701 1.50
+SOS C2     N2    HN21   119.761 3.00
+SOS C2     N2    HN22   119.761 3.00
+SOS HN21   N2    HN22   120.477 3.00
+SOS C2     N3    C4     118.850 1.50
+SOS C5     C4    N3     120.303 2.10
+SOS C5     C4    N9     122.042 3.00
+SOS N3     C4    N9     117.655 3.00
+SOS C4     N9    "C1'"  123.274 3.00
+SOS C4     N9    HN9    117.983 3.00
+SOS "C1'"  N9    HN9    118.743 3.00
+SOS N9     "C1'" "C2'"  113.970 1.50
+SOS N9     "C1'" "C6'"  113.970 1.50
+SOS N9     "C1'" "H1'"  109.007 1.89
+SOS "C2'"  "C1'" "C6'"  104.014 1.78
+SOS "C2'"  "C1'" "H1'"  108.761 1.57
+SOS "C6'"  "C1'" "H1'"  108.761 1.57
+SOS "C1'"  "C6'" "C4'"  105.500 3.00
+SOS "C1'"  "C6'" "H6'1" 110.749 1.50
+SOS "C1'"  "C6'" "H6'2" 110.749 1.50
+SOS "C4'"  "C6'" "H6'1" 110.697 1.50
+SOS "C4'"  "C6'" "H6'2" 110.697 1.50
+SOS "H6'1" "C6'" "H6'2" 108.832 1.50
+SOS "C1'"  "C2'" "C3'"  104.977 2.55
+SOS "C1'"  "C2'" "H2'"  110.749 1.50
+SOS "C1'"  "C2'" "H2''" 110.749 1.50
+SOS "C3'"  "C2'" "H2'"  110.924 1.50
+SOS "C3'"  "C2'" "H2''" 110.924 1.50
+SOS "H2'"  "C2'" "H2''" 108.849 1.50
+SOS "C2'"  "C3'" "C4'"  105.293 2.01
+SOS "C2'"  "C3'" "O3'"  110.663 3.00
+SOS "C2'"  "C3'" "H3'"  111.013 3.00
+SOS "C4'"  "C3'" "O3'"  111.400 3.00
+SOS "C4'"  "C3'" "H3'"  111.163 1.50
+SOS "O3'"  "C3'" "H3'"  110.532 1.72
+SOS "C3'"  "O3'" "HO3'" 110.400 3.00
+SOS "C6'"  "C4'" "C3'"  103.277 3.00
+SOS "C6'"  "C4'" "C5'"  111.729 3.00
+SOS "C6'"  "C4'" "H4'"  108.301 2.96
+SOS "C3'"  "C4'" "C5'"  113.103 1.50
+SOS "C3'"  "C4'" "H4'"  107.601 2.30
+SOS "C5'"  "C4'" "H4'"  108.568 1.50
+SOS "C4'"  "C5'" "O5'"  109.916 3.00
+SOS "C4'"  "C5'" "H5'"  109.450 1.50
+SOS "C4'"  "C5'" "H5''" 109.450 1.50
+SOS "O5'"  "C5'" "H5'"  109.954 1.50
+SOS "O5'"  "C5'" "H5''" 109.954 1.50
+SOS "H5'"  "C5'" "H5''" 108.361 2.31
+SOS "C5'"  "O5'" P      120.200 3.00
+SOS OP3    P     "O5'"  105.989 3.00
+SOS OP3    P     OP1    112.951 3.00
+SOS OP3    P     OP2    112.951 3.00
+SOS "O5'"  P     OP1    105.989 3.00
+SOS "O5'"  P     OP2    105.989 3.00
+SOS OP1    P     OP2    112.951 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+SOS C2e-chi         "C2'" "C1'" N9    C4     210.000 10.000 6
+SOS C2e-nyu1        N9    "C1'" "C2'" "C3'"  32.800  4.900  1
+SOS C2e-nyu2        "C1'" "C2'" "C3'" "O3'"  326.9   3.600  1
+SOS C3e-chi         "C2'" "C1'" N9    C4     210.000 10.000 6
+SOS C3e-nyu1        N9    "C1'" "C2'" "C3'"  335.00  4.900  1
+SOS C3e-nyu2        "C1'" "C2'" "C3'" "O3'"  35.9    2.800  1
+SOS alpha           "C5'" "O5'" P     OP3    -60.000 10.00  3
+SOS beta            P     "O5'" "C5'" "C4'"  180.000 10.00  3
+SOS delta           "O3'" "C3'" "C4'" "C5'"  80.000  10.00  3
+SOS epsilon         "C2'" "C3'" "O3'" "HO3'" 180.000 10.00  3
+SOS const_24        N7    C5    C6    O6     0.000   0.0    2
+SOS const_52        N9    C4    C5    N7     0.000   0.0    2
+SOS const_27        O6    C6    N1    C2     180.000 0.0    2
+SOS const_31        N2    C2    N1    C6     180.000 0.0    2
+SOS sp2_sp2_53      N1    C2    N2    HN21   180.000 20     2
+SOS const_34        N2    C2    N3    C4     180.000 0.0    2
+SOS const_36        N9    C4    N3    C2     180.000 0.0    2
+SOS sp2_sp2_57      C5    C4    N9    "C1'"  180.000 20     2
+SOS const_37        C13   C14   C15   C10    0.000   0.0    2
+SOS const_sp2_sp2_3 C9    C10   C15   C14    180.000 0.0    2
+SOS sp3_sp3_40      N9    "C1'" "C6'" "C4'"  60.000  10.0   3
+SOS sp3_sp3_31      "C5'" "C4'" "C6'" "C1'"  180.000 10.0   3
+SOS sp3_sp3_49      "C6'" "C4'" "C5'" "O5'"  180.000 10.0   3
+SOS const_17        C12   C13   C14   C15    0.000   0.0    2
+SOS const_13        C11   C12   C13   C14    0.000   0.0    2
+SOS const_sp2_sp2_9 C10   C11   C12   C13    0.000   0.0    2
+SOS const_sp2_sp2_7 C9    C10   C11   C12    180.000 0.0    2
+SOS sp2_sp3_2       C15   C10   C9    N7     -90.000 10.0   6
+SOS sp2_sp3_8       C8    N7    C9    C10    120.000 10.0   6
+SOS sp2_sp2_45      C6    C5    N7    C9     180.000 20     2
+SOS sp2_sp2_41      O8    C8    N7    C9     180.000 5      2
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+SOS chir_1 "C1'" N9    "C2'" "C6'" negative
+SOS chir_2 "C3'" "O3'" "C4'" "C2'" positive
+SOS chir_3 "C4'" "C3'" "C5'" "C6'" negative
+SOS chir_4 P     "O5'" OP3   OP2   both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+SOS plan-1 C2    0.020
+SOS plan-1 C4    0.020
+SOS plan-1 C5    0.020
+SOS plan-1 C6    0.020
+SOS plan-1 HN1   0.020
+SOS plan-1 N1    0.020
+SOS plan-1 N2    0.020
+SOS plan-1 N3    0.020
+SOS plan-1 N7    0.020
+SOS plan-1 N9    0.020
+SOS plan-1 O6    0.020
+SOS plan-2 C10   0.020
+SOS plan-2 C11   0.020
+SOS plan-2 C12   0.020
+SOS plan-2 C13   0.020
+SOS plan-2 C14   0.020
+SOS plan-2 C15   0.020
+SOS plan-2 C9    0.020
+SOS plan-2 H11   0.020
+SOS plan-2 H12   0.020
+SOS plan-2 H13   0.020
+SOS plan-2 H14   0.020
+SOS plan-2 H15   0.020
+SOS plan-3 C5    0.020
+SOS plan-3 C8    0.020
+SOS plan-3 C9    0.020
+SOS plan-3 N7    0.020
+SOS plan-4 C8    0.020
+SOS plan-4 H8    0.020
+SOS plan-4 N7    0.020
+SOS plan-4 O8    0.020
+SOS plan-5 C2    0.020
+SOS plan-5 HN21  0.020
+SOS plan-5 HN22  0.020
+SOS plan-5 N2    0.020
+SOS plan-6 "C1'" 0.020
+SOS plan-6 C4    0.020
+SOS plan-6 HN9   0.020
+SOS plan-6 N9    0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+SOS SMILES           ACDLabs              10.04 "O=C2C(N(C=O)Cc1ccccc1)=C(N=C(N)N2)NC3CC(COP(=O)(O)O)C(O)C3"
+SOS SMILES_CANONICAL CACTVS               3.341 "NC1=NC(=C(N(Cc2ccccc2)C=O)C(=O)N1)N[C@H]3C[C@H](O)[C@@H](CO[P](O)(O)=O)C3"
+SOS SMILES           CACTVS               3.341 "NC1=NC(=C(N(Cc2ccccc2)C=O)C(=O)N1)N[CH]3C[CH](O)[CH](CO[P](O)(O)=O)C3"
+SOS SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "c1ccc(cc1)CN(C=O)C2=C(N=C(NC2=O)N)N[C@@H]3C[C@@H]([C@H](C3)O)COP(=O)(O)O"
+SOS SMILES           "OpenEye OEToolkits" 1.5.0 "c1ccc(cc1)CN(C=O)C2=C(N=C(NC2=O)N)NC3CC(C(C3)O)COP(=O)(O)O"
+SOS InChI            InChI                1.03  "InChI=1S/C18H24N5O7P/c19-18-21-16(20-13-6-12(14(25)7-13)9-30-31(27,28)29)15(17(26)22-18)23(10-24)8-11-4-2-1-3-5-11/h1-5,10,12-14,25H,6-9H2,(H2,27,28,29)(H4,19,20,21,22,26)/t12-,13-,14+/m1/s1"
+SOS InChIKey         InChI                1.03  ULUAJGLRYKCHQG-MCIONIFRSA-N
+
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+SOS acedrg          275       "dictionary generator"
+SOS acedrg_database 12        "data source"
+SOS rdkit           2019.09.1 "Chemoinformatics tool"
+SOS refmac5         5.8.0411  "optimization tool"

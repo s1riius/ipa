@@ -1,0 +1,182 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+BFD BFD "ASPARTATE BERYLLIUM TRIFLUORIDE" peptide 18 12 .
+
+data_comp_BFD
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+BFD BE  BE  BE BE  4.00 59.937 13.183 48.248
+BFD N   N   N  NT3 1    60.657 16.175 43.509
+BFD CA  CA  C  CH1 0    60.340 15.649 44.870
+BFD C   C   C  C   0    59.478 16.675 45.620
+BFD O   O   O  O   0    59.875 17.865 45.635
+BFD CB  CB  C  CH2 0    61.598 15.270 45.641
+BFD CG  CG  C  C   0    61.375 14.620 47.001
+BFD OD1 OD1 O  OC  -1   60.995 13.430 47.029
+BFD OD2 OD2 O  O   0    61.582 15.311 48.021
+BFD OXT OXT O  OC  -1   58.435 16.251 46.167
+BFD F1  F1  F  F   -1   59.387 11.737 48.155
+BFD F2  F2  F  F   -1   60.655 13.363 49.610
+BFD F3  F3  F  F   -1   58.753 14.180 48.150
+BFD H   H   H  H   0    61.147 15.584 43.035
+BFD H2  H2  H  H   0    61.109 16.954 43.563
+BFD H3  H3  H  H   0    59.889 16.325 43.058
+BFD HA  HA  H  H   0    59.812 14.825 44.759
+BFD HB2 HB2 H  H   0    62.138 16.078 45.771
+BFD HB3 HB3 H  H   0    62.121 14.648 45.093
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+BFD N   N(CCCH)(H)3
+BFD CA  C(CCHH)(NH3)(COO)(H)
+BFD C   C(CCHN)(O)2
+BFD O   O(CCO)
+BFD CB  C(CCHN)(COO)(H)2
+BFD CG  C(CCHH)(O)2
+BFD OD1 O(CCO)
+BFD OD2 O(CCO)
+BFD OXT O(CCO)
+BFD F1  F
+BFD F2  F
+BFD F3  F
+BFD H   H(NCHH)
+BFD H2  H(NCHH)
+BFD H3  H(NCHH)
+BFD HA  H(CCCN)
+BFD HB2 H(CCCH)
+BFD HB3 H(CCCH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+BFD OD1 BE  SINGLE n 1.63  0.03   1.63  0.03
+BFD BE  F1  SINGLE n 1.55  0.03   1.55  0.03
+BFD BE  F2  SINGLE n 1.55  0.03   1.55  0.03
+BFD BE  F3  SINGLE n 1.55  0.03   1.55  0.03
+BFD N   CA  SINGLE n 1.490 0.0100 1.490 0.0100
+BFD CA  C   SINGLE n 1.533 0.0100 1.533 0.0100
+BFD CA  CB  SINGLE n 1.521 0.0100 1.521 0.0100
+BFD C   O   DOUBLE n 1.251 0.0183 1.251 0.0183
+BFD C   OXT SINGLE n 1.251 0.0183 1.251 0.0183
+BFD CB  CG  SINGLE n 1.522 0.0100 1.522 0.0100
+BFD CG  OD1 SINGLE n 1.249 0.0161 1.249 0.0161
+BFD CG  OD2 DOUBLE n 1.249 0.0161 1.249 0.0161
+BFD N   H   SINGLE n 1.018 0.0520 0.902 0.0102
+BFD N   H2  SINGLE n 1.018 0.0520 0.902 0.0102
+BFD N   H3  SINGLE n 1.018 0.0520 0.902 0.0102
+BFD CA  HA  SINGLE n 1.092 0.0100 0.984 0.0200
+BFD CB  HB2 SINGLE n 1.092 0.0100 0.980 0.0165
+BFD CB  HB3 SINGLE n 1.092 0.0100 0.980 0.0165
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+BFD BE  OD1 CG  109.47  5.0
+BFD CA  N   H   109.990 3.00
+BFD CA  N   H2  109.990 3.00
+BFD CA  N   H3  109.990 3.00
+BFD H   N   H2  109.032 3.00
+BFD H   N   H3  109.032 3.00
+BFD H2  N   H3  109.032 3.00
+BFD N   CA  C   109.258 1.50
+BFD N   CA  CB  111.400 1.50
+BFD N   CA  HA  108.387 1.58
+BFD C   CA  CB  112.421 3.00
+BFD C   CA  HA  108.774 1.79
+BFD CB  CA  HA  108.472 2.65
+BFD CA  C   O   117.148 1.60
+BFD CA  C   OXT 117.148 1.60
+BFD O   C   OXT 125.704 1.50
+BFD CA  CB  CG  115.436 1.50
+BFD CA  CB  HB2 108.799 3.00
+BFD CA  CB  HB3 108.799 3.00
+BFD CG  CB  HB2 108.242 2.79
+BFD CG  CB  HB3 108.242 2.79
+BFD HB2 CB  HB3 107.976 2.66
+BFD CB  CG  OD1 117.985 1.50
+BFD CB  CG  OD2 117.985 1.50
+BFD OD1 CG  OD2 124.031 1.82
+BFD OD1 BE  F1  109.47  5.0
+BFD OD1 BE  F2  109.47  5.0
+BFD OD1 BE  F3  109.47  5.0
+BFD F1  BE  F2  109.47  5.0
+BFD F1  BE  F3  109.47  5.0
+BFD F2  BE  F3  109.47  5.0
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+BFD chi1      N  CA CB CG  -60.000 10.0 3
+BFD chi2      CA CB CG OD1 180.000 20.0 6
+BFD sp3_sp3_1 C  CA N  H   180.000 10.0 3
+BFD sp2_sp3_1 O  C  CA N   0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+BFD chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+BFD plan-1 C   0.020
+BFD plan-1 CA  0.020
+BFD plan-1 O   0.020
+BFD plan-1 OXT 0.020
+BFD plan-2 CB  0.020
+BFD plan-2 CG  0.020
+BFD plan-2 OD1 0.020
+BFD plan-2 OD2 0.020
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+BFD acedrg            311       'dictionary generator'
+BFD 'acedrg_database' 12        'data source'
+BFD rdkit             2019.09.1 'Chemoinformatics tool'
+BFD servalcat         0.4.93    'optimization tool'
+BFD metalCoord        0.1.63    'metal coordination analysis'

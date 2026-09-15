@@ -1,0 +1,554 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+MRC MRC MUPIROCIN NON-POLYMER 78 35 .
+
+data_comp_MRC
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+MRC C1     C1   C C   0  -22.091 8.987  -28.995
+MRC C2     C2   C C1  0  -23.246 8.130  -28.627
+MRC C3     C3   C C   0  -23.366 6.805  -28.439
+MRC C4     C4   C CH2 0  -24.719 6.223  -28.060
+MRC C5     C5   C CH1 0  -25.565 5.759  -29.243
+MRC C6     C6   C CH1 0  -26.793 4.927  -28.836
+MRC C7     C7   C CH1 0  -27.769 4.739  -30.013
+MRC C8     C8   C CH1 0  -28.104 6.041  -30.751
+MRC C9     C9   C CH2 0  -29.118 7.021  -30.095
+MRC C10    C10  C CH1 0  -30.533 6.553  -29.882
+MRC C11    C11  C CH1 0  -31.059 6.041  -28.613
+MRC C12    C12  C CH1 0  -32.195 5.047  -28.494
+MRC C13    C13  C CH1 0  -33.131 5.314  -27.295
+MRC C14    C14  C CH3 0  -34.614 5.154  -27.584
+MRC C15    C15  C CH3 0  -22.243 5.782  -28.545
+MRC C16    C16  C CH2 0  -26.798 6.761  -31.104
+MRC "C1'"  C17  C C   0  -26.225 17.298 -28.209
+MRC O1P    O1   O OC  -1 -25.096 17.541 -27.730
+MRC O1Q    O2   O O   0  -27.184 16.877 -27.527
+MRC "C2'"  C18  C CH2 0  -26.442 17.526 -29.696
+MRC "C3'"  C19  C CH2 0  -26.523 16.255 -30.543
+MRC "C4'"  C20  C CH2 0  -25.183 15.743 -31.102
+MRC "C5'"  C21  C CH2 0  -25.187 14.332 -31.695
+MRC "C6'"  C22  C CH2 0  -23.850 13.592 -31.774
+MRC "C7'"  C23  C CH2 0  -23.371 12.901 -30.497
+MRC "C8'"  C24  C CH2 0  -22.135 12.012 -30.653
+MRC "C9'"  C25  C CH2 0  -21.638 11.354 -29.387
+MRC O1A    O3   O O   0  -22.531 10.266 -29.047
+MRC O1B    O4   O O   0  -20.953 8.645  -29.217
+MRC O5     O5   O O2  0  -25.971 6.957  -29.945
+MRC O7     O6   O OH1 0  -27.260 3.792  -30.965
+MRC O6     O7   O OH1 0  -26.403 3.660  -28.298
+MRC O10    O8   O O2  0  -31.404 7.379  -29.065
+MRC C17    C26  C CH3 0  -31.625 3.606  -28.490
+MRC O13    O9   O OH1 0  -32.947 6.606  -26.686
+MRC H171   H171 H H   0  -24.060 8.598  -28.506
+MRC H1     H1   H H   0  -24.589 5.466  -27.442
+MRC H172   H172 H H   0  -25.237 6.887  -27.550
+MRC H91    H91  H H   0  -24.995 5.210  -29.845
+MRC H2     H2   H H   0  -27.280 5.403  -28.109
+MRC H3     H3   H H   0  -28.604 4.360  -29.653
+MRC H4     H4   H H   0  -28.524 5.770  -31.605
+MRC H5     H5   H H   0  -29.158 7.835  -30.658
+MRC H92    H92  H H   0  -28.744 7.301  -29.222
+MRC H10    H10  H H   0  -30.980 6.201  -30.704
+MRC H11    H11  H H   0  -30.444 6.045  -27.879
+MRC H12    H12  H H   0  -32.749 5.135  -29.315
+MRC H13    H13  H H   0  -32.913 4.664  -26.576
+MRC H141   H141 H H   0  -34.792 4.250  -27.894
+MRC H142   H142 H H   0  -34.883 5.790  -28.269
+MRC H143   H143 H H   0  -35.121 5.321  -26.772
+MRC H151   H151 H H   0  -22.447 5.145  -29.248
+MRC H152   H152 H H   0  -22.153 5.304  -27.706
+MRC H153   H153 H H   0  -21.402 6.207  -28.748
+MRC H161   H161 H H   0  -26.996 7.625  -31.499
+MRC H162   H162 H H   0  -26.312 6.241  -31.765
+MRC "H2'1" H2'1 H H   0  -27.276 18.031 -29.809
+MRC "H2'2" H2'2 H H   0  -25.714 18.093 -30.032
+MRC "H3'1" H3'1 H H   0  -26.927 15.541 -30.001
+MRC "H3'2" H3'2 H H   0  -27.129 16.418 -31.299
+MRC "H4'1" H4'1 H H   0  -24.886 16.367 -31.801
+MRC "H4'2" H4'2 H H   0  -24.513 15.778 -30.383
+MRC "H5'1" H5'1 H H   0  -25.814 13.778 -31.176
+MRC "H5'2" H5'2 H H   0  -25.553 14.389 -32.605
+MRC "H6'1" H6'1 H H   0  -23.157 14.229 -32.057
+MRC "H6'2" H6'2 H H   0  -23.920 12.916 -32.484
+MRC "H7'1" H7'1 H H   0  -24.107 12.353 -30.144
+MRC "H7'2" H7'2 H H   0  -23.178 13.593 -29.827
+MRC "H8'1" H8'1 H H   0  -21.405 12.553 -31.026
+MRC "H8'2" H8'2 H H   0  -22.339 11.307 -31.306
+MRC "H9'1" H9'1 H H   0  -21.629 12.003 -28.653
+MRC "H9'2" H9'2 H H   0  -20.720 11.043 -29.520
+MRC HO7    HO7  H H   0  -27.366 3.008  -30.677
+MRC HO6    HO6  H H   0  -25.949 3.184  -28.830
+MRC H6     H6   H H   0  -31.088 3.457  -27.691
+MRC H7     H7   H H   0  -31.069 3.461  -29.276
+MRC H173   H173 H H   0  -32.356 2.965  -28.502
+MRC HO13   HO13 H H   0  -33.222 6.605  -25.862
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+MRC C1     C(CCH)(OC)(O)
+MRC C2     C(CCC)(COO)(H)
+MRC C3     C(CC[6]HH)(CH3)(CCH)
+MRC C4     C(C[6]C[6]O[6]H)(CCC)(H)2
+MRC C5     C[6](C[6]C[6]HO)(O[6]C[6])(CCHH)(H){1|C<4>,1|O<2>,3|H<1>}
+MRC C6     C[6](C[6]C[6]HO)(C[6]O[6]CH)(OH)(H){1|H<1>,2|C<4>}
+MRC C7     C[6](C[6]C[6]CH)(C[6]C[6]HO)(OH)(H){1|C<4>,1|O<2>,3|H<1>}
+MRC C8     C[6](C[6]C[6]HO)(C[6]O[6]HH)(CC[3]HH)(H){1|C<4>,1|H<1>,1|O<2>}
+MRC C9     C(C[3]C[3]O[3]H)(C[6]C[6]2H)(H)2
+MRC C10    C[3](C[3]O[3]CH)(O[3]C[3])(CC[6]HH)(H)
+MRC C11    C[3](C[3]O[3]CH)(O[3]C[3])(CCCH)(H)
+MRC C12    C(C[3]C[3]O[3]H)(CCHO)(CH3)(H)
+MRC C13    C(CC[3]CH)(CH3)(OH)(H)
+MRC C14    C(CCHO)(H)3
+MRC C15    C(CCC)(H)3
+MRC C16    C[6](C[6]C[6]CH)(O[6]C[6])(H)2{1|O<2>,2|C<4>,2|H<1>}
+MRC "C1'"  C(CCHH)(O)2
+MRC O1P    O(CCO)
+MRC O1Q    O(CCO)
+MRC "C2'"  C(CCHH)(COO)(H)2
+MRC "C3'"  C(CCHH)2(H)2
+MRC "C4'"  C(CCHH)2(H)2
+MRC "C5'"  C(CCHH)2(H)2
+MRC "C6'"  C(CCHH)2(H)2
+MRC "C7'"  C(CCHH)2(H)2
+MRC "C8'"  C(CCHH)(CHHO)(H)2
+MRC "C9'"  C(CCHH)(OC)(H)2
+MRC O1A    O(CCHH)(CCO)
+MRC O1B    O(CCO)
+MRC O5     O[6](C[6]C[6]CH)(C[6]C[6]HH){1|O<2>,2|C<4>,2|H<1>}
+MRC O7     O(C[6]C[6]2H)(H)
+MRC O6     O(C[6]C[6]2H)(H)
+MRC O10    O[3](C[3]C[3]CH)2
+MRC C17    C(CC[3]CH)(H)3
+MRC O13    O(CCCH)(H)
+MRC H171   H(CCC)
+MRC H1     H(CC[6]CH)
+MRC H172   H(CC[6]CH)
+MRC H91    H(C[6]C[6]O[6]C)
+MRC H2     H(C[6]C[6]2O)
+MRC H3     H(C[6]C[6]2O)
+MRC H4     H(C[6]C[6]2C)
+MRC H5     H(CC[3]C[6]H)
+MRC H92    H(CC[3]C[6]H)
+MRC H10    H(C[3]C[3]O[3]C)
+MRC H11    H(C[3]C[3]O[3]C)
+MRC H12    H(CC[3]CC)
+MRC H13    H(CCCO)
+MRC H141   H(CCHH)
+MRC H142   H(CCHH)
+MRC H143   H(CCHH)
+MRC H151   H(CCHH)
+MRC H152   H(CCHH)
+MRC H153   H(CCHH)
+MRC H161   H(C[6]C[6]O[6]H)
+MRC H162   H(C[6]C[6]O[6]H)
+MRC "H2'1" H(CCCH)
+MRC "H2'2" H(CCCH)
+MRC "H3'1" H(CCCH)
+MRC "H3'2" H(CCCH)
+MRC "H4'1" H(CCCH)
+MRC "H4'2" H(CCCH)
+MRC "H5'1" H(CCCH)
+MRC "H5'2" H(CCCH)
+MRC "H6'1" H(CCCH)
+MRC "H6'2" H(CCCH)
+MRC "H7'1" H(CCCH)
+MRC "H7'2" H(CCCH)
+MRC "H8'1" H(CCCH)
+MRC "H8'2" H(CCCH)
+MRC "H9'1" H(CCHO)
+MRC "H9'2" H(CCHO)
+MRC HO7    H(OC[6])
+MRC HO6    H(OC[6])
+MRC H6     H(CCHH)
+MRC H7     H(CCHH)
+MRC H173   H(CCHH)
+MRC HO13   H(OC)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+MRC "C5'" "C6'"  SINGLE n 1.523 0.0122 1.523 0.0122
+MRC "C6'" "C7'"  SINGLE n 1.523 0.0122 1.523 0.0122
+MRC "C7'" "C8'"  SINGLE n 1.526 0.0107 1.526 0.0107
+MRC "C8'" "C9'"  SINGLE n 1.500 0.0200 1.500 0.0200
+MRC "C4'" "C5'"  SINGLE n 1.523 0.0122 1.523 0.0122
+MRC C8    C16    SINGLE n 1.522 0.0100 1.522 0.0100
+MRC C16   O5     SINGLE n 1.429 0.0100 1.429 0.0100
+MRC "C9'" O1A    SINGLE n 1.438 0.0125 1.438 0.0125
+MRC "C3'" "C4'"  SINGLE n 1.521 0.0200 1.521 0.0200
+MRC "C2'" "C3'"  SINGLE n 1.517 0.0200 1.517 0.0200
+MRC C8    C9     SINGLE n 1.534 0.0129 1.534 0.0129
+MRC C7    C8     SINGLE n 1.518 0.0104 1.518 0.0104
+MRC C5    O5     SINGLE n 1.429 0.0144 1.429 0.0144
+MRC C1    O1A    SINGLE n 1.340 0.0132 1.340 0.0132
+MRC C9    C10    SINGLE n 1.498 0.0131 1.498 0.0131
+MRC C10   O10    SINGLE n 1.452 0.0100 1.452 0.0100
+MRC C10   C11    SINGLE n 1.460 0.0100 1.460 0.0100
+MRC C1    O1B    DOUBLE n 1.205 0.0123 1.205 0.0123
+MRC C1    C2     SINGLE n 1.468 0.0163 1.468 0.0163
+MRC C7    O7     SINGLE n 1.433 0.0100 1.433 0.0100
+MRC C2    C3     DOUBLE n 1.331 0.0100 1.331 0.0100
+MRC "C1'" O1Q    DOUBLE n 1.249 0.0161 1.249 0.0161
+MRC C4    C5     SINGLE n 1.520 0.0100 1.520 0.0100
+MRC C5    C6     SINGLE n 1.527 0.0100 1.527 0.0100
+MRC C6    C7     SINGLE n 1.520 0.0137 1.520 0.0137
+MRC "C1'" "C2'"  SINGLE n 1.518 0.0135 1.518 0.0135
+MRC C11   O10    SINGLE n 1.453 0.0100 1.453 0.0100
+MRC C3    C15    SINGLE n 1.497 0.0185 1.497 0.0185
+MRC C3    C4     SINGLE n 1.510 0.0100 1.510 0.0100
+MRC C11   C12    SINGLE n 1.507 0.0100 1.507 0.0100
+MRC "C1'" O1P    SINGLE n 1.249 0.0161 1.249 0.0161
+MRC C12   C17    SINGLE n 1.526 0.0167 1.526 0.0167
+MRC C12   C13    SINGLE n 1.527 0.0114 1.527 0.0114
+MRC C6    O6     SINGLE n 1.426 0.0100 1.426 0.0100
+MRC C13   C14    SINGLE n 1.500 0.0200 1.500 0.0200
+MRC C13   O13    SINGLE n 1.427 0.0184 1.427 0.0184
+MRC C2    H171   SINGLE n 1.085 0.0150 0.943 0.0200
+MRC C4    H1     SINGLE n 1.092 0.0100 0.982 0.0200
+MRC C4    H172   SINGLE n 1.092 0.0100 0.982 0.0200
+MRC C5    H91    SINGLE n 1.092 0.0100 0.993 0.0148
+MRC C6    H2     SINGLE n 1.092 0.0100 0.995 0.0100
+MRC C7    H3     SINGLE n 1.092 0.0100 0.985 0.0100
+MRC C8    H4     SINGLE n 1.092 0.0100 0.989 0.0101
+MRC C9    H5     SINGLE n 1.092 0.0100 0.990 0.0100
+MRC C9    H92    SINGLE n 1.092 0.0100 0.990 0.0100
+MRC C10   H10    SINGLE n 1.092 0.0100 1.000 0.0100
+MRC C11   H11    SINGLE n 1.092 0.0100 0.956 0.0200
+MRC C12   H12    SINGLE n 1.092 0.0100 0.992 0.0178
+MRC C13   H13    SINGLE n 1.092 0.0100 0.992 0.0200
+MRC C14   H141   SINGLE n 1.092 0.0100 0.972 0.0156
+MRC C14   H142   SINGLE n 1.092 0.0100 0.972 0.0156
+MRC C14   H143   SINGLE n 1.092 0.0100 0.972 0.0156
+MRC C15   H151   SINGLE n 1.092 0.0100 0.969 0.0191
+MRC C15   H152   SINGLE n 1.092 0.0100 0.969 0.0191
+MRC C15   H153   SINGLE n 1.092 0.0100 0.969 0.0191
+MRC C16   H161   SINGLE n 1.092 0.0100 0.970 0.0100
+MRC C16   H162   SINGLE n 1.092 0.0100 0.970 0.0100
+MRC "C2'" "H2'1" SINGLE n 1.092 0.0100 0.981 0.0172
+MRC "C2'" "H2'2" SINGLE n 1.092 0.0100 0.981 0.0172
+MRC "C3'" "H3'1" SINGLE n 1.092 0.0100 0.982 0.0161
+MRC "C3'" "H3'2" SINGLE n 1.092 0.0100 0.982 0.0161
+MRC "C4'" "H4'1" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C4'" "H4'2" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C5'" "H5'1" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C5'" "H5'2" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C6'" "H6'1" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C6'" "H6'2" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C7'" "H7'1" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C7'" "H7'2" SINGLE n 1.092 0.0100 0.982 0.0163
+MRC "C8'" "H8'1" SINGLE n 1.092 0.0100 0.982 0.0161
+MRC "C8'" "H8'2" SINGLE n 1.092 0.0100 0.982 0.0161
+MRC "C9'" "H9'1" SINGLE n 1.092 0.0100 0.979 0.0159
+MRC "C9'" "H9'2" SINGLE n 1.092 0.0100 0.979 0.0159
+MRC O7    HO7    SINGLE n 0.972 0.0180 0.840 0.0200
+MRC O6    HO6    SINGLE n 0.972 0.0180 0.840 0.0200
+MRC C17   H6     SINGLE n 1.092 0.0100 0.972 0.0156
+MRC C17   H7     SINGLE n 1.092 0.0100 0.972 0.0156
+MRC C17   H173   SINGLE n 1.092 0.0100 0.972 0.0156
+MRC O13   HO13   SINGLE n 0.972 0.0180 0.864 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+MRC O1A    C1    O1B    123.046 1.50
+MRC O1A    C1    C2     111.099 3.00
+MRC O1B    C1    C2     125.855 3.00
+MRC C1     C2    C3     126.667 2.43
+MRC C1     C2    H171   116.521 1.50
+MRC C3     C2    H171   116.812 3.00
+MRC C2     C3    C15    122.838 3.00
+MRC C2     C3    C4     121.167 3.00
+MRC C15    C3    C4     115.994 1.50
+MRC C5     C4    C3     113.757 1.50
+MRC C5     C4    H1     108.952 1.50
+MRC C5     C4    H172   108.952 1.50
+MRC C3     C4    H1     109.685 1.73
+MRC C3     C4    H172   109.685 1.73
+MRC H1     C4    H172   108.159 3.00
+MRC O5     C5    C4     107.099 3.00
+MRC O5     C5    C6     109.450 2.26
+MRC O5     C5    H91    108.974 1.50
+MRC C4     C5    C6     112.426 1.57
+MRC C4     C5    H91    109.096 1.50
+MRC C6     C5    H91    108.970 1.50
+MRC C5     C6    C7     109.864 2.78
+MRC C5     C6    O6     109.382 3.00
+MRC C5     C6    H2     109.597 1.50
+MRC C7     C6    O6     110.103 3.00
+MRC C7     C6    H2     109.180 1.50
+MRC O6     C6    H2     109.149 2.76
+MRC C8     C7    O7     110.291 3.00
+MRC C8     C7    C6     111.770 1.83
+MRC C8     C7    H3     109.028 1.50
+MRC O7     C7    C6     110.103 3.00
+MRC O7     C7    H3     108.459 1.50
+MRC C6     C7    H3     109.180 1.50
+MRC C16    C8    C9     111.156 3.00
+MRC C16    C8    C7     111.120 2.93
+MRC C16    C8    H4     108.137 1.50
+MRC C9     C8    C7     113.187 3.00
+MRC C9     C8    H4     108.962 2.93
+MRC C7     C8    H4     107.041 1.50
+MRC C8     C9    C10    114.296 3.00
+MRC C8     C9    H5     108.539 1.50
+MRC C8     C9    H92    108.539 1.50
+MRC C10    C9    H5     109.229 1.50
+MRC C10    C9    H92    109.229 1.50
+MRC H5     C9    H92    107.635 1.50
+MRC C9     C10   O10    117.372 2.39
+MRC C9     C10   C11    124.034 3.00
+MRC C9     C10   H10    114.700 1.50
+MRC O10    C10   C11    59.637  1.50
+MRC O10    C10   H10    113.381 1.50
+MRC C11    C10   H10    115.209 2.18
+MRC C10    C11   O10    59.637  1.50
+MRC C10    C11   C12    123.415 1.50
+MRC C10    C11   H11    115.209 2.18
+MRC O10    C11   C12    116.678 3.00
+MRC O10    C11   H11    113.526 3.00
+MRC C12    C11   H11    115.088 1.50
+MRC C11    C12   C17    109.650 1.50
+MRC C11    C12   C13    112.591 3.00
+MRC C11    C12   H12    108.223 1.50
+MRC C17    C12   C13    111.455 2.27
+MRC C17    C12   H12    108.213 1.50
+MRC C13    C12   H12    107.260 1.50
+MRC C12    C13   C14    113.987 1.81
+MRC C12    C13   O13    109.638 3.00
+MRC C12    C13   H13    108.140 1.50
+MRC C14    C13   O13    109.962 3.00
+MRC C14    C13   H13    109.069 3.00
+MRC O13    C13   H13    108.176 3.00
+MRC C13    C14   H141   109.500 1.50
+MRC C13    C14   H142   109.500 1.50
+MRC C13    C14   H143   109.500 1.50
+MRC H141   C14   H142   109.425 1.50
+MRC H141   C14   H143   109.425 1.50
+MRC H142   C14   H143   109.425 1.50
+MRC C3     C15   H151   109.996 1.99
+MRC C3     C15   H152   109.996 1.99
+MRC C3     C15   H153   109.996 1.99
+MRC H151   C15   H152   109.310 2.16
+MRC H151   C15   H153   109.310 2.16
+MRC H152   C15   H153   109.310 2.16
+MRC C8     C16   O5     110.811 1.50
+MRC C8     C16   H161   109.240 1.50
+MRC C8     C16   H162   109.240 1.50
+MRC O5     C16   H161   109.211 1.50
+MRC O5     C16   H162   109.211 1.50
+MRC H161   C16   H162   108.293 1.50
+MRC O1Q    "C1'" "C2'"  118.251 3.00
+MRC O1Q    "C1'" O1P    123.498 1.82
+MRC "C2'"  "C1'" O1P    118.251 3.00
+MRC "C3'"  "C2'" "C1'"  114.806 3.00
+MRC "C3'"  "C2'" "H2'1" 108.817 1.50
+MRC "C3'"  "C2'" "H2'2" 108.817 1.50
+MRC "C1'"  "C2'" "H2'1" 108.472 1.50
+MRC "C1'"  "C2'" "H2'2" 108.472 1.50
+MRC "H2'1" "C2'" "H2'2" 107.541 1.92
+MRC "C4'"  "C3'" "C2'"  112.409 2.83
+MRC "C4'"  "C3'" "H3'1" 108.648 1.50
+MRC "C4'"  "C3'" "H3'2" 108.648 1.50
+MRC "C2'"  "C3'" "H3'1" 109.158 1.50
+MRC "C2'"  "C3'" "H3'2" 109.158 1.50
+MRC "H3'1" "C3'" "H3'2" 107.566 1.82
+MRC "C5'"  "C4'" "C3'"  114.444 3.00
+MRC "C5'"  "C4'" "H4'1" 108.648 1.50
+MRC "C5'"  "C4'" "H4'2" 108.648 1.50
+MRC "C3'"  "C4'" "H4'1" 108.648 1.50
+MRC "C3'"  "C4'" "H4'2" 108.648 1.50
+MRC "H4'1" "C4'" "H4'2" 107.566 1.82
+MRC "C6'"  "C5'" "C4'"  114.444 3.00
+MRC "C6'"  "C5'" "H5'1" 108.648 1.50
+MRC "C6'"  "C5'" "H5'2" 108.648 1.50
+MRC "C4'"  "C5'" "H5'1" 108.648 1.50
+MRC "C4'"  "C5'" "H5'2" 108.648 1.50
+MRC "H5'1" "C5'" "H5'2" 107.566 1.82
+MRC "C5'"  "C6'" "C7'"  114.444 3.00
+MRC "C5'"  "C6'" "H6'1" 108.648 1.50
+MRC "C5'"  "C6'" "H6'2" 108.648 1.50
+MRC "C7'"  "C6'" "H6'1" 108.648 1.50
+MRC "C7'"  "C6'" "H6'2" 108.648 1.50
+MRC "H6'1" "C6'" "H6'2" 107.566 1.82
+MRC "C6'"  "C7'" "C8'"  113.373 3.00
+MRC "C6'"  "C7'" "H7'1" 108.648 1.50
+MRC "C6'"  "C7'" "H7'2" 108.648 1.50
+MRC "C8'"  "C7'" "H7'1" 108.850 1.50
+MRC "C8'"  "C7'" "H7'2" 108.850 1.50
+MRC "H7'1" "C7'" "H7'2" 107.566 1.82
+MRC "C7'"  "C8'" "C9'"  113.343 3.00
+MRC "C7'"  "C8'" "H8'1" 108.918 1.50
+MRC "C7'"  "C8'" "H8'2" 108.918 1.50
+MRC "C9'"  "C8'" "H8'1" 108.875 1.50
+MRC "C9'"  "C8'" "H8'2" 108.875 1.50
+MRC "H8'1" "C8'" "H8'2" 107.780 1.50
+MRC "C8'"  "C9'" O1A    108.845 3.00
+MRC "C8'"  "C9'" "H9'1" 109.893 1.50
+MRC "C8'"  "C9'" "H9'2" 109.893 1.50
+MRC O1A    "C9'" "H9'1" 109.607 2.13
+MRC O1A    "C9'" "H9'2" 109.607 2.13
+MRC "H9'1" "C9'" "H9'2" 108.496 1.95
+MRC "C9'"  O1A   C1     116.860 1.50
+MRC C16    O5    C5     111.855 1.86
+MRC C7     O7    HO7    108.393 3.00
+MRC C6     O6    HO6    109.495 3.00
+MRC C10    O10   C11    60.722  1.50
+MRC C12    C17   H6     110.275 2.21
+MRC C12    C17   H7     110.275 2.21
+MRC C12    C17   H173   110.275 2.21
+MRC H6     C17   H7     109.373 1.50
+MRC H6     C17   H173   109.373 1.50
+MRC H7     C17   H173   109.373 1.50
+MRC C13    O13   HO13   109.126 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+MRC sp2_sp2_3   O1A   C1    C2    C3     180.000  5.0  2
+MRC sp2_sp2_6   O1B   C1    C2    H171   180.000  5.0  2
+MRC sp2_sp2_1   O1B   C1    O1A   "C9'"  180.000  5.0  2
+MRC sp3_sp3_152 C10   C11   C12   C17    180.000  10.0 3
+MRC sp3_sp3_3   C12   C11   O10   C10    180.000  10.0 3
+MRC sp3_sp3_174 C17   C12   C13   O13    180.000  10.0 3
+MRC sp3_sp3_165 C13   C12   C17   H7     180.000  10.0 3
+MRC sp3_sp3_183 C12   C13   C14   H142   -60.000  10.0 3
+MRC sp3_sp3_192 C14   C13   O13   HO13   60.000   10.0 3
+MRC sp3_sp3_8   C8    C16   O5    C5     60.000   10.0 3
+MRC sp2_sp3_3   O1Q   "C1'" "C2'" "H2'2" -120.000 20.0 6
+MRC sp3_sp3_95  "C1'" "C2'" "C3'" "C4'"  180.000  10.0 3
+MRC sp2_sp2_7   C1    C2    C3    C4     180.000  5.0  2
+MRC sp2_sp2_10  H171  C2    C3    C15    180.000  5.0  2
+MRC sp3_sp3_86  "C2'" "C3'" "C4'" "C5'"  180.000  10.0 3
+MRC sp3_sp3_74  "C3'" "C4'" "C5'" "C6'"  180.000  10.0 3
+MRC sp3_sp3_38  "C4'" "C5'" "C6'" "C7'"  180.000  10.0 3
+MRC sp3_sp3_47  "C5'" "C6'" "C7'" "C8'"  180.000  10.0 3
+MRC sp3_sp3_56  "C6'" "C7'" "C8'" "C9'"  180.000  10.0 3
+MRC sp3_sp3_65  "C7'" "C8'" "C9'" O1A    180.000  10.0 3
+MRC sp3_sp3_83  "C8'" "C9'" O1A   C1     180.000  20.0 3
+MRC sp2_sp3_8   C2    C3    C15   H152   120.000  20.0 6
+MRC sp2_sp3_15  C2    C3    C4    H172   -120.000 20.0 6
+MRC sp3_sp3_135 C3    C4    C5    C6     -60.000  10.0 3
+MRC sp3_sp3_6   C4    C5    O5    C16    60.000   10.0 3
+MRC sp3_sp3_148 C4    C5    C6    H2     60.000   10.0 3
+MRC sp3_sp3_180 C7    C6    O6    HO6    60.000   10.0 3
+MRC sp3_sp3_33  O6    C6    C7    O7     180.000  10.0 3
+MRC sp3_sp3_132 C6    C7    O7    HO7    60.000   10.0 3
+MRC sp3_sp3_24  O7    C7    C8    C9     -60.000  10.0 3
+MRC sp3_sp3_12  O5    C16   C8    C9     60.000   10.0 3
+MRC sp3_sp3_104 C16   C8    C9    C10    180.000  10.0 3
+MRC sp3_sp3_113 O10   C10   C9    C8     180.000  10.0 3
+MRC sp3_sp3_123 C9    C10   C11   C12    -60.000  10.0 3
+MRC sp3_sp3_1   C9    C10   O10   C11    60.000   10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+MRC chir_1 C5  O5  C6  C4  positive
+MRC chir_2 C6  O6  C5  C7  negative
+MRC chir_3 C7  O7  C6  C8  negative
+MRC chir_4 C8  C7  C16 C9  positive
+MRC chir_5 C10 O10 C11 C9  positive
+MRC chir_6 C11 O10 C10 C12 positive
+MRC chir_7 C12 C11 C13 C17 positive
+MRC chir_8 C13 O13 C12 C14 positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+MRC plan-1 C1    0.020
+MRC plan-1 C2    0.020
+MRC plan-1 O1A   0.020
+MRC plan-1 O1B   0.020
+MRC plan-2 C1    0.020
+MRC plan-2 C2    0.020
+MRC plan-2 C3    0.020
+MRC plan-2 H171  0.020
+MRC plan-3 C15   0.020
+MRC plan-3 C2    0.020
+MRC plan-3 C3    0.020
+MRC plan-3 C4    0.020
+MRC plan-4 "C1'" 0.020
+MRC plan-4 "C2'" 0.020
+MRC plan-4 O1P   0.020
+MRC plan-4 O1Q   0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+MRC ring-1 C10 NO
+MRC ring-1 C11 NO
+MRC ring-1 O10 NO
+MRC ring-2 C5  NO
+MRC ring-2 C6  NO
+MRC ring-2 C7  NO
+MRC ring-2 C8  NO
+MRC ring-2 C16 NO
+MRC ring-2 O5  NO
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+MRC InChI            InChI                1.06  "InChI=1S/C26H44O9/c1-16(13-23(30)33-11-9-7-5-4-6-8-10-22(28)29)12-20-25(32)24(31)19(15-34-20)14-21-26(35-21)17(2)18(3)27/h13,17-21,24-27,31-32H,4-12,14-15H2,1-3H3,(H,28,29)/b16-13+/t17-,18-,19-,20-,21-,24+,25-,26-/m0/s1"
+MRC InChIKey         InChI                1.06  MINDHVHHQZYEEK-HBBNESRFSA-N
+MRC SMILES_CANONICAL CACTVS               3.385 "C[C@H](O)[C@H](C)[C@@H]1O[C@H]1C[C@H]2CO[C@@H](C/C(C)=C/C(=O)OCCCCCCCCC(O)=O)[C@H](O)[C@@H]2O"
+MRC SMILES           CACTVS               3.385 "C[CH](O)[CH](C)[CH]1O[CH]1C[CH]2CO[CH](CC(C)=CC(=O)OCCCCCCCCC(O)=O)[CH](O)[CH]2O"
+MRC SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C[C@H]([C@H]1[C@@H](O1)C[C@H]2CO[C@H]([C@@H]([C@@H]2O)O)C/C(=C/C(=O)OCCCCCCCCC(=O)O)/C)[C@H](C)O"
+MRC SMILES           "OpenEye OEToolkits" 2.0.7 "CC(C1C(O1)CC2COC(C(C2O)O)CC(=CC(=O)OCCCCCCCCC(=O)O)C)C(C)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+MRC acedrg          285       "dictionary generator"
+MRC acedrg_database 12        "data source"
+MRC rdkit           2019.09.1 "Chemoinformatics tool"
+MRC servalcat       0.4.57    'optimization tool'

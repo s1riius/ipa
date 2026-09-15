@@ -1,0 +1,267 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+NMM NMM "(2S)-2-amino-5-[(N-methylcarbamimidoyl)amino]pentanoic acid" peptide 30 13 .
+
+data_comp_NMM
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+NMM CAA  CAA  C CH3 0  -1.338 -22.685 39.678
+NMM NH2  NH2  N NH1 0  0.111  -22.671 39.724
+NMM CZ   CZ   C C   0  0.916  -21.740 40.268
+NMM NH1  NH1  N NH2 1  0.517  -20.700 40.998
+NMM NE   NE   N NH1 0  2.242  -21.903 40.096
+NMM CD   CD   C CH2 0  2.998  -21.550 38.887
+NMM CG   CG   C CH2 0  4.374  -20.911 39.152
+NMM CB   CB   C CH2 0  4.448  -19.391 39.019
+NMM CA   CA   C CH1 0  5.853  -18.774 38.901
+NMM C    C    C C   0  5.780  -17.372 38.264
+NMM O    O    O O   0  6.113  -17.277 37.061
+NMM OXT  OXT  O OC  -1 5.392  -16.424 38.988
+NMM N    N    N NT3 1  6.548  -18.676 40.217
+NMM HAA1 HAA1 H H   0  -1.684 -21.790 39.810
+NMM HAA2 HAA2 H H   0  -1.679 -23.271 40.372
+NMM HAA3 HAA3 H H   0  -1.630 -23.011 38.812
+NMM HH2  HH2  H H   0  0.525  -23.352 39.359
+NMM HH1  HH1  H H   0  1.113  -20.112 41.286
+NMM HH   HH   H H   0  -0.329 -20.605 41.224
+NMM HE   HE   H H   0  2.675  -22.261 40.763
+NMM HD3  HD3  H H   0  2.453  -20.952 38.334
+NMM HD2  HD2  H H   0  3.147  -22.365 38.364
+NMM HG3  HG3  H H   0  5.022  -21.315 38.534
+NMM HG2  HG2  H H   0  4.661  -21.157 40.059
+NMM HB3  HB3  H H   0  4.008  -18.994 39.801
+NMM HB2  HB2  H H   0  3.932  -19.122 38.228
+NMM HA   HA   H H   0  6.404  -19.351 38.310
+NMM H    H    H H   0  7.368  -18.318 40.097
+NMM H2   H2   H H   0  6.654  -19.487 40.596
+NMM H3   H3   H H   0  6.089  -18.144 40.783
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+NMM CAA  C(NCH)(H)3
+NMM NH2  N(CH3)(CNN)(H)
+NMM CZ   C(NCH)2(NHH)
+NMM NH1  N(CNN)(H)2
+NMM NE   N(CCHH)(CNN)(H)
+NMM CD   C(CCHH)(NCH)(H)2
+NMM CG   C(CCHH)(CHHN)(H)2
+NMM CB   C(CCHH)(CCHN)(H)2
+NMM CA   C(CCHH)(NH3)(COO)(H)
+NMM C    C(CCHN)(O)2
+NMM O    O(CCO)
+NMM OXT  O(CCO)
+NMM N    N(CCCH)(H)3
+NMM HAA1 H(CHHN)
+NMM HAA2 H(CHHN)
+NMM HAA3 H(CHHN)
+NMM HH2  H(NCC)
+NMM HH1  H(NCH)
+NMM HH   H(NCH)
+NMM HE   H(NCC)
+NMM HD3  H(CCHN)
+NMM HD2  H(CCHN)
+NMM HG3  H(CCCH)
+NMM HG2  H(CCCH)
+NMM HB3  H(CCCH)
+NMM HB2  H(CCCH)
+NMM HA   H(CCCN)
+NMM H    H(NCHH)
+NMM H2   H(NCHH)
+NMM H3   H(NCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+NMM CAA NH2  SINGLE n 1.446 0.0100 1.446 0.0100
+NMM NH2 CZ   SINGLE n 1.329 0.0122 1.329 0.0122
+NMM CZ  NH1  DOUBLE n 1.321 0.0134 1.321 0.0134
+NMM CZ  NE   SINGLE n 1.340 0.0150 1.340 0.0150
+NMM NE  CD   SINGLE n 1.467 0.0100 1.467 0.0100
+NMM CD  CG   SINGLE n 1.521 0.0200 1.521 0.0200
+NMM CG  CB   SINGLE n 1.522 0.0100 1.522 0.0100
+NMM CB  CA   SINGLE n 1.533 0.0100 1.533 0.0100
+NMM CA  C    SINGLE n 1.538 0.0113 1.538 0.0113
+NMM CA  N    SINGLE n 1.487 0.0100 1.487 0.0100
+NMM C   O    DOUBLE n 1.251 0.0183 1.251 0.0183
+NMM C   OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+NMM CAA HAA1 SINGLE n 1.092 0.0100 0.970 0.0200
+NMM CAA HAA2 SINGLE n 1.092 0.0100 0.970 0.0200
+NMM CAA HAA3 SINGLE n 1.092 0.0100 0.970 0.0200
+NMM NH2 HH2  SINGLE n 1.013 0.0120 0.875 0.0154
+NMM NH1 HH1  SINGLE n 1.013 0.0120 0.884 0.0200
+NMM NH1 HH   SINGLE n 1.013 0.0120 0.884 0.0200
+NMM NE  HE   SINGLE n 1.013 0.0120 0.871 0.0200
+NMM CD  HD3  SINGLE n 1.092 0.0100 0.979 0.0175
+NMM CD  HD2  SINGLE n 1.092 0.0100 0.979 0.0175
+NMM CG  HG3  SINGLE n 1.092 0.0100 0.982 0.0161
+NMM CG  HG2  SINGLE n 1.092 0.0100 0.982 0.0161
+NMM CB  HB3  SINGLE n 1.092 0.0100 0.981 0.0141
+NMM CB  HB2  SINGLE n 1.092 0.0100 0.981 0.0141
+NMM CA  HA   SINGLE n 1.092 0.0100 0.991 0.0200
+NMM N   H    SINGLE n 1.018 0.0520 0.902 0.0102
+NMM N   H2   SINGLE n 1.018 0.0520 0.902 0.0102
+NMM N   H3   SINGLE n 1.018 0.0520 0.902 0.0102
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+NMM NH2  CAA HAA1 109.469 1.50
+NMM NH2  CAA HAA2 109.469 1.50
+NMM NH2  CAA HAA3 109.469 1.50
+NMM HAA1 CAA HAA2 109.325 3.00
+NMM HAA1 CAA HAA3 109.325 3.00
+NMM HAA2 CAA HAA3 109.325 3.00
+NMM CAA  NH2 CZ   124.648 1.51
+NMM CAA  NH2 HH2  118.362 1.74
+NMM CZ   NH2 HH2  116.991 3.00
+NMM NH2  CZ  NH1  119.728 2.10
+NMM NH2  CZ  NE   119.451 2.68
+NMM NH1  CZ  NE   120.821 2.52
+NMM CZ   NH1 HH1  119.635 1.50
+NMM CZ   NH1 HH   119.635 1.50
+NMM HH1  NH1 HH   120.731 3.00
+NMM CZ   NE  CD   125.309 2.48
+NMM CZ   NE  HE   116.777 2.02
+NMM CD   NE  HE   117.915 2.37
+NMM NE   CD  CG   112.275 3.00
+NMM NE   CD  HD3  109.193 1.50
+NMM NE   CD  HD2  109.193 1.50
+NMM CG   CD  HD3  109.172 2.35
+NMM CG   CD  HD2  109.172 2.35
+NMM HD3  CD  HD2  107.932 1.94
+NMM CD   CG  CB   112.025 3.00
+NMM CD   CG  HG3  108.991 1.50
+NMM CD   CG  HG2  108.991 1.50
+NMM CB   CG  HG3  109.216 1.64
+NMM CB   CG  HG2  109.216 1.64
+NMM HG3  CG  HG2  107.958 2.23
+NMM CG   CB  CA   114.160 3.00
+NMM CG   CB  HB3  108.721 1.50
+NMM CG   CB  HB2  108.721 1.50
+NMM CA   CB  HB3  108.677 1.74
+NMM CA   CB  HB2  108.677 1.74
+NMM HB3  CB  HB2  107.655 1.50
+NMM CB   CA  C    111.059 3.00
+NMM CB   CA  N    110.440 2.46
+NMM CB   CA  HA   109.080 2.33
+NMM C    CA  N    109.258 1.50
+NMM C    CA  HA   108.774 1.79
+NMM N    CA  HA   108.387 1.58
+NMM CA   C   O    117.148 1.60
+NMM CA   C   OXT  117.148 1.60
+NMM O    C   OXT  125.704 1.50
+NMM CA   N   H    109.990 3.00
+NMM CA   N   H2   109.990 3.00
+NMM CA   N   H3   109.990 3.00
+NMM H    N   H2   109.032 3.00
+NMM H    N   H3   109.032 3.00
+NMM H2   N   H3   109.032 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+NMM chi1      N   CA  CB  CG   -60.000 10.0 3
+NMM chi2      CA  CB  CG  CD   180.000 10.0 3
+NMM chi3      CB  CG  CD  NE   60.000  10.0 3
+NMM chi4      CG  CD  NE  CZ   180.000 20.0 6
+NMM chi5      CD  NE  CZ  NH2  0.000   5.0  2
+NMM sp3_sp3_1 CB  CA  N   H    180.000 10.0 3
+NMM sp2_sp2_1 NH2 CZ  NH1 HH1  180.000 5.0  2
+NMM sp2_sp2_2 NE  CZ  NH2 CAA  180.000 5.0  2
+NMM sp2_sp3_1 O   C   CA  CB   0.000   20.0 6
+NMM sp2_sp3_2 CZ  NH2 CAA HAA1 0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+NMM chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+NMM plan-1 CAA 0.020
+NMM plan-1 CZ  0.020
+NMM plan-1 HH2 0.020
+NMM plan-1 NH2 0.020
+NMM plan-2 CZ  0.020
+NMM plan-2 NE  0.020
+NMM plan-2 NH1 0.020
+NMM plan-2 NH2 0.020
+NMM plan-3 CZ  0.020
+NMM plan-3 HH  0.020
+NMM plan-3 HH1 0.020
+NMM plan-3 NH1 0.020
+NMM plan-4 CD  0.020
+NMM plan-4 CZ  0.020
+NMM plan-4 HE  0.020
+NMM plan-4 NE  0.020
+NMM plan-5 C   0.020
+NMM plan-5 CA  0.020
+NMM plan-5 O   0.020
+NMM plan-5 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+NMM SMILES           ACDLabs              10.04 "O=C(O)C(N)CCCNC(=[N@H])NC"
+NMM SMILES_CANONICAL CACTVS               3.341 "CNC(=N)NCCC[C@H](N)C(O)=O"
+NMM SMILES           CACTVS               3.341 "CNC(=N)NCCC[CH](N)C(O)=O"
+NMM SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "[H]/N=C(/NC)\NCCC[C@@H](C(=O)O)N"
+NMM SMILES           "OpenEye OEToolkits" 1.5.0 "[H]N=C(NC)NCCCC(C(=O)O)N"
+NMM InChI            InChI                1.03  "InChI=1S/C7H16N4O2/c1-10-7(9)11-4-2-3-5(8)6(12)13/h5H,2-4,8H2,1H3,(H,12,13)(H3,9,10,11)/t5-/m0/s1"
+NMM InChIKey         InChI                1.03  NTNWOCRCBQPEKQ-YFKPBYRVSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+NMM acedrg          290       "dictionary generator"
+NMM acedrg_database 12        "data source"
+NMM rdkit           2019.09.1 "Chemoinformatics tool"
+NMM servalcat       0.4.57    'optimization tool'

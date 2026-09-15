@@ -1,0 +1,301 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+60F 60F "(2~{R})-2-azanyl-3-[(~{E})-3-(4-hydroxyphenyl)prop-2-enoyl]sulfanyl-propanoic        acid" NON-POLYMER 31 18 .
+
+data_comp_60F
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+60F C1    C1  C C    0  11.465 2.407  -18.999
+60F C2    C2  C C1   0  12.767 1.793  -19.307
+60F C3    C3  C C1   0  12.983 0.769  -20.139
+60F O1    O1  O O    0  10.395 2.020  -19.485
+60F "C1'" C1' C CR6  0  14.243 0.098  -20.496
+60F "C6'" C6' C CR16 0  15.502 0.435  -19.970
+60F "C5'" C5' C CR16 0  16.653 -0.238 -20.347
+60F "C4'" C4' C CR6  0  16.579 -1.280 -21.270
+60F "O4'" O4' O OH1  0  17.683 -1.980 -21.679
+60F "C3'" C3' C CR16 0  15.346 -1.636 -21.807
+60F "C2'" C2' C CR16 0  14.201 -0.957 -21.424
+60F N     N   N NT3  1  13.089 6.354  -17.055
+60F CA    CA  C CH1  0  11.923 6.554  -17.964
+60F CB    CB  C CH2  0  11.647 5.318  -18.810
+60F SG    SG  S S2   0  11.467 3.761  -17.876
+60F C     C   C C    0  10.675 6.934  -17.143
+60F O     O   O O    0  9.901  7.778  -17.648
+60F OXT   O2  O OC   -1 10.516 6.376  -16.031
+60F H1    H1  H H    0  13.499 2.185  -18.856
+60F H10   H10 H H    0  12.207 0.429  -20.558
+60F H3    H3  H H    0  15.571 1.136  -19.345
+60F H4    H4  H H    0  17.484 0.008  -19.980
+60F H5    H5  H H    0  18.413 -1.712 -21.312
+60F H6    H6  H H    0  15.291 -2.339 -22.431
+60F H7    H7  H H    0  13.374 -1.212 -21.798
+60F H     H   H H    0  13.234 7.108  -16.581
+60F H2    H2  H H    0  13.833 6.170  -17.532
+60F H8    H8  H H    0  12.927 5.680  -16.478
+60F HA    HA  H H    0  12.139 7.313  -18.564
+60F H12   H12 H H    0  12.382 5.210  -19.451
+60F H13   H13 H H    0  10.824 5.468  -19.323
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+60F C1    C(CCH)(SC)(O)
+60F C2    C(CC[6a]H)(COS)(H)
+60F C3    C(C[6a]C[6a]2)(CCH)(H)
+60F O1    O(CCS)
+60F "C1'" C[6a](C[6a]C[6a]H)2(CCH){1|C<3>,2|H<1>}
+60F "C6'" C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|O<2>}
+60F "C5'" C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(H){1|H<1>,2|C<3>}
+60F "C4'" C[6a](C[6a]C[6a]H)2(OH){1|C<3>,2|H<1>}
+60F "O4'" O(C[6a]C[6a]2)(H)
+60F "C3'" C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(H){1|H<1>,2|C<3>}
+60F "C2'" C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|O<2>}
+60F N     N(CCCH)(H)3
+60F CA    C(CHHS)(NH3)(COO)(H)
+60F CB    C(CCHN)(SC)(H)2
+60F SG    S(CCHH)(CCO)
+60F C     C(CCHN)(O)2
+60F O     O(CCO)
+60F OXT   O(CCO)
+60F H1    H(CCC)
+60F H10   H(CC[6a]C)
+60F H3    H(C[6a]C[6a]2)
+60F H4    H(C[6a]C[6a]2)
+60F H5    H(OC[6a])
+60F H6    H(C[6a]C[6a]2)
+60F H7    H(C[6a]C[6a]2)
+60F H     H(NCHH)
+60F H2    H(NCHH)
+60F H8    H(NCHH)
+60F HA    H(CCCN)
+60F H12   H(CCHS)
+60F H13   H(CCHS)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+60F N     CA    SINGLE n 1.487 0.0100 1.487 0.0100
+60F C1    O1    DOUBLE n 1.235 0.0161 1.235 0.0161
+60F CA    CB    SINGLE n 1.515 0.0151 1.515 0.0151
+60F CA    C     SINGLE n 1.538 0.0113 1.538 0.0113
+60F CB    SG    SINGLE n 1.824 0.0100 1.824 0.0100
+60F "C3'" "C2'" SINGLE y 1.381 0.0100 1.381 0.0100
+60F "C1'" "C2'" DOUBLE y 1.396 0.0107 1.396 0.0107
+60F C1    C2    SINGLE n 1.462 0.0200 1.462 0.0200
+60F C1    SG    SINGLE n 1.758 0.0200 1.758 0.0200
+60F C2    C3    DOUBLE n 1.328 0.0138 1.328 0.0138
+60F C3    "C1'" SINGLE n 1.464 0.0100 1.464 0.0100
+60F "C4'" "C3'" DOUBLE y 1.387 0.0100 1.387 0.0100
+60F C     O     DOUBLE n 1.251 0.0183 1.251 0.0183
+60F "C1'" "C6'" SINGLE y 1.396 0.0107 1.396 0.0107
+60F "C4'" "O4'" SINGLE n 1.365 0.0137 1.365 0.0137
+60F "C5'" "C4'" SINGLE y 1.387 0.0100 1.387 0.0100
+60F "C6'" "C5'" DOUBLE y 1.381 0.0100 1.381 0.0100
+60F C     OXT   SINGLE n 1.251 0.0183 1.251 0.0183
+60F C2    H1    SINGLE n 1.085 0.0150 0.946 0.0200
+60F C3    H10   SINGLE n 1.085 0.0150 0.944 0.0200
+60F "C6'" H3    SINGLE n 1.085 0.0150 0.942 0.0169
+60F "C5'" H4    SINGLE n 1.085 0.0150 0.941 0.0175
+60F "O4'" H5    SINGLE n 0.966 0.0059 0.858 0.0200
+60F "C3'" H6    SINGLE n 1.085 0.0150 0.941 0.0175
+60F "C2'" H7    SINGLE n 1.085 0.0150 0.942 0.0169
+60F N     H     SINGLE n 1.018 0.0520 0.902 0.0102
+60F N     H2    SINGLE n 1.018 0.0520 0.902 0.0102
+60F N     H8    SINGLE n 1.018 0.0520 0.902 0.0102
+60F CA    HA    SINGLE n 1.092 0.0100 0.991 0.0200
+60F CB    H12   SINGLE n 1.092 0.0100 0.981 0.0174
+60F CB    H13   SINGLE n 1.092 0.0100 0.981 0.0174
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+60F O1    C1    C2    121.119 3.00
+60F O1    C1    SG    120.982 3.00
+60F C2    C1    SG    117.899 3.00
+60F C1    C2    C3    123.957 3.00
+60F C1    C2    H1    116.488 3.00
+60F C3    C2    H1    119.555 3.00
+60F C2    C3    "C1'" 127.790 1.50
+60F C2    C3    H10   116.448 3.00
+60F "C1'" C3    H10   115.762 1.50
+60F "C2'" "C1'" C3    121.180 3.00
+60F "C2'" "C1'" "C6'" 117.641 1.50
+60F C3    "C1'" "C6'" 121.180 3.00
+60F "C1'" "C6'" "C5'" 121.514 1.50
+60F "C1'" "C6'" H3    119.276 1.50
+60F "C5'" "C6'" H3    119.210 1.50
+60F "C4'" "C5'" "C6'" 119.843 1.50
+60F "C4'" "C5'" H4    120.005 1.50
+60F "C6'" "C5'" H4    120.152 1.50
+60F "C3'" "C4'" "O4'" 120.177 3.00
+60F "C3'" "C4'" "C5'" 119.646 1.50
+60F "O4'" "C4'" "C5'" 120.177 3.00
+60F "C4'" "O4'" H5    109.970 3.00
+60F "C2'" "C3'" "C4'" 119.843 1.50
+60F "C2'" "C3'" H6    120.152 1.50
+60F "C4'" "C3'" H6    120.005 1.50
+60F "C3'" "C2'" "C1'" 121.514 1.50
+60F "C3'" "C2'" H7    119.210 1.50
+60F "C1'" "C2'" H7    119.276 1.50
+60F CA    N     H     109.684 2.12
+60F CA    N     H2    109.684 2.12
+60F CA    N     H8    109.684 2.12
+60F H     N     H2    109.032 3.00
+60F H     N     H8    109.032 3.00
+60F H2    N     H8    109.032 3.00
+60F N     CA    CB    109.354 2.20
+60F N     CA    C     109.504 1.50
+60F N     CA    HA    107.886 1.50
+60F CB    CA    C     110.419 3.00
+60F CB    CA    HA    109.209 1.50
+60F C     CA    HA    108.362 1.50
+60F CA    CB    SG    112.610 3.00
+60F CA    CB    H12   108.537 1.50
+60F CA    CB    H13   108.537 1.50
+60F SG    CB    H12   108.423 1.50
+60F SG    CB    H13   108.423 1.50
+60F H12   CB    H13   107.737 1.50
+60F CB    SG    C1    109.471 3.00
+60F CA    C     O     117.126 1.50
+60F CA    C     OXT   117.126 1.50
+60F O     C     OXT   125.747 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+60F chi1            N     CA    CB    SG    -60.000 10.0 3
+60F const_sp2_sp2_1 "C6'" "C1'" "C2'" "C3'" 0.000   0.0  1
+60F sp2_sp2_29      "C2'" "C1'" C3    C2    180.000 5.0  2
+60F const_33        "C2'" "C1'" "C6'" "C5'" 0.000   0.0  1
+60F sp2_sp2_21      SG    C1    C2    C3    180.000 5.0  2
+60F sp2_sp3_7       CB    C1    SG    O1    0.000   20.0 6
+60F const_sp2_sp2_5 "C1'" "C2'" "C3'" "C4'" 0.000   0.0  1
+60F sp2_sp2_25      C1    C2    C3    "C1'" 180.000 5.0  2
+60F const_sp2_sp2_9 "C2'" "C3'" "C4'" "C5'" 0.000   0.0  1
+60F const_13        "C3'" "C4'" "C5'" "C6'" 0.000   0.0  1
+60F sp2_sp2_37      "C3'" "C4'" "O4'" H5    180.000 5.0  2
+60F const_17        "C4'" "C5'" "C6'" "C1'" 0.000   0.0  1
+60F sp3_sp3_1       CB    CA    N     H     180.000 10.0 3
+60F sp3_sp3_19      CA    CB    SG    C1    180.000 10.0 3
+60F sp2_sp3_1       O     C     CA    N     0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+60F chir_1 CA N CB C negative
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+60F plan-1 "C1'" 0.020
+60F plan-1 "C2'" 0.020
+60F plan-1 C3    0.020
+60F plan-1 "C3'" 0.020
+60F plan-1 "C4'" 0.020
+60F plan-1 "C5'" 0.020
+60F plan-1 "C6'" 0.020
+60F plan-1 H3    0.020
+60F plan-1 H4    0.020
+60F plan-1 H6    0.020
+60F plan-1 H7    0.020
+60F plan-1 "O4'" 0.020
+60F plan-2 C1    0.020
+60F plan-2 C2    0.020
+60F plan-2 O1    0.020
+60F plan-2 SG    0.020
+60F plan-3 C1    0.020
+60F plan-3 C2    0.020
+60F plan-3 C3    0.020
+60F plan-3 H1    0.020
+60F plan-4 "C1'" 0.020
+60F plan-4 C2    0.020
+60F plan-4 C3    0.020
+60F plan-4 H10   0.020
+60F plan-5 C     0.020
+60F plan-5 CA    0.020
+60F plan-5 O     0.020
+60F plan-5 OXT   0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+60F ring-1 C1' YES
+60F ring-1 C6' YES
+60F ring-1 C5' YES
+60F ring-1 C4' YES
+60F ring-1 C3' YES
+60F ring-1 C2' YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+60F InChI            InChI                1.03  "InChI=1S/C12H13NO4S/c13-10(12(16)17)7-18-11(15)6-3-8-1-4-9(14)5-2-8/h1-6,10,14H,7,13H2,(H,16,17)/b6-3+/t10-/m0/s1"
+60F InChIKey         InChI                1.03  RIXZOZKLGOTDHO-YVGDHZEHSA-N
+60F SMILES_CANONICAL CACTVS               3.385 "N[C@@H](CSC(=O)/C=C/c1ccc(O)cc1)C(O)=O"
+60F SMILES           CACTVS               3.385 "N[CH](CSC(=O)C=Cc1ccc(O)cc1)C(O)=O"
+60F SMILES_CANONICAL "OpenEye OEToolkits" 2.0.4 "c1cc(ccc1/C=C/C(=O)SC[C@@H](C(=O)O)N)O"
+60F SMILES           "OpenEye OEToolkits" 2.0.4 "c1cc(ccc1C=CC(=O)SCC(C(=O)O)N)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+60F acedrg          285       "dictionary generator"
+60F acedrg_database 12        "data source"
+60F rdkit           2019.09.1 "Chemoinformatics tool"
+60F servalcat       0.4.57    'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+60F peptide H8 H3

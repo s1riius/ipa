@@ -1,0 +1,188 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+IZO IZO "(2S)-2-AMINOHEX-5-YNOIC ACID" peptide 18 9 .
+
+data_comp_IZO
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+IZO N    N    N NT3 1  -1.296 -1.593 -1.060
+IZO CA   CA   C CH1 0  -1.046 -0.440 -0.150
+IZO C    C    C C   0  -1.808 0.793  -0.675
+IZO O    O    O O   0  -2.485 1.439  0.156
+IZO CB   CB   C CH2 0  0.454  -0.147 -0.001
+IZO CG   CG   C CH2 0  0.846  0.626  1.268
+IZO CD   CD   C CSP 0  2.278  0.932  1.307
+IZO CE   CE   C CSP 0  3.430  1.179  1.339
+IZO OXT  OXT  O OC  -1 -1.700 1.067  -1.894
+IZO H    H    H H   0  -0.882 -2.339 -0.766
+IZO H2   H2   H H   0  -1.011 -1.410 -1.897
+IZO H3   H3   H H   0  -2.181 -1.762 -1.094
+IZO HA   HA   H H   0  -1.416 -0.677 0.741
+IZO HB1C HB1C H H   0  0.750  0.364  -0.787
+IZO HB2C HB2C H H   0  0.937  -1.002 -0.010
+IZO HG1C HG1C H H   0  0.612  0.096  2.058
+IZO HG2C HG2C H H   0  0.341  1.465  1.314
+IZO HE   HE   H H   0  4.361  1.379  1.364
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+IZO N    N(CCCH)(H)3
+IZO CA   C(CCHH)(NH3)(COO)(H)
+IZO C    C(CCHN)(O)2
+IZO O    O(CCO)
+IZO CB   C(CCHH)(CCHN)(H)2
+IZO CG   C(CCHH)(CC)(H)2
+IZO CD   C(CCHH)(CH)
+IZO CE   C(CC)(H)
+IZO OXT  O(CCO)
+IZO H    H(NCHH)
+IZO H2   H(NCHH)
+IZO H3   H(NCHH)
+IZO HA   H(CCCN)
+IZO HB1C H(CCCH)
+IZO HB2C H(CCCH)
+IZO HG1C H(CCCH)
+IZO HG2C H(CCCH)
+IZO HE   H(CC)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+IZO N  CA   SINGLE n 1.487 0.0100 1.487 0.0100
+IZO CA C    SINGLE n 1.538 0.0113 1.538 0.0113
+IZO CA CB   SINGLE n 1.529 0.0100 1.529 0.0100
+IZO C  O    DOUBLE n 1.251 0.0183 1.251 0.0183
+IZO C  OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+IZO CB CG   SINGLE n 1.527 0.0200 1.527 0.0200
+IZO CG CD   SINGLE n 1.465 0.0110 1.465 0.0110
+IZO CD CE   TRIPLE n 1.178 0.0132 1.178 0.0132
+IZO N  H    SINGLE n 1.018 0.0520 0.902 0.0102
+IZO N  H2   SINGLE n 1.018 0.0520 0.902 0.0102
+IZO N  H3   SINGLE n 1.018 0.0520 0.902 0.0102
+IZO CA HA   SINGLE n 1.092 0.0100 0.991 0.0200
+IZO CB HB1C SINGLE n 1.092 0.0100 0.982 0.0200
+IZO CB HB2C SINGLE n 1.092 0.0100 0.982 0.0200
+IZO CG HG1C SINGLE n 1.092 0.0100 0.979 0.0200
+IZO CG HG2C SINGLE n 1.092 0.0100 0.979 0.0200
+IZO CE HE   SINGLE n 1.044 0.0220 0.953 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+IZO CA   N  H    109.990 3.00
+IZO CA   N  H2   109.990 3.00
+IZO CA   N  H3   109.990 3.00
+IZO H    N  H2   109.032 3.00
+IZO H    N  H3   109.032 3.00
+IZO H2   N  H3   109.032 3.00
+IZO N    CA C    109.258 1.50
+IZO N    CA CB   110.440 2.46
+IZO N    CA HA   108.387 1.58
+IZO C    CA CB   111.059 3.00
+IZO C    CA HA   108.774 1.79
+IZO CB   CA HA   109.080 2.33
+IZO CA   C  O    117.148 1.60
+IZO CA   C  OXT  117.148 1.60
+IZO O    C  OXT  125.704 1.50
+IZO CA   CB CG   114.106 1.50
+IZO CA   CB HB1C 108.677 1.74
+IZO CA   CB HB2C 108.677 1.74
+IZO CG   CB HB1C 109.052 1.50
+IZO CG   CB HB2C 109.052 1.50
+IZO HB1C CB HB2C 107.655 1.50
+IZO CB   CG CD   112.471 3.00
+IZO CB   CG HG1C 109.168 2.68
+IZO CB   CG HG2C 109.168 2.68
+IZO CD   CG HG1C 108.996 1.50
+IZO CD   CG HG2C 108.996 1.50
+IZO HG1C CG HG2C 107.484 3.00
+IZO CG   CD CE   180.000 3.00
+IZO CD   CE HE   180.000 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+IZO chi1      N  CA CB CG -60.000 10.0 3
+IZO chi2      CA CB CG CD 180.000 10.0 3
+IZO chi3      CB CG CD CE 180.000 20.0 3
+IZO sp3_sp3_1 C  CA N  H  180.000 10.0 3
+IZO sp2_sp3_1 O  C  CA N  0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+IZO chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+IZO plan-1 C   0.020
+IZO plan-1 CA  0.020
+IZO plan-1 O   0.020
+IZO plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+IZO SMILES           ACDLabs              10.04 "O=C(O)C(N)CCC#C"
+IZO SMILES_CANONICAL CACTVS               3.352 "N[C@@H](CCC#C)C(O)=O"
+IZO SMILES           CACTVS               3.352 "N[CH](CCC#C)C(O)=O"
+IZO SMILES_CANONICAL "OpenEye OEToolkits" 1.6.1 "C#CCC[C@@H](C(=O)O)N"
+IZO SMILES           "OpenEye OEToolkits" 1.6.1 "C#CCCC(C(=O)O)N"
+IZO InChI            InChI                1.03  "InChI=1S/C6H9NO2/c1-2-3-4-5(7)6(8)9/h1,5H,3-4,7H2,(H,8,9)/t5-/m0/s1"
+IZO InChIKey         InChI                1.03  SCGJGNWMYSYORS-YFKPBYRVSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+IZO acedrg          326       "dictionary generator"
+IZO acedrg_database 12        "data source"
+IZO rdkit           2023.03.3 "Chemoinformatics tool"
+IZO servalcat       0.4.120   'optimization tool'

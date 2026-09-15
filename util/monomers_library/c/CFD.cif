@@ -1,0 +1,234 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+CFD CFD "(2R,3E,5R)-5-amino-2,4-dimethylhex-3-enal" NON-POLYMER 25 11 .
+
+data_comp_CFD
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+CFD N    N    N N32 0  -2.405 -0.030 1.355
+CFD CA   CA   C CH1 0  -2.054 -0.187 -0.066
+CFD C    C    C C   0  2.655  -0.256 -0.831
+CFD O    O    O O   0  3.320  0.375  -1.683
+CFD CB2  CB2  C CH3 0  -2.243 -1.651 -0.466
+CFD CB1  CB1  C C   0  -0.672 0.350  -0.445
+CFD CG1  CG1  C C1  0  0.392  0.073  0.332
+CFD CG2  CG2  C CH3 0  -0.583 1.164  -1.724
+CFD CD   CD   C CH1 0  1.846  0.567  0.190
+CFD CE   CE   C CH3 0  2.569  0.558  1.535
+CFD OXT  OXT  O OC  -1 2.624  -1.510 -0.776
+CFD H    H    H H   0  -2.201 0.812  1.629
+CFD H2   H2   H H   0  -3.301 -0.137 1.479
+CFD HA   HA   H H   0  -2.737 0.332  -0.553
+CFD HB2  HB2  H H   0  -2.010 -1.765 -1.403
+CFD HB2A HB2A H H   0  -3.171 -1.908 -0.331
+CFD HB2B HB2B H H   0  -1.670 -2.214 0.080
+CFD H1G1 H1G1 H H   0  0.240  -0.530 1.053
+CFD HG2  HG2  H H   0  -1.442 1.197  -2.174
+CFD HG2A HG2A H H   0  0.065  0.761  -2.321
+CFD HG2B HG2B H H   0  -0.303 2.068  -1.514
+CFD HD   HD   H H   0  1.841  1.513  -0.104
+CFD HE   HE   H H   0  2.076  1.103  2.172
+CFD HEA  HEA  H H   0  3.464  0.920  1.423
+CFD HEB  HEB  H H   0  2.626  -0.354 1.865
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+CFD N    N(CCCH)(H)2
+CFD CA   C(CH3)(CCC)(NHH)(H)
+CFD C    C(CCCH)(O)2
+CFD O    O(CCO)
+CFD CB2  C(CCHN)(H)3
+CFD CB1  C(CCHN)(CH3)(CCH)
+CFD CG1  C(CCCH)(CCC)(H)
+CFD CG2  C(CCC)(H)3
+CFD CD   C(CH3)(CCH)(COO)(H)
+CFD CE   C(CCCH)(H)3
+CFD OXT  O(CCO)
+CFD H    H(NCH)
+CFD H2   H(NCH)
+CFD HA   H(CCCN)
+CFD HB2  H(CCHH)
+CFD HB2A H(CCHH)
+CFD HB2B H(CCHH)
+CFD H1G1 H(CCC)
+CFD HG2  H(CCHH)
+CFD HG2A H(CCHH)
+CFD HG2B H(CCHH)
+CFD HD   H(CC3)
+CFD HE   H(CCHH)
+CFD HEA  H(CCHH)
+CFD HEB  H(CCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+CFD N   CA   SINGLE n 1.463 0.0162 1.463 0.0162
+CFD CA  CB2  SINGLE n 1.515 0.0200 1.515 0.0200
+CFD CA  CB1  SINGLE n 1.517 0.0100 1.517 0.0100
+CFD C   CD   SINGLE n 1.538 0.0100 1.538 0.0100
+CFD C   O    DOUBLE n 1.251 0.0189 1.251 0.0189
+CFD CB1 CG1  DOUBLE n 1.330 0.0111 1.330 0.0111
+CFD CB1 CG2  SINGLE n 1.509 0.0100 1.509 0.0100
+CFD CG1 CD   SINGLE n 1.509 0.0200 1.509 0.0200
+CFD CD  CE   SINGLE n 1.523 0.0137 1.523 0.0137
+CFD C   OXT  SINGLE n 1.251 0.0189 1.251 0.0189
+CFD N   H    SINGLE n 1.018 0.0520 0.908 0.0200
+CFD N   H2   SINGLE n 1.018 0.0520 0.908 0.0200
+CFD CA  HA   SINGLE n 1.092 0.0100 0.985 0.0200
+CFD CB2 HB2  SINGLE n 1.092 0.0100 0.972 0.0148
+CFD CB2 HB2A SINGLE n 1.092 0.0100 0.972 0.0148
+CFD CB2 HB2B SINGLE n 1.092 0.0100 0.972 0.0148
+CFD CG1 H1G1 SINGLE n 1.085 0.0150 0.947 0.0200
+CFD CG2 HG2  SINGLE n 1.092 0.0100 0.969 0.0191
+CFD CG2 HG2A SINGLE n 1.092 0.0100 0.969 0.0191
+CFD CG2 HG2B SINGLE n 1.092 0.0100 0.969 0.0191
+CFD CD  HD   SINGLE n 1.092 0.0100 0.991 0.0200
+CFD CE  HE   SINGLE n 1.092 0.0100 0.972 0.0167
+CFD CE  HEA  SINGLE n 1.092 0.0100 0.972 0.0167
+CFD CE  HEB  SINGLE n 1.092 0.0100 0.972 0.0167
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+CFD CA   N   H    109.631 3.00
+CFD CA   N   H2   109.631 3.00
+CFD H    N   H2   108.140 3.00
+CFD N    CA  CB2  108.582 3.00
+CFD N    CA  CB1  112.086 3.00
+CFD N    CA  HA   108.674 3.00
+CFD CB2  CA  CB1  111.339 3.00
+CFD CB2  CA  HA   108.530 2.75
+CFD CB1  CA  HA   107.314 2.02
+CFD CD   C   O    118.029 2.41
+CFD CD   C   OXT  118.029 2.41
+CFD O    C   OXT  123.943 2.39
+CFD CA   CB2 HB2  109.528 1.50
+CFD CA   CB2 HB2A 109.528 1.50
+CFD CA   CB2 HB2B 109.528 1.50
+CFD HB2  CB2 HB2A 109.365 1.60
+CFD HB2  CB2 HB2B 109.365 1.60
+CFD HB2A CB2 HB2B 109.365 1.60
+CFD CA   CB1 CG1  120.944 3.00
+CFD CA   CB1 CG2  116.932 3.00
+CFD CG1  CB1 CG2  122.124 3.00
+CFD CB1  CG1 CD   126.040 1.50
+CFD CB1  CG1 H1G1 116.244 1.50
+CFD CD   CG1 H1G1 117.715 3.00
+CFD CB1  CG2 HG2  109.606 1.50
+CFD CB1  CG2 HG2A 109.606 1.50
+CFD CB1  CG2 HG2B 109.606 1.50
+CFD HG2  CG2 HG2A 109.310 2.16
+CFD HG2  CG2 HG2B 109.310 2.16
+CFD HG2A CG2 HG2B 109.310 2.16
+CFD C    CD  CG1  110.957 3.00
+CFD C    CD  CE   109.088 3.00
+CFD C    CD  HD   108.461 1.50
+CFD CG1  CD  CE   110.509 1.50
+CFD CG1  CD  HD   108.079 2.99
+CFD CE   CD  HD   108.097 3.00
+CFD CD   CE  HE   109.307 1.50
+CFD CD   CE  HEA  109.307 1.50
+CFD CD   CE  HEB  109.307 1.50
+CFD HE   CE  HEA  109.390 1.50
+CFD HE   CE  HEB  109.390 1.50
+CFD HEA  CE  HEB  109.390 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+CFD sp3_sp3_1 CB2 CA  N   H   180.000 10.0 3
+CFD sp3_sp3_2 N   CA  CB2 HB2 180.000 10.0 3
+CFD sp2_sp3_1 CG1 CB1 CA  N   0.000   20.0 6
+CFD sp2_sp3_2 O   C   CD  CG1 0.000   20.0 6
+CFD sp2_sp2_1 CA  CB1 CG1 CD  180.000 5.0  2
+CFD sp2_sp3_3 CA  CB1 CG2 HG2 0.000   20.0 6
+CFD sp2_sp3_4 CB1 CG1 CD  C   0.000   20.0 6
+CFD sp3_sp3_3 C   CD  CE  HE  180.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+CFD chir_1 CA N CB1 CB2 negative
+CFD chir_2 CD C CG1 CE  negative
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+CFD plan-1 C    0.020
+CFD plan-1 CD   0.020
+CFD plan-1 O    0.020
+CFD plan-1 OXT  0.020
+CFD plan-2 CA   0.020
+CFD plan-2 CB1  0.020
+CFD plan-2 CG1  0.020
+CFD plan-2 CG2  0.020
+CFD plan-3 CB1  0.020
+CFD plan-3 CD   0.020
+CFD plan-3 CG1  0.020
+CFD plan-3 H1G1 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+CFD SMILES           ACDLabs              10.04 "O=CC(\C=C(/C)C(N)C)C"
+CFD InChI            InChI                1.06  "InChI=1S/C8H15NO2/c1-5(7(3)9)4-6(2)8(10)11/h4,6-7H,9H2,1-3H3,(H,10,11)/b5-4+/t6-,7-/m1/s1"
+CFD InChIKey         InChI                1.06  LUYKEALMMZKHMP-XIMOZBJHSA-N
+CFD SMILES_CANONICAL CACTVS               3.385 "C[C@@H](N)/C(C)=C/[C@@H](C)C(O)=O"
+CFD SMILES           CACTVS               3.385 "C[CH](N)C(C)=C[CH](C)C(O)=O"
+CFD SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C[C@H](/C=C(\C)/[C@@H](C)N)C(=O)O"
+CFD SMILES           "OpenEye OEToolkits" 2.0.7 "CC(C=C(C)C(C)N)C(=O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+CFD acedrg          314       "dictionary generator"
+CFD acedrg_database 12        "data source"
+CFD rdkit           2023.03.3 "Chemoinformatics tool"
+CFD servalcat       0.4.102   'optimization tool'

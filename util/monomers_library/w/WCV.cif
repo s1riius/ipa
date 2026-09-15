@@ -1,0 +1,419 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+WCV WCV "cyclopropyl[7-({2-[(prop-2-yn-1-yl)amino]pyrimidin-4-yl}amino)-3,4-dihydroquinolin-1(2H)-yl]methanone" NON-POLYMER 47 26 .
+
+data_comp_WCV
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+WCV C23 C1  C CR16 0 4.415  -1.352 0.895
+WCV C25 C2  C CR16 0 -1.055 -0.243 -0.209
+WCV C26 C3  C CR66 0 -2.268 -0.508 0.460
+WCV C10 C4  C CR66 0 -2.273 -0.610 1.859
+WCV C02 C5  C C    0 -3.897 -0.357 -1.484
+WCV C03 C6  C CH1  0 -3.675 1.080  -1.896
+WCV C04 C7  C CH2  0 -4.789 1.955  -2.362
+WCV C05 C8  C CH2  0 -4.236 2.140  -1.009
+WCV C07 C9  C CH2  0 -4.223 -1.935 0.384
+WCV C08 C10 C CH2  0 -4.580 -1.708 1.838
+WCV C09 C11 C CH2  0 -3.552 -0.896 2.601
+WCV C11 C12 C CR16 0 -1.093 -0.356 2.547
+WCV C12 C13 C CR16 0 0.088  -0.067 1.894
+WCV C13 C14 C CR6  0 0.133  -0.057 0.500
+WCV C15 C15 C CR6  0 2.660  0.003  0.075
+WCV C17 C16 C CR6  0 4.877  0.558  -0.275
+WCV C19 C17 C CH2  0 7.232  1.440  -0.637
+WCV C20 C18 C CSP  0 7.903  0.396  -1.426
+WCV C21 C19 C CSP  0 8.440  -0.439 -2.057
+WCV C24 C20 C CR16 0 3.059  -1.157 0.747
+WCV N06 N1  N NH0  0 -3.489 -0.806 -0.246
+WCV N14 N2  N NH1  0 1.327  0.282  -0.178
+WCV N16 N3  N N20  0 3.568  0.818  -0.483
+WCV N18 N4  N NH1  0 5.781  1.451  -0.814
+WCV N22 N5  N N20  0 5.347  -0.521 0.396
+WCV O01 O1  O O    0 -4.537 -1.051 -2.270
+WCV H1  H1  H H    0 4.705  -2.114 1.372
+WCV H2  H2  H H    0 -1.036 -0.220 -1.146
+WCV H3  H3  H H    0 -2.790 1.263  -2.288
+WCV H4  H4  H H    0 -5.675 1.556  -2.441
+WCV H5  H5  H H    0 -4.584 2.630  -3.035
+WCV H6  H6  H H    0 -4.833 1.872  -0.287
+WCV H7  H7  H H    0 -3.688 2.929  -0.839
+WCV H8  H8  H H    0 -5.053 -2.107 -0.109
+WCV H9  H9  H H    0 -3.669 -2.742 0.321
+WCV H10 H10 H H    0 -4.684 -2.581 2.268
+WCV H11 H11 H H    0 -5.444 -1.251 1.875
+WCV H12 H12 H H    0 -3.341 -1.371 3.432
+WCV H13 H13 H H    0 -3.962 -0.045 2.861
+WCV H14 H14 H H    0 -1.096 -0.390 3.488
+WCV H15 H15 H H    0 0.873  0.081  2.393
+WCV H16 H16 H H    0 7.588  2.316  -0.897
+WCV H17 H17 H H    0 7.436  1.308  0.312
+WCV H18 H18 H H    0 8.876  -1.115 -2.567
+WCV H19 H19 H H    0 2.427  -1.755 1.113
+WCV H20 H20 H H    0 1.202  0.735  -0.925
+WCV H21 H21 H H    0 5.470  2.119  -1.300
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+WCV C23 C[6a](C[6a]C[6a]H)(N[6a]C[6a])(H){1|N<2>,2|N<3>}
+WCV C25 C[6a](C[6,6a]C[6,6a]N[6])(C[6a]C[6a]N)(H){1|H<1>,2|C<3>,2|C<4>}
+WCV C26 C[6,6a](C[6,6a]C[6a]C[6])(C[6a]C[6a]H)(N[6]C[6]C){1|C<3>,1|C<4>,1|N<3>,5|H<1>}
+WCV C10 C[6,6a](C[6,6a]C[6a]N[6])(C[6a]C[6a]H)(C[6]C[6]HH){1|C<4>,2|C<3>,4|H<1>}
+WCV C02 C(N[6]C[6,6a]C[6])(C[3]C[3]2H)(O)
+WCV C03 C[3](C[3]C[3]HH)2(CN[6]O)(H)
+WCV C04 C[3](C[3]C[3]CH)(C[3]C[3]HH)(H)2
+WCV C05 C[3](C[3]C[3]CH)(C[3]C[3]HH)(H)2
+WCV C07 C[6](N[6]C[6,6a]C)(C[6]C[6]HH)(H)2{2|C<3>,2|H<1>}
+WCV C08 C[6](C[6]C[6,6a]HH)(C[6]N[6]HH)(H)2{3|C<3>}
+WCV C09 C[6](C[6,6a]C[6,6a]C[6a])(C[6]C[6]HH)(H)2{1|N<3>,2|C<3>,3|H<1>}
+WCV C11 C[6a](C[6,6a]C[6,6a]C[6])(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,2|H<1>,2|N<3>}
+WCV C12 C[6a](C[6a]C[6,6a]H)(C[6a]C[6a]N)(H){1|C<3>,1|C<4>,1|H<1>}
+WCV C13 C[6a](C[6a]C[6,6a]H)(C[6a]C[6a]H)(NC[6a]H){1|C<3>,1|H<1>,1|N<3>}
+WCV C15 C[6a](C[6a]C[6a]H)(N[6a]C[6a])(NC[6a]H){1|H<1>,1|N<2>,1|N<3>}
+WCV C17 C[6a](N[6a]C[6a])2(NCH){1|C<3>,1|H<1>,1|N<3>}
+WCV C19 C(NC[6a]H)(CC)(H)2
+WCV C20 C(CHHN)(CH)
+WCV C21 C(CC)(H)
+WCV C24 C[6a](C[6a]N[6a]H)(C[6a]N[6a]N)(H){1|C<3>}
+WCV N06 N[6](C[6,6a]C[6,6a]C[6a])(C[6]C[6]HH)(CC[3]O){1|C<4>,2|C<3>,3|H<1>}
+WCV N14 N(C[6a]C[6a]N[6a])(C[6a]C[6a]2)(H)
+WCV N16 N[6a](C[6a]C[6a]N)(C[6a]N[6a]N){1|C<3>,1|H<1>}
+WCV N18 N(C[6a]N[6a]2)(CCHH)(H)
+WCV N22 N[6a](C[6a]C[6a]H)(C[6a]N[6a]N){1|C<3>,1|H<1>}
+WCV O01 O(CC[3]N[6])
+WCV H1  H(C[6a]C[6a]N[6a])
+WCV H2  H(C[6a]C[6,6a]C[6a])
+WCV H3  H(C[3]C[3]2C)
+WCV H4  H(C[3]C[3]2H)
+WCV H5  H(C[3]C[3]2H)
+WCV H6  H(C[3]C[3]2H)
+WCV H7  H(C[3]C[3]2H)
+WCV H8  H(C[6]C[6]N[6]H)
+WCV H9  H(C[6]C[6]N[6]H)
+WCV H10 H(C[6]C[6]2H)
+WCV H11 H(C[6]C[6]2H)
+WCV H12 H(C[6]C[6,6a]C[6]H)
+WCV H13 H(C[6]C[6,6a]C[6]H)
+WCV H14 H(C[6a]C[6,6a]C[6a])
+WCV H15 H(C[6a]C[6a]2)
+WCV H16 H(CCHN)
+WCV H17 H(CCHN)
+WCV H18 H(CC)
+WCV H19 H(C[6a]C[6a]2)
+WCV H20 H(NC[6a]2)
+WCV H21 H(NC[6a]C)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+WCV C07 C08 SINGLE n 1.508 0.0200 1.508 0.0200
+WCV C08 C09 SINGLE n 1.510 0.0181 1.510 0.0181
+WCV C02 O01 DOUBLE n 1.222 0.0142 1.222 0.0142
+WCV C07 N06 SINGLE n 1.477 0.0100 1.477 0.0100
+WCV C10 C09 SINGLE n 1.499 0.0154 1.499 0.0154
+WCV C02 N06 SINGLE n 1.364 0.0100 1.364 0.0100
+WCV C02 C03 SINGLE n 1.487 0.0200 1.487 0.0200
+WCV C26 N06 SINGLE n 1.429 0.0100 1.429 0.0100
+WCV C03 C04 SINGLE n 1.489 0.0100 1.489 0.0100
+WCV C04 C05 SINGLE n 1.484 0.0200 1.484 0.0200
+WCV C03 C05 SINGLE n 1.489 0.0100 1.489 0.0100
+WCV C26 C10 SINGLE y 1.398 0.0100 1.398 0.0100
+WCV C10 C11 DOUBLE y 1.391 0.0100 1.391 0.0100
+WCV C25 C26 DOUBLE y 1.395 0.0157 1.395 0.0157
+WCV C11 C12 SINGLE y 1.383 0.0100 1.383 0.0100
+WCV C25 C13 SINGLE y 1.393 0.0140 1.393 0.0140
+WCV C12 C13 DOUBLE y 1.393 0.0123 1.393 0.0123
+WCV C13 N14 SINGLE n 1.409 0.0100 1.409 0.0100
+WCV C15 N14 SINGLE n 1.375 0.0138 1.375 0.0138
+WCV C20 C21 TRIPLE n 1.176 0.0105 1.176 0.0105
+WCV C15 N16 DOUBLE y 1.341 0.0100 1.341 0.0100
+WCV C15 C24 SINGLE y 1.398 0.0108 1.398 0.0108
+WCV C19 C20 SINGLE n 1.471 0.0100 1.471 0.0100
+WCV C17 N16 SINGLE y 1.348 0.0100 1.348 0.0100
+WCV C19 N18 SINGLE n 1.459 0.0100 1.459 0.0100
+WCV C23 C24 DOUBLE y 1.381 0.0102 1.381 0.0102
+WCV C17 N18 SINGLE n 1.360 0.0200 1.360 0.0200
+WCV C17 N22 DOUBLE y 1.346 0.0155 1.346 0.0155
+WCV C23 N22 SINGLE y 1.346 0.0100 1.346 0.0100
+WCV C23 H1  SINGLE n 1.085 0.0150 0.945 0.0100
+WCV C25 H2  SINGLE n 1.085 0.0150 0.938 0.0179
+WCV C03 H3  SINGLE n 1.092 0.0100 0.985 0.0200
+WCV C04 H4  SINGLE n 1.092 0.0100 0.975 0.0200
+WCV C04 H5  SINGLE n 1.092 0.0100 0.975 0.0200
+WCV C05 H6  SINGLE n 1.092 0.0100 0.975 0.0200
+WCV C05 H7  SINGLE n 1.092 0.0100 0.975 0.0200
+WCV C07 H8  SINGLE n 1.092 0.0100 0.981 0.0117
+WCV C07 H9  SINGLE n 1.092 0.0100 0.981 0.0117
+WCV C08 H10 SINGLE n 1.092 0.0100 0.979 0.0103
+WCV C08 H11 SINGLE n 1.092 0.0100 0.979 0.0103
+WCV C09 H12 SINGLE n 1.092 0.0100 0.980 0.0182
+WCV C09 H13 SINGLE n 1.092 0.0100 0.980 0.0182
+WCV C11 H14 SINGLE n 1.085 0.0150 0.942 0.0110
+WCV C12 H15 SINGLE n 1.085 0.0150 0.942 0.0142
+WCV C19 H16 SINGLE n 1.092 0.0100 0.980 0.0104
+WCV C19 H17 SINGLE n 1.092 0.0100 0.980 0.0104
+WCV C21 H18 SINGLE n 1.044 0.0220 0.953 0.0200
+WCV C24 H19 SINGLE n 1.085 0.0150 0.944 0.0100
+WCV N14 H20 SINGLE n 1.013 0.0120 0.879 0.0200
+WCV N18 H21 SINGLE n 1.013 0.0120 0.882 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+WCV C24 C23 N22 124.213 1.50
+WCV C24 C23 H1  117.825 1.50
+WCV N22 C23 H1  117.961 1.50
+WCV C26 C25 C13 119.629 1.50
+WCV C26 C25 H2  120.244 1.50
+WCV C13 C25 H2  120.127 1.50
+WCV N06 C26 C10 118.253 1.50
+WCV N06 C26 C25 121.782 1.78
+WCV C10 C26 C25 119.965 1.62
+WCV C09 C10 C26 118.647 3.00
+WCV C09 C10 C11 122.779 3.00
+WCV C26 C10 C11 118.574 1.50
+WCV O01 C02 N06 120.883 2.38
+WCV O01 C02 C03 120.682 2.87
+WCV N06 C02 C03 118.436 1.50
+WCV C02 C03 C04 118.520 3.00
+WCV C02 C03 C05 118.520 3.00
+WCV C02 C03 H3  116.128 1.50
+WCV C04 C03 C05 58.598  1.50
+WCV C04 C03 H3  117.009 1.50
+WCV C05 C03 H3  117.009 1.50
+WCV C03 C04 C05 60.822  1.50
+WCV C03 C04 H4  117.662 1.50
+WCV C03 C04 H5  117.662 1.50
+WCV C05 C04 H4  117.797 2.46
+WCV C05 C04 H5  117.797 2.46
+WCV H4  C04 H5  114.685 3.00
+WCV C04 C05 C03 60.822  1.50
+WCV C04 C05 H6  117.797 2.46
+WCV C04 C05 H7  117.797 2.46
+WCV C03 C05 H6  117.662 1.50
+WCV C03 C05 H7  117.662 1.50
+WCV H6  C05 H7  114.685 3.00
+WCV C08 C07 N06 111.831 3.00
+WCV C08 C07 H8  109.202 1.50
+WCV C08 C07 H9  109.202 1.50
+WCV N06 C07 H8  109.250 1.50
+WCV N06 C07 H9  109.250 1.50
+WCV H8  C07 H9  108.091 1.50
+WCV C07 C08 C09 111.699 3.00
+WCV C07 C08 H10 109.028 2.26
+WCV C07 C08 H11 109.028 2.26
+WCV C09 C08 H10 109.550 1.50
+WCV C09 C08 H11 109.550 1.50
+WCV H10 C08 H11 108.151 1.50
+WCV C08 C09 C10 111.305 3.00
+WCV C08 C09 H12 109.285 1.66
+WCV C08 C09 H13 109.285 1.66
+WCV C10 C09 H12 109.487 1.50
+WCV C10 C09 H13 109.487 1.50
+WCV H12 C09 H13 107.822 2.06
+WCV C10 C11 C12 122.462 1.50
+WCV C10 C11 H14 118.808 1.50
+WCV C12 C11 H14 118.729 1.50
+WCV C11 C12 C13 120.450 1.50
+WCV C11 C12 H15 119.626 1.50
+WCV C13 C12 H15 119.924 1.50
+WCV C25 C13 C12 118.920 3.00
+WCV C25 C13 N14 122.239 3.00
+WCV C12 C13 N14 118.842 3.00
+WCV N14 C15 N16 117.374 3.00
+WCV N14 C15 C24 120.899 3.00
+WCV N16 C15 C24 121.727 1.50
+WCV N16 C17 N18 117.862 2.10
+WCV N16 C17 N22 124.105 2.05
+WCV N18 C17 N22 118.033 1.60
+WCV C20 C19 N18 113.045 1.61
+WCV C20 C19 H16 109.197 1.50
+WCV C20 C19 H17 109.197 1.50
+WCV N18 C19 H16 108.993 1.50
+WCV N18 C19 H17 108.993 1.50
+WCV H16 C19 H17 107.708 1.50
+WCV C21 C20 C19 180.000 3.00
+WCV C20 C21 H18 180.000 3.00
+WCV C15 C24 C23 117.357 1.50
+WCV C15 C24 H19 121.012 1.50
+WCV C23 C24 H19 121.632 1.50
+WCV C07 N06 C02 119.909 3.00
+WCV C07 N06 C26 116.005 3.00
+WCV C02 N06 C26 124.086 3.00
+WCV C13 N14 C15 127.816 3.00
+WCV C13 N14 H20 116.274 3.00
+WCV C15 N14 H20 115.910 3.00
+WCV C15 N16 C17 117.252 1.50
+WCV C19 N18 C17 122.375 3.00
+WCV C19 N18 H21 117.872 3.00
+WCV C17 N18 H21 119.753 2.89
+WCV C17 N22 C23 115.346 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+WCV const_0   N22 C23 C24 C15 0.000    0.0  1
+WCV const_1   H1  C23 N22 C17 180.000  0.0  1
+WCV const_2   C10 C11 C12 C13 0.000    0.0  1
+WCV const_3   C11 C12 C13 N14 180.000  0.0  1
+WCV sp2_sp2_1 C25 C13 N14 H20 0.000    5.0  2
+WCV const_4   N14 C15 C24 C23 180.000  0.0  1
+WCV sp2_sp2_2 N16 C15 N14 H20 180.000  5.0  2
+WCV const_5   N14 C15 N16 C17 180.000  0.0  1
+WCV const_6   N18 C17 N16 C15 180.000  0.0  1
+WCV sp2_sp2_3 N16 C17 N18 H21 0.000    5.0  2
+WCV const_7   N18 C17 N22 C23 180.000  0.0  1
+WCV sp2_sp3_1 C17 N18 C19 H17 -120.000 20.0 6
+WCV const_8   N14 C13 C25 H2  0.000    0.0  1
+WCV const_9   C13 C25 C26 N06 180.000  0.0  1
+WCV sp2_sp2_4 C10 C26 N06 C02 180.000  5.0  1
+WCV const_10  C09 C10 C26 N06 0.000    0.0  1
+WCV sp2_sp3_2 C26 C10 C09 C08 0.000    20.0 6
+WCV const_11  C09 C10 C11 C12 180.000  0.0  1
+WCV sp2_sp2_5 O01 C02 N06 C07 0.000    5.0  2
+WCV sp2_sp3_3 O01 C02 C03 C04 120.000  20.0 6
+WCV sp3_sp3_1 C02 C03 C04 C05 60.000   10.0 3
+WCV sp3_sp3_2 C02 C03 C05 H6  180.000  10.0 3
+WCV sp2_sp3_4 C02 N06 C07 C08 180.000  20.0 6
+WCV sp3_sp3_3 N06 C07 C08 C09 60.000   10.0 3
+WCV sp3_sp3_4 C07 C08 C09 C10 -60.000  10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+WCV chir_1 C03 C02 C04 C05 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+WCV plan-1 C15 0.020
+WCV plan-1 C17 0.020
+WCV plan-1 C23 0.020
+WCV plan-1 C24 0.020
+WCV plan-1 H1  0.020
+WCV plan-1 H19 0.020
+WCV plan-1 N14 0.020
+WCV plan-1 N16 0.020
+WCV plan-1 N18 0.020
+WCV plan-1 N22 0.020
+WCV plan-2 C09 0.020
+WCV plan-2 C10 0.020
+WCV plan-2 C11 0.020
+WCV plan-2 C12 0.020
+WCV plan-2 C13 0.020
+WCV plan-2 C25 0.020
+WCV plan-2 C26 0.020
+WCV plan-2 H14 0.020
+WCV plan-2 H15 0.020
+WCV plan-2 H2  0.020
+WCV plan-2 N06 0.020
+WCV plan-2 N14 0.020
+WCV plan-3 C02 0.020
+WCV plan-3 C03 0.020
+WCV plan-3 N06 0.020
+WCV plan-3 O01 0.020
+WCV plan-4 C02 0.020
+WCV plan-4 C07 0.020
+WCV plan-4 C26 0.020
+WCV plan-4 N06 0.020
+WCV plan-5 C13 0.020
+WCV plan-5 C15 0.020
+WCV plan-5 H20 0.020
+WCV plan-5 N14 0.020
+WCV plan-6 C17 0.020
+WCV plan-6 C19 0.020
+WCV plan-6 H21 0.020
+WCV plan-6 N18 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+WCV ring-1 C23 YES
+WCV ring-1 C15 YES
+WCV ring-1 C17 YES
+WCV ring-1 C24 YES
+WCV ring-1 N16 YES
+WCV ring-1 N22 YES
+WCV ring-2 C26 NO
+WCV ring-2 C10 NO
+WCV ring-2 C07 NO
+WCV ring-2 C08 NO
+WCV ring-2 C09 NO
+WCV ring-2 N06 NO
+WCV ring-3 C25 YES
+WCV ring-3 C26 YES
+WCV ring-3 C10 YES
+WCV ring-3 C11 YES
+WCV ring-3 C12 YES
+WCV ring-3 C13 YES
+WCV ring-4 C03 NO
+WCV ring-4 C04 NO
+WCV ring-4 C05 NO
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+WCV SMILES           ACDLabs              12.01 "c1nc(NCC#C)nc(c1)Nc2cc3c(cc2)CCCN3C(C4CC4)=O"
+WCV InChI            InChI                1.03  "InChI=1S/C20H21N5O/c1-2-10-21-20-22-11-9-18(24-20)23-16-8-7-14-4-3-12-25(17(14)13-16)19(26)15-5-6-15/h1,7-9,11,13,15H,3-6,10,12H2,(H2,21,22,23,24)"
+WCV InChIKey         InChI                1.03  TYUMRZZIYHHWOL-UHFFFAOYSA-N
+WCV SMILES_CANONICAL CACTVS               3.385 "O=C(C1CC1)N2CCCc3ccc(Nc4ccnc(NCC#C)n4)cc23"
+WCV SMILES           CACTVS               3.385 "O=C(C1CC1)N2CCCc3ccc(Nc4ccnc(NCC#C)n4)cc23"
+WCV SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C#CCNc1nccc(n1)Nc2ccc3c(c2)N(CCC3)C(=O)C4CC4"
+WCV SMILES           "OpenEye OEToolkits" 2.0.7 "C#CCNc1nccc(n1)Nc2ccc3c(c2)N(CCC3)C(=O)C4CC4"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+WCV acedrg          326       "dictionary generator"
+WCV acedrg_database 12        "data source"
+WCV rdkit           2023.03.3 "Chemoinformatics tool"
+WCV servalcat       0.4.120   'optimization tool'

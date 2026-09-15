@@ -1,0 +1,212 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+JMD JMD "4-(2-hydroxyethyl)benzonitrile" NON-POLYMER 20 11 .
+
+data_comp_JMD
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+JMD C10  C1   C CSP  0 -3.604 1.385  0.205
+JMD O01  O1   O OH1  0 2.698  -0.212 1.452
+JMD C02  C2   C CH2  0 2.365  -1.199 0.481
+JMD C03  C3   C CH2  0 1.726  -0.552 -0.730
+JMD C04  C4   C CR6  0 0.317  -0.038 -0.481
+JMD C05  C5   C CR16 0 -0.792 -0.851 -0.695
+JMD C06  C6   C CR16 0 -2.067 -0.395 -0.473
+JMD C07  C7   C CR6  0 -2.268 0.902  -0.029
+JMD C08  C8   C CR16 0 -1.182 1.734  0.191
+JMD C09  C9   C CR16 0 0.097  1.262  -0.036
+JMD N11  N1   N NSP  0 -4.665 1.768  0.390
+JMD H011 H011 H H    0 3.053  -0.596 2.118
+JMD H021 H021 H H    0 1.744  -1.847 0.874
+JMD H022 H022 H H    0 3.176  -1.677 0.210
+JMD H032 H032 H H    0 2.290  0.193  -1.023
+JMD H031 H031 H H    0 1.703  -1.205 -1.460
+JMD H051 H051 H H    0 -0.663 -1.736 -0.998
+JMD H061 H061 H H    0 -2.803 -0.966 -0.625
+JMD H081 H081 H H    0 -1.311 2.617  0.494
+JMD H091 H091 H H    0 0.835  1.830  0.115
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+JMD C10  C(C[6a]C[6a]2)(N)
+JMD O01  O(CCHH)(H)
+JMD C02  C(CC[6a]HH)(OH)(H)2
+JMD C03  C(C[6a]C[6a]2)(CHHO)(H)2
+JMD C04  C[6a](C[6a]C[6a]H)2(CCHH){1|C<3>,2|H<1>}
+JMD C05  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+JMD C06  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+JMD C07  C[6a](C[6a]C[6a]H)2(CN){1|C<3>,2|H<1>}
+JMD C08  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+JMD C09  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+JMD N11  N(CC[6a])
+JMD H011 H(OC)
+JMD H021 H(CCHO)
+JMD H022 H(CCHO)
+JMD H032 H(CC[6a]CH)
+JMD H031 H(CC[6a]CH)
+JMD H051 H(C[6a]C[6a]2)
+JMD H061 H(C[6a]C[6a]2)
+JMD H081 H(C[6a]C[6a]2)
+JMD H091 H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+JMD C10 N11  TRIPLE n 1.143 0.0104 1.143 0.0104
+JMD C05 C06  SINGLE y 1.372 0.0100 1.372 0.0100
+JMD C06 C07  DOUBLE y 1.386 0.0113 1.386 0.0113
+JMD C10 C07  SINGLE n 1.440 0.0107 1.440 0.0107
+JMD C04 C05  DOUBLE y 1.390 0.0116 1.390 0.0116
+JMD C07 C08  SINGLE y 1.386 0.0113 1.386 0.0113
+JMD C04 C09  SINGLE y 1.390 0.0116 1.390 0.0116
+JMD C03 C04  SINGLE n 1.515 0.0135 1.515 0.0135
+JMD C08 C09  DOUBLE y 1.382 0.0100 1.382 0.0100
+JMD O01 C02  SINGLE n 1.424 0.0129 1.424 0.0129
+JMD C02 C03  SINGLE n 1.514 0.0100 1.514 0.0100
+JMD O01 H011 SINGLE n 0.972 0.0180 0.846 0.0200
+JMD C02 H021 SINGLE n 1.092 0.0100 0.980 0.0113
+JMD C02 H022 SINGLE n 1.092 0.0100 0.980 0.0113
+JMD C03 H032 SINGLE n 1.092 0.0100 0.979 0.0139
+JMD C03 H031 SINGLE n 1.092 0.0100 0.979 0.0139
+JMD C05 H051 SINGLE n 1.085 0.0150 0.944 0.0143
+JMD C06 H061 SINGLE n 1.085 0.0150 0.943 0.0163
+JMD C08 H081 SINGLE n 1.085 0.0150 0.943 0.0163
+JMD C09 H091 SINGLE n 1.085 0.0150 0.944 0.0143
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+JMD N11  C10 C07  180.000 3.00
+JMD C02  O01 H011 108.657 3.00
+JMD O01  C02 C03  110.409 3.00
+JMD O01  C02 H021 109.465 1.50
+JMD O01  C02 H022 109.465 1.50
+JMD C03  C02 H021 109.646 1.50
+JMD C03  C02 H022 109.646 1.50
+JMD H021 C02 H022 108.235 1.50
+JMD C04  C03 C02  113.223 3.00
+JMD C04  C03 H032 108.958 1.50
+JMD C04  C03 H031 108.958 1.50
+JMD C02  C03 H032 108.927 1.50
+JMD C02  C03 H031 108.927 1.50
+JMD H032 C03 H031 107.610 1.50
+JMD C05  C04 C09  118.036 1.50
+JMD C05  C04 C03  120.982 1.50
+JMD C09  C04 C03  120.982 1.50
+JMD C06  C05 C04  121.181 1.50
+JMD C06  C05 H051 119.485 1.50
+JMD C04  C05 H051 119.334 1.50
+JMD C05  C06 C07  119.760 1.50
+JMD C05  C06 H061 119.882 1.50
+JMD C07  C06 H061 120.359 1.50
+JMD C06  C07 C10  119.958 1.50
+JMD C06  C07 C08  120.083 1.50
+JMD C10  C07 C08  119.958 1.50
+JMD C07  C08 C09  119.760 1.50
+JMD C07  C08 H081 120.359 1.50
+JMD C09  C08 H081 119.882 1.50
+JMD C04  C09 C08  121.181 1.50
+JMD C04  C09 H091 119.334 1.50
+JMD C08  C09 H091 119.485 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+JMD sp3_sp3_1 C03 C02 O01 H011 180.000 10.0 3
+JMD sp3_sp3_2 O01 C02 C03 C04  180.000 10.0 3
+JMD sp2_sp3_1 C05 C04 C03 C02  -90.000 20.0 6
+JMD const_0   C03 C04 C05 C06  180.000 0.0  1
+JMD const_1   C03 C04 C09 C08  180.000 0.0  1
+JMD const_2   C04 C05 C06 C07  0.000   0.0  1
+JMD const_3   C05 C06 C07 C10  180.000 0.0  1
+JMD const_4   C10 C07 C08 C09  180.000 0.0  1
+JMD const_5   C07 C08 C09 C04  0.000   0.0  1
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+JMD plan-1 C03  0.020
+JMD plan-1 C04  0.020
+JMD plan-1 C05  0.020
+JMD plan-1 C06  0.020
+JMD plan-1 C07  0.020
+JMD plan-1 C08  0.020
+JMD plan-1 C09  0.020
+JMD plan-1 C10  0.020
+JMD plan-1 H051 0.020
+JMD plan-1 H061 0.020
+JMD plan-1 H081 0.020
+JMD plan-1 H091 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+JMD ring-1 C04 YES
+JMD ring-1 C05 YES
+JMD ring-1 C06 YES
+JMD ring-1 C07 YES
+JMD ring-1 C08 YES
+JMD ring-1 C09 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+JMD SMILES           ACDLabs              12.01 "C(c1ccc(CCO)cc1)#N"
+JMD InChI            InChI                1.03  "InChI=1S/C9H9NO/c10-7-9-3-1-8(2-4-9)5-6-11/h1-4,11H,5-6H2"
+JMD InChIKey         InChI                1.03  RBSJBNYPTGMZIH-UHFFFAOYSA-N
+JMD SMILES_CANONICAL CACTVS               3.385 "OCCc1ccc(cc1)C#N"
+JMD SMILES           CACTVS               3.385 "OCCc1ccc(cc1)C#N"
+JMD SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "c1cc(ccc1CCO)C#N"
+JMD SMILES           "OpenEye OEToolkits" 2.0.6 "c1cc(ccc1CCO)C#N"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+JMD acedrg          326       "dictionary generator"
+JMD acedrg_database 12        "data source"
+JMD rdkit           2023.03.3 "Chemoinformatics tool"
+JMD servalcat       0.4.120   'optimization tool'

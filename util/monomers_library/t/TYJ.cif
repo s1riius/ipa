@@ -1,0 +1,275 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+TYJ TYJ 2,5-dihydroxy-N-methyl-L-tyrosine M-peptide 28 16 .
+
+data_comp_TYJ
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+TYJ N    N    N N31  0  -8.390  17.750 31.755
+TYJ CA   CA   C CH1  0  -9.561  17.939 32.636
+TYJ C    C    C C    0  -9.703  16.954 33.822
+TYJ O    O    O O    0  -10.231 15.825 33.653
+TYJ CN   CN   C CH3  0  -7.884  16.421 31.368
+TYJ CB7  CB7  C CH2  0  -10.838 17.935 31.783
+TYJ CG5  CG5  C CR6  0  -10.911 19.035 30.739
+TYJ CD12 CD12 C CR6  0  -11.292 20.353 31.063
+TYJ CD21 CD21 C CR16 0  -10.597 18.747 29.402
+TYJ CE11 CE11 C CR16 0  -11.348 21.338 30.077
+TYJ CE21 CE21 C CR6  0  -10.651 19.722 28.417
+TYJ CZ1  CZ1  C CR6  0  -11.032 21.031 28.761
+TYJ OZ   OZ   O OH1  0  -10.321 19.326 27.145
+TYJ OH1  OH1  O OH1  0  -11.120 22.070 27.873
+TYJ OXT  OXT  O OC   -1 -9.256  17.372 34.914
+TYJ OG1  OG1  O OH1  0  -11.606 20.669 32.358
+TYJ H    H    H H    0  -7.697  18.173 32.177
+TYJ HA   HA   H H    0  -9.487  18.840 33.028
+TYJ HCN1 HCN1 H H    0  -7.147  16.517 30.749
+TYJ HCN2 HCN2 H H    0  -8.587  15.908 30.944
+TYJ HCN3 HCN3 H H    0  -7.570  15.944 32.150
+TYJ HB14 HB14 H H    0  -11.613 18.018 32.382
+TYJ HB26 HB26 H H    0  -10.913 17.062 31.336
+TYJ HD23 HD23 H H    0  -10.340 17.867 29.168
+TYJ HE12 HE12 H H    0  -11.603 22.217 30.302
+TYJ HOZ  HOZ  H H    0  -10.361 19.940 26.555
+TYJ HO1  HO1  H H    0  -10.924 21.871 27.068
+TYJ HG1  HG1  H H    0  -11.827 21.493 32.466
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+TYJ N    N(CCCH)(CH3)(H)
+TYJ CA   C(CC[6a]HH)(COO)(NCH)(H)
+TYJ C    C(CCHN)(O)2
+TYJ O    O(CCO)
+TYJ CN   C(NCH)(H)3
+TYJ CB7  C(C[6a]C[6a]2)(CCHN)(H)2
+TYJ CG5  C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(CCHH){1|C<3>,1|H<1>,1|O<2>}
+TYJ CD12 C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(OH){1|C<3>,1|H<1>,1|O<2>}
+TYJ CD21 C[6a](C[6a]C[6a]C)(C[6a]C[6a]O)(H){1|C<3>,2|O<2>}
+TYJ CE11 C[6a](C[6a]C[6a]O)2(H){1|C<3>,1|C<4>,1|O<2>}
+TYJ CE21 C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(OH){1|C<3>,1|C<4>,1|H<1>}
+TYJ CZ1  C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(OH){1|C<3>,1|H<1>,1|O<2>}
+TYJ OZ   O(C[6a]C[6a]2)(H)
+TYJ OH1  O(C[6a]C[6a]2)(H)
+TYJ OXT  O(CCO)
+TYJ OG1  O(C[6a]C[6a]2)(H)
+TYJ H    H(NCC)
+TYJ HA   H(CCCN)
+TYJ HCN1 H(CHHN)
+TYJ HCN2 H(CHHN)
+TYJ HCN3 H(CHHN)
+TYJ HB14 H(CC[6a]CH)
+TYJ HB26 H(CC[6a]CH)
+TYJ HD23 H(C[6a]C[6a]2)
+TYJ HE12 H(C[6a]C[6a]2)
+TYJ HOZ  H(OC[6a])
+TYJ HO1  H(OC[6a])
+TYJ HG1  H(OC[6a])
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+TYJ N    CA   SINGLE n 1.462 0.0129 1.462 0.0129
+TYJ N    CN   SINGLE n 1.468 0.0100 1.468 0.0100
+TYJ CA   C    SINGLE n 1.541 0.0100 1.541 0.0100
+TYJ CA   CB7  SINGLE n 1.529 0.0100 1.529 0.0100
+TYJ C    O    DOUBLE n 1.251 0.0183 1.251 0.0183
+TYJ CB7  CG5  SINGLE n 1.512 0.0100 1.512 0.0100
+TYJ CG5  CD12 DOUBLE y 1.401 0.0100 1.401 0.0100
+TYJ CG5  CD21 SINGLE y 1.397 0.0101 1.397 0.0101
+TYJ CD12 CE11 SINGLE y 1.387 0.0100 1.387 0.0100
+TYJ CD21 CE21 DOUBLE y 1.383 0.0100 1.383 0.0100
+TYJ CE11 CZ1  DOUBLE y 1.384 0.0100 1.384 0.0100
+TYJ CE21 CZ1  SINGLE y 1.397 0.0100 1.397 0.0100
+TYJ CE21 OZ   SINGLE n 1.370 0.0100 1.370 0.0100
+TYJ CZ1  OH1  SINGLE n 1.367 0.0100 1.367 0.0100
+TYJ C    OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+TYJ CD12 OG1  SINGLE n 1.364 0.0107 1.364 0.0107
+TYJ N    H    SINGLE n 1.018 0.0520 0.908 0.0200
+TYJ CA   HA   SINGLE n 1.092 0.0100 0.985 0.0119
+TYJ CN   HCN1 SINGLE n 1.092 0.0100 0.968 0.0100
+TYJ CN   HCN2 SINGLE n 1.092 0.0100 0.968 0.0100
+TYJ CN   HCN3 SINGLE n 1.092 0.0100 0.968 0.0100
+TYJ CB7  HB14 SINGLE n 1.092 0.0100 0.983 0.0163
+TYJ CB7  HB26 SINGLE n 1.092 0.0100 0.983 0.0163
+TYJ CD21 HD23 SINGLE n 1.085 0.0150 0.945 0.0144
+TYJ CE11 HE12 SINGLE n 1.085 0.0150 0.943 0.0100
+TYJ OZ   HOZ  SINGLE n 0.966 0.0059 0.858 0.0200
+TYJ OH1  HO1  SINGLE n 0.966 0.0059 0.858 0.0200
+TYJ OG1  HG1  SINGLE n 0.966 0.0059 0.858 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+TYJ CA   N    CN   112.451 3.00
+TYJ CA   N    H    107.482 3.00
+TYJ CN   N    H    108.386 3.00
+TYJ N    CA   C    113.481 3.00
+TYJ N    CA   CB7  108.769 1.68
+TYJ N    CA   HA   108.850 1.50
+TYJ C    CA   CB7  109.108 3.00
+TYJ C    CA   HA   108.454 1.67
+TYJ CB7  CA   HA   108.300 1.50
+TYJ CA   C    O    117.306 3.00
+TYJ CA   C    OXT  117.306 3.00
+TYJ O    C    OXT  125.388 1.50
+TYJ N    CN   HCN1 110.041 1.50
+TYJ N    CN   HCN2 110.041 1.50
+TYJ N    CN   HCN3 110.041 1.50
+TYJ HCN1 CN   HCN2 109.325 3.00
+TYJ HCN1 CN   HCN3 109.325 3.00
+TYJ HCN2 CN   HCN3 109.325 3.00
+TYJ CA   CB7  CG5  113.384 2.65
+TYJ CA   CB7  HB14 108.745 1.50
+TYJ CA   CB7  HB26 108.745 1.50
+TYJ CG5  CB7  HB14 108.878 1.50
+TYJ CG5  CB7  HB26 108.878 1.50
+TYJ HB14 CB7  HB26 107.843 2.16
+TYJ CB7  CG5  CD12 120.702 3.00
+TYJ CB7  CG5  CD21 120.869 2.28
+TYJ CD12 CG5  CD21 118.429 1.50
+TYJ CG5  CD12 CE11 120.892 1.50
+TYJ CG5  CD12 OG1  119.294 2.56
+TYJ CE11 CD12 OG1  119.814 3.00
+TYJ CG5  CD21 CE21 121.189 1.50
+TYJ CG5  CD21 HD23 119.032 1.50
+TYJ CE21 CD21 HD23 119.779 1.50
+TYJ CD12 CE11 CZ1  119.807 1.50
+TYJ CD12 CE11 HE12 120.151 1.50
+TYJ CZ1  CE11 HE12 120.042 1.50
+TYJ CD21 CE21 CZ1  119.611 1.50
+TYJ CD21 CE21 OZ   121.862 3.00
+TYJ CZ1  CE21 OZ   118.528 3.00
+TYJ CE11 CZ1  CE21 120.071 1.50
+TYJ CE11 CZ1  OH1  121.013 3.00
+TYJ CE21 CZ1  OH1  118.916 3.00
+TYJ CE21 OZ   HOZ  110.035 3.00
+TYJ CZ1  OH1  HO1  110.035 3.00
+TYJ CD12 OG1  HG1  108.427 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+TYJ sp3_sp3_1 C    CA   N    CN   -60.000 10.0 3
+TYJ sp3_sp3_2 HCN1 CN   N    CA   180.000 10.0 3
+TYJ const_0   CD21 CE21 CZ1  CE11 0.000   0.0  1
+TYJ const_1   OZ   CE21 CZ1  OH1  0.000   0.0  1
+TYJ sp2_sp2_1 CD21 CE21 OZ   HOZ  180.000 5.0  2
+TYJ sp2_sp2_2 CE11 CZ1  OH1  HO1  180.000 5.0  2
+TYJ sp2_sp3_1 O    C    CA   N    0.000   20.0 6
+TYJ sp3_sp3_3 N    CA   CB7  CG5  180.000 10.0 3
+TYJ sp2_sp3_2 CD12 CG5  CB7  CA   -90.000 20.0 6
+TYJ const_2   CE11 CD12 CG5  CD21 0.000   0.0  1
+TYJ const_3   OG1  CD12 CG5  CB7  0.000   0.0  1
+TYJ const_4   CE21 CD21 CG5  CD12 0.000   0.0  1
+TYJ const_5   HD23 CD21 CG5  CB7  0.000   0.0  1
+TYJ sp2_sp2_3 CG5  CD12 OG1  HG1  180.000 5.0  2
+TYJ const_6   CG5  CD12 CE11 CZ1  0.000   0.0  1
+TYJ const_7   OG1  CD12 CE11 HE12 0.000   0.0  1
+TYJ const_8   CG5  CD21 CE21 CZ1  0.000   0.0  1
+TYJ const_9   HD23 CD21 CE21 OZ   0.000   0.0  1
+TYJ const_10  CD12 CE11 CZ1  CE21 0.000   0.0  1
+TYJ const_11  HE12 CE11 CZ1  OH1  0.000   0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+TYJ chir_1 CA N  C  CB7 positive
+TYJ chir_2 N  CA CN H   both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+TYJ plan-1 CB7  0.020
+TYJ plan-1 CD12 0.020
+TYJ plan-1 CD21 0.020
+TYJ plan-1 CE11 0.020
+TYJ plan-1 CE21 0.020
+TYJ plan-1 CG5  0.020
+TYJ plan-1 CZ1  0.020
+TYJ plan-1 HD23 0.020
+TYJ plan-1 HE12 0.020
+TYJ plan-1 OG1  0.020
+TYJ plan-1 OH1  0.020
+TYJ plan-1 OZ   0.020
+TYJ plan-2 C    0.020
+TYJ plan-2 CA   0.020
+TYJ plan-2 O    0.020
+TYJ plan-2 OXT  0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+TYJ ring-1 CG5  YES
+TYJ ring-1 CD12 YES
+TYJ ring-1 CD21 YES
+TYJ ring-1 CE11 YES
+TYJ ring-1 CE21 YES
+TYJ ring-1 CZ1  YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+TYJ SMILES           ACDLabs              12.01 "O=C(O)C(NC)Cc1c(O)cc(O)c(O)c1"
+TYJ SMILES_CANONICAL CACTVS               3.370 "CN[C@@H](Cc1cc(O)c(O)cc1O)C(O)=O"
+TYJ SMILES           CACTVS               3.370 "CN[CH](Cc1cc(O)c(O)cc1O)C(O)=O"
+TYJ SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "CN[C@@H](Cc1cc(c(cc1O)O)O)C(=O)O"
+TYJ SMILES           "OpenEye OEToolkits" 1.7.0 "CNC(Cc1cc(c(cc1O)O)O)C(=O)O"
+TYJ InChI            InChI                1.03  "InChI=1S/C10H13NO5/c1-11-6(10(15)16)2-5-3-8(13)9(14)4-7(5)12/h3-4,6,11-14H,2H2,1H3,(H,15,16)/t6-/m0/s1"
+TYJ InChIKey         InChI                1.03  ZAUUPGAGAXIMDO-LURJTMIESA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+TYJ acedrg          290       "dictionary generator"
+TYJ acedrg_database 12        "data source"
+TYJ rdkit           2019.09.1 "Chemoinformatics tool"
+TYJ servalcat       0.4.57    'optimization tool'

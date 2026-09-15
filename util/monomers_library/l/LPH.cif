@@ -1,0 +1,179 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+LPH LPH L-Propargylglycine NON-POLYMER 15 8 .
+
+data_comp_LPH
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+LPH CD  CD  C CSP 0  2.991  -0.633 0.404
+LPH CG  CG  C CSP 0  1.944  -0.434 -0.099
+LPH CB  CB  C CH2 0  0.642  -0.186 -0.725
+LPH CA  CA  C CH1 0  -0.508 -0.182 0.302
+LPH N   N   N NT3 1  -1.835 -0.325 -0.363
+LPH C   C   C C   0  -0.499 1.093  1.158
+LPH OXT OXT O OC  -1 -0.078 0.987  2.332
+LPH O   O   O O   0  -0.912 2.151  0.626
+LPH H1  H1  H H   0  3.837  -0.794 0.811
+LPH H4  H4  H H   0  0.665  0.678  -1.195
+LPH H3  H3  H H   0  0.471  -0.876 -1.406
+LPH HA  HA  H H   0  -0.380 -0.962 0.900
+LPH H   H   H H   0  -1.871 -1.078 -0.860
+LPH H2  H2  H H   0  -2.007 0.385  -0.892
+LPH H5  H5  H H   0  -2.481 -0.373 0.265
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+LPH CD  C(CC)(H)
+LPH CG  C(CCHH)(CH)
+LPH CB  C(CCHN)(CC)(H)2
+LPH CA  C(CCHH)(NH3)(COO)(H)
+LPH N   N(CCCH)(H)3
+LPH C   C(CCHN)(O)2
+LPH OXT O(CCO)
+LPH O   O(CCO)
+LPH H1  H(CC)
+LPH H4  H(CCCH)
+LPH H3  H(CCCH)
+LPH HA  H(CCCN)
+LPH H   H(NCHH)
+LPH H2  H(NCHH)
+LPH H5  H(NCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+LPH CA N   SINGLE n 1.488 0.0100 1.488 0.0100
+LPH C  O   DOUBLE n 1.251 0.0183 1.251 0.0183
+LPH CA C   SINGLE n 1.533 0.0111 1.533 0.0111
+LPH CB CA  SINGLE n 1.539 0.0100 1.539 0.0100
+LPH C  OXT SINGLE n 1.251 0.0183 1.251 0.0183
+LPH CD CG  TRIPLE n 1.178 0.0132 1.178 0.0132
+LPH CG CB  SINGLE n 1.466 0.0100 1.466 0.0100
+LPH CD H1  SINGLE n 1.044 0.0220 0.953 0.0200
+LPH CB H4  SINGLE n 1.092 0.0100 0.984 0.0200
+LPH CB H3  SINGLE n 1.092 0.0100 0.984 0.0200
+LPH CA HA  SINGLE n 1.092 0.0100 0.990 0.0200
+LPH N  H   SINGLE n 1.018 0.0520 0.902 0.0102
+LPH N  H2  SINGLE n 1.018 0.0520 0.902 0.0102
+LPH N  H5  SINGLE n 1.018 0.0520 0.902 0.0102
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+LPH CG CD H1  180.000 3.00
+LPH CD CG CB  180.000 3.00
+LPH CA CB CG  111.981 1.50
+LPH CA CB H4  109.317 1.50
+LPH CA CB H3  109.317 1.50
+LPH CG CB H4  109.031 2.15
+LPH CG CB H3  109.031 2.15
+LPH H4 CB H3  106.255 3.00
+LPH N  CA C   109.258 1.50
+LPH N  CA CB  110.738 1.50
+LPH N  CA HA  108.387 1.58
+LPH C  CA CB  111.864 2.07
+LPH C  CA HA  108.774 1.79
+LPH CB CA HA  107.978 1.53
+LPH CA N  H   109.990 3.00
+LPH CA N  H2  109.990 3.00
+LPH CA N  H5  109.990 3.00
+LPH H  N  H2  109.032 3.00
+LPH H  N  H5  109.032 3.00
+LPH H2 N  H5  109.032 3.00
+LPH O  C  CA  117.148 1.60
+LPH O  C  OXT 125.704 1.50
+LPH CA C  OXT 117.148 1.60
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+LPH chi1      N  CA CB CG -60.000 10.0 3
+LPH chi2      CA CB CG CD 180.000 20.0 3
+LPH sp3_sp3_1 C  CA N  H  180.000 10.0 3
+LPH sp2_sp3_1 O  C  CA N  0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+LPH chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+LPH plan-1 C   0.020
+LPH plan-1 CA  0.020
+LPH plan-1 O   0.020
+LPH plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+LPH SMILES           ACDLabs              12.01 "O=C(O)C(N)CC#C"
+LPH InChI            InChI                1.03  "InChI=1S/C5H7NO2/c1-2-3-4(6)5(7)8/h1,4H,3,6H2,(H,7,8)/t4-/m0/s1"
+LPH InChIKey         InChI                1.03  DGYHPLMPMRKMPD-BYPYZUCNSA-N
+LPH SMILES_CANONICAL CACTVS               3.385 "N[C@@H](CC#C)C(O)=O"
+LPH SMILES           CACTVS               3.385 "N[CH](CC#C)C(O)=O"
+LPH SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "C#CC[C@@H](C(=O)O)N"
+LPH SMILES           "OpenEye OEToolkits" 1.9.2 "C#CCC(C(=O)O)N"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+LPH acedrg          326       "dictionary generator"
+LPH acedrg_database 12        "data source"
+LPH rdkit           2023.03.3 "Chemoinformatics tool"
+LPH servalcat       0.4.120   'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+LPH peptide H5 H3

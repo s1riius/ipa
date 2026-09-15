@@ -1,0 +1,200 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+ECX ECX S-ethyl-L-cysteine peptide 20 9 .
+
+data_comp_ECX
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ECX C   C   C C   0  11.251 17.277 13.755
+ECX N   N   N NT3 1  9.724  16.391 12.008
+ECX O   O   O O   0  12.090 16.878 14.593
+ECX CA  CA  C CH1 0  11.148 16.480 12.439
+ECX CB  CB  C CH2 0  12.024 17.115 11.361
+ECX SC  SC  S S2  0  11.490 18.733 10.745
+ECX CD  CD  C CH2 0  12.758 19.103 9.504
+ECX CE  CE  C CH3 0  12.552 20.470 8.895
+ECX OXT OXT O OC  -1 10.493 18.265 13.898
+ECX H   H   H H   0  9.653  15.913 11.245
+ECX H2  H2  H H   0  9.382  17.216 11.879
+ECX H3  H3  H H   0  9.241  15.978 12.648
+ECX HA  HA  H H   0  11.468 15.558 12.612
+ECX HB2 HB2 H H   0  12.067 16.501 10.598
+ECX HB3 HB3 H H   0  12.932 17.209 11.715
+ECX HD  HD  H H   0  12.725 18.418 8.792
+ECX HDA HDA H H   0  13.649 19.064 9.929
+ECX HE  HE  H H   0  13.249 20.640 8.235
+ECX HEA HEA H H   0  12.594 21.148 9.596
+ECX HEB HEB H H   0  11.678 20.504 8.462
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+ECX C   C(CCHN)(O)2
+ECX N   N(CCCH)(H)3
+ECX O   O(CCO)
+ECX CA  C(CHHS)(NH3)(COO)(H)
+ECX CB  C(CCHN)(SC)(H)2
+ECX SC  S(CCHH)2
+ECX CD  C(CH3)(SC)(H)2
+ECX CE  C(CHHS)(H)3
+ECX OXT O(CCO)
+ECX H   H(NCHH)
+ECX H2  H(NCHH)
+ECX H3  H(NCHH)
+ECX HA  H(CCCN)
+ECX HB2 H(CCHS)
+ECX HB3 H(CCHS)
+ECX HD  H(CCHS)
+ECX HDA H(CCHS)
+ECX HE  H(CCHH)
+ECX HEA H(CCHH)
+ECX HEB H(CCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ECX C  O   DOUBLE n 1.251 0.0183 1.251 0.0183
+ECX C  CA  SINGLE n 1.538 0.0113 1.538 0.0113
+ECX C  OXT SINGLE n 1.251 0.0183 1.251 0.0183
+ECX N  CA  SINGLE n 1.487 0.0100 1.487 0.0100
+ECX CA CB  SINGLE n 1.524 0.0100 1.524 0.0100
+ECX CB SC  SINGLE n 1.811 0.0138 1.811 0.0138
+ECX SC CD  SINGLE n 1.812 0.0139 1.812 0.0139
+ECX CD CE  SINGLE n 1.510 0.0100 1.510 0.0100
+ECX N  H   SINGLE n 1.018 0.0520 0.902 0.0102
+ECX N  H2  SINGLE n 1.018 0.0520 0.902 0.0102
+ECX N  H3  SINGLE n 1.018 0.0520 0.902 0.0102
+ECX CA HA  SINGLE n 1.092 0.0100 0.991 0.0200
+ECX CB HB2 SINGLE n 1.092 0.0100 0.980 0.0104
+ECX CB HB3 SINGLE n 1.092 0.0100 0.980 0.0104
+ECX CD HD  SINGLE n 1.092 0.0100 0.988 0.0100
+ECX CD HDA SINGLE n 1.092 0.0100 0.988 0.0100
+ECX CE HE  SINGLE n 1.092 0.0100 0.976 0.0140
+ECX CE HEA SINGLE n 1.092 0.0100 0.976 0.0140
+ECX CE HEB SINGLE n 1.092 0.0100 0.976 0.0140
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ECX O   C  CA  117.126 1.50
+ECX O   C  OXT 125.747 1.50
+ECX CA  C  OXT 117.126 1.50
+ECX CA  N  H   109.684 2.12
+ECX CA  N  H2  109.684 2.12
+ECX CA  N  H3  109.684 2.12
+ECX H   N  H2  109.032 3.00
+ECX H   N  H3  109.032 3.00
+ECX H2  N  H3  109.032 3.00
+ECX C   CA N   109.504 1.50
+ECX C   CA CB  110.419 3.00
+ECX C   CA HA  108.362 1.50
+ECX N   CA CB  109.354 2.20
+ECX N   CA HA  107.886 1.50
+ECX CB  CA HA  109.209 1.50
+ECX CA  CB SC  115.917 1.50
+ECX CA  CB HB2 108.537 1.50
+ECX CA  CB HB3 108.537 1.50
+ECX SC  CB HB2 108.158 1.50
+ECX SC  CB HB3 108.158 1.50
+ECX HB2 CB HB3 107.737 1.50
+ECX CB  SC CD  102.047 3.00
+ECX SC  CD CE  111.399 3.00
+ECX SC  CD HD  109.167 1.50
+ECX SC  CD HDA 109.167 1.50
+ECX CE  CD HD  109.399 1.50
+ECX CE  CD HDA 109.399 1.50
+ECX HD  CD HDA 108.192 2.42
+ECX CD  CE HE  109.479 1.50
+ECX CD  CE HEA 109.479 1.50
+ECX CD  CE HEB 109.479 1.50
+ECX HE  CE HEA 109.433 2.27
+ECX HE  CE HEB 109.433 2.27
+ECX HEA CE HEB 109.433 2.27
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ECX hh1       N  CA CB HB3 180.000 10.0 3
+ECX sp3_sp3_1 C  CA N  H   180.000 10.0 3
+ECX sp3_sp3_2 CA CB SC CD  180.000 10.0 3
+ECX sp3_sp3_3 SC CD CE HE  180.000 10.0 3
+ECX sp3_sp3_4 CE CD SC CB  180.000 10.0 3
+ECX sp2_sp3_1 O  C  CA N   0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ECX chir_1 CA N CB C negative
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ECX plan-1 C   0.020
+ECX plan-1 CA  0.020
+ECX plan-1 O   0.020
+ECX plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+ECX SMILES           ACDLabs              11.02 "O=C(O)C(N)CSCC"
+ECX SMILES_CANONICAL CACTVS               3.352 "CCSC[C@H](N)C(O)=O"
+ECX SMILES           CACTVS               3.352 "CCSC[CH](N)C(O)=O"
+ECX SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "CCSC[C@@H](C(=O)O)N"
+ECX SMILES           "OpenEye OEToolkits" 1.7.0 "CCSCC(C(=O)O)N"
+ECX InChI            InChI                1.03  "InChI=1S/C5H11NO2S/c1-2-9-3-4(6)5(7)8/h4H,2-3,6H2,1H3,(H,7,8)/t4-/m0/s1"
+ECX InChIKey         InChI                1.03  ULXKXLZEOGLCRJ-BYPYZUCNSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+ECX acedrg          290       "dictionary generator"
+ECX acedrg_database 12        "data source"
+ECX rdkit           2019.09.1 "Chemoinformatics tool"
+ECX servalcat       0.4.57    'optimization tool'

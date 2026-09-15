@@ -1,0 +1,204 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+PFX PFX "2-[2-(2-azanylethoxy)ethoxy]ethanoic        acid" NON-POLYMER 23 11 .
+
+data_comp_PFX
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+PFX N   NH  N N32 0  -3.947  11.619 -10.119
+PFX CA  C1  C CH2 0  -4.070  10.406 -9.303
+PFX C2  C2  C CH2 0  -5.309  10.424 -8.445
+PFX O3  O3  O O2  0  -5.266  9.326  -7.535
+PFX C4  C4  C CH2 0  -6.413  9.238  -6.702
+PFX C5  C5  C CH2 0  -6.279  8.065  -5.778
+PFX O6  O6  O O2  0  -7.392  8.013  -4.891
+PFX C7  C7  C CH2 0  -8.524  7.308  -5.375
+PFX C   C   C C   0  -9.686  7.416  -4.410
+PFX O   O   O O   0  -10.804 7.717  -4.880
+PFX OXT OXT O OC  -1 -9.447  7.196  -3.204
+PFX H2  H2  H H   0  -3.268  11.544 -10.674
+PFX H   H   H H   0  -4.678  11.741 -10.595
+PFX HA1 HA1 H H   0  -3.278  10.324 -8.728
+PFX HA2 HA2 H H   0  -4.099  9.623  -9.897
+PFX H5  H5  H H   0  -6.108  10.357 -9.014
+PFX H6  H6  H H   0  -5.354  11.270 -7.946
+PFX H7  H7  H H   0  -7.217  9.133  -7.257
+PFX H8  H8  H H   0  -6.505  10.064 -6.177
+PFX H9  H9  H H   0  -5.449  8.149  -5.258
+PFX H10 H10 H H   0  -6.226  7.235  -6.302
+PFX H11 H11 H H   0  -8.299  6.364  -5.497
+PFX H12 H12 H H   0  -8.794  7.668  -6.244
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+PFX N   N(CCHH)(H)2
+PFX CA  C(CHHO)(NHH)(H)2
+PFX C2  C(CHHN)(OC)(H)2
+PFX O3  O(CCHH)2
+PFX C4  C(CHHO)(OC)(H)2
+PFX C5  C(CHHO)(OC)(H)2
+PFX O6  O(CCHH)2
+PFX C7  C(COO)(OC)(H)2
+PFX C   C(CHHO)(O)2
+PFX O   O(CCO)
+PFX OXT O(CCO)
+PFX H2  H(NCH)
+PFX H   H(NCH)
+PFX HA1 H(CCHN)
+PFX HA2 H(CCHN)
+PFX H5  H(CCHO)
+PFX H6  H(CCHO)
+PFX H7  H(CCHO)
+PFX H8  H(CCHO)
+PFX H9  H(CCHO)
+PFX H10 H(CCHO)
+PFX H11 H(CCHO)
+PFX H12 H(CCHO)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+PFX N  CA  SINGLE n 1.467 0.0200 1.467 0.0200
+PFX CA C2  SINGLE n 1.507 0.0116 1.507 0.0116
+PFX C2 O3  SINGLE n 1.427 0.0107 1.427 0.0107
+PFX O3 C4  SINGLE n 1.419 0.0100 1.419 0.0100
+PFX C4 C5  SINGLE n 1.499 0.0100 1.499 0.0100
+PFX O6 C7  SINGLE n 1.414 0.0200 1.414 0.0200
+PFX C7 C   SINGLE n 1.514 0.0100 1.514 0.0100
+PFX C5 O6  SINGLE n 1.423 0.0107 1.423 0.0107
+PFX C  O   DOUBLE n 1.249 0.0161 1.249 0.0161
+PFX C  OXT SINGLE n 1.249 0.0161 1.249 0.0161
+PFX N  H2  SINGLE n 1.018 0.0520 0.881 0.0200
+PFX N  H   SINGLE n 1.018 0.0520 0.881 0.0200
+PFX CA HA1 SINGLE n 1.092 0.0100 0.983 0.0200
+PFX CA HA2 SINGLE n 1.092 0.0100 0.983 0.0200
+PFX C2 H5  SINGLE n 1.092 0.0100 0.983 0.0114
+PFX C2 H6  SINGLE n 1.092 0.0100 0.983 0.0114
+PFX C4 H7  SINGLE n 1.092 0.0100 0.983 0.0114
+PFX C4 H8  SINGLE n 1.092 0.0100 0.983 0.0114
+PFX C5 H9  SINGLE n 1.092 0.0100 0.983 0.0114
+PFX C5 H10 SINGLE n 1.092 0.0100 0.983 0.0114
+PFX C7 H11 SINGLE n 1.092 0.0100 0.978 0.0200
+PFX C7 H12 SINGLE n 1.092 0.0100 0.978 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+PFX CA  N  H2  110.167 3.00
+PFX CA  N  H   110.167 3.00
+PFX H2  N  H   108.079 3.00
+PFX N   CA C2  111.845 3.00
+PFX N   CA HA1 108.845 2.88
+PFX N   CA HA2 108.845 2.88
+PFX C2  CA HA1 109.243 1.50
+PFX C2  CA HA2 109.243 1.50
+PFX HA1 CA HA2 108.003 1.50
+PFX CA  C2 O3  109.146 3.00
+PFX CA  C2 H5  109.671 2.16
+PFX CA  C2 H6  109.671 2.16
+PFX O3  C2 H5  109.845 1.50
+PFX O3  C2 H6  109.845 1.50
+PFX H5  C2 H6  108.300 2.14
+PFX C2  O3 C4  112.979 2.89
+PFX O3  C4 C5  109.770 3.00
+PFX O3  C4 H7  109.645 1.50
+PFX O3  C4 H8  109.645 1.50
+PFX C5  C4 H7  109.687 1.50
+PFX C5  C4 H8  109.687 1.50
+PFX H7  C4 H8  108.266 1.87
+PFX C4  C5 O6  109.770 3.00
+PFX C4  C5 H9  109.687 1.50
+PFX C4  C5 H10 109.687 1.50
+PFX O6  C5 H9  109.645 1.50
+PFX O6  C5 H10 109.645 1.50
+PFX H9  C5 H10 108.266 1.87
+PFX C7  O6 C5  114.284 1.78
+PFX O6  C7 C   111.367 3.00
+PFX O6  C7 H11 109.913 1.60
+PFX O6  C7 H12 109.913 1.60
+PFX C   C7 H11 109.074 1.50
+PFX C   C7 H12 109.074 1.50
+PFX H11 C7 H12 108.052 1.56
+PFX C7  C  O   117.371 3.00
+PFX C7  C  OXT 117.371 3.00
+PFX O   C  OXT 125.258 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+PFX sp3_sp3_1  C2 CA N  H2 180.000 10.0 3
+PFX sp3_sp3_7  O3 C2 CA N  180.000 10.0 3
+PFX sp3_sp3_16 CA C2 O3 C4 180.000 10.0 3
+PFX sp3_sp3_19 C5 C4 O3 C2 180.000 10.0 3
+PFX sp3_sp3_22 O3 C4 C5 O6 180.000 10.0 3
+PFX sp3_sp3_34 C4 C5 O6 C7 180.000 10.0 3
+PFX sp3_sp3_31 C  C7 O6 C5 180.000 10.0 3
+PFX sp2_sp3_2  O  C  C7 O6 120.000 10.0 6
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+PFX plan-1 C   0.020
+PFX plan-1 C7  0.020
+PFX plan-1 O   0.020
+PFX plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+PFX InChI            InChI                1.06  "InChI=1S/C6H13NO4/c7-1-2-10-3-4-11-5-6(8)9/h1-5,7H2,(H,8,9)"
+PFX InChIKey         InChI                1.06  RUVRGYVESPRHSZ-UHFFFAOYSA-N
+PFX SMILES_CANONICAL CACTVS               3.385 "NCCOCCOCC(O)=O"
+PFX SMILES           CACTVS               3.385 "NCCOCCOCC(O)=O"
+PFX SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C(COCCOCC(=O)O)N"
+PFX SMILES           "OpenEye OEToolkits" 2.0.7 "C(COCCOCC(=O)O)N"
+
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+PFX acedrg          281       "dictionary generator"
+PFX acedrg_database 12        "data source"
+PFX rdkit           2019.09.1 "Chemoinformatics tool"
+PFX refmac5         5.8.0419  "optimization tool"

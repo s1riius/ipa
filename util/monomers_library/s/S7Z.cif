@@ -1,0 +1,282 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+S7Z S7Z "(E)-(4-((2,6-difluoro-4-(hydroxymethyl)phenyl)diazenyl)-2,6-difluorophenyl)methanol" NON-POLYMER 28 24 .
+
+data_comp_S7Z
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+S7Z CAA    CA   C C    0  4.819  1.321  -1.169
+S7Z CB     CB   C C    0  -4.934 0.868  -1.010
+S7Z OB     OB   O O    0  -4.885 1.108  -2.245
+S7Z CB1    CB1  C CR6  0  -1.545 -0.991 0.912
+S7Z NB1    NB1  N N    0  -0.505 -1.650 1.644
+S7Z CB2    CB2  C CR6  0  -2.715 -0.680 1.614
+S7Z CB3    CB3  C CR16 0  -3.777 -0.074 1.032
+S7Z CA1    CA1  C CR6  0  1.683  -0.925 0.770
+S7Z CA2    CA2  C CR6  0  2.872  -1.529 0.343
+S7Z CA3    CA3  C CR16 0  3.854  -0.844 -0.289
+S7Z CA4    CA4  C CR6  0  3.716  0.529  -0.474
+S7Z CA5    CA5  C CR16 0  2.569  1.179  -0.022
+S7Z CA6    CA6  C CR6  0  1.598  0.464  0.596
+S7Z CB4    CB4  C CR6  0  -3.741 0.200  -0.333
+S7Z CB5    CB5  C CR16 0  -2.614 -0.136 -1.079
+S7Z CB6    CB6  C CR6  0  -1.562 -0.730 -0.466
+S7Z FA2    FA2  F F    0  3.017  -2.865 0.501
+S7Z FA6    FA6  F F    0  0.500  1.126  1.026
+S7Z FB2    FB2  F F    0  -2.763 -0.925 2.944
+S7Z FB6    FB6  F F    0  -0.485 -1.047 -1.221
+S7Z NA1    NA1  N N    0  0.736  -1.761 1.444
+S7Z OA     OA   O O    0  4.678  2.562  -1.328
+S7Z OXT    OXT  O OC   -1 5.848  0.718  -1.571
+S7Z "OXT'" OXT' O OC   -1 -5.945 1.165  -0.320
+S7Z H6     H6   H H    0  -4.534 0.148  1.552
+S7Z H7     H7   H H    0  4.625  -1.299 -0.589
+S7Z H8     H8   H H    0  2.462  2.110  -0.141
+S7Z H9     H9   H H    0  -2.575 0.044  -2.006
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+S7Z CAA    C(C[6a]C[6a]2)(O)2
+S7Z CB     C(C[6a]C[6a]2)(O)2
+S7Z OB     O(CC[6a]O)
+S7Z CB1    C[6a](C[6a]C[6a]F)2(NN){1|C<3>,2|H<1>}
+S7Z NB1    N(C[6a]C[6a]2)(NC[6a])
+S7Z CB2    C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(F){1|F<1>,2|C<3>}
+S7Z CB3    C[6a](C[6a]C[6a]C)(C[6a]C[6a]F)(H){1|C<3>,1|H<1>,1|N<2>}
+S7Z CA1    C[6a](C[6a]C[6a]F)2(NN){1|C<3>,2|H<1>}
+S7Z CA2    C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(F){1|F<1>,2|C<3>}
+S7Z CA3    C[6a](C[6a]C[6a]C)(C[6a]C[6a]F)(H){1|C<3>,1|H<1>,1|N<2>}
+S7Z CA4    C[6a](C[6a]C[6a]H)2(COO){1|C<3>,2|F<1>}
+S7Z CA5    C[6a](C[6a]C[6a]C)(C[6a]C[6a]F)(H){1|C<3>,1|H<1>,1|N<2>}
+S7Z CA6    C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(F){1|F<1>,2|C<3>}
+S7Z CB4    C[6a](C[6a]C[6a]H)2(COO){1|C<3>,2|F<1>}
+S7Z CB5    C[6a](C[6a]C[6a]C)(C[6a]C[6a]F)(H){1|C<3>,1|H<1>,1|N<2>}
+S7Z CB6    C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(F){1|F<1>,2|C<3>}
+S7Z FA2    F(C[6a]C[6a]2)
+S7Z FA6    F(C[6a]C[6a]2)
+S7Z FB2    F(C[6a]C[6a]2)
+S7Z FB6    F(C[6a]C[6a]2)
+S7Z NA1    N(C[6a]C[6a]2)(NC[6a])
+S7Z OA     O(CC[6a]O)
+S7Z OXT    O(CC[6a]O)
+S7Z "OXT'" O(CC[6a]O)
+S7Z H6     H(C[6a]C[6a]2)
+S7Z H7     H(C[6a]C[6a]2)
+S7Z H8     H(C[6a]C[6a]2)
+S7Z H9     H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+S7Z CA2 FA2    SINGLE n 1.353 0.0107 1.353 0.0107
+S7Z CB2 FB2    SINGLE n 1.353 0.0107 1.353 0.0107
+S7Z NB1 NA1    DOUBLE n 1.247 0.0200 1.247 0.0200
+S7Z CB1 NB1    SINGLE n 1.427 0.0117 1.427 0.0117
+S7Z CA1 NA1    SINGLE n 1.427 0.0117 1.427 0.0117
+S7Z CB1 CB2    DOUBLE y 1.401 0.0100 1.401 0.0100
+S7Z CB2 CB3    SINGLE y 1.355 0.0149 1.355 0.0149
+S7Z CA1 CA2    DOUBLE y 1.401 0.0100 1.401 0.0100
+S7Z CA2 CA3    SINGLE y 1.355 0.0149 1.355 0.0149
+S7Z CB1 CB6    SINGLE y 1.401 0.0100 1.401 0.0100
+S7Z CB3 CB4    DOUBLE y 1.389 0.0100 1.389 0.0100
+S7Z CA1 CA6    SINGLE y 1.401 0.0100 1.401 0.0100
+S7Z CA3 CA4    DOUBLE y 1.389 0.0100 1.389 0.0100
+S7Z CB6 FB6    SINGLE n 1.353 0.0107 1.353 0.0107
+S7Z CB5 CB6    DOUBLE y 1.355 0.0149 1.355 0.0149
+S7Z CB4 CB5    SINGLE y 1.389 0.0100 1.389 0.0100
+S7Z CB  CB4    SINGLE n 1.508 0.0147 1.508 0.0147
+S7Z CA6 FA6    SINGLE n 1.353 0.0107 1.353 0.0107
+S7Z CA5 CA6    DOUBLE y 1.355 0.0149 1.355 0.0149
+S7Z CA4 CA5    SINGLE y 1.389 0.0100 1.389 0.0100
+S7Z CAA CA4    SINGLE n 1.508 0.0147 1.508 0.0147
+S7Z CB  OB     DOUBLE n 1.255 0.0175 1.255 0.0175
+S7Z CAA OA     DOUBLE n 1.255 0.0175 1.255 0.0175
+S7Z CAA OXT    SINGLE n 1.255 0.0175 1.255 0.0175
+S7Z CB  "OXT'" SINGLE n 1.255 0.0175 1.255 0.0175
+S7Z CB3 H6     SINGLE n 1.085 0.0150 0.946 0.0200
+S7Z CA3 H7     SINGLE n 1.085 0.0150 0.946 0.0200
+S7Z CA5 H8     SINGLE n 1.085 0.0150 0.946 0.0200
+S7Z CB5 H9     SINGLE n 1.085 0.0150 0.946 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+S7Z CA4 CAA OA     117.818 1.93
+S7Z CA4 CAA OXT    117.818 1.93
+S7Z OA  CAA OXT    124.364 2.43
+S7Z CB4 CB  OB     117.818 1.93
+S7Z CB4 CB  "OXT'" 117.818 1.93
+S7Z OB  CB  "OXT'" 124.364 2.43
+S7Z NB1 CB1 CB2    121.478 3.00
+S7Z NB1 CB1 CB6    121.478 3.00
+S7Z CB2 CB1 CB6    117.044 1.50
+S7Z NA1 NB1 CB1    117.906 3.00
+S7Z FB2 CB2 CB1    119.002 1.50
+S7Z FB2 CB2 CB3    118.669 1.50
+S7Z CB1 CB2 CB3    122.330 1.50
+S7Z CB2 CB3 CB4    118.869 1.50
+S7Z CB2 CB3 H6     120.278 1.50
+S7Z CB4 CB3 H6     120.853 1.50
+S7Z NA1 CA1 CA2    121.478 3.00
+S7Z NA1 CA1 CA6    121.478 3.00
+S7Z CA2 CA1 CA6    117.044 1.50
+S7Z FA2 CA2 CA1    119.002 1.50
+S7Z FA2 CA2 CA3    118.669 1.50
+S7Z CA1 CA2 CA3    122.330 1.50
+S7Z CA2 CA3 CA4    118.869 1.50
+S7Z CA2 CA3 H7     120.278 1.50
+S7Z CA4 CA3 H7     120.853 1.50
+S7Z CA3 CA4 CA5    120.560 1.50
+S7Z CA3 CA4 CAA    119.720 1.50
+S7Z CA5 CA4 CAA    119.720 1.50
+S7Z CA6 CA5 CA4    118.869 1.50
+S7Z CA6 CA5 H8     120.278 1.50
+S7Z CA4 CA5 H8     120.853 1.50
+S7Z CA1 CA6 FA6    119.002 1.50
+S7Z CA1 CA6 CA5    122.330 1.50
+S7Z FA6 CA6 CA5    118.669 1.50
+S7Z CB3 CB4 CB5    120.560 1.50
+S7Z CB3 CB4 CB     119.720 1.50
+S7Z CB5 CB4 CB     119.720 1.50
+S7Z CB6 CB5 CB4    118.869 1.50
+S7Z CB6 CB5 H9     120.278 1.50
+S7Z CB4 CB5 H9     120.853 1.50
+S7Z CB1 CB6 FB6    119.002 1.50
+S7Z CB1 CB6 CB5    122.330 1.50
+S7Z FB6 CB6 CB5    118.669 1.50
+S7Z NB1 NA1 CA1    117.906 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+S7Z sp2_sp2_1 CA3 CA4 CAA OA  180.000 5.0 2
+S7Z const_0   CAA CA4 CA5 CA6 180.000 0.0 1
+S7Z const_1   CA4 CA5 CA6 FA6 180.000 0.0 1
+S7Z const_2   CB  CB4 CB5 CB6 180.000 0.0 1
+S7Z const_3   CB4 CB5 CB6 FB6 180.000 0.0 1
+S7Z sp2_sp2_2 OB  CB  CB4 CB3 180.000 5.0 2
+S7Z const_4   NB1 CB1 CB6 FB6 0.000   0.0 1
+S7Z sp2_sp2_3 CB2 CB1 NB1 NA1 180.000 5.0 2
+S7Z const_5   NB1 CB1 CB2 FB2 0.000   0.0 1
+S7Z sp2_sp2_4 CA1 NA1 NB1 CB1 180.000 5.0 2
+S7Z const_6   FB2 CB2 CB3 CB4 180.000 0.0 1
+S7Z const_7   CB2 CB3 CB4 CB  180.000 0.0 1
+S7Z const_8   NA1 CA1 CA6 FA6 0.000   0.0 1
+S7Z sp2_sp2_5 CA2 CA1 NA1 NB1 180.000 5.0 2
+S7Z const_9   NA1 CA1 CA2 FA2 0.000   0.0 1
+S7Z const_10  FA2 CA2 CA3 CA4 180.000 0.0 1
+S7Z const_11  CA2 CA3 CA4 CAA 180.000 0.0 1
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+S7Z plan-1 CA1    0.020
+S7Z plan-1 CA2    0.020
+S7Z plan-1 CA3    0.020
+S7Z plan-1 CA4    0.020
+S7Z plan-1 CA5    0.020
+S7Z plan-1 CA6    0.020
+S7Z plan-1 CAA    0.020
+S7Z plan-1 FA2    0.020
+S7Z plan-1 FA6    0.020
+S7Z plan-1 H7     0.020
+S7Z plan-1 H8     0.020
+S7Z plan-1 NA1    0.020
+S7Z plan-2 CB     0.020
+S7Z plan-2 CB1    0.020
+S7Z plan-2 CB2    0.020
+S7Z plan-2 CB3    0.020
+S7Z plan-2 CB4    0.020
+S7Z plan-2 CB5    0.020
+S7Z plan-2 CB6    0.020
+S7Z plan-2 FB2    0.020
+S7Z plan-2 FB6    0.020
+S7Z plan-2 H6     0.020
+S7Z plan-2 H9     0.020
+S7Z plan-2 NB1    0.020
+S7Z plan-3 CA4    0.020
+S7Z plan-3 CAA    0.020
+S7Z plan-3 OA     0.020
+S7Z plan-3 OXT    0.020
+S7Z plan-4 CB     0.020
+S7Z plan-4 CB4    0.020
+S7Z plan-4 OB     0.020
+S7Z plan-4 "OXT'" 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+S7Z ring-1 CA1 YES
+S7Z ring-1 CA2 YES
+S7Z ring-1 CA3 YES
+S7Z ring-1 CA4 YES
+S7Z ring-1 CA5 YES
+S7Z ring-1 CA6 YES
+S7Z ring-2 CB1 YES
+S7Z ring-2 CB2 YES
+S7Z ring-2 CB3 YES
+S7Z ring-2 CB4 YES
+S7Z ring-2 CB5 YES
+S7Z ring-2 CB6 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+S7Z InChI            InChI                1.06  "InChI=1S/C14H6F4N2O4/c15-7-1-5(13(21)22)2-8(16)11(7)19-20-12-9(17)3-6(14(23)24)4-10(12)18/h1-4H,(H,21,22)(H,23,24)/b20-19-"
+S7Z InChIKey         InChI                1.06  UGNSRBICRLILLW-VXPUYCOJSA-N
+S7Z SMILES_CANONICAL CACTVS               3.385 "OC(=O)c1cc(F)c(N=Nc2c(F)cc(cc2F)C(O)=O)c(F)c1"
+S7Z SMILES           CACTVS               3.385 "OC(=O)c1cc(F)c(N=Nc2c(F)cc(cc2F)C(O)=O)c(F)c1"
+S7Z SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1c(cc(c(c1F)/N=N\c2c(cc(cc2F)C(=O)O)F)F)C(=O)O"
+S7Z SMILES           "OpenEye OEToolkits" 2.0.7 "c1c(cc(c(c1F)N=Nc2c(cc(cc2F)C(=O)O)F)F)C(=O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+S7Z acedrg          314       "dictionary generator"
+S7Z acedrg_database 12        "data source"
+S7Z rdkit           2023.03.3 "Chemoinformatics tool"
+S7Z servalcat       0.4.102   'optimization tool'

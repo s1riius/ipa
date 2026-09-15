@@ -1,0 +1,184 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+GSC GSC "2-ETHYLTHIO GLYCINE" peptide 17 8 .
+
+data_comp_GSC
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+GSC N   N   N NT3 1  -19.388 64.259 36.724
+GSC CA  CA  C CH1 0  -18.224 65.149 36.983
+GSC C   C   C C   0  -18.084 65.412 38.486
+GSC O   O   O O   0  -19.039 65.986 39.055
+GSC S   S   S S2  0  -18.422 66.695 36.034
+GSC C1  C1  C CH2 0  -16.737 67.371 36.072
+GSC C2  C2  C CH3 0  -16.651 68.705 35.371
+GSC OXT OXT O OC  -1 -17.027 65.038 39.043
+GSC H   H   H H   0  -19.460 64.112 35.837
+GSC H2  H2  H H   0  -20.142 64.652 37.026
+GSC H3  H3  H H   0  -19.267 63.473 37.150
+GSC HA  HA  H H   0  -17.404 64.702 36.659
+GSC H11 H11 H H   0  -16.127 66.728 35.635
+GSC H12 H12 H H   0  -16.458 67.475 37.014
+GSC H21 H21 H H   0  -15.733 69.035 35.411
+GSC H22 H22 H H   0  -17.245 69.343 35.810
+GSC H23 H23 H H   0  -16.918 68.601 34.438
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+GSC N   N(CCHS)(H)3
+GSC CA  C(NH3)(COO)(SC)(H)
+GSC C   C(CHNS)(O)2
+GSC O   O(CCO)
+GSC S   S(CCHH)(CCHN)
+GSC C1  C(CH3)(SC)(H)2
+GSC C2  C(CHHS)(H)3
+GSC OXT O(CCO)
+GSC H   H(NCHH)
+GSC H2  H(NCHH)
+GSC H3  H(NCHH)
+GSC HA  H(CCNS)
+GSC H11 H(CCHS)
+GSC H12 H(CCHS)
+GSC H21 H(CCHH)
+GSC H22 H(CCHH)
+GSC H23 H(CCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+GSC N  CA  SINGLE n 1.487 0.0184 1.487 0.0184
+GSC CA C   SINGLE n 1.532 0.0100 1.532 0.0100
+GSC CA S   SINGLE n 1.824 0.0111 1.824 0.0111
+GSC C  O   DOUBLE n 1.251 0.0183 1.251 0.0183
+GSC C  OXT SINGLE n 1.251 0.0183 1.251 0.0183
+GSC S  C1  SINGLE n 1.815 0.0110 1.815 0.0110
+GSC C1 C2  SINGLE n 1.510 0.0100 1.510 0.0100
+GSC N  H   SINGLE n 1.018 0.0520 0.902 0.0102
+GSC N  H2  SINGLE n 1.018 0.0520 0.902 0.0102
+GSC N  H3  SINGLE n 1.018 0.0520 0.902 0.0102
+GSC CA HA  SINGLE n 1.092 0.0100 0.988 0.0199
+GSC C1 H11 SINGLE n 1.092 0.0100 0.988 0.0100
+GSC C1 H12 SINGLE n 1.092 0.0100 0.988 0.0100
+GSC C2 H21 SINGLE n 1.092 0.0100 0.976 0.0140
+GSC C2 H22 SINGLE n 1.092 0.0100 0.976 0.0140
+GSC C2 H23 SINGLE n 1.092 0.0100 0.976 0.0140
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+GSC CA  N  H   108.962 3.00
+GSC CA  N  H2  108.962 3.00
+GSC CA  N  H3  108.962 3.00
+GSC H   N  H2  109.049 3.00
+GSC H   N  H3  109.049 3.00
+GSC H2  N  H3  109.049 3.00
+GSC N   CA C   109.752 3.00
+GSC N   CA S   109.471 3.00
+GSC N   CA HA  108.728 1.50
+GSC C   CA S   112.021 3.00
+GSC C   CA HA  108.269 3.00
+GSC S   CA HA  107.558 2.40
+GSC CA  C  O   117.223 2.85
+GSC CA  C  OXT 117.223 2.85
+GSC O   C  OXT 125.554 3.00
+GSC CA  S  C1  101.588 3.00
+GSC S   C1 C2  111.504 3.00
+GSC S   C1 H11 108.658 1.55
+GSC S   C1 H12 108.658 1.55
+GSC C2  C1 H11 109.399 1.50
+GSC C2  C1 H12 109.399 1.50
+GSC H11 C1 H12 108.192 2.42
+GSC C1  C2 H21 109.479 1.50
+GSC C1  C2 H22 109.479 1.50
+GSC C1  C2 H23 109.479 1.50
+GSC H21 C2 H22 109.433 2.27
+GSC H21 C2 H23 109.433 2.27
+GSC H22 C2 H23 109.433 2.27
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+GSC sp3_sp3_1 S  C1 C2 H21 180.000 10.0 3
+GSC sp3_sp3_2 C2 C1 S  CA  180.000 10.0 3
+GSC sp3_sp3_3 C  CA N  H   180.000 10.0 3
+GSC sp3_sp3_4 N  CA S  C1  180.000 10.0 3
+GSC sp2_sp3_1 O  C  CA N   0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+GSC chir_1 CA S N C positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+GSC plan-1 C   0.020
+GSC plan-1 CA  0.020
+GSC plan-1 O   0.020
+GSC plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+GSC SMILES           ACDLabs              10.04 "O=C(O)C(SCC)N"
+GSC SMILES_CANONICAL CACTVS               3.341 "CCS[C@H](N)C(O)=O"
+GSC SMILES           CACTVS               3.341 "CCS[CH](N)C(O)=O"
+GSC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CCS[C@@H](C(=O)O)N"
+GSC SMILES           "OpenEye OEToolkits" 1.5.0 "CCSC(C(=O)O)N"
+GSC InChI            InChI                1.03  "InChI=1S/C4H9NO2S/c1-2-8-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)/t3-/m0/s1"
+GSC InChIKey         InChI                1.03  HHTTVXNPKPIBQE-VKHMYHEASA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+GSC acedrg          290       "dictionary generator"
+GSC acedrg_database 12        "data source"
+GSC rdkit           2019.09.1 "Chemoinformatics tool"
+GSC servalcat       0.4.57    'optimization tool'

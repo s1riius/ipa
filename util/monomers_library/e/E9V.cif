@@ -1,0 +1,245 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+E9V E9V N-methyl-L-histidine NON-POLYMER 22 12 .
+
+data_comp_E9V
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+E9V N   N1  N N31  0  2.856 -1.858 2.259
+E9V CA  C1  C CH1  0  3.706 -2.535 3.266
+E9V CB  C2  C CH2  0  4.622 -3.647 2.696
+E9V CG  C3  C CR5  0  3.916 -4.752 1.978
+E9V ND1 N2  N NR15 0  4.066 -4.981 0.634
+E9V CD2 C4  C CR15 0  3.054 -5.710 2.403
+E9V CE1 C5  C CR15 0  3.304 -6.041 0.307
+E9V NE2 N3  N NRD5 0  2.673 -6.514 1.349
+E9V C   C6  C C    0  4.575 -1.597 4.136
+E9V O   O1  O O    0  4.505 -1.744 5.378
+E9V CN2 C7  C CH3  0  3.345 -1.257 1.004
+E9V OXT O2  O OC   -1 5.301 -0.756 3.556
+E9V H   H   H H    0  2.209 -2.464 2.017
+E9V HA  HA  H H    0  3.105 -2.977 3.910
+E9V HB2 HB2 H H    0  5.273 -3.245 2.082
+E9V HB3 HB3 H H    0  5.128 -4.045 3.437
+E9V HD1 HD1 H H    0  4.593 -4.496 0.057
+E9V HD2 HD2 H H    0  2.760 -5.810 3.278
+E9V HE1 HE1 H H    0  3.240 -6.393 -0.573
+E9V HN3 HN3 H H    0  2.627 -0.776 0.567
+E9V HN1 HN1 H H    0  3.658 -1.947 0.402
+E9V HN2 HN2 H H    0  4.069 -0.642 1.188
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+E9V N   N(CCCH)(CH3)(H)
+E9V CA  C(CC[5a]HH)(COO)(NCH)(H)
+E9V CB  C(C[5a]C[5a]N[5a])(CCHN)(H)2
+E9V CG  C[5a](C[5a]N[5a]H)(N[5a]C[5a]H)(CCHH){1|H<1>}
+E9V ND1 N[5a](C[5a]C[5a]C)(C[5a]N[5a]H)(H){1|H<1>}
+E9V CD2 C[5a](C[5a]N[5a]C)(N[5a]C[5a])(H){2|H<1>}
+E9V CE1 C[5a](N[5a]C[5a]H)(N[5a]C[5a])(H){1|C<4>,1|H<1>}
+E9V NE2 N[5a](C[5a]C[5a]H)(C[5a]N[5a]H){1|C<4>,1|H<1>}
+E9V C   C(CCHN)(O)2
+E9V O   O(CCO)
+E9V CN2 C(NCH)(H)3
+E9V OXT O(CCO)
+E9V H   H(NCC)
+E9V HA  H(CCCN)
+E9V HB2 H(CC[5a]CH)
+E9V HB3 H(CC[5a]CH)
+E9V HD1 H(N[5a]C[5a]2)
+E9V HD2 H(C[5a]C[5a]N[5a])
+E9V HE1 H(C[5a]N[5a]2)
+E9V HN3 H(CHHN)
+E9V HN1 H(CHHN)
+E9V HN2 H(CHHN)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+E9V ND1 CE1 SINGLE y 1.346 0.0100 1.346 0.0100
+E9V CE1 NE2 DOUBLE y 1.308 0.0100 1.308 0.0100
+E9V CG  ND1 SINGLE y 1.371 0.0100 1.371 0.0100
+E9V CD2 NE2 SINGLE y 1.380 0.0100 1.380 0.0100
+E9V N   CN2 SINGLE n 1.468 0.0100 1.468 0.0100
+E9V CG  CD2 DOUBLE y 1.356 0.0100 1.356 0.0100
+E9V CB  CG  SINGLE n 1.494 0.0100 1.494 0.0100
+E9V N   CA  SINGLE n 1.462 0.0129 1.462 0.0129
+E9V CA  CB  SINGLE n 1.542 0.0100 1.542 0.0100
+E9V CA  C   SINGLE n 1.541 0.0100 1.541 0.0100
+E9V C   O   DOUBLE n 1.251 0.0183 1.251 0.0183
+E9V C   OXT SINGLE n 1.251 0.0183 1.251 0.0183
+E9V N   H   SINGLE n 1.018 0.0520 0.908 0.0200
+E9V CA  HA  SINGLE n 1.092 0.0100 0.985 0.0119
+E9V CB  HB2 SINGLE n 1.092 0.0100 0.981 0.0100
+E9V CB  HB3 SINGLE n 1.092 0.0100 0.981 0.0100
+E9V ND1 HD1 SINGLE n 1.013 0.0120 0.919 0.0200
+E9V CD2 HD2 SINGLE n 1.085 0.0150 0.929 0.0143
+E9V CE1 HE1 SINGLE n 1.085 0.0150 0.950 0.0200
+E9V CN2 HN3 SINGLE n 1.092 0.0100 0.968 0.0100
+E9V CN2 HN1 SINGLE n 1.092 0.0100 0.968 0.0100
+E9V CN2 HN2 SINGLE n 1.092 0.0100 0.968 0.0100
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+E9V CN2 N   CA  112.451 3.00
+E9V CN2 N   H   108.386 3.00
+E9V CA  N   H   107.482 3.00
+E9V N   CA  CB  109.422 2.02
+E9V N   CA  C   113.481 3.00
+E9V N   CA  HA  108.850 1.50
+E9V CB  CA  C   108.441 3.00
+E9V CB  CA  HA  111.262 3.00
+E9V C   CA  HA  107.974 3.00
+E9V CG  CB  CA  113.709 3.00
+E9V CG  CB  HB2 108.302 1.50
+E9V CG  CB  HB3 108.302 1.50
+E9V CA  CB  HB2 108.853 1.50
+E9V CA  CB  HB3 108.853 1.50
+E9V HB2 CB  HB3 107.622 1.50
+E9V ND1 CG  CD2 104.761 1.50
+E9V ND1 CG  CB  122.810 2.29
+E9V CD2 CG  CB  132.429 1.50
+E9V CE1 ND1 CG  107.807 1.50
+E9V CE1 ND1 HD1 126.218 3.00
+E9V CG  ND1 HD1 125.975 1.99
+E9V NE2 CD2 CG  110.147 1.50
+E9V NE2 CD2 HD2 124.910 3.00
+E9V CG  CD2 HD2 124.943 1.50
+E9V ND1 CE1 NE2 111.530 1.50
+E9V ND1 CE1 HE1 123.708 1.50
+E9V NE2 CE1 HE1 124.763 3.00
+E9V CE1 NE2 CD2 105.756 3.00
+E9V CA  C   O   117.323 1.50
+E9V CA  C   OXT 117.323 1.50
+E9V O   C   OXT 125.354 1.50
+E9V N   CN2 HN3 110.041 1.50
+E9V N   CN2 HN1 110.041 1.50
+E9V N   CN2 HN2 110.041 1.50
+E9V HN3 CN2 HN1 109.325 3.00
+E9V HN3 CN2 HN2 109.325 3.00
+E9V HN1 CN2 HN2 109.325 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+E9V sp3_sp3_1 CB  CA  N   CN2 -60.000 10.0 3
+E9V sp3_sp3_2 HN3 CN2 N   CA  180.000 10.0 3
+E9V sp3_sp3_3 N   CA  CB  CG  180.000 10.0 3
+E9V sp2_sp3_1 O   C   CA  N   0.000   20.0 6
+E9V sp2_sp3_2 ND1 CG  CB  CA  -90.000 20.0 6
+E9V const_0   CD2 CG  ND1 CE1 0.000   0.0  1
+E9V const_1   CB  CG  ND1 HD1 0.000   0.0  1
+E9V const_2   NE2 CD2 CG  ND1 0.000   0.0  1
+E9V const_3   HD2 CD2 CG  CB  0.000   0.0  1
+E9V const_4   NE2 CE1 ND1 CG  0.000   0.0  1
+E9V const_5   HE1 CE1 ND1 HD1 0.000   0.0  1
+E9V const_6   CG  CD2 NE2 CE1 0.000   0.0  1
+E9V const_7   ND1 CE1 NE2 CD2 0.000   0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+E9V chir_1 CA N  C   CB positive
+E9V chir_2 N  CA CN2 H  both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+E9V plan-1 CB  0.020
+E9V plan-1 CD2 0.020
+E9V plan-1 CE1 0.020
+E9V plan-1 CG  0.020
+E9V plan-1 HD1 0.020
+E9V plan-1 HD2 0.020
+E9V plan-1 HE1 0.020
+E9V plan-1 ND1 0.020
+E9V plan-1 NE2 0.020
+E9V plan-2 C   0.020
+E9V plan-2 CA  0.020
+E9V plan-2 O   0.020
+E9V plan-2 OXT 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+E9V ring-1 CG  YES
+E9V ring-1 ND1 YES
+E9V ring-1 CD2 YES
+E9V ring-1 CE1 YES
+E9V ring-1 NE2 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+E9V SMILES           ACDLabs              12.01 "CNC(Cc1cnc[NH]1)C(=O)O"
+E9V InChI            InChI                1.06  "InChI=1S/C7H11N3O2/c1-8-6(7(11)12)2-5-3-9-4-10-5/h3-4,6,8H,2H2,1H3,(H,9,10)(H,11,12)/t6-/m0/s1"
+E9V InChIKey         InChI                1.06  CYZKJBZEIFWZSR-LURJTMIESA-N
+E9V SMILES_CANONICAL CACTVS               3.385 "CN[C@@H](Cc1[nH]cnc1)C(O)=O"
+E9V SMILES           CACTVS               3.385 "CN[CH](Cc1[nH]cnc1)C(O)=O"
+E9V SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CN[C@@H](Cc1cnc[nH]1)C(=O)O"
+E9V SMILES           "OpenEye OEToolkits" 2.0.7 "CNC(Cc1cnc[nH]1)C(=O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+E9V acedrg          290       "dictionary generator"
+E9V acedrg_database 12        "data source"
+E9V rdkit           2019.09.1 "Chemoinformatics tool"
+E9V servalcat       0.4.57    'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+E9V M-peptide CN2 CN

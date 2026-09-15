@@ -1,0 +1,418 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HSI HSI "(3R)-3-{4-[(4-CHLOROPHENYL)ETHYNYL]BENZOYL}NONANOIC ACID" NON-POLYMER 52 28 .
+
+data_comp_HSI
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+HSI C60  C60  C  CH3  0  -5.593 -0.193 3.627
+HSI C56  C56  C  CH2  0  -4.888 0.929  2.884
+HSI C52  C52  C  CH2  0  -3.720 0.506  1.991
+HSI C48  C48  C  CH2  0  -3.050 1.589  1.143
+HSI C44  C44  C  CH2  0  -3.730 2.040  -0.153
+HSI C40  C40  C  CH2  0  -3.872 1.064  -1.342
+HSI C9   C9   C  CH1  0  -2.570 0.615  -2.103
+HSI C5   C5   C  CH2  0  -2.825 0.166  -3.564
+HSI C3   C3   C  C    0  -3.803 -0.975 -3.814
+HSI O1   O1   O  OC   -1 -5.002 -0.690 -4.020
+HSI O4   O4   O  O    0  -3.359 -2.142 -3.813
+HSI C11  C11  C  C    0  -1.808 -0.504 -1.382
+HSI O12  O12  O  O    0  -2.476 -1.472 -1.021
+HSI C13  C13  C  CR6  0  -0.331 -0.503 -1.120
+HSI C14  C14  C  CR16 0  0.171  -1.429 -0.202
+HSI C16  C16  C  CR16 0  1.514  -1.485 0.103
+HSI C18  C18  C  CR6  0  2.415  -0.608 -0.487
+HSI C25  C25  C  CSP  0  3.814  -0.661 -0.169
+HSI C26  C26  C  CSP  0  4.981  -0.683 0.092
+HSI C27  C27  C  CR6  0  6.384  -0.684 0.397
+HSI C28  C28  C  CR16 0  7.286  0.012  -0.406
+HSI C30  C30  C  CR16 0  8.645  0.015  -0.114
+HSI C32  C32  C  CR6  0  9.098  -0.682 0.986
+HSI CL1  CL1  CL CL   0  10.799 -0.680 1.355
+HSI C33  C33  C  CR16 0  8.231  -1.379 1.801
+HSI C35  C35  C  CR16 0  6.873  -1.379 1.504
+HSI C19  C19  C  CR16 0  1.928  0.327  -1.392
+HSI C21  C21  C  CR16 0  0.582  0.386  -1.694
+HSI H601 H601 H  H    0  -6.304 0.180  4.182
+HSI H602 H602 H  H    0  -4.953 -0.664 4.195
+HSI H603 H603 H  H    0  -5.978 -0.819 2.985
+HSI H561 H561 H  H    0  -4.548 1.573  3.542
+HSI H562 H562 H  H    0  -5.549 1.397  2.330
+HSI H521 H521 H  H    0  -4.033 -0.210 1.394
+HSI H522 H522 H  H    0  -3.036 0.112  2.575
+HSI H481 H481 H  H    0  -2.149 1.273  0.914
+HSI H482 H482 H  H    0  -2.926 2.384  1.707
+HSI H441 H441 H  H    0  -3.246 2.832  -0.478
+HSI H442 H442 H  H    0  -4.631 2.351  0.081
+HSI H401 H401 H  H    0  -4.472 1.489  -1.992
+HSI H402 H402 H  H    0  -4.334 0.263  -1.018
+HSI H9   H9   H  H    0  -1.977 1.408  -2.153
+HSI H51  H51  H  H    0  -1.962 -0.086 -3.950
+HSI H52  H52  H  H    0  -3.143 0.948  -4.058
+HSI H14  H14  H  H    0  -0.414 -2.037 0.214
+HSI H16  H16  H  H    0  1.823  -2.127 0.721
+HSI H28  H28  H  H    0  6.974  0.485  -1.155
+HSI H30  H30  H  H    0  9.250  0.488  -0.662
+HSI H33  H33  H  H    0  8.556  -1.851 2.550
+HSI H35  H35  H  H    0  6.279  -1.853 2.056
+HSI H19  H19  H  H    0  2.524  0.932  -1.803
+HSI H21  H21  H  H    0  0.288  1.025  -2.317
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+HSI C60  C(CCHH)(H)3
+HSI C56  C(CCHH)(CH3)(H)2
+HSI C52  C(CCHH)2(H)2
+HSI C48  C(CCHH)2(H)2
+HSI C44  C(CCHH)2(H)2
+HSI C40  C(CCCH)(CCHH)(H)2
+HSI C9   C(CC[6a]O)(CCHH)2(H)
+HSI C5   C(CCCH)(COO)(H)2
+HSI C3   C(CCHH)(O)2
+HSI O1   O(CCO)
+HSI O4   O(CCO)
+HSI C11  C(C[6a]C[6a]2)(CCCH)(O)
+HSI O12  O(CC[6a]C)
+HSI C13  C[6a](C[6a]C[6a]H)2(CCO){1|C<3>,2|H<1>}
+HSI C14  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+HSI C16  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|H<1>,2|C<3>}
+HSI C18  C[6a](C[6a]C[6a]H)2(CC){1|C<3>,2|H<1>}
+HSI C25  C(C[6a]C[6a]2)(CC[6a])
+HSI C26  C(C[6a]C[6a]2)(CC[6a])
+HSI C27  C[6a](C[6a]C[6a]H)2(CC){1|C<3>,2|H<1>}
+HSI C28  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|Cl<1>,1|C<3>,1|H<1>}
+HSI C30  C[6a](C[6a]C[6a]Cl)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+HSI C32  C[6a](C[6a]C[6a]H)2(Cl){1|C<3>,2|H<1>}
+HSI CL1  Cl(C[6a]C[6a]2)
+HSI C33  C[6a](C[6a]C[6a]Cl)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+HSI C35  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|Cl<1>,1|C<3>,1|H<1>}
+HSI C19  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|H<1>,2|C<3>}
+HSI C21  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+HSI H601 H(CCHH)
+HSI H602 H(CCHH)
+HSI H603 H(CCHH)
+HSI H561 H(CCCH)
+HSI H562 H(CCCH)
+HSI H521 H(CCCH)
+HSI H522 H(CCCH)
+HSI H481 H(CCCH)
+HSI H482 H(CCCH)
+HSI H441 H(CCCH)
+HSI H442 H(CCCH)
+HSI H401 H(CCCH)
+HSI H402 H(CCCH)
+HSI H9   H(CC3)
+HSI H51  H(CCCH)
+HSI H52  H(CCCH)
+HSI H14  H(C[6a]C[6a]2)
+HSI H16  H(C[6a]C[6a]2)
+HSI H28  H(C[6a]C[6a]2)
+HSI H30  H(C[6a]C[6a]2)
+HSI H33  H(C[6a]C[6a]2)
+HSI H35  H(C[6a]C[6a]2)
+HSI H19  H(C[6a]C[6a]2)
+HSI H21  H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+HSI C60 C56  SINGLE n 1.513 0.0200 1.513 0.0200
+HSI C56 C52  SINGLE n 1.520 0.0170 1.520 0.0170
+HSI C52 C48  SINGLE n 1.523 0.0122 1.523 0.0122
+HSI C48 C44  SINGLE n 1.523 0.0122 1.523 0.0122
+HSI C44 C40  SINGLE n 1.522 0.0200 1.522 0.0200
+HSI C40 C9   SINGLE n 1.534 0.0200 1.534 0.0200
+HSI C9  C11  SINGLE n 1.520 0.0100 1.520 0.0100
+HSI C9  C5   SINGLE n 1.532 0.0156 1.532 0.0156
+HSI C5  C3   SINGLE n 1.521 0.0100 1.521 0.0100
+HSI C3  O1   SINGLE n 1.249 0.0161 1.249 0.0161
+HSI C3  O4   DOUBLE n 1.249 0.0161 1.249 0.0161
+HSI C11 O12  DOUBLE n 1.223 0.0135 1.223 0.0135
+HSI C11 C13  SINGLE n 1.487 0.0100 1.487 0.0100
+HSI C13 C21  DOUBLE y 1.391 0.0100 1.391 0.0100
+HSI C13 C14  SINGLE y 1.391 0.0100 1.391 0.0100
+HSI C14 C16  DOUBLE y 1.378 0.0100 1.378 0.0100
+HSI C16 C18  SINGLE y 1.393 0.0121 1.393 0.0121
+HSI C18 C19  DOUBLE y 1.393 0.0121 1.393 0.0121
+HSI C18 C25  SINGLE n 1.436 0.0111 1.436 0.0111
+HSI C25 C26  TRIPLE n 1.196 0.0158 1.196 0.0158
+HSI C26 C27  SINGLE n 1.436 0.0111 1.436 0.0111
+HSI C27 C35  SINGLE y 1.395 0.0100 1.395 0.0100
+HSI C27 C28  DOUBLE y 1.395 0.0100 1.395 0.0100
+HSI C28 C30  SINGLE y 1.390 0.0159 1.390 0.0159
+HSI C30 C32  DOUBLE y 1.379 0.0113 1.379 0.0113
+HSI C32 C33  SINGLE y 1.379 0.0113 1.379 0.0113
+HSI C32 CL1  SINGLE n 1.741 0.0126 1.741 0.0126
+HSI C33 C35  DOUBLE y 1.390 0.0159 1.390 0.0159
+HSI C19 C21  SINGLE y 1.381 0.0100 1.381 0.0100
+HSI C60 H601 SINGLE n 1.092 0.0100 0.976 0.0140
+HSI C60 H602 SINGLE n 1.092 0.0100 0.976 0.0140
+HSI C60 H603 SINGLE n 1.092 0.0100 0.976 0.0140
+HSI C56 H561 SINGLE n 1.092 0.0100 0.981 0.0155
+HSI C56 H562 SINGLE n 1.092 0.0100 0.981 0.0155
+HSI C52 H521 SINGLE n 1.092 0.0100 0.982 0.0163
+HSI C52 H522 SINGLE n 1.092 0.0100 0.982 0.0163
+HSI C48 H481 SINGLE n 1.092 0.0100 0.982 0.0163
+HSI C48 H482 SINGLE n 1.092 0.0100 0.982 0.0163
+HSI C44 H441 SINGLE n 1.092 0.0100 0.982 0.0163
+HSI C44 H442 SINGLE n 1.092 0.0100 0.982 0.0163
+HSI C40 H401 SINGLE n 1.092 0.0100 0.981 0.0141
+HSI C40 H402 SINGLE n 1.092 0.0100 0.981 0.0141
+HSI C9  H9   SINGLE n 1.092 0.0100 0.993 0.0149
+HSI C5  H51  SINGLE n 1.092 0.0100 0.978 0.0170
+HSI C5  H52  SINGLE n 1.092 0.0100 0.978 0.0170
+HSI C14 H14  SINGLE n 1.085 0.0150 0.942 0.0169
+HSI C16 H16  SINGLE n 1.085 0.0150 0.943 0.0163
+HSI C28 H28  SINGLE n 1.085 0.0150 0.939 0.0167
+HSI C30 H30  SINGLE n 1.085 0.0150 0.943 0.0100
+HSI C33 H33  SINGLE n 1.085 0.0150 0.943 0.0100
+HSI C35 H35  SINGLE n 1.085 0.0150 0.939 0.0167
+HSI C19 H19  SINGLE n 1.085 0.0150 0.943 0.0163
+HSI C21 H21  SINGLE n 1.085 0.0150 0.942 0.0169
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+HSI C56  C60 H601 109.544 1.50
+HSI C56  C60 H602 109.544 1.50
+HSI C56  C60 H603 109.544 1.50
+HSI H601 C60 H602 109.381 1.50
+HSI H601 C60 H603 109.381 1.50
+HSI H602 C60 H603 109.381 1.50
+HSI C60  C56 C52  114.014 3.00
+HSI C60  C56 H561 108.861 1.94
+HSI C60  C56 H562 108.861 1.94
+HSI C52  C56 H561 108.682 2.59
+HSI C52  C56 H562 108.682 2.59
+HSI H561 C56 H562 107.740 2.11
+HSI C56  C52 C48  114.717 3.00
+HSI C56  C52 H521 108.530 2.67
+HSI C56  C52 H522 108.530 2.67
+HSI C48  C52 H521 108.648 1.50
+HSI C48  C52 H522 108.648 1.50
+HSI H521 C52 H522 107.566 1.82
+HSI C52  C48 C44  114.444 3.00
+HSI C52  C48 H481 108.648 1.50
+HSI C52  C48 H482 108.648 1.50
+HSI C44  C48 H481 108.648 1.50
+HSI C44  C48 H482 108.648 1.50
+HSI H481 C48 H482 107.566 1.82
+HSI C48  C44 C40  115.537 3.00
+HSI C48  C44 H441 108.648 1.50
+HSI C48  C44 H442 108.648 1.50
+HSI C40  C44 H441 108.686 1.50
+HSI C40  C44 H442 108.686 1.50
+HSI H441 C44 H442 107.566 1.82
+HSI C44  C40 C9   115.018 3.00
+HSI C44  C40 H401 108.411 1.50
+HSI C44  C40 H402 108.411 1.50
+HSI C9   C40 H401 108.678 1.50
+HSI C9   C40 H402 108.678 1.50
+HSI H401 C40 H402 107.516 1.50
+HSI C40  C9  C11  108.866 3.00
+HSI C40  C9  C5   111.246 3.00
+HSI C40  C9  H9   108.686 1.50
+HSI C11  C9  C5   107.772 2.41
+HSI C11  C9  H9   108.665 1.50
+HSI C5   C9  H9   107.916 1.50
+HSI C9   C5  C3   114.479 3.00
+HSI C9   C5  H51  108.255 1.50
+HSI C9   C5  H52  108.255 1.50
+HSI C3   C5  H51  108.766 1.50
+HSI C3   C5  H52  108.766 1.50
+HSI H51  C5  H52  107.865 1.50
+HSI C5   C3  O1   118.114 1.61
+HSI C5   C3  O4   118.114 1.61
+HSI O1   C3  O4   123.772 1.82
+HSI C9   C11 O12  118.597 2.04
+HSI C9   C11 C13  120.881 3.00
+HSI O12  C11 C13  120.522 1.50
+HSI C11  C13 C21  120.651 3.00
+HSI C11  C13 C14  120.643 3.00
+HSI C21  C13 C14  118.699 1.50
+HSI C13  C14 C16  120.701 1.50
+HSI C13  C14 H14  119.687 1.50
+HSI C16  C14 H14  119.612 1.50
+HSI C14  C16 C18  120.662 1.50
+HSI C14  C16 H16  119.625 1.50
+HSI C18  C16 H16  119.714 1.50
+HSI C16  C18 C19  118.575 1.50
+HSI C16  C18 C25  120.712 1.50
+HSI C19  C18 C25  120.712 1.50
+HSI C18  C25 C26  180.000 3.00
+HSI C25  C26 C27  180.000 3.00
+HSI C26  C27 C35  120.678 1.50
+HSI C26  C27 C28  120.678 1.50
+HSI C35  C27 C28  118.644 1.50
+HSI C27  C28 C30  120.823 1.50
+HSI C27  C28 H28  119.699 1.50
+HSI C30  C28 H28  119.478 1.50
+HSI C28  C30 C32  119.170 1.50
+HSI C28  C30 H30  120.427 1.50
+HSI C32  C30 H30  120.403 1.50
+HSI C30  C32 C33  121.371 1.50
+HSI C30  C32 CL1  119.315 1.50
+HSI C33  C32 CL1  119.315 1.50
+HSI C32  C33 C35  119.170 1.50
+HSI C32  C33 H33  120.403 1.50
+HSI C35  C33 H33  120.427 1.50
+HSI C27  C35 C33  120.823 1.50
+HSI C27  C35 H35  119.699 1.50
+HSI C33  C35 H35  119.478 1.50
+HSI C18  C19 C21  120.662 1.50
+HSI C18  C19 H19  119.714 1.50
+HSI C21  C19 H19  119.625 1.50
+HSI C13  C21 C19  120.701 1.50
+HSI C13  C21 H21  119.687 1.50
+HSI C19  C21 H21  119.612 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+HSI sp3_sp3_1 C52 C56 C60 H601 180.000 10.0 3
+HSI sp2_sp2_1 C9  C11 C13 C21  180.000 5.0  2
+HSI const_0   C11 C13 C14 C16  180.000 0.0  1
+HSI const_1   C11 C13 C21 C19  180.000 0.0  1
+HSI const_2   C13 C14 C16 C18  0.000   0.0  1
+HSI const_3   C14 C16 C18 C25  180.000 0.0  1
+HSI const_4   C25 C18 C19 C21  180.000 0.0  1
+HSI const_5   C26 C27 C28 C30  180.000 0.0  1
+HSI const_6   C26 C27 C35 C33  180.000 0.0  1
+HSI sp3_sp3_2 C48 C52 C56 C60  180.000 10.0 3
+HSI const_7   C27 C28 C30 C32  0.000   0.0  1
+HSI const_8   C28 C30 C32 CL1  180.000 0.0  1
+HSI const_9   CL1 C32 C33 C35  180.000 0.0  1
+HSI const_10  C32 C33 C35 C27  0.000   0.0  1
+HSI const_11  C18 C19 C21 C13  0.000   0.0  1
+HSI sp3_sp3_3 C44 C48 C52 C56  180.000 10.0 3
+HSI sp3_sp3_4 C40 C44 C48 C52  180.000 10.0 3
+HSI sp3_sp3_5 C9  C40 C44 C48  180.000 10.0 3
+HSI sp3_sp3_6 C44 C40 C9  C11  180.000 10.0 3
+HSI sp2_sp3_1 O12 C11 C9  C40  0.000   20.0 6
+HSI sp3_sp3_7 C3  C5  C9  C40  180.000 10.0 3
+HSI sp2_sp3_2 O1  C3  C5  C9   120.000 20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+HSI chir_1 C9 C11 C5 C40 negative
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+HSI plan-1 C11 0.020
+HSI plan-1 C13 0.020
+HSI plan-1 C14 0.020
+HSI plan-1 C16 0.020
+HSI plan-1 C18 0.020
+HSI plan-1 C19 0.020
+HSI plan-1 C21 0.020
+HSI plan-1 C25 0.020
+HSI plan-1 H14 0.020
+HSI plan-1 H16 0.020
+HSI plan-1 H19 0.020
+HSI plan-1 H21 0.020
+HSI plan-2 C26 0.020
+HSI plan-2 C27 0.020
+HSI plan-2 C28 0.020
+HSI plan-2 C30 0.020
+HSI plan-2 C32 0.020
+HSI plan-2 C33 0.020
+HSI plan-2 C35 0.020
+HSI plan-2 CL1 0.020
+HSI plan-2 H28 0.020
+HSI plan-2 H30 0.020
+HSI plan-2 H33 0.020
+HSI plan-2 H35 0.020
+HSI plan-3 C3  0.020
+HSI plan-3 C5  0.020
+HSI plan-3 O1  0.020
+HSI plan-3 O4  0.020
+HSI plan-4 C11 0.020
+HSI plan-4 C13 0.020
+HSI plan-4 C9  0.020
+HSI plan-4 O12 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+HSI ring-1 C13 YES
+HSI ring-1 C14 YES
+HSI ring-1 C16 YES
+HSI ring-1 C18 YES
+HSI ring-1 C19 YES
+HSI ring-1 C21 YES
+HSI ring-2 C27 YES
+HSI ring-2 C28 YES
+HSI ring-2 C30 YES
+HSI ring-2 C32 YES
+HSI ring-2 C33 YES
+HSI ring-2 C35 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+HSI SMILES           ACDLabs              10.04 "Clc2ccc(C#Cc1ccc(C(=O)C(CC(=O)O)CCCCCC)cc1)cc2"
+HSI SMILES_CANONICAL CACTVS               3.341 "CCCCCC[C@H](CC(O)=O)C(=O)c1ccc(cc1)C#Cc2ccc(Cl)cc2"
+HSI SMILES           CACTVS               3.341 "CCCCCC[CH](CC(O)=O)C(=O)c1ccc(cc1)C#Cc2ccc(Cl)cc2"
+HSI SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CCCCCC[C@H](CC(=O)O)C(=O)c1ccc(cc1)C#Cc2ccc(cc2)Cl"
+HSI SMILES           "OpenEye OEToolkits" 1.5.0 "CCCCCCC(CC(=O)O)C(=O)c1ccc(cc1)C#Cc2ccc(cc2)Cl"
+HSI InChI            InChI                1.03  "InChI=1S/C24H25ClO3/c1-2-3-4-5-6-21(17-23(26)27)24(28)20-13-9-18(10-14-20)7-8-19-11-15-22(25)16-12-19/h9-16,21H,2-6,17H2,1H3,(H,26,27)/t21-/m1/s1"
+HSI InChIKey         InChI                1.03  UOBFNJXLVSPHNN-OAQYLSRUSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+HSI acedrg          326       "dictionary generator"
+HSI acedrg_database 12        "data source"
+HSI rdkit           2023.03.3 "Chemoinformatics tool"
+HSI servalcat       0.4.120   'optimization tool'

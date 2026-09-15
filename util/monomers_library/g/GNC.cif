@@ -1,0 +1,226 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+GNC GNC N~2~-methyl-L-glutamine NON-POLYMER 22 11 .
+
+data_comp_GNC
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+GNC C1   C1   C CH3 0  -20.451 -20.695 -0.119
+GNC NE2  NE2  N NH2 0  -24.953 -19.949 -2.703
+GNC OE1  OE1  O O   0  -26.442 -21.368 -1.808
+GNC O    O    O O   0  -21.514 -23.847 0.174
+GNC CG   CG   C CH2 0  -24.611 -20.696 -0.416
+GNC CB   CB   C CH2 0  -23.561 -21.805 -0.363
+GNC CD   CD   C C   0  -25.409 -20.696 -1.703
+GNC C    C    C C   0  -21.998 -23.183 1.124
+GNC CA   CA   C CH1 0  -22.593 -21.780 0.855
+GNC N    N    N N31 0  -21.559 -20.727 0.854
+GNC OXT  OXT  O OC  -1 -22.039 -23.568 2.315
+GNC HC1  HC1  H H   0  -19.883 -19.931 0.054
+GNC HC2  HC2  H H   0  -20.800 -20.625 -1.019
+GNC HC3  HC3  H H   0  -19.921 -21.501 -0.046
+GNC HE21 HE21 H H   0  -25.403 -19.931 -3.468
+GNC HE22 HE22 H H   0  -24.209 -19.466 -2.634
+GNC HG2  HG2  H H   0  -24.170 -19.824 -0.313
+GNC HG3  HG3  H H   0  -25.231 -20.805 0.337
+GNC HB2  HB2  H H   0  -23.030 -21.767 -1.185
+GNC HB3  HB3  H H   0  -24.030 -22.666 -0.363
+GNC HA   HA   H H   0  -23.195 -21.590 1.614
+GNC H    H    H H   0  -21.984 -19.915 0.794
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+GNC C1   C(NCH)(H)3
+GNC NE2  N(CCO)(H)2
+GNC OE1  O(CCN)
+GNC O    O(CCO)
+GNC CG   C(CCHH)(CNO)(H)2
+GNC CB   C(CCHH)(CCHN)(H)2
+GNC CD   C(CCHH)(NHH)(O)
+GNC C    C(CCHN)(O)2
+GNC CA   C(CCHH)(COO)(NCH)(H)
+GNC N    N(CCCH)(CH3)(H)
+GNC OXT  O(CCO)
+GNC HC1  H(CHHN)
+GNC HC2  H(CHHN)
+GNC HC3  H(CHHN)
+GNC HE21 H(NCH)
+GNC HE22 H(NCH)
+GNC HG2  H(CCCH)
+GNC HG3  H(CCCH)
+GNC HB2  H(CCCH)
+GNC HB3  H(CCCH)
+GNC HA   H(CCCN)
+GNC H    H(NCC)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+GNC C1  N    SINGLE n 1.468 0.0100 1.468 0.0100
+GNC NE2 CD   SINGLE n 1.325 0.0100 1.325 0.0100
+GNC OE1 CD   DOUBLE n 1.236 0.0100 1.236 0.0100
+GNC O   C    DOUBLE n 1.251 0.0183 1.251 0.0183
+GNC CG  CB   SINGLE n 1.525 0.0100 1.525 0.0100
+GNC CG  CD   SINGLE n 1.513 0.0100 1.513 0.0100
+GNC CB  CA   SINGLE n 1.536 0.0143 1.536 0.0143
+GNC C   CA   SINGLE n 1.541 0.0100 1.541 0.0100
+GNC C   OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+GNC CA  N    SINGLE n 1.465 0.0100 1.465 0.0100
+GNC C1  HC1  SINGLE n 1.092 0.0100 0.968 0.0100
+GNC C1  HC2  SINGLE n 1.092 0.0100 0.968 0.0100
+GNC C1  HC3  SINGLE n 1.092 0.0100 0.968 0.0100
+GNC NE2 HE21 SINGLE n 1.013 0.0120 0.887 0.0200
+GNC NE2 HE22 SINGLE n 1.013 0.0120 0.887 0.0200
+GNC CG  HG2  SINGLE n 1.092 0.0100 0.981 0.0172
+GNC CG  HG3  SINGLE n 1.092 0.0100 0.981 0.0172
+GNC CB  HB2  SINGLE n 1.092 0.0100 0.980 0.0168
+GNC CB  HB3  SINGLE n 1.092 0.0100 0.980 0.0168
+GNC CA  HA   SINGLE n 1.092 0.0100 0.985 0.0200
+GNC N   H    SINGLE n 1.018 0.0520 0.908 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+GNC N    C1  HC1  110.041 1.50
+GNC N    C1  HC2  110.041 1.50
+GNC N    C1  HC3  110.041 1.50
+GNC HC1  C1  HC2  109.325 3.00
+GNC HC1  C1  HC3  109.325 3.00
+GNC HC2  C1  HC3  109.325 3.00
+GNC CD   NE2 HE21 119.917 2.87
+GNC CD   NE2 HE22 119.917 2.87
+GNC HE21 NE2 HE22 120.165 3.00
+GNC CB   CG  CD   113.265 1.50
+GNC CB   CG  HG2  109.355 1.50
+GNC CB   CG  HG3  109.355 1.50
+GNC CD   CG  HG2  108.958 1.89
+GNC CD   CG  HG3  108.958 1.89
+GNC HG2  CG  HG3  107.827 1.56
+GNC CG   CB  CA   113.687 2.44
+GNC CG   CB  HB2  108.907 1.50
+GNC CG   CB  HB3  108.907 1.50
+GNC CA   CB  HB2  108.657 1.50
+GNC CA   CB  HB3  108.657 1.50
+GNC HB2  CB  HB3  107.655 1.50
+GNC NE2  CD  OE1  122.439 1.50
+GNC NE2  CD  CG   116.074 1.76
+GNC OE1  CD  CG   121.487 1.50
+GNC O    C   CA   117.283 2.93
+GNC O    C   OXT  125.433 1.50
+GNC CA   C   OXT  117.283 2.93
+GNC CB   CA  C    111.466 3.00
+GNC CB   CA  N    110.767 3.00
+GNC CB   CA  HA   108.116 2.79
+GNC C    CA  N    113.481 3.00
+GNC C    CA  HA   108.335 1.67
+GNC N    CA  HA   108.850 1.50
+GNC C1   N   CA   112.451 3.00
+GNC C1   N   H    108.386 3.00
+GNC CA   N   H    107.482 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+GNC sp3_sp3_1 HC1 C1 N   CA   180.000 10.0 3
+GNC sp2_sp2_1 CG  CD NE2 HE21 180.000 5.0  2
+GNC sp2_sp2_2 OE1 CD NE2 HE22 180.000 5.0  2
+GNC sp3_sp3_2 CA  CB CG  CD   180.000 10.0 3
+GNC sp2_sp3_1 NE2 CD CG  CB   120.000 20.0 6
+GNC sp3_sp3_3 C   CA CB  CG   180.000 10.0 3
+GNC sp2_sp3_2 O   C  CA  CB   0.000   20.0 6
+GNC sp3_sp3_4 CB  CA N   C1   -60.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+GNC chir_1 CA N  C  CB positive
+GNC chir_2 N  CA C1 H  both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+GNC plan-1 CD   0.020
+GNC plan-1 HE21 0.020
+GNC plan-1 HE22 0.020
+GNC plan-1 NE2  0.020
+GNC plan-2 CD   0.020
+GNC plan-2 CG   0.020
+GNC plan-2 NE2  0.020
+GNC plan-2 OE1  0.020
+GNC plan-3 C    0.020
+GNC plan-3 CA   0.020
+GNC plan-3 O    0.020
+GNC plan-3 OXT  0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+GNC SMILES           ACDLabs              12.01 "O=C(O)C(NC)CCC(=O)N"
+GNC InChI            InChI                1.03  "InChI=1S/C6H12N2O3/c1-8-4(6(10)11)2-3-5(7)9/h4,8H,2-3H2,1H3,(H2,7,9)(H,10,11)/t4-/m0/s1"
+GNC InChIKey         InChI                1.03  KSZFSNZOGAXEGH-BYPYZUCNSA-N
+GNC SMILES_CANONICAL CACTVS               3.370 "CN[C@@H](CCC(N)=O)C(O)=O"
+GNC SMILES           CACTVS               3.370 "CN[CH](CCC(N)=O)C(O)=O"
+GNC SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CN[C@@H](CCC(=O)N)C(=O)O"
+GNC SMILES           "OpenEye OEToolkits" 1.7.6 "CNC(CCC(=O)N)C(=O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+GNC acedrg          290       "dictionary generator"
+GNC acedrg_database 12        "data source"
+GNC rdkit           2019.09.1 "Chemoinformatics tool"
+GNC servalcat       0.4.57    'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+GNC M-peptide C1 CN

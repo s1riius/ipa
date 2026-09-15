@@ -1,0 +1,247 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+JYB JYB 9-ethyl-8-ethynyl-purin-6-amine NON-POLYMER 23 14 .
+
+data_comp_JYB
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+JYB N12 N1 N N20  0 -2.937 -0.631 1.277
+JYB C13 C1 C CR6  0 -2.720 -0.005 0.094
+JYB C01 C2 C CSP  0 2.218  0.953  -3.220
+JYB C02 C3 C CSP  0 1.428  0.643  -2.414
+JYB C03 C4 C CR5  0 0.469  0.267  -1.435
+JYB C05 C5 C CR56 0 -1.396 0.021  -0.386
+JYB C06 C6 C CR56 0 -0.430 -0.593 0.387
+JYB C08 C7 C CH2  0 2.066  -0.919 0.148
+JYB C09 C8 C CH3  0 2.827  0.115  0.939
+JYB C11 C9 C CR16 0 -1.897 -1.182 1.913
+JYB N04 N2 N N20  0 -0.829 0.554  -1.518
+JYB N07 N3 N NH0  0 0.759  -0.430 -0.292
+JYB N10 N4 N N20  0 -0.616 -1.218 1.558
+JYB N14 N5 N NH2  0 -3.752 0.546  -0.545
+JYB H1  H1 H H    0 2.840  1.197  -3.856
+JYB H2  H2 H H    0 1.936  -1.718 0.701
+JYB H3  H3 H H    0 2.592  -1.178 -0.639
+JYB H4  H4 H H    0 3.687  -0.249 1.208
+JYB H5  H5 H H    0 2.317  0.359  1.730
+JYB H6  H6 H H    0 2.968  0.905  0.390
+JYB H7  H7 H H    0 -2.102 -1.606 2.734
+JYB H8  H8 H H    0 -4.562 0.502  -0.201
+JYB H9  H9 H H    0 -3.625 0.955  -1.314
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+JYB N12 N[6a](C[6a]C[5a,6a]N)(C[6a]N[6a]H){1|C<3>,1|N<2>}
+JYB C13 C[6a](C[5a,6a]C[5a,6a]N[5a])(N[6a]C[6a])(NHH){1|C<3>,1|H<1>,1|N<2>,1|N<3>}
+JYB C01 C(CC[5a])(H)
+JYB C02 C(C[5a]N[5a]2)(CH)
+JYB C03 C[5a](N[5a]C[5a,6a]C)(N[5a]C[5a,6a])(CC){1|C<3>,1|N<2>}
+JYB C05 C[5a,6a](C[5a,6a]N[5a]N[6a])(C[6a]N[6a]N)(N[5a]C[5a]){1|C<2>,1|C<3>,1|C<4>}
+JYB C06 C[5a,6a](C[5a,6a]C[6a]N[5a])(N[5a]C[5a]C)(N[6a]C[6a]){1|C<2>,1|H<1>,1|N<2>,1|N<3>}
+JYB C08 C(N[5a]C[5a,6a]C[5a])(CH3)(H)2
+JYB C09 C(CN[5a]HH)(H)3
+JYB C11 C[6a](N[6a]C[5a,6a])(N[6a]C[6a])(H){1|C<3>,2|N<3>}
+JYB N04 N[5a](C[5a,6a]C[5a,6a]C[6a])(C[5a]N[5a]C){1|C<4>,1|N<3>,2|N<2>}
+JYB N07 N[5a](C[5a,6a]C[5a,6a]N[6a])(C[5a]N[5a]C)(CCHH){2|C<3>}
+JYB N10 N[6a](C[5a,6a]C[5a,6a]N[5a])(C[6a]N[6a]H){1|C<4>,1|N<2>,2|C<3>}
+JYB N14 N(C[6a]C[5a,6a]N[6a])(H)2
+JYB H1  H(CC)
+JYB H2  H(CN[5a]CH)
+JYB H3  H(CN[5a]CH)
+JYB H4  H(CCHH)
+JYB H5  H(CCHH)
+JYB H6  H(CCHH)
+JYB H7  H(C[6a]N[6a]2)
+JYB H8  H(NC[6a]H)
+JYB H9  H(NC[6a]H)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+JYB C13 N14 SINGLE n 1.332 0.0107 1.332 0.0107
+JYB N12 C13 DOUBLE y 1.355 0.0106 1.355 0.0106
+JYB C13 C05 SINGLE y 1.408 0.0100 1.408 0.0100
+JYB N12 C11 SINGLE y 1.338 0.0100 1.338 0.0100
+JYB C05 N04 SINGLE y 1.381 0.0200 1.381 0.0200
+JYB C03 N04 DOUBLE y 1.331 0.0146 1.331 0.0146
+JYB C05 C06 DOUBLE y 1.384 0.0100 1.384 0.0100
+JYB C11 N10 DOUBLE y 1.329 0.0100 1.329 0.0100
+JYB C02 C03 SINGLE n 1.421 0.0100 1.421 0.0100
+JYB C03 N07 SINGLE y 1.366 0.0100 1.366 0.0100
+JYB C06 N10 SINGLE y 1.340 0.0100 1.340 0.0100
+JYB C06 N07 SINGLE y 1.376 0.0128 1.376 0.0128
+JYB C01 C02 TRIPLE n 1.170 0.0102 1.170 0.0102
+JYB C08 C09 SINGLE n 1.508 0.0113 1.508 0.0113
+JYB C08 N07 SINGLE n 1.461 0.0108 1.461 0.0108
+JYB C01 H1  SINGLE n 1.044 0.0220 0.923 0.0200
+JYB C08 H2  SINGLE n 1.092 0.0100 0.981 0.0139
+JYB C08 H3  SINGLE n 1.092 0.0100 0.981 0.0139
+JYB C09 H4  SINGLE n 1.092 0.0100 0.972 0.0134
+JYB C09 H5  SINGLE n 1.092 0.0100 0.972 0.0134
+JYB C09 H6  SINGLE n 1.092 0.0100 0.972 0.0134
+JYB C11 H7  SINGLE n 1.085 0.0150 0.946 0.0200
+JYB N14 H8  SINGLE n 1.013 0.0120 0.880 0.0200
+JYB N14 H9  SINGLE n 1.013 0.0120 0.880 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+JYB C13 N12 C11 118.611 1.50
+JYB N14 C13 N12 118.848 1.50
+JYB N14 C13 C05 123.769 1.50
+JYB N12 C13 C05 117.383 1.50
+JYB C02 C01 H1  180.000 3.00
+JYB C03 C02 C01 180.000 3.00
+JYB N04 C03 C02 125.750 3.00
+JYB N04 C03 N07 109.803 3.00
+JYB C02 C03 N07 124.447 1.50
+JYB C13 C05 N04 132.184 1.50
+JYB C13 C05 C06 117.005 1.50
+JYB N04 C05 C06 110.811 1.50
+JYB C05 C06 N10 126.905 1.50
+JYB C05 C06 N07 106.170 1.50
+JYB N10 C06 N07 126.925 1.50
+JYB C09 C08 N07 112.274 1.50
+JYB C09 C08 H2  109.354 1.50
+JYB C09 C08 H3  109.354 1.50
+JYB N07 C08 H2  108.839 1.50
+JYB N07 C08 H3  108.839 1.50
+JYB H2  C08 H3  108.207 1.50
+JYB C08 C09 H4  109.534 1.50
+JYB C08 C09 H5  109.534 1.50
+JYB C08 C09 H6  109.534 1.50
+JYB H4  C09 H5  109.418 1.50
+JYB H4  C09 H6  109.418 1.50
+JYB H5  C09 H6  109.418 1.50
+JYB N12 C11 N10 129.218 1.50
+JYB N12 C11 H7  115.359 1.50
+JYB N10 C11 H7  115.423 1.50
+JYB C05 N04 C03 106.780 3.00
+JYB C03 N07 C06 106.430 1.50
+JYB C03 N07 C08 127.424 1.50
+JYB C06 N07 C08 126.153 2.15
+JYB C11 N10 C06 110.877 1.50
+JYB C13 N14 H8  119.818 3.00
+JYB C13 N14 H9  119.818 3.00
+JYB H8  N14 H9  120.363 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+JYB const_0   N14 C13 N12 C11 180.000 0.0  1
+JYB const_1   N10 C11 N12 C13 0.000   0.0  1
+JYB sp2_sp2_1 N12 C13 N14 H8  0.000   5.0  2
+JYB const_2   N04 C05 C13 N14 0.000   0.0  1
+JYB const_3   C02 C03 N04 C05 180.000 0.0  1
+JYB const_4   C02 C03 N07 C08 0.000   0.0  1
+JYB const_5   C13 C05 N04 C03 180.000 0.0  1
+JYB const_6   C13 C05 C06 N10 0.000   0.0  1
+JYB const_7   C05 C06 N07 C08 180.000 0.0  1
+JYB const_8   C05 C06 N10 C11 0.000   0.0  1
+JYB sp2_sp3_1 C03 N07 C08 C09 -90.000 20.0 6
+JYB sp3_sp3_1 N07 C08 C09 H4  180.000 10.0 3
+JYB const_9   N12 C11 N10 C06 0.000   0.0  1
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+JYB plan-1 C05 0.020
+JYB plan-1 C06 0.020
+JYB plan-1 C11 0.020
+JYB plan-1 C13 0.020
+JYB plan-1 H7  0.020
+JYB plan-1 N04 0.020
+JYB plan-1 N07 0.020
+JYB plan-1 N10 0.020
+JYB plan-1 N12 0.020
+JYB plan-1 N14 0.020
+JYB plan-2 C02 0.020
+JYB plan-2 C03 0.020
+JYB plan-2 C05 0.020
+JYB plan-2 C06 0.020
+JYB plan-2 C08 0.020
+JYB plan-2 C13 0.020
+JYB plan-2 N04 0.020
+JYB plan-2 N07 0.020
+JYB plan-2 N10 0.020
+JYB plan-3 C13 0.020
+JYB plan-3 H8  0.020
+JYB plan-3 H9  0.020
+JYB plan-3 N14 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+JYB ring-1 N12 YES
+JYB ring-1 C13 YES
+JYB ring-1 C05 YES
+JYB ring-1 C06 YES
+JYB ring-1 C11 YES
+JYB ring-1 N10 YES
+JYB ring-2 C03 YES
+JYB ring-2 C05 YES
+JYB ring-2 C06 YES
+JYB ring-2 N04 YES
+JYB ring-2 N07 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+JYB InChI            InChI                1.03  "InChI=1S/C9H9N5/c1-3-6-13-7-8(10)11-5-12-9(7)14(6)4-2/h1,5H,4H2,2H3,(H2,10,11,12)"
+JYB InChIKey         InChI                1.03  AZRUGQVPCIZUAB-UHFFFAOYSA-N
+JYB SMILES_CANONICAL CACTVS               3.385 "CCn1c(nc2c(N)ncnc12)C#C"
+JYB SMILES           CACTVS               3.385 "CCn1c(nc2c(N)ncnc12)C#C"
+JYB SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CCn1c(nc2c1ncnc2N)C#C"
+JYB SMILES           "OpenEye OEToolkits" 2.0.7 "CCn1c(nc2c1ncnc2N)C#C"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+JYB acedrg          326       "dictionary generator"
+JYB acedrg_database 12        "data source"
+JYB rdkit           2023.03.3 "Chemoinformatics tool"
+JYB servalcat       0.4.120   'optimization tool'

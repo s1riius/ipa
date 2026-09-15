@@ -1,0 +1,109 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+NFO NFO "NI-FE OXIDIZED ACTIVE CENTER" NON-POLYMER 7 7 .
+
+data_comp_NFO
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+NFO NI NI NI NI  2.00 56.018 46.470 84.034
+NFO FE FE FE FE  7.00 55.565 49.125 85.967
+NFO C3 C3 C  C   -2   56.072 50.825 86.271
+NFO C2 C2 C  C   -1   53.872 49.552 86.402
+NFO O3 O3 O  O   0    56.416 51.977 86.478
+NFO N2 N2 N  NSP 0    52.696 49.848 86.704
+NFO O1 O1 O  O   0    56.134 48.439 88.853
+NFO C1 C1 C  C   -2   55.904 48.716 87.687
+NFO O4 O4 O  O   -2   54.994 47.207 85.624
+
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+NFO O1 n/a C1 START
+NFO C1 O1  FE .
+NFO H1 C1  .  .
+NFO FE C1  C2 .
+NFO O4 FE  NI .
+NFO NI O4  .  .
+NFO C3 FE  O3 .
+NFO H3 C3  .  .
+NFO O3 C3  .  .
+NFO C2 FE  N2 .
+NFO N2 C2  .  END
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+NFO C3 C(O)
+NFO C2 C(N)
+NFO O3 O(C)
+NFO N2 N(C)
+NFO O1 O(C)
+NFO C1 C(O)
+NFO O4 O
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+NFO NI O4 SINGLE n 2.03  0.11   2.03  0.11
+NFO FE C3 SINGLE n 1.8   0.03   1.8   0.03
+NFO FE C2 SINGLE n 1.8   0.03   1.8   0.03
+NFO FE C1 SINGLE n 1.8   0.03   1.8   0.03
+NFO FE O4 SINGLE n 2.03  0.09   2.03  0.09
+NFO C3 O3 DOUBLE n 1.220 0.0200 1.220 0.0200
+NFO C2 N2 TRIPLE n 1.250 0.0200 1.250 0.0200
+NFO O1 C1 DOUBLE n 1.220 0.0200 1.220 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+NFO NI O4 FE 109.47 5.0
+NFO FE C3 O3 180.00 5.0
+NFO FE C2 N2 180.00 5.0
+NFO FE C1 O1 180.00 5.0
+NFO C2 FE O4 90.0   5.0
+NFO C2 FE C3 90.0   5.0
+NFO C2 FE C1 90.0   5.0
+NFO O4 FE C3 180.0  5.0
+NFO O4 FE C1 90.0   5.0
+NFO C3 FE C1 90.0   5.0
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+NFO acedrg            311       'dictionary generator'
+NFO 'acedrg_database' 12        'data source'
+NFO rdkit             2019.09.1 'Chemoinformatics tool'
+NFO servalcat         0.4.93    'optimization tool'
+NFO metalCoord        0.1.63    'metal coordination analysis'

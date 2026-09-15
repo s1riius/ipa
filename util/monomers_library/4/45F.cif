@@ -1,0 +1,232 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+45F 45F "(4S)-4-(prop-2-yn-1-yloxy)-L-proline" P-peptide 23 12 .
+
+data_comp_45F
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+45F CB  C5  C CH2 0  -0.472 0.704  0.558
+45F CD  C6  C CH2 0  0.117  -1.630 0.133
+45F C   C19 C C   0  -2.933 0.533  -0.042
+45F O   O3  O O   0  -2.975 0.511  -1.294
+45F CA  C20 C CH1 0  -1.743 -0.138 0.656
+45F CG  C21 C CH1 0  0.664  -0.306 0.677
+45F N   N5  N NT2 1  -1.363 -1.427 -0.021
+45F O48 O10 O O2  0  1.774  0.122  -0.146
+45F C49 C31 C CH2 0  3.025  0.355  0.500
+45F C50 C32 C CSP 0  4.095  0.556  -0.481
+45F C51 C33 C CSP 0  4.955  0.713  -1.269
+45F OXT OXT O OC  -1 -3.786 1.059  0.710
+45F HB3 HB3 H H   0  -0.435 1.354  1.279
+45F HB2 HB2 H H   0  -0.433 1.173  -0.292
+45F HD2 HD2 H H   0  0.517  -1.843 -0.726
+45F HD3 HD3 H H   0  0.293  -2.354 0.756
+45F HA  HA  H H   0  -1.968 -0.313 1.615
+45F HG2 HG2 H H   0  0.945  -0.400 1.624
+45F H   H   H H   0  -1.802 -2.118 0.366
+45F H2  H2  H H   0  -1.568 -1.411 -0.905
+45F H49 H49 H H   0  2.952  1.152  1.069
+45F H50 H50 H H   0  3.251  -0.412 1.070
+45F H51 H51 H H   0  5.652  0.838  -1.907
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+45F CB  C[5](C[5]C[5]HO)(C[5]N[5]CH)(H)2{4|H<1>}
+45F CD  C[5](C[5]C[5]HO)(N[5]C[5]HH)(H)2{1|C<3>,3|H<1>}
+45F C   C(C[5]C[5]N[5]H)(O)2
+45F O   O(CC[5]O)
+45F CA  C[5](C[5]C[5]HH)(N[5]C[5]HH)(COO)(H){1|O<2>,3|H<1>}
+45F CG  C[5](C[5]C[5]HH)(C[5]N[5]HH)(OC)(H){1|C<3>,3|H<1>}
+45F N   N[5](C[5]C[5]CH)(C[5]C[5]HH)(H)2{1|O<2>,3|H<1>}
+45F O48 O(C[5]C[5]2H)(CCHH)
+45F C49 C(OC[5])(CC)(H)2
+45F C50 C(CHHO)(CH)
+45F C51 C(CC)(H)
+45F OXT O(CC[5]O)
+45F HB3 H(C[5]C[5]2H)
+45F HB2 H(C[5]C[5]2H)
+45F HD2 H(C[5]C[5]N[5]H)
+45F HD3 H(C[5]C[5]N[5]H)
+45F HA  H(C[5]C[5]N[5]C)
+45F HG2 H(C[5]C[5]2O)
+45F H   H(N[5]C[5]2H)
+45F H2  H(N[5]C[5]2H)
+45F H49 H(CCHO)
+45F H50 H(CCHO)
+45F H51 H(CC)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+45F C50 C51 TRIPLE n 1.177 0.0139 1.177 0.0139
+45F C   O   DOUBLE n 1.252 0.0117 1.252 0.0117
+45F C49 C50 SINGLE n 1.465 0.0100 1.465 0.0100
+45F CD  N   SINGLE n 1.499 0.0124 1.499 0.0124
+45F CA  N   SINGLE n 1.504 0.0100 1.504 0.0100
+45F O48 C49 SINGLE n 1.421 0.0111 1.421 0.0111
+45F CG  O48 SINGLE n 1.426 0.0192 1.426 0.0192
+45F CD  CG  SINGLE n 1.526 0.0158 1.526 0.0158
+45F C   CA  SINGLE n 1.530 0.0100 1.530 0.0100
+45F CB  CA  SINGLE n 1.529 0.0164 1.529 0.0164
+45F CB  CG  SINGLE n 1.525 0.0118 1.525 0.0118
+45F C   OXT SINGLE n 1.252 0.0117 1.252 0.0117
+45F CB  HB3 SINGLE n 1.092 0.0100 0.971 0.0105
+45F CB  HB2 SINGLE n 1.092 0.0100 0.971 0.0105
+45F CD  HD2 SINGLE n 1.092 0.0100 0.971 0.0200
+45F CD  HD3 SINGLE n 1.092 0.0100 0.971 0.0200
+45F CA  HA  SINGLE n 1.092 0.0100 1.000 0.0100
+45F CG  HG2 SINGLE n 1.092 0.0100 0.992 0.0109
+45F N   H   SINGLE n 1.018 0.0520 0.906 0.0200
+45F N   H2  SINGLE n 1.018 0.0520 0.906 0.0200
+45F C49 H49 SINGLE n 1.092 0.0100 0.980 0.0185
+45F C49 H50 SINGLE n 1.092 0.0100 0.980 0.0185
+45F C51 H51 SINGLE n 1.044 0.0220 0.953 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+45F CA  CB  CG  104.963 1.50
+45F CA  CB  HB3 110.701 1.50
+45F CA  CB  HB2 110.701 1.50
+45F CG  CB  HB3 111.003 1.50
+45F CG  CB  HB2 111.003 1.50
+45F HB3 CB  HB2 109.056 1.50
+45F N   CD  CG  104.253 1.50
+45F N   CD  HD2 110.507 1.50
+45F N   CD  HD3 110.507 1.50
+45F CG  CD  HD2 110.931 1.50
+45F CG  CD  HD3 110.931 1.50
+45F HD2 CD  HD3 109.555 1.50
+45F O   C   CA  116.979 3.00
+45F O   C   OXT 126.043 1.52
+45F CA  C   OXT 116.979 3.00
+45F N   CA  C   110.397 1.50
+45F N   CA  CB  104.307 1.50
+45F N   CA  HA  109.579 1.50
+45F C   CA  CB  111.444 1.50
+45F C   CA  HA  109.687 1.50
+45F CB  CA  HA  109.914 1.50
+45F O48 CG  CD  111.363 3.00
+45F O48 CG  CB  111.144 3.00
+45F O48 CG  HG2 110.191 2.23
+45F CD  CG  CB  104.768 2.86
+45F CD  CG  HG2 112.127 1.50
+45F CB  CG  HG2 111.516 1.50
+45F CD  N   CA  108.192 1.54
+45F CD  N   H   109.402 3.00
+45F CD  N   H2  109.402 3.00
+45F CA  N   H   109.889 3.00
+45F CA  N   H2  109.889 3.00
+45F H   N   H2  108.772 3.00
+45F C49 O48 CG  114.551 1.50
+45F C50 C49 O48 111.971 2.72
+45F C50 C49 H49 109.561 1.50
+45F C50 C49 H50 109.561 1.50
+45F O48 C49 H49 109.004 1.50
+45F O48 C49 H50 109.004 1.50
+45F H49 C49 H50 108.265 1.50
+45F C51 C50 C49 180.000 3.00
+45F C50 C51 H51 180.000 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+45F sp3_sp3_1 C   CA  CB  CG  -60.000 10.0 3
+45F sp3_sp3_2 CA  CB  CG  O48 -60.000 10.0 3
+45F sp3_sp3_3 N   CD  CG  O48 60.000  10.0 3
+45F sp3_sp3_4 CG  CD  N   CA  60.000  10.0 3
+45F sp2_sp3_1 O   C   CA  N   0.000   20.0 6
+45F sp3_sp3_5 C   CA  N   CD  180.000 10.0 3
+45F sp3_sp3_6 CD  CG  O48 C49 180.000 10.0 3
+45F sp3_sp3_7 C50 C49 O48 CG  180.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+45F chir_1 CA N   C  CB positive
+45F chir_2 CG O48 CD CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+45F plan-1 C   0.020
+45F plan-1 CA  0.020
+45F plan-1 O   0.020
+45F plan-1 OXT 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+45F ring-1 CB NO
+45F ring-1 CD NO
+45F ring-1 CA NO
+45F ring-1 CG NO
+45F ring-1 N  NO
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+45F SMILES           ACDLabs              12.01 "O=C(O)C1NCC(OCC#C)C1"
+45F InChI            InChI                1.03  "InChI=1S/C8H11NO3/c1-2-3-12-6-4-7(8(10)11)9-5-6/h1,6-7,9H,3-5H2,(H,10,11)/t6-,7-/m0/s1"
+45F InChIKey         InChI                1.03  ZXFXGGZFTHVWKF-BQBZGAKWSA-N
+45F SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@@H]1C[C@@H](CN1)OCC#C"
+45F SMILES           CACTVS               3.385 "OC(=O)[CH]1C[CH](CN1)OCC#C"
+45F SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "C#CCO[C@H]1C[C@H](NC1)C(=O)O"
+45F SMILES           "OpenEye OEToolkits" 1.9.2 "C#CCOC1CC(NC1)C(=O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+45F acedrg          326       "dictionary generator"
+45F acedrg_database 12        "data source"
+45F rdkit           2023.03.3 "Chemoinformatics tool"
+45F servalcat       0.4.120   'optimization tool'

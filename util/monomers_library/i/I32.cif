@@ -1,0 +1,360 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+I32 I32 "4-{[(2S)-3-(tert-butylamino)-2-hydroxypropyl]oxy}-3-iodo-1H-indole-2-carbonitrile" NON-POLYMER 42 22 .
+
+data_comp_I32
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+I32 O2   O2   O OH1  0 32.556 -25.006 25.675
+I32 C10  C10  C CH1  0 33.643 -25.655 25.030
+I32 C11  C11  C CH2  0 33.185 -26.112 23.657
+I32 N2   N2   N N31  0 32.108 -27.118 23.751
+I32 C12  C12  C CT   0 31.691 -27.953 22.568
+I32 C15  C15  C CH3  0 30.639 -28.908 23.171
+I32 C13  C13  C CH3  0 32.831 -28.792 21.946
+I32 C9   C9   C CH2  0 34.841 -24.714 24.992
+I32 O1   O1   O O    0 36.030 -25.517 24.809
+I32 C4   C4   C CR6  0 37.277 -24.957 24.701
+I32 C5   C5   C CR16 0 37.647 -23.618 24.726
+I32 C6   C6   C CR16 0 38.991 -23.249 24.597
+I32 C7   C7   C CR16 0 39.991 -24.166 24.446
+I32 C8   C8   C CR56 0 39.631 -25.509 24.422
+I32 C3   C3   C CR56 0 38.295 -25.930 24.546
+I32 N1   N1   N NH1  0 40.419 -26.628 24.285
+I32 C1   C1   C CR5  0 39.632 -27.733 24.319
+I32 C2   C2   C CR5  0 38.319 -27.348 24.478
+I32 C16  C16  C CSP  0 40.116 -29.064 24.205
+I32 C14  C14  C CH3  0 31.023 -27.086 21.472
+I32 IAA  IAA  I I    0 36.714 -28.653 24.589
+I32 NAF  NAF  N NSP  0 40.504 -30.133 24.113
+I32 H2   H2   H H    0 32.706 -24.893 26.521
+I32 H10  H10  H H    0 33.893 -26.457 25.566
+I32 H111 H111 H H    0 33.949 -26.488 23.171
+I32 H112 H112 H H    0 32.862 -25.337 23.150
+I32 HA   HA   H H    0 31.408 -26.679 24.075
+I32 H151 H151 H H    0 30.297 -29.511 22.482
+I32 H152 H152 H H    0 29.897 -28.393 23.541
+I32 H153 H153 H H    0 31.046 -29.435 23.885
+I32 H131 H131 H H    0 33.269 -29.318 22.642
+I32 H132 H132 H H    0 33.489 -28.204 21.529
+I32 H133 H133 H H    0 32.471 -29.396 21.268
+I32 H91C H91C H H    0 34.903 -24.213 25.834
+I32 H92C H92C H H    0 34.752 -24.069 24.256
+I32 H5   H5   H H    0 36.992 -22.948 24.826
+I32 H6   H6   H H    0 39.211 -22.334 24.616
+I32 H7   H7   H H    0 40.891 -23.901 24.362
+I32 H1   H1   H H    0 41.295 -26.629 24.191
+I32 H141 H141 H H    0 30.646 -27.658 20.776
+I32 H142 H142 H H    0 31.684 -26.491 21.070
+I32 H143 H143 H H    0 30.311 -26.548 21.867
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+I32 O2   O(CCCH)(H)
+I32 C10  C(CHHN)(CHHO)(OH)(H)
+I32 C11  C(CCHO)(NCH)(H)2
+I32 N2   N(CCHH)(CC3)(H)
+I32 C12  C(CH3)3(NCH)
+I32 C15  C(CCCN)(H)3
+I32 C13  C(CCCN)(H)3
+I32 C9   C(OC[6a])(CCHO)(H)2
+I32 O1   O(C[6a]C[5a,6a]C[6a])(CCHH)
+I32 C4   C[6a](C[5a,6a]C[5a,6a]C[5a])(C[6a]C[6a]H)(OC){1|H<1>,1|I<1>,1|N<3>,2|C<3>}
+I32 C5   C[6a](C[6a]C[5a,6a]O)(C[6a]C[6a]H)(H){1|H<1>,2|C<3>}
+I32 C6   C[6a](C[6a]C[5a,6a]H)(C[6a]C[6a]H)(H){1|C<3>,1|N<3>,1|O<2>}
+I32 C7   C[6a](C[5a,6a]C[5a,6a]N[5a])(C[6a]C[6a]H)(H){2|H<1>,3|C<3>}
+I32 C8   C[5a,6a](C[5a,6a]C[5a]C[6a])(C[6a]C[6a]H)(N[5a]C[5a]H){1|C<2>,1|C<3>,1|H<1>,1|I<1>,1|O<2>}
+I32 C3   C[5a,6a](C[5a,6a]C[6a]N[5a])(C[5a]C[5a]I)(C[6a]C[6a]O){1|C<2>,1|C<3>,3|H<1>}
+I32 N1   N[5a](C[5a,6a]C[5a,6a]C[6a])(C[5a]C[5a]C)(H){1|H<1>,1|I<1>,2|C<3>}
+I32 C1   C[5a](C[5a]C[5a,6a]I)(N[5a]C[5a,6a]H)(CN){2|C<3>}
+I32 C2   C[5a](C[5a,6a]C[5a,6a]C[6a])(C[5a]N[5a]C)(I){1|H<1>,1|O<2>,2|C<3>}
+I32 C16  C(C[5a]C[5a]N[5a])(N)
+I32 C14  C(CCCN)(H)3
+I32 IAA  I(C[5a]C[5a,6a]C[5a])
+I32 NAF  N(CC[5a])
+I32 H2   H(OC)
+I32 H10  H(CCCO)
+I32 H111 H(CCHN)
+I32 H112 H(CCHN)
+I32 HA   H(NCC)
+I32 H151 H(CCHH)
+I32 H152 H(CCHH)
+I32 H153 H(CCHH)
+I32 H131 H(CCHH)
+I32 H132 H(CCHH)
+I32 H133 H(CCHH)
+I32 H91C H(CCHO)
+I32 H92C H(CCHO)
+I32 H5   H(C[6a]C[6a]2)
+I32 H6   H(C[6a]C[6a]2)
+I32 H7   H(C[6a]C[5a,6a]C[6a])
+I32 H1   H(N[5a]C[5a,6a]C[5a])
+I32 H141 H(CCHH)
+I32 H142 H(CCHH)
+I32 H143 H(CCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+I32 O2  C10  SINGLE n 1.418 0.0109 1.418 0.0109
+I32 C10 C11  SINGLE n 1.512 0.0108 1.512 0.0108
+I32 C10 C9   SINGLE n 1.510 0.0162 1.510 0.0162
+I32 C11 N2   SINGLE n 1.466 0.0100 1.466 0.0100
+I32 N2  C12  SINGLE n 1.486 0.0117 1.486 0.0117
+I32 C12 C15  SINGLE n 1.526 0.0138 1.526 0.0138
+I32 C12 C13  SINGLE n 1.526 0.0138 1.526 0.0138
+I32 C12 C14  SINGLE n 1.526 0.0138 1.526 0.0138
+I32 C9  O1   SINGLE n 1.440 0.0119 1.440 0.0119
+I32 O1  C4   SINGLE n 1.364 0.0100 1.364 0.0100
+I32 C4  C5   DOUBLE y 1.381 0.0120 1.381 0.0120
+I32 C4  C3   SINGLE y 1.411 0.0117 1.411 0.0117
+I32 C5  C6   SINGLE y 1.401 0.0100 1.401 0.0100
+I32 C6  C7   DOUBLE y 1.367 0.0100 1.367 0.0100
+I32 C7  C8   SINGLE y 1.392 0.0100 1.392 0.0100
+I32 C8  C3   DOUBLE y 1.405 0.0100 1.405 0.0100
+I32 C8  N1   SINGLE y 1.376 0.0108 1.376 0.0108
+I32 C3  C2   SINGLE y 1.407 0.0200 1.407 0.0200
+I32 N1  C1   SINGLE y 1.358 0.0200 1.358 0.0200
+I32 C1  C2   DOUBLE y 1.377 0.0122 1.377 0.0122
+I32 C1  C16  SINGLE n 1.421 0.0100 1.421 0.0100
+I32 C2  IAA  SINGLE n 2.069 0.0145 2.069 0.0145
+I32 C16 NAF  TRIPLE n 1.141 0.0100 1.141 0.0100
+I32 O2  H2   SINGLE n 0.972 0.0180 0.864 0.0200
+I32 C10 H10  SINGLE n 1.092 0.0100 0.996 0.0200
+I32 C11 H111 SINGLE n 1.092 0.0100 0.981 0.0171
+I32 C11 H112 SINGLE n 1.092 0.0100 0.981 0.0171
+I32 N2  HA   SINGLE n 1.018 0.0520 0.874 0.0200
+I32 C15 H151 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C15 H152 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C15 H153 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C13 H131 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C13 H132 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C13 H133 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C9  H91C SINGLE n 1.092 0.0100 0.982 0.0101
+I32 C9  H92C SINGLE n 1.092 0.0100 0.982 0.0101
+I32 C5  H5   SINGLE n 1.085 0.0150 0.943 0.0183
+I32 C6  H6   SINGLE n 1.085 0.0150 0.941 0.0161
+I32 C7  H7   SINGLE n 1.085 0.0150 0.942 0.0181
+I32 N1  H1   SINGLE n 1.013 0.0120 0.881 0.0200
+I32 C14 H141 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C14 H142 SINGLE n 1.092 0.0100 0.975 0.0146
+I32 C14 H143 SINGLE n 1.092 0.0100 0.975 0.0146
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+I32 C10  O2  H2   109.812 3.00
+I32 O2   C10 C11  109.148 1.58
+I32 O2   C10 C9   109.332 3.00
+I32 O2   C10 H10  108.656 1.50
+I32 C11  C10 C9   110.558 3.00
+I32 C11  C10 H10  108.805 1.50
+I32 C9   C10 H10  108.458 1.50
+I32 C10  C11 N2   111.208 2.40
+I32 C10  C11 H111 109.727 1.50
+I32 C10  C11 H112 109.727 1.50
+I32 N2   C11 H111 109.559 1.50
+I32 N2   C11 H112 109.559 1.50
+I32 H111 C11 H112 108.043 1.50
+I32 C11  N2  C12  116.925 1.50
+I32 C11  N2  HA   107.590 3.00
+I32 C12  N2  HA   108.597 3.00
+I32 N2   C12 C15  109.276 3.00
+I32 N2   C12 C13  109.276 3.00
+I32 N2   C12 C14  109.276 3.00
+I32 C15  C12 C13  110.154 1.50
+I32 C15  C12 C14  110.154 1.50
+I32 C13  C12 C14  110.154 1.50
+I32 C12  C15 H151 109.567 1.50
+I32 C12  C15 H152 109.567 1.50
+I32 C12  C15 H153 109.567 1.50
+I32 H151 C15 H152 109.381 1.55
+I32 H151 C15 H153 109.381 1.55
+I32 H152 C15 H153 109.381 1.55
+I32 C12  C13 H131 109.567 1.50
+I32 C12  C13 H132 109.567 1.50
+I32 C12  C13 H133 109.567 1.50
+I32 H131 C13 H132 109.381 1.55
+I32 H131 C13 H133 109.381 1.55
+I32 H132 C13 H133 109.381 1.55
+I32 C10  C9  O1   107.747 3.00
+I32 C10  C9  H91C 110.388 1.50
+I32 C10  C9  H92C 110.388 1.50
+I32 O1   C9  H91C 110.166 1.50
+I32 O1   C9  H92C 110.166 1.50
+I32 H91C C9  H92C 108.521 1.50
+I32 C9   O1  C4   117.097 1.66
+I32 O1   C4  C5   123.263 3.00
+I32 O1   C4  C3   117.611 3.00
+I32 C5   C4  C3   119.126 1.77
+I32 C4   C5  C6   120.226 1.50
+I32 C4   C5  H5   119.674 1.50
+I32 C6   C5  H5   120.100 1.50
+I32 C5   C6  C7   122.404 1.50
+I32 C5   C6  H6   118.606 1.50
+I32 C7   C6  H6   118.990 1.50
+I32 C6   C7  C8   117.451 1.50
+I32 C6   C7  H7   121.369 1.50
+I32 C8   C7  H7   121.179 1.50
+I32 C7   C8  C3   121.716 1.50
+I32 C7   C8  N1   130.242 1.50
+I32 C3   C8  N1   108.042 1.50
+I32 C4   C3  C8   119.077 2.29
+I32 C4   C3  C2   133.383 3.00
+I32 C8   C3  C2   107.540 1.50
+I32 C8   N1  C1   108.016 3.00
+I32 C8   N1  H1   125.889 2.07
+I32 C1   N1  H1   126.095 3.00
+I32 N1   C1  C2   108.294 2.02
+I32 N1   C1  C16  124.745 3.00
+I32 C2   C1  C16  126.961 3.00
+I32 C3   C2  C1   108.107 3.00
+I32 C3   C2  IAA  123.379 3.00
+I32 C1   C2  IAA  128.514 3.00
+I32 C1   C16 NAF  180.000 3.00
+I32 C12  C14 H141 109.567 1.50
+I32 C12  C14 H142 109.567 1.50
+I32 C12  C14 H143 109.567 1.50
+I32 H141 C14 H142 109.381 1.55
+I32 H141 C14 H143 109.381 1.55
+I32 H142 C14 H143 109.381 1.55
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+I32 sp3_sp3_1 C11 C10 O2  H2   180.000 10.0 3
+I32 const_0   C4  C5  C6  C7   0.000   0.0  1
+I32 const_1   C5  C6  C7  C8   0.000   0.0  1
+I32 const_2   C6  C7  C8  C3   0.000   0.0  1
+I32 const_3   C4  C3  C8  C7   0.000   0.0  1
+I32 const_4   C7  C8  N1  C1   180.000 0.0  1
+I32 const_5   IAA C2  C3  C4   0.000   0.0  1
+I32 const_6   C16 C1  N1  C8   180.000 0.0  1
+I32 const_7   C16 C1  C2  IAA  0.000   0.0  1
+I32 sp3_sp3_2 O2  C10 C11 N2   180.000 10.0 3
+I32 sp3_sp3_3 O2  C10 C9  O1   180.000 10.0 3
+I32 sp3_sp3_4 C10 C11 N2  C12  180.000 10.0 3
+I32 sp3_sp3_5 C15 C12 N2  C11  180.000 10.0 3
+I32 sp3_sp3_6 N2  C12 C14 H141 180.000 10.0 3
+I32 sp3_sp3_7 N2  C12 C15 H151 180.000 10.0 3
+I32 sp3_sp3_8 N2  C12 C13 H131 60.000  10.0 3
+I32 sp2_sp3_1 C10 C9  O1  C4   180.000 20.0 3
+I32 sp2_sp2_1 C5  C4  O1  C9   180.000 5.0  2
+I32 const_8   O1  C4  C5  C6   180.000 0.0  1
+I32 const_9   C8  C3  C4  O1   180.000 0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+I32 chir_1 C10 O2  C9  C11 positive
+I32 chir_2 C12 N2  C15 C13 both
+I32 chir_3 N2  C12 C11 HA  both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+I32 plan-1 C2  0.020
+I32 plan-1 C3  0.020
+I32 plan-1 C4  0.020
+I32 plan-1 C5  0.020
+I32 plan-1 C6  0.020
+I32 plan-1 C7  0.020
+I32 plan-1 C8  0.020
+I32 plan-1 H5  0.020
+I32 plan-1 H6  0.020
+I32 plan-1 H7  0.020
+I32 plan-1 N1  0.020
+I32 plan-1 O1  0.020
+I32 plan-2 C1  0.020
+I32 plan-2 C16 0.020
+I32 plan-2 C2  0.020
+I32 plan-2 C3  0.020
+I32 plan-2 C4  0.020
+I32 plan-2 C7  0.020
+I32 plan-2 C8  0.020
+I32 plan-2 H1  0.020
+I32 plan-2 IAA 0.020
+I32 plan-2 N1  0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+I32 ring-1 C4 YES
+I32 ring-1 C5 YES
+I32 ring-1 C6 YES
+I32 ring-1 C7 YES
+I32 ring-1 C8 YES
+I32 ring-1 C3 YES
+I32 ring-2 C8 YES
+I32 ring-2 C3 YES
+I32 ring-2 N1 YES
+I32 ring-2 C1 YES
+I32 ring-2 C2 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+I32 SMILES           ACDLabs              12.01 "Ic2c1c(cccc1OCC(O)CNC(C)(C)C)nc2C#N"
+I32 SMILES_CANONICAL CACTVS               3.370 "CC(C)(C)NC[C@H](O)COc1cccc2[nH]c(C#N)c(I)c12"
+I32 SMILES           CACTVS               3.370 "CC(C)(C)NC[CH](O)COc1cccc2[nH]c(C#N)c(I)c12"
+I32 SMILES_CANONICAL "OpenEye OEToolkits" 1.7.2 "CC(C)(C)NC[C@@H](COc1cccc2c1c(c([nH]2)C#N)I)O"
+I32 SMILES           "OpenEye OEToolkits" 1.7.2 "CC(C)(C)NCC(COc1cccc2c1c(c([nH]2)C#N)I)O"
+I32 InChI            InChI                1.03  "InChI=1S/C16H20IN3O2/c1-16(2,3)19-8-10(21)9-22-13-6-4-5-11-14(13)15(17)12(7-18)20-11/h4-6,10,19-21H,8-9H2,1-3H3/t10-/m0/s1"
+I32 InChIKey         InChI                1.03  JBLUMBNIBNHRSO-JTQLQIEISA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+I32 acedrg          326       "dictionary generator"
+I32 acedrg_database 12        "data source"
+I32 rdkit           2023.03.3 "Chemoinformatics tool"
+I32 servalcat       0.4.120   'optimization tool'

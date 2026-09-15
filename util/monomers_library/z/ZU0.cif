@@ -1,0 +1,257 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+ZU0 ZU0 O-tert-butyl-L-threonine NON-POLYMER 29 12 .
+
+data_comp_ZU0
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+ZU0 N   N1  N NT3 1  18.540 3.209  21.066
+ZU0 CA  C2  C CH1 0  18.296 2.246  22.174
+ZU0 C   C1  C C   0  17.461 1.090  21.638
+ZU0 O   O2  O O   0  16.450 1.373  20.949
+ZU0 CB  C3  C CH1 0  17.632 2.917  23.388
+ZU0 O3  O3  O O2  0  18.273 4.225  23.631
+ZU0 C4  C4  C CH3 0  17.754 2.109  24.668
+ZU0 OXT O1  O OC  -1 17.843 -0.067 21.925
+ZU0 C5  C5  C CT  0  17.534 5.526  23.713
+ZU0 C6  C6  C CH3 0  16.597 5.596  24.947
+ZU0 C7  C7  C CH3 0  16.767 5.880  22.410
+ZU0 C8  C8  C CH3 0  18.741 6.462  23.897
+ZU0 H   H   H H   0  19.018 3.913  21.365
+ZU0 H2  H2  H H   0  17.755 3.493  20.723
+ZU0 H16 H16 H H   0  19.011 2.804  20.412
+ZU0 HA  HA  H H   0  19.171 1.891  22.454
+ZU0 H3  H3  H H   0  16.667 3.047  23.185
+ZU0 H4  H4  H H   0  17.325 2.590  25.395
+ZU0 H5  H5  H H   0  18.694 1.974  24.883
+ZU0 H6  H6  H H   0  17.321 1.245  24.555
+ZU0 H7  H7  H H   0  16.238 6.500  25.041
+ZU0 H8  H8  H H   0  17.094 5.360  25.753
+ZU0 H9  H9  H H   0  15.857 4.971  24.836
+ZU0 H10 H10 H H   0  17.359 5.773  21.641
+ZU0 H11 H11 H H   0  16.455 6.805  22.450
+ZU0 H12 H12 H H   0  15.999 5.288  22.306
+ZU0 H13 H13 H H   0  18.438 7.387  23.976
+ZU0 H14 H14 H H   0  19.338 6.383  23.129
+ZU0 H15 H15 H H   0  19.231 6.214  24.704
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+ZU0 N   N(CCCH)(H)3
+ZU0 CA  C(CCHO)(NH3)(COO)(H)
+ZU0 C   C(CCHN)(O)2
+ZU0 O   O(CCO)
+ZU0 CB  C(CCHN)(CH3)(OC)(H)
+ZU0 O3  O(CCCH)(CC3)
+ZU0 C4  C(CCHO)(H)3
+ZU0 OXT O(CCO)
+ZU0 C5  C(CH3)3(OC)
+ZU0 C6  C(CCCO)(H)3
+ZU0 C7  C(CCCO)(H)3
+ZU0 C8  C(CCCO)(H)3
+ZU0 H   H(NCHH)
+ZU0 H2  H(NCHH)
+ZU0 H16 H(NCHH)
+ZU0 HA  H(CCCN)
+ZU0 H3  H(CCCO)
+ZU0 H4  H(CCHH)
+ZU0 H5  H(CCHH)
+ZU0 H6  H(CCHH)
+ZU0 H7  H(CCHH)
+ZU0 H8  H(CCHH)
+ZU0 H9  H(CCHH)
+ZU0 H10 H(CCHH)
+ZU0 H11 H(CCHH)
+ZU0 H12 H(CCHH)
+ZU0 H13 H(CCHH)
+ZU0 H14 H(CCHH)
+ZU0 H15 H(CCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+ZU0 C  OXT SINGLE n 1.251 0.0183 1.251 0.0183
+ZU0 C  O   DOUBLE n 1.251 0.0183 1.251 0.0183
+ZU0 CA C   SINGLE n 1.515 0.0129 1.515 0.0129
+ZU0 CA CB  SINGLE n 1.528 0.0100 1.528 0.0100
+ZU0 N  CA  SINGLE n 1.480 0.0122 1.480 0.0122
+ZU0 CB C4  SINGLE n 1.514 0.0100 1.514 0.0100
+ZU0 CB O3  SINGLE n 1.440 0.0193 1.440 0.0193
+ZU0 O3 C5  SINGLE n 1.445 0.0196 1.445 0.0196
+ZU0 C5 C6  SINGLE n 1.511 0.0200 1.511 0.0200
+ZU0 C5 C7  SINGLE n 1.511 0.0200 1.511 0.0200
+ZU0 C5 C8  SINGLE n 1.511 0.0200 1.511 0.0200
+ZU0 N  H   SINGLE n 1.018 0.0520 0.902 0.0102
+ZU0 N  H2  SINGLE n 1.018 0.0520 0.902 0.0102
+ZU0 N  H16 SINGLE n 1.018 0.0520 0.902 0.0102
+ZU0 CA HA  SINGLE n 1.092 0.0100 0.982 0.0200
+ZU0 CB H3  SINGLE n 1.092 0.0100 0.995 0.0106
+ZU0 C4 H4  SINGLE n 1.092 0.0100 0.972 0.0156
+ZU0 C4 H5  SINGLE n 1.092 0.0100 0.972 0.0156
+ZU0 C4 H6  SINGLE n 1.092 0.0100 0.972 0.0156
+ZU0 C6 H7  SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C6 H8  SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C6 H9  SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C7 H10 SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C7 H11 SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C7 H12 SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C8 H13 SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C8 H14 SINGLE n 1.092 0.0100 0.975 0.0146
+ZU0 C8 H15 SINGLE n 1.092 0.0100 0.975 0.0146
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+ZU0 CA  N  H   109.577 1.50
+ZU0 CA  N  H2  109.577 1.50
+ZU0 CA  N  H16 109.577 1.50
+ZU0 H   N  H2  109.032 3.00
+ZU0 H   N  H16 109.032 3.00
+ZU0 H2  N  H16 109.032 3.00
+ZU0 C   CA CB  111.760 1.50
+ZU0 C   CA N   109.121 1.50
+ZU0 C   CA HA  109.055 1.50
+ZU0 CB  CA N   109.815 1.89
+ZU0 CB  CA HA  108.825 1.50
+ZU0 N   CA HA  108.639 1.50
+ZU0 OXT C  O   125.804 1.50
+ZU0 OXT C  CA  117.098 1.50
+ZU0 O   C  CA  117.098 1.50
+ZU0 CA  CB C4  112.537 1.50
+ZU0 CA  CB O3  108.252 3.00
+ZU0 CA  CB H3  109.444 2.30
+ZU0 C4  CB O3  109.000 3.00
+ZU0 C4  CB H3  109.392 1.50
+ZU0 O3  CB H3  108.716 2.22
+ZU0 CB  O3 C5  118.248 1.50
+ZU0 CB  C4 H4  109.474 1.50
+ZU0 CB  C4 H5  109.474 1.50
+ZU0 CB  C4 H6  109.474 1.50
+ZU0 H4  C4 H5  109.425 1.50
+ZU0 H4  C4 H6  109.425 1.50
+ZU0 H5  C4 H6  109.425 1.50
+ZU0 O3  C5 C6  107.850 3.00
+ZU0 O3  C5 C7  107.850 3.00
+ZU0 O3  C5 C8  107.850 3.00
+ZU0 C6  C5 C7  111.556 1.74
+ZU0 C6  C5 C8  111.556 1.74
+ZU0 C7  C5 C8  111.556 1.74
+ZU0 C5  C6 H7  109.498 1.50
+ZU0 C5  C6 H8  109.498 1.50
+ZU0 C5  C6 H9  109.498 1.50
+ZU0 H7  C6 H8  109.423 1.92
+ZU0 H7  C6 H9  109.423 1.92
+ZU0 H8  C6 H9  109.423 1.92
+ZU0 C5  C7 H10 109.498 1.50
+ZU0 C5  C7 H11 109.498 1.50
+ZU0 C5  C7 H12 109.498 1.50
+ZU0 H10 C7 H11 109.423 1.92
+ZU0 H10 C7 H12 109.423 1.92
+ZU0 H11 C7 H12 109.423 1.92
+ZU0 C5  C8 H13 109.498 1.50
+ZU0 C5  C8 H14 109.498 1.50
+ZU0 C5  C8 H15 109.498 1.50
+ZU0 H13 C8 H14 109.423 1.92
+ZU0 H13 C8 H15 109.423 1.92
+ZU0 H14 C8 H15 109.423 1.92
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+ZU0 sp3_sp3_19 H4  C4 CB CA  180.000 10.0 3
+ZU0 sp3_sp3_34 O3  C5 C6 H7  180.000 10.0 3
+ZU0 sp3_sp3_43 C6  C5 C7 H10 180.000 10.0 3
+ZU0 sp3_sp3_52 O3  C5 C8 H13 180.000 10.0 3
+ZU0 sp3_sp3_31 C7  C5 O3 CB  180.000 10.0 3
+ZU0 sp3_sp3_1  C   CA CB C4  180.000 10.0 3
+ZU0 sp3_sp3_10 C   CA N  H   180.000 10.0 3
+ZU0 sp3_sp3_28 CA  CB O3 C5  180.000 10.0 3
+ZU0 sp2_sp3_1  OXT C  CA CB  0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+ZU0 chir_1 CA N  C  CB positive
+ZU0 chir_2 CB O3 CA C4 negative
+ZU0 chir_3 C5 O3 C6 C7 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+ZU0 plan-1 C   0.020
+ZU0 plan-1 CA  0.020
+ZU0 plan-1 O   0.020
+ZU0 plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+ZU0 SMILES           ACDLabs              12.01 "O=C(O)C(N)C(OC(C)(C)C)C"
+ZU0 SMILES_CANONICAL CACTVS               3.370 "C[C@@H](OC(C)(C)C)[C@H](N)C(O)=O"
+ZU0 SMILES           CACTVS               3.370 "C[CH](OC(C)(C)C)[CH](N)C(O)=O"
+ZU0 SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "C[C@H]([C@@H](C(=O)O)N)OC(C)(C)C"
+ZU0 SMILES           "OpenEye OEToolkits" 1.7.0 "CC(C(C(=O)O)N)OC(C)(C)C"
+ZU0 InChI            InChI                1.03  "InChI=1S/C8H17NO3/c1-5(6(9)7(10)11)12-8(2,3)4/h5-6H,9H2,1-4H3,(H,10,11)/t5-,6+/m1/s1"
+ZU0 InChIKey         InChI                1.03  NMJINEMBBQVPGY-RITPCOANSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+ZU0 acedrg          285       "dictionary generator"
+ZU0 acedrg_database 12        "data source"
+ZU0 rdkit           2019.09.1 "Chemoinformatics tool"
+ZU0 servalcat       0.4.57    'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+ZU0 peptide H16 H3

@@ -1,0 +1,177 @@
+#
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+7N5   7N5       "2-Ketohexanoic        acid"        NON-POLYMER        18        9        .        
+#
+data_comp_7N5
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+7N5     C3      C       CH2     0       -22.684     -9.651      -15.089
+7N5     C5      C       CH2     0       -20.267     -10.330     -14.660
+7N5     C4      C       CH2     0       -21.413     -9.401      -14.292
+7N5     C2      C       C       0       -23.818     -8.709      -14.755
+7N5     C6      C       CH3     0       -19.016     -10.120     -13.836
+7N5     C1      C       C       0       -25.100     -8.818      -15.542
+7N5     O1A     O       O       0       -25.159     -9.693      -16.441
+7N5     O1B     O       OC      -1      -26.028     -8.026      -15.248
+7N5     O2      O       O       0       -23.720     -7.878      -13.877
+7N5     H1      H       H       0       -22.984     -10.571     -14.927
+7N5     H2      H       H       0       -22.479     -9.567      -16.045
+7N5     H3      H       H       0       -20.048     -10.198     -15.608
+7N5     H4      H       H       0       -20.567     -11.258     -14.550
+7N5     H5      H       H       0       -21.613     -9.508      -13.336
+7N5     H6      H       H       0       -21.127     -8.473      -14.435
+7N5     H7      H       H       0       -18.325     -10.746     -14.124
+7N5     H8      H       H       0       -19.217     -10.270     -12.893
+7N5     H9      H       H       0       -18.695     -9.206      -13.957
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+7N5        C3    C(CCHH)(CCO)(H)2
+7N5        C5    C(CCHH)(CH3)(H)2
+7N5        C4    C(CCHH)2(H)2
+7N5        C2    C(CCHH)(COO)(O)
+7N5        C6    C(CCHH)(H)3
+7N5        C1    C(CCO)(O)2
+7N5       O1A    O(CCO)
+7N5       O1B    O(CCO)
+7N5        O2    O(CCC)
+7N5        H1    H(CCCH)
+7N5        H2    H(CCCH)
+7N5        H3    H(CCCH)
+7N5        H4    H(CCCH)
+7N5        H5    H(CCCH)
+7N5        H6    H(CCCH)
+7N5        H7    H(CCHH)
+7N5        H8    H(CCHH)
+7N5        H9    H(CCHH)
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.aromatic
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+7N5          C1         O1A      DOUBLE       n     1.254  0.0181     1.254  0.0181
+7N5          C1         O1B      SINGLE       n     1.254  0.0181     1.254  0.0181
+7N5          C2          C1      SINGLE       n     1.498  0.0200     1.498  0.0200
+7N5          C3          C2      SINGLE       n     1.509  0.0100     1.509  0.0100
+7N5          C3          C4      SINGLE       n     1.517  0.0200     1.517  0.0200
+7N5          C2          O2      DOUBLE       n     1.210  0.0138     1.210  0.0138
+7N5          C5          C4      SINGLE       n     1.521  0.0100     1.521  0.0100
+7N5          C5          C6      SINGLE       n     1.513  0.0200     1.513  0.0200
+7N5          C3          H1      SINGLE       n     1.092  0.0100     0.981  0.0172
+7N5          C3          H2      SINGLE       n     1.092  0.0100     0.981  0.0172
+7N5          C5          H3      SINGLE       n     1.092  0.0100     0.981  0.0155
+7N5          C5          H4      SINGLE       n     1.092  0.0100     0.981  0.0155
+7N5          C4          H5      SINGLE       n     1.092  0.0100     0.982  0.0161
+7N5          C4          H6      SINGLE       n     1.092  0.0100     0.982  0.0161
+7N5          C6          H7      SINGLE       n     1.092  0.0100     0.976  0.0140
+7N5          C6          H8      SINGLE       n     1.092  0.0100     0.976  0.0140
+7N5          C6          H9      SINGLE       n     1.092  0.0100     0.976  0.0140
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+7N5          C2          C3          C4     112.717    1.86
+7N5          C2          C3          H1     108.573    1.50
+7N5          C2          C3          H2     108.573    1.50
+7N5          C4          C3          H1     108.832    1.50
+7N5          C4          C3          H2     108.832    1.50
+7N5          H1          C3          H2     107.745    1.50
+7N5          C4          C5          C6     114.014    3.50
+7N5          C4          C5          H3     108.682    2.59
+7N5          C4          C5          H4     108.682    2.59
+7N5          C6          C5          H3     108.861    1.94
+7N5          C6          C5          H4     108.861    1.94
+7N5          H3          C5          H4     107.740    2.11
+7N5          C3          C4          C5     113.640    1.50
+7N5          C3          C4          H5     108.707    1.50
+7N5          C3          C4          H6     108.707    1.50
+7N5          C5          C4          H5     108.530    2.67
+7N5          C5          C4          H6     108.530    2.67
+7N5          H5          C4          H6     107.566    1.82
+7N5          C1          C2          C3     118.243    3.50
+7N5          C1          C2          O2     120.128    1.50
+7N5          C3          C2          O2     121.629    3.50
+7N5          C5          C6          H7     109.544    1.50
+7N5          C5          C6          H8     109.544    1.50
+7N5          C5          C6          H9     109.544    1.50
+7N5          H7          C6          H8     109.381    1.50
+7N5          H7          C6          H9     109.381    1.50
+7N5          H8          C6          H9     109.381    1.50
+7N5         O1A          C1         O1B     125.314    1.50
+7N5         O1A          C1          C2     117.343    1.50
+7N5         O1B          C1          C2     117.343    1.50
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+7N5             sp3_sp3_1          C2          C3          C4          C5     180.000    10.0     3
+7N5             sp2_sp3_2          C1          C2          C3          C4     120.000    10.0     6
+7N5            sp3_sp3_10          C3          C4          C5          C6     180.000    10.0     3
+7N5            sp3_sp3_19          C4          C5          C6          H7     180.000    10.0     3
+7N5             sp2_sp2_1         O1A          C1          C2          C3     180.000       5     2
+7N5             sp2_sp2_4         O1B          C1          C2          O2     180.000       5     2
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+7N5    plan-1          C1   0.020
+7N5    plan-1          C2   0.020
+7N5    plan-1          C3   0.020
+7N5    plan-1          O2   0.020
+7N5    plan-2          C1   0.020
+7N5    plan-2          C2   0.020
+7N5    plan-2         O1A   0.020
+7N5    plan-2         O1B   0.020
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+7N5 InChI            InChI                1.06  "InChI=1S/C6H10O3/c1-2-3-4-5(7)6(8)9/h2-4H2,1H3,(H,8,9)"
+7N5 InChIKey         InChI                1.06  XNIHZNNZJHYHLC-UHFFFAOYSA-N
+7N5 SMILES_CANONICAL CACTVS               3.385 "CCCCC(=O)C(O)=O"
+7N5 SMILES           CACTVS               3.385 "CCCCC(=O)C(O)=O"
+7N5 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CCCCC(=O)C(=O)O"
+7N5 SMILES           "OpenEye OEToolkits" 2.0.7 "CCCCC(=O)C(=O)O"
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+7N5 acedrg               277         "dictionary generator"                  
+7N5 acedrg_database      12          "data source"                           
+7N5 rdkit                2019.09.1   "Chemoinformatics tool"
+7N5 refmac5              5.8.0423    "optimization tool"                     

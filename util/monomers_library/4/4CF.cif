@@ -1,0 +1,247 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+4CF 4CF 4-cyano-L-phenylalanine peptide 24 14 .
+
+data_comp_4CF
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+4CF C   C   C C    0  30.712 8.501  8.942
+4CF N   N   N NT3  1  32.270 9.738  10.402
+4CF O   O   O O    0  30.791 7.465  8.244
+4CF C1  C1  C CSP  0  27.964 3.170  11.863
+4CF N1  N1  N NSP  0  27.457 2.149  11.941
+4CF CA  CA  C CH1  0  31.467 8.485  10.282
+4CF CB  CB  C CH2  0  30.510 8.309  11.470
+4CF CG  CG  C CR6  0  29.836 6.944  11.571
+4CF CZ  CZ  C CR6  0  28.602 4.457  11.764
+4CF CD1 CD1 C CR16 0  28.548 6.742  11.084
+4CF CD2 CD2 C CR16 0  30.485 5.865  12.164
+4CF CE1 CE1 C CR16 0  27.935 5.518  11.174
+4CF CE2 CE2 C CR16 0  29.884 4.636  12.260
+4CF OXT OXT O OC   -1 30.071 9.533  8.634
+4CF H   H   H H    0  32.738 9.751  11.174
+4CF H2  H2  H H    0  31.736 10.465 10.369
+4CF H3  H3  H H    0  32.856 9.784  9.718
+4CF HA  HA  H H    0  32.098 7.716  10.277
+4CF HB  HB  H H    0  29.816 9.004  11.411
+4CF HBA HBA H H    0  31.015 8.474  12.298
+4CF HD1 HD1 H H    0  28.089 7.462  10.680
+4CF HD2 HD2 H H    0  31.359 5.981  12.502
+4CF HE1 HE1 H H    0  27.062 5.403  10.835
+4CF HE2 HE2 H H    0  30.343 3.917  12.663
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+4CF C   C(CCHN)(O)2
+4CF N   N(CCCH)(H)3
+4CF O   O(CCO)
+4CF C1  C(C[6a]C[6a]2)(N)
+4CF N1  N(CC[6a])
+4CF CA  C(CC[6a]HH)(NH3)(COO)(H)
+4CF CB  C(C[6a]C[6a]2)(CCHN)(H)2
+4CF CG  C[6a](C[6a]C[6a]H)2(CCHH){1|C<3>,2|H<1>}
+4CF CZ  C[6a](C[6a]C[6a]H)2(CN){1|C<3>,2|H<1>}
+4CF CD1 C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+4CF CD2 C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<2>,1|C<3>,1|H<1>}
+4CF CE1 C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+4CF CE2 C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+4CF OXT O(CCO)
+4CF H   H(NCHH)
+4CF H2  H(NCHH)
+4CF H3  H(NCHH)
+4CF HA  H(CCCN)
+4CF HB  H(CC[6a]CH)
+4CF HBA H(CC[6a]CH)
+4CF HD1 H(C[6a]C[6a]2)
+4CF HD2 H(C[6a]C[6a]2)
+4CF HE1 H(C[6a]C[6a]2)
+4CF HE2 H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+4CF C   O   DOUBLE n 1.251 0.0183 1.251 0.0183
+4CF C   OXT SINGLE n 1.251 0.0183 1.251 0.0183
+4CF C   CA  SINGLE n 1.531 0.0171 1.531 0.0171
+4CF N   CA  SINGLE n 1.489 0.0100 1.489 0.0100
+4CF C1  N1  TRIPLE n 1.143 0.0104 1.143 0.0104
+4CF C1  CZ  SINGLE n 1.440 0.0107 1.440 0.0107
+4CF CA  CB  SINGLE n 1.532 0.0100 1.532 0.0100
+4CF CB  CG  SINGLE n 1.523 0.0100 1.523 0.0100
+4CF CG  CD1 DOUBLE y 1.390 0.0116 1.390 0.0116
+4CF CG  CD2 SINGLE y 1.390 0.0116 1.390 0.0116
+4CF CZ  CE1 DOUBLE y 1.386 0.0113 1.386 0.0113
+4CF CZ  CE2 SINGLE y 1.386 0.0113 1.386 0.0113
+4CF CD1 CE1 SINGLE y 1.372 0.0100 1.372 0.0100
+4CF CD2 CE2 DOUBLE y 1.372 0.0100 1.372 0.0100
+4CF N   H   SINGLE n 1.018 0.0520 0.902 0.0102
+4CF N   H2  SINGLE n 1.018 0.0520 0.902 0.0102
+4CF N   H3  SINGLE n 1.018 0.0520 0.902 0.0102
+4CF CA  HA  SINGLE n 1.092 0.0100 0.994 0.0200
+4CF CB  HB  SINGLE n 1.092 0.0100 0.983 0.0163
+4CF CB  HBA SINGLE n 1.092 0.0100 0.983 0.0163
+4CF CD1 HD1 SINGLE n 1.085 0.0150 0.944 0.0143
+4CF CD2 HD2 SINGLE n 1.085 0.0150 0.944 0.0143
+4CF CE1 HE1 SINGLE n 1.085 0.0150 0.943 0.0163
+4CF CE2 HE2 SINGLE n 1.085 0.0150 0.943 0.0163
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+4CF O   C   OXT 125.562 1.50
+4CF O   C   CA  117.219 3.00
+4CF OXT C   CA  117.219 3.00
+4CF CA  N   H   109.791 3.00
+4CF CA  N   H2  109.791 3.00
+4CF CA  N   H3  109.791 3.00
+4CF H   N   H2  109.032 3.00
+4CF H   N   H3  109.032 3.00
+4CF H2  N   H3  109.032 3.00
+4CF N1  C1  CZ  180.000 3.00
+4CF C   CA  N   109.085 1.50
+4CF C   CA  CB  111.980 3.00
+4CF C   CA  HA  108.746 1.50
+4CF N   CA  CB  109.965 3.00
+4CF N   CA  HA  108.547 1.50
+4CF CB  CA  HA  108.686 1.50
+4CF CA  CB  CG  114.693 2.05
+4CF CA  CB  HB  108.494 1.50
+4CF CA  CB  HBA 108.494 1.50
+4CF CG  CB  HB  108.859 1.50
+4CF CG  CB  HBA 108.859 1.50
+4CF HB  CB  HBA 107.843 2.16
+4CF CB  CG  CD1 120.982 1.50
+4CF CB  CG  CD2 120.982 1.50
+4CF CD1 CG  CD2 118.036 1.50
+4CF C1  CZ  CE1 119.958 1.50
+4CF C1  CZ  CE2 119.958 1.50
+4CF CE1 CZ  CE2 120.083 1.50
+4CF CG  CD1 CE1 121.181 1.50
+4CF CG  CD1 HD1 119.334 1.50
+4CF CE1 CD1 HD1 119.485 1.50
+4CF CG  CD2 CE2 121.181 1.50
+4CF CG  CD2 HD2 119.334 1.50
+4CF CE2 CD2 HD2 119.485 1.50
+4CF CZ  CE1 CD1 119.760 1.50
+4CF CZ  CE1 HE1 120.359 1.50
+4CF CD1 CE1 HE1 119.882 1.50
+4CF CZ  CE2 CD2 119.760 1.50
+4CF CZ  CE2 HE2 120.359 1.50
+4CF CD2 CE2 HE2 119.882 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+4CF chi1      N   CA  CB  CG  -60.000 10.0 3
+4CF chi2      CA  CB  CG  CD1 90.000  20.0 6
+4CF const_0   CB  CG  CD1 CE1 0.000   0.0  1
+4CF const_1   CD1 CE1 CZ  CE2 0.000   0.0  1
+4CF const_2   CE1 CZ  CE2 CD2 0.000   0.0  1
+4CF const_3   CG  CD1 CE1 CZ  0.000   0.0  1
+4CF const_4   CZ  CE2 CD2 CG  0.000   0.0  1
+4CF sp3_sp3_1 C   CA  N   H   180.000 10.0 3
+4CF const_5   CE2 CD2 CG  CD1 0.000   0.0  1
+4CF sp2_sp3_1 O   C   CA  N   0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+4CF chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+4CF plan-1 C1  0.020
+4CF plan-1 CB  0.020
+4CF plan-1 CD1 0.020
+4CF plan-1 CD2 0.020
+4CF plan-1 CE1 0.020
+4CF plan-1 CE2 0.020
+4CF plan-1 CG  0.020
+4CF plan-1 CZ  0.020
+4CF plan-1 HD1 0.020
+4CF plan-1 HD2 0.020
+4CF plan-1 HE1 0.020
+4CF plan-1 HE2 0.020
+4CF plan-2 C   0.020
+4CF plan-2 CA  0.020
+4CF plan-2 O   0.020
+4CF plan-2 OXT 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+4CF ring-1 CG  YES
+4CF ring-1 CZ  YES
+4CF ring-1 CD1 YES
+4CF ring-1 CD2 YES
+4CF ring-1 CE1 YES
+4CF ring-1 CE2 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+4CF SMILES           ACDLabs              12.01 "O=C(O)C(N)Cc1ccc(C#N)cc1"
+4CF SMILES_CANONICAL CACTVS               3.370 "N[C@@H](Cc1ccc(cc1)C#N)C(O)=O"
+4CF SMILES           CACTVS               3.370 "N[CH](Cc1ccc(cc1)C#N)C(O)=O"
+4CF SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "c1cc(ccc1C[C@@H](C(=O)O)N)C#N"
+4CF SMILES           "OpenEye OEToolkits" 1.7.0 "c1cc(ccc1CC(C(=O)O)N)C#N"
+4CF InChI            InChI                1.03  "InChI=1S/C10H10N2O2/c11-6-8-3-1-7(2-4-8)5-9(12)10(13)14/h1-4,9H,5,12H2,(H,13,14)/t9-/m0/s1"
+4CF InChIKey         InChI                1.03  KWIPUXXIFQQMKN-VIFPVBQESA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+4CF acedrg          326       "dictionary generator"
+4CF acedrg_database 12        "data source"
+4CF rdkit           2023.03.3 "Chemoinformatics tool"
+4CF servalcat       0.4.120   'optimization tool'

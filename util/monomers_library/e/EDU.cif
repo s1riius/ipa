@@ -1,0 +1,287 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+EDU EDU "2'-deoxy-5-ethynyluridine" NON-POLYMER 30 18 .
+
+data_comp_EDU
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+EDU O01 O01 O OH1  0 50.040 23.580 52.821
+EDU C03 C03 C CH2  0 50.844 24.723 53.067
+EDU C06 C06 C CH1  0 50.183 25.716 54.001
+EDU O08 O08 O O2   0 48.870 26.040 53.484
+EDU C09 C09 C CH1  0 49.985 25.265 55.462
+EDU O10 O10 O OH1  0 50.439 26.280 56.358
+EDU C13 C13 C CH2  0 48.478 25.062 55.587
+EDU C16 C16 C CH1  0 47.896 25.993 54.520
+EDU N18 N18 N NH0  0 46.588 25.536 53.949
+EDU C19 C19 C CR6  0 45.428 26.100 54.458
+EDU O20 O20 O O    0 45.421 26.951 55.334
+EDU N21 N21 N NH1  0 44.260 25.637 53.902
+EDU C23 C23 C CR6  0 44.129 24.685 52.914
+EDU O24 O24 O O    0 43.008 24.372 52.515
+EDU C25 C25 C CR6  0 45.325 24.145 52.442
+EDU C26 C26 C CR16 0 46.535 24.581 52.974
+EDU C28 C28 C CSP  0 45.257 23.146 51.411
+EDU C29 C29 C CSP  0 45.202 22.330 50.567
+EDU H1  H1  H H    0 50.452 23.061 52.296
+EDU H2  H2  H H    0 51.036 25.168 52.217
+EDU H3  H3  H H    0 51.701 24.437 53.447
+EDU H4  H4  H H    0 50.725 26.545 54.001
+EDU H5  H5  H H    0 50.466 24.415 55.641
+EDU H6  H6  H H    0 50.456 25.982 57.145
+EDU H7  H7  H H    0 48.235 24.139 55.414
+EDU H8  H8  H H    0 48.165 25.309 56.472
+EDU H9  H9  H H    0 47.795 26.909 54.898
+EDU H10 H10 H H    0 43.519 25.995 54.218
+EDU H11 H11 H H    0 47.345 24.210 52.651
+EDU H12 H12 H H    0 45.157 21.675 49.891
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+EDU O01 O(CC[5]HH)(H)
+EDU C03 C(C[5]C[5]O[5]H)(OH)(H)2
+EDU C06 C[5](C[5]C[5]HO)(O[5]C[5])(CHHO)(H){1|N<3>,3|H<1>}
+EDU O08 O[5](C[5]N[6a]C[5]H)(C[5]C[5]CH){1|O<2>,2|C<3>,3|H<1>}
+EDU C09 C[5](C[5]C[5]HH)(C[5]O[5]CH)(OH)(H){1|H<1>,1|N<3>}
+EDU O10 O(C[5]C[5]2H)(H)
+EDU C13 C[5](C[5]N[6a]O[5]H)(C[5]C[5]HO)(H)2{1|C<4>,1|H<1>,2|C<3>}
+EDU C16 C[5](N[6a]C[6a]2)(C[5]C[5]HH)(O[5]C[5])(H){1|C<3>,1|C<4>,1|N<3>,1|O<1>,1|O<2>,3|H<1>}
+EDU N18 N[6a](C[5]C[5]O[5]H)(C[6a]C[6a]H)(C[6a]N[6a]O){1|C<2>,1|C<3>,2|C<4>,3|H<1>}
+EDU C19 C[6a](N[6a]C[6a]C[5])(N[6a]C[6a]H)(O){1|C<3>,1|C<4>,1|O<1>,1|O<2>,2|H<1>}
+EDU O20 O(C[6a]N[6a]2)
+EDU N21 N[6a](C[6a]C[6a]O)(C[6a]N[6a]O)(H){1|C<2>,1|C<3>,1|C<4>}
+EDU C23 C[6a](C[6a]C[6a]C)(N[6a]C[6a]H)(O){1|H<1>,1|N<3>,1|O<1>}
+EDU O24 O(C[6a]C[6a]N[6a])
+EDU C25 C[6a](C[6a]N[6a]H)(C[6a]N[6a]O)(CC){1|C<3>,1|C<4>,1|H<1>}
+EDU C26 C[6a](N[6a]C[6a]C[5])(C[6a]C[6a]C)(H){1|C<4>,1|H<1>,1|N<3>,1|O<2>,2|O<1>}
+EDU C28 C(C[6a]C[6a]2)(CH)
+EDU C29 C(CC[6a])(H)
+EDU H1  H(OC)
+EDU H2  H(CC[5]HO)
+EDU H3  H(CC[5]HO)
+EDU H4  H(C[5]C[5]O[5]C)
+EDU H5  H(C[5]C[5]2O)
+EDU H6  H(OC[5])
+EDU H7  H(C[5]C[5]2H)
+EDU H8  H(C[5]C[5]2H)
+EDU H9  H(C[5]N[6a]C[5]O[5])
+EDU H10 H(N[6a]C[6a]2)
+EDU H11 H(C[6a]C[6a]N[6a])
+EDU H12 H(CC)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+EDU C28 C29 TRIPLE n 1.175 0.0200 1.175 0.0200
+EDU C25 C28 SINGLE n 1.437 0.0100 1.437 0.0100
+EDU C23 O24 DOUBLE n 1.231 0.0101 1.231 0.0101
+EDU C23 C25 SINGLE y 1.400 0.0148 1.400 0.0148
+EDU C25 C26 DOUBLE y 1.392 0.0151 1.392 0.0151
+EDU N21 C23 SINGLE y 1.381 0.0100 1.381 0.0100
+EDU O01 C03 SINGLE n 1.418 0.0110 1.418 0.0110
+EDU C03 C06 SINGLE n 1.511 0.0100 1.511 0.0100
+EDU N18 C26 SINGLE y 1.360 0.0100 1.360 0.0100
+EDU C06 O08 SINGLE n 1.445 0.0100 1.445 0.0100
+EDU O08 C16 SINGLE n 1.422 0.0100 1.422 0.0100
+EDU C19 N21 SINGLE y 1.374 0.0100 1.374 0.0100
+EDU C06 C09 SINGLE n 1.530 0.0119 1.530 0.0119
+EDU N18 C19 SINGLE y 1.381 0.0100 1.381 0.0100
+EDU C16 N18 SINGLE n 1.478 0.0148 1.478 0.0148
+EDU C19 O20 DOUBLE n 1.221 0.0100 1.221 0.0100
+EDU C13 C16 SINGLE n 1.532 0.0100 1.532 0.0100
+EDU C09 C13 SINGLE n 1.523 0.0101 1.523 0.0101
+EDU C09 O10 SINGLE n 1.425 0.0128 1.425 0.0128
+EDU O01 H1  SINGLE n 0.972 0.0180 0.846 0.0200
+EDU C03 H2  SINGLE n 1.092 0.0100 0.979 0.0200
+EDU C03 H3  SINGLE n 1.092 0.0100 0.979 0.0200
+EDU C06 H4  SINGLE n 1.092 0.0100 0.990 0.0200
+EDU C09 H5  SINGLE n 1.092 0.0100 0.991 0.0181
+EDU O10 H6  SINGLE n 0.972 0.0180 0.839 0.0200
+EDU C13 H7  SINGLE n 1.092 0.0100 0.970 0.0100
+EDU C13 H8  SINGLE n 1.092 0.0100 0.970 0.0100
+EDU C16 H9  SINGLE n 1.092 0.0100 0.996 0.0200
+EDU N21 H10 SINGLE n 1.013 0.0120 0.881 0.0200
+EDU C26 H11 SINGLE n 1.085 0.0150 0.949 0.0200
+EDU C29 H12 SINGLE n 1.044 0.0220 0.943 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+EDU C03 O01 H1  109.004 3.00
+EDU O01 C03 C06 111.425 3.00
+EDU O01 C03 H2  109.289 1.50
+EDU O01 C03 H3  109.289 1.50
+EDU C06 C03 H2  109.295 2.17
+EDU C06 C03 H3  109.295 2.17
+EDU H2  C03 H3  108.243 3.00
+EDU C03 C06 O08 109.544 1.50
+EDU C03 C06 C09 114.734 2.52
+EDU C03 C06 H4  108.980 1.50
+EDU O08 C06 C09 105.546 1.50
+EDU O08 C06 H4  108.778 1.50
+EDU C09 C06 H4  109.033 1.50
+EDU C06 O08 C16 109.881 1.50
+EDU C06 C09 C13 102.581 1.50
+EDU C06 C09 O10 110.611 3.00
+EDU C06 C09 H5  110.734 1.65
+EDU C13 C09 O10 110.452 3.00
+EDU C13 C09 H5  110.938 1.50
+EDU O10 C09 H5  110.786 1.88
+EDU C09 O10 H6  108.690 3.00
+EDU C16 C13 C09 102.658 2.13
+EDU C16 C13 H7  111.181 1.50
+EDU C16 C13 H8  111.181 1.50
+EDU C09 C13 H7  111.287 1.86
+EDU C09 C13 H8  111.287 1.86
+EDU H7  C13 H8  109.095 1.50
+EDU O08 C16 N18 107.769 1.50
+EDU O08 C16 C13 106.263 1.50
+EDU O08 C16 H9  109.467 1.50
+EDU N18 C16 C13 114.169 1.50
+EDU N18 C16 H9  109.124 1.71
+EDU C13 C16 H9  109.883 1.50
+EDU C26 N18 C19 121.289 1.50
+EDU C26 N18 C16 120.787 1.69
+EDU C19 N18 C16 117.925 1.50
+EDU N21 C19 N18 114.617 1.50
+EDU N21 C19 O20 122.367 1.50
+EDU N18 C19 O20 123.015 1.50
+EDU C23 N21 C19 127.135 1.50
+EDU C23 N21 H10 117.262 3.00
+EDU C19 N21 H10 115.603 3.00
+EDU O24 C23 C25 124.666 1.50
+EDU O24 C23 N21 119.294 1.50
+EDU C25 C23 N21 116.040 1.50
+EDU C28 C25 C23 118.015 1.50
+EDU C28 C25 C26 122.105 1.50
+EDU C23 C25 C26 119.880 1.78
+EDU C25 C26 N18 121.039 1.50
+EDU C25 C26 H11 120.054 1.50
+EDU N18 C26 H11 118.907 1.83
+EDU C29 C28 C25 180.000 3.00
+EDU C28 C29 H12 180.000 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+EDU sp3_sp3_1 C06 C03 O01 H1  180.000 10.0 3
+EDU const_0   O24 C23 N21 C19 180.000 0.0  1
+EDU const_1   O24 C23 C25 C28 0.000   0.0  1
+EDU const_2   C28 C25 C26 N18 180.000 0.0  1
+EDU sp3_sp3_2 O01 C03 C06 O08 180.000 10.0 3
+EDU sp3_sp3_3 C03 C06 O08 C16 -60.000 10.0 3
+EDU sp3_sp3_4 C03 C06 C09 O10 180.000 10.0 3
+EDU sp3_sp3_5 N18 C16 O08 C06 180.000 10.0 3
+EDU sp3_sp3_6 C06 C09 O10 H6  180.000 10.0 3
+EDU sp3_sp3_7 O10 C09 C13 C16 180.000 10.0 3
+EDU sp3_sp3_8 C09 C13 C16 O08 60.000  10.0 3
+EDU sp2_sp3_1 C26 N18 C16 O08 150.000 20.0 6
+EDU const_3   C25 C26 N18 C19 0.000   0.0  1
+EDU const_4   O20 C19 N18 C26 180.000 0.0  1
+EDU const_5   O20 C19 N21 C23 180.000 0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+EDU chir_1 C06 O08 C09 C03 negative
+EDU chir_2 C09 O10 C06 C13 positive
+EDU chir_3 C16 O08 N18 C13 negative
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+EDU plan-1 C16 0.020
+EDU plan-1 C19 0.020
+EDU plan-1 C23 0.020
+EDU plan-1 C25 0.020
+EDU plan-1 C26 0.020
+EDU plan-1 C28 0.020
+EDU plan-1 H10 0.020
+EDU plan-1 H11 0.020
+EDU plan-1 N18 0.020
+EDU plan-1 N21 0.020
+EDU plan-1 O20 0.020
+EDU plan-1 O24 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+EDU ring-1 N18 YES
+EDU ring-1 C19 YES
+EDU ring-1 N21 YES
+EDU ring-1 C23 YES
+EDU ring-1 C25 YES
+EDU ring-1 C26 YES
+EDU ring-2 C06 NO
+EDU ring-2 O08 NO
+EDU ring-2 C09 NO
+EDU ring-2 C13 NO
+EDU ring-2 C16 NO
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+EDU SMILES           ACDLabs              12.01 "O=C1NC(=O)N(C=C1C#C)C2OC(C(O)C2)CO"
+EDU InChI            InChI                1.03  "InChI=1S/C11H12N2O5/c1-2-6-4-13(11(17)12-10(6)16)9-3-7(15)8(5-14)18-9/h1,4,7-9,14-15H,3,5H2,(H,12,16,17)/t7-,8+,9+/m0/s1"
+EDU InChIKey         InChI                1.03  CDEURGJCGCHYFH-DJLDLDEBSA-N
+EDU SMILES_CANONICAL CACTVS               3.385 "OC[C@H]1O[C@H](C[C@@H]1O)N2C=C(C#C)C(=O)NC2=O"
+EDU SMILES           CACTVS               3.385 "OC[CH]1O[CH](C[CH]1O)N2C=C(C#C)C(=O)NC2=O"
+EDU SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "C#CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)CO)O"
+EDU SMILES           "OpenEye OEToolkits" 1.7.6 "C#CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+EDU acedrg          326       "dictionary generator"
+EDU acedrg_database 12        "data source"
+EDU rdkit           2023.03.3 "Chemoinformatics tool"
+EDU servalcat       0.4.120   'optimization tool'

@@ -1,0 +1,201 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HVA HVA 3-hydroxy-L-valine peptide 20 9 .
+
+data_comp_HVA
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+HVA N    N    N NT3 1  8.169 -0.253 -3.841
+HVA CA   CA   C CH1 0  7.433 -1.521 -4.120
+HVA CB   CB   C CT  0  7.643 -2.095 -5.566
+HVA CG1  CG1  C CH3 0  9.070 -2.530 -5.892
+HVA CG2  CG2  C CH3 0  6.634 -3.183 -5.940
+HVA OG3  OG3  O OH1 0  7.428 -1.011 -6.490
+HVA C    C    C C   0  7.714 -2.520 -2.982
+HVA O    O    O O   0  8.892 -2.617 -2.562
+HVA OXT  OXT  O OC  -1 6.736 -3.165 -2.541
+HVA H    H    H H   0  7.892 0.090  -3.054
+HVA H2   H2   H H   0  8.010 0.343  -4.499
+HVA H3   H3   H H   0  9.055 -0.416 -3.786
+HVA HA   HA   H H   0  6.466 -1.301 -4.088
+HVA HG11 HG11 H H   0  9.333 -3.270 -5.313
+HVA HG12 HG12 H H   0  9.682 -1.783 -5.751
+HVA HG13 HG13 H H   0  9.130 -2.815 -6.824
+HVA HG21 HG21 H H   0  6.765 -3.458 -6.868
+HVA HG22 HG22 H H   0  5.726 -2.839 -5.840
+HVA HG23 HG23 H H   0  6.746 -3.957 -5.357
+HVA HOG3 HOG3 H H   0  6.667 -0.647 -6.435
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+HVA N    N(CCCH)(H)3
+HVA CA   C(CCCO)(NH3)(COO)(H)
+HVA CB   C(CCHN)(CH3)2(OH)
+HVA CG1  C(CCCO)(H)3
+HVA CG2  C(CCCO)(H)3
+HVA OG3  O(CC3)(H)
+HVA C    C(CCHN)(O)2
+HVA O    O(CCO)
+HVA OXT  O(CCO)
+HVA H    H(NCHH)
+HVA H2   H(NCHH)
+HVA H3   H(NCHH)
+HVA HA   H(CCCN)
+HVA HG11 H(CCHH)
+HVA HG12 H(CCHH)
+HVA HG13 H(CCHH)
+HVA HG21 H(CCHH)
+HVA HG22 H(CCHH)
+HVA HG23 H(CCHH)
+HVA HOG3 H(OC)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+HVA N   CA   SINGLE n 1.488 0.0100 1.488 0.0100
+HVA CA  CB   SINGLE n 1.546 0.0138 1.546 0.0138
+HVA CA  C    SINGLE n 1.533 0.0111 1.533 0.0111
+HVA CB  CG1  SINGLE n 1.519 0.0114 1.519 0.0114
+HVA CB  CG2  SINGLE n 1.519 0.0114 1.519 0.0114
+HVA CB  OG3  SINGLE n 1.437 0.0100 1.437 0.0100
+HVA C   O    DOUBLE n 1.251 0.0183 1.251 0.0183
+HVA C   OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+HVA N   H    SINGLE n 1.018 0.0520 0.902 0.0102
+HVA N   H2   SINGLE n 1.018 0.0520 0.902 0.0102
+HVA N   H3   SINGLE n 1.018 0.0520 0.902 0.0102
+HVA CA  HA   SINGLE n 1.092 0.0100 0.990 0.0200
+HVA CG1 HG11 SINGLE n 1.092 0.0100 0.975 0.0146
+HVA CG1 HG12 SINGLE n 1.092 0.0100 0.975 0.0146
+HVA CG1 HG13 SINGLE n 1.092 0.0100 0.975 0.0146
+HVA CG2 HG21 SINGLE n 1.092 0.0100 0.975 0.0146
+HVA CG2 HG22 SINGLE n 1.092 0.0100 0.975 0.0146
+HVA CG2 HG23 SINGLE n 1.092 0.0100 0.975 0.0146
+HVA OG3 HOG3 SINGLE n 0.972 0.0180 0.838 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+HVA CA   N   H    109.465 1.50
+HVA CA   N   H2   109.465 1.50
+HVA CA   N   H3   109.465 1.50
+HVA H    N   H2   109.032 3.00
+HVA H    N   H3   109.032 3.00
+HVA H2   N   H3   109.032 3.00
+HVA N    CA  CB   113.399 3.00
+HVA N    CA  C    109.364 1.50
+HVA N    CA  HA   108.374 1.50
+HVA CB   CA  C    113.591 1.50
+HVA CB   CA  HA   107.788 3.00
+HVA C    CA  HA   108.569 1.50
+HVA CA   CB  CG1  111.257 3.00
+HVA CA   CB  CG2  111.257 3.00
+HVA CA   CB  OG3  106.950 3.00
+HVA CG1  CB  CG2  111.422 1.94
+HVA CG1  CB  OG3  108.377 3.00
+HVA CG2  CB  OG3  108.377 3.00
+HVA CB   CG1 HG11 109.813 1.50
+HVA CB   CG1 HG12 109.813 1.50
+HVA CB   CG1 HG13 109.813 1.50
+HVA HG11 CG1 HG12 109.423 1.92
+HVA HG11 CG1 HG13 109.423 1.92
+HVA HG12 CG1 HG13 109.423 1.92
+HVA CB   CG2 HG21 109.813 1.50
+HVA CB   CG2 HG22 109.813 1.50
+HVA CB   CG2 HG23 109.813 1.50
+HVA HG21 CG2 HG22 109.423 1.92
+HVA HG21 CG2 HG23 109.423 1.92
+HVA HG22 CG2 HG23 109.423 1.92
+HVA CB   OG3 HOG3 109.275 3.00
+HVA CA   C   O    117.156 1.94
+HVA CA   C   OXT  117.156 1.94
+HVA O    C   OXT  125.689 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+HVA chi1      N   CA CB  CG2  -60.000 10.0 3
+HVA hh1       CA  CB CG1 HG13 180.000 10.0 3
+HVA hh2       CA  CB CG2 HG23 -60.000 10.0 3
+HVA sp3_sp3_1 CB  CA N   H    180.000 10.0 3
+HVA sp3_sp3_2 CG1 CB OG3 HOG3 180.000 10.0 3
+HVA sp2_sp3_1 O   C  CA  N    0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+HVA chir_1 CA N   C  CB  positive
+HVA chir_2 CB OG3 CA CG1 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+HVA plan-1 C   0.020
+HVA plan-1 CA  0.020
+HVA plan-1 O   0.020
+HVA plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+HVA SMILES           ACDLabs              10.04 "O=C(O)C(N)C(O)(C)C"
+HVA SMILES_CANONICAL CACTVS               3.341 "CC(C)(O)[C@H](N)C(O)=O"
+HVA SMILES           CACTVS               3.341 "CC(C)(O)[CH](N)C(O)=O"
+HVA SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CC(C)([C@@H](C(=O)O)N)O"
+HVA SMILES           "OpenEye OEToolkits" 1.5.0 "CC(C)(C(C(=O)O)N)O"
+HVA InChI            InChI                1.03  "InChI=1S/C5H11NO3/c1-5(2,9)3(6)4(7)8/h3,9H,6H2,1-2H3,(H,7,8)/t3-/m1/s1"
+HVA InChIKey         InChI                1.03  LDRFQSZFVGJGGP-GSVOUGTGSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+HVA acedrg          290       "dictionary generator"
+HVA acedrg_database 12        "data source"
+HVA rdkit           2019.09.1 "Chemoinformatics tool"
+HVA servalcat       0.4.57    'optimization tool'

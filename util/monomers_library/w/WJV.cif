@@ -1,0 +1,422 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+WJV WJV "N-[2-(3,3-dimethylbutoxy)ethyl]-N'-{4-methyl-5-[(pyridin-4-yl)ethynyl]-1,3-thiazol-2-yl}urea" NON-POLYMER 53 27 .
+
+data_comp_WJV
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+WJV C1  C1  C CH3  0 4.814  -1.488 -4.405
+WJV C11 C2  C CH2  0 -2.732 -1.695 -0.407
+WJV C12 C3  C CH2  0 -3.177 -0.280 -0.131
+WJV C14 C4  C CH2  0 -5.405 0.456  0.680
+WJV C15 C5  C CH2  0 -6.255 0.443  1.965
+WJV C16 C6  C CT   0 -6.241 1.712  2.913
+WJV C17 C7  C CH3  0 -6.816 2.980  2.235
+WJV C18 C8  C CH3  0 -4.818 2.018  3.446
+WJV C19 C9  C CH3  0 -7.137 1.386  4.134
+WJV C2  C10 C CR5  0 3.908  -1.387 -3.225
+WJV C20 C11 C CSP  0 5.611  -0.782 -1.430
+WJV C21 C12 C CSP  0 6.709  -0.539 -1.023
+WJV C22 C13 C CR6  0 8.028  -0.250 -0.547
+WJV C23 C14 C CR16 0 9.127  -0.295 -1.396
+WJV C24 C15 C CR16 0 10.380 -0.008 -0.890
+WJV C26 C16 C CR16 0 9.551  0.356  1.192
+WJV C27 C17 C CR16 0 8.259  0.086  0.781
+WJV C3  C18 C CR5  0 4.315  -1.070 -1.922
+WJV C5  C19 C CR5  0 1.897  -1.494 -2.271
+WJV C8  C20 C C    0 -0.337 -1.594 -1.102
+WJV N10 N1  N NH1  0 -1.655 -1.776 -1.398
+WJV N25 N2  N N20  0 10.608 0.315  0.382
+WJV N6  N3  N N20  0 2.554  -1.619 -3.391
+WJV N7  N4  N NH1  0 0.527  -1.679 -2.196
+WJV O13 O1  O O2   0 -4.197 -0.302 0.864
+WJV O9  O2  O O    0 0.060  -1.358 0.032
+WJV S4  S1  S S2   0 2.905  -1.080 -0.930
+WJV H1  H1  H H    0 4.436  -2.099 -5.054
+WJV H2  H2  H H    0 5.681  -1.816 -4.123
+WJV H3  H3  H H    0 4.919  -0.614 -4.810
+WJV H4  H4  H H    0 -3.498 -2.211 -0.732
+WJV H5  H5  H H    0 -2.434 -2.108 0.428
+WJV H6  H6  H H    0 -2.415 0.252  0.188
+WJV H7  H7  H H    0 -3.509 0.132  -0.961
+WJV H8  H8  H H    0 -5.179 1.380  0.432
+WJV H9  H9  H H    0 -5.925 0.064  -0.056
+WJV H10 H10 H H    0 -7.184 0.281  1.697
+WJV H11 H11 H H    0 -5.972 -0.332 2.497
+WJV H12 H12 H H    0 -6.860 3.716  2.877
+WJV H13 H13 H H    0 -7.713 2.796  1.896
+WJV H14 H14 H H    0 -6.245 3.246  1.489
+WJV H15 H15 H H    0 -4.854 2.733  4.111
+WJV H16 H16 H H    0 -4.240 2.300  2.713
+WJV H17 H17 H H    0 -4.438 1.219  3.859
+WJV H18 H18 H H    0 -6.794 0.599  4.600
+WJV H19 H19 H H    0 -8.051 1.203  3.839
+WJV H20 H20 H H    0 -7.150 2.141  4.755
+WJV H21 H21 H H    0 9.020  -0.518 -2.305
+WJV H22 H22 H H    0 11.119 -0.042 -1.477
+WJV H23 H23 H H    0 9.695  0.584  2.096
+WJV H24 H24 H H    0 7.546  0.130  1.395
+WJV H25 H25 H H    0 -1.872 -1.952 -2.224
+WJV H26 H26 H H    0 0.190  -1.876 -2.953
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+WJV C1  C(C[5a]C[5a]N[5a])(H)3
+WJV C11 C(CHHO)(NCH)(H)2
+WJV C12 C(CHHN)(OC)(H)2
+WJV C14 C(CCHH)(OC)(H)2
+WJV C15 C(CHHO)(CC3)(H)2
+WJV C16 C(CCHH)(CH3)3
+WJV C17 C(CC3)(H)3
+WJV C18 C(CC3)(H)3
+WJV C19 C(CC3)(H)3
+WJV C2  C[5a](C[5a]S[5a]C)(N[5a]C[5a])(CH3){1|N<3>}
+WJV C20 C(C[5a]C[5a]S[5a])(CC[6a])
+WJV C21 C(C[6a]C[6a]2)(CC[5a])
+WJV C22 C[6a](C[6a]C[6a]H)2(CC){1|N<2>,2|H<1>}
+WJV C23 C[6a](C[6a]C[6a]C)(C[6a]N[6a]H)(H){1|C<3>,1|H<1>}
+WJV C24 C[6a](C[6a]C[6a]H)(N[6a]C[6a])(H){1|C<2>,1|C<3>,1|H<1>}
+WJV C26 C[6a](C[6a]C[6a]H)(N[6a]C[6a])(H){1|C<2>,1|C<3>,1|H<1>}
+WJV C27 C[6a](C[6a]C[6a]C)(C[6a]N[6a]H)(H){1|C<3>,1|H<1>}
+WJV C3  C[5a](C[5a]N[5a]C)(S[5a]C[5a])(CC){1|N<3>}
+WJV C5  C[5a](N[5a]C[5a])(S[5a]C[5a])(NCH){1|C<2>,1|C<4>}
+WJV C8  C(NC[5a]H)(NCH)(O)
+WJV N10 N(CCHH)(CNO)(H)
+WJV N25 N[6a](C[6a]C[6a]H)2{1|C<3>,2|H<1>}
+WJV N6  N[5a](C[5a]C[5a]C)(C[5a]S[5a]N){1|C<2>}
+WJV N7  N(C[5a]N[5a]S[5a])(CNO)(H)
+WJV O13 O(CCHH)2
+WJV O9  O(CNN)
+WJV S4  S[5a](C[5a]C[5a]C)(C[5a]N[5a]N){1|C<4>}
+WJV H1  H(CC[5a]HH)
+WJV H2  H(CC[5a]HH)
+WJV H3  H(CC[5a]HH)
+WJV H4  H(CCHN)
+WJV H5  H(CCHN)
+WJV H6  H(CCHO)
+WJV H7  H(CCHO)
+WJV H8  H(CCHO)
+WJV H9  H(CCHO)
+WJV H10 H(CCCH)
+WJV H11 H(CCCH)
+WJV H12 H(CCHH)
+WJV H13 H(CCHH)
+WJV H14 H(CCHH)
+WJV H15 H(CCHH)
+WJV H16 H(CCHH)
+WJV H17 H(CCHH)
+WJV H18 H(CCHH)
+WJV H19 H(CCHH)
+WJV H20 H(CCHH)
+WJV H21 H(C[6a]C[6a]2)
+WJV H22 H(C[6a]C[6a]N[6a])
+WJV H23 H(C[6a]C[6a]N[6a])
+WJV H24 H(C[6a]C[6a]2)
+WJV H25 H(NCC)
+WJV H26 H(NC[5a]C)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+WJV C26 C27 SINGLE y 1.382 0.0100 1.382 0.0100
+WJV C26 N25 DOUBLE y 1.332 0.0167 1.332 0.0167
+WJV C16 C17 SINGLE n 1.531 0.0122 1.531 0.0122
+WJV C22 C27 DOUBLE y 1.389 0.0156 1.389 0.0156
+WJV C24 N25 SINGLE y 1.332 0.0167 1.332 0.0167
+WJV C16 C19 SINGLE n 1.531 0.0122 1.531 0.0122
+WJV C15 C16 SINGLE n 1.545 0.0156 1.545 0.0156
+WJV C16 C18 SINGLE n 1.531 0.0122 1.531 0.0122
+WJV C23 C24 DOUBLE y 1.382 0.0100 1.382 0.0100
+WJV C14 C15 SINGLE n 1.510 0.0200 1.510 0.0200
+WJV C22 C23 SINGLE y 1.389 0.0156 1.389 0.0156
+WJV C21 C22 SINGLE n 1.432 0.0100 1.432 0.0100
+WJV C14 O13 SINGLE n 1.430 0.0144 1.430 0.0144
+WJV C20 C21 TRIPLE n 1.196 0.0100 1.196 0.0100
+WJV C20 C3  SINGLE n 1.416 0.0100 1.416 0.0100
+WJV C8  O9  DOUBLE n 1.219 0.0160 1.219 0.0160
+WJV C3  S4  SINGLE y 1.730 0.0100 1.730 0.0100
+WJV C5  S4  SINGLE y 1.736 0.0150 1.736 0.0150
+WJV C12 O13 SINGLE n 1.419 0.0115 1.419 0.0115
+WJV C11 C12 SINGLE n 1.506 0.0200 1.506 0.0200
+WJV C2  C3  DOUBLE y 1.389 0.0200 1.389 0.0200
+WJV C11 N10 SINGLE n 1.460 0.0122 1.460 0.0122
+WJV C8  N10 SINGLE n 1.328 0.0200 1.328 0.0200
+WJV C8  N7  SINGLE n 1.371 0.0180 1.371 0.0180
+WJV C5  N7  SINGLE n 1.376 0.0117 1.376 0.0117
+WJV C5  N6  DOUBLE y 1.301 0.0100 1.301 0.0100
+WJV C2  N6  SINGLE y 1.353 0.0200 1.353 0.0200
+WJV C1  C2  SINGLE n 1.491 0.0124 1.491 0.0124
+WJV C1  H1  SINGLE n 1.092 0.0100 0.969 0.0140
+WJV C1  H2  SINGLE n 1.092 0.0100 0.969 0.0140
+WJV C1  H3  SINGLE n 1.092 0.0100 0.969 0.0140
+WJV C11 H4  SINGLE n 1.092 0.0100 0.979 0.0175
+WJV C11 H5  SINGLE n 1.092 0.0100 0.979 0.0175
+WJV C12 H6  SINGLE n 1.092 0.0100 0.982 0.0191
+WJV C12 H7  SINGLE n 1.092 0.0100 0.982 0.0191
+WJV C14 H8  SINGLE n 1.092 0.0100 0.983 0.0114
+WJV C14 H9  SINGLE n 1.092 0.0100 0.983 0.0114
+WJV C15 H10 SINGLE n 1.092 0.0100 0.978 0.0200
+WJV C15 H11 SINGLE n 1.092 0.0100 0.978 0.0200
+WJV C17 H12 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C17 H13 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C17 H14 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C18 H15 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C18 H16 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C18 H17 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C19 H18 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C19 H19 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C19 H20 SINGLE n 1.092 0.0100 0.975 0.0146
+WJV C23 H21 SINGLE n 1.085 0.0150 0.942 0.0173
+WJV C24 H22 SINGLE n 1.085 0.0150 0.944 0.0170
+WJV C26 H23 SINGLE n 1.085 0.0150 0.944 0.0170
+WJV C27 H24 SINGLE n 1.085 0.0150 0.942 0.0173
+WJV N10 H25 SINGLE n 1.013 0.0120 0.871 0.0200
+WJV N7  H26 SINGLE n 1.013 0.0120 0.850 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+WJV C2  C1  H1  109.646 1.50
+WJV C2  C1  H2  109.646 1.50
+WJV C2  C1  H3  109.646 1.50
+WJV H1  C1  H2  109.316 1.72
+WJV H1  C1  H3  109.316 1.72
+WJV H2  C1  H3  109.316 1.72
+WJV C12 C11 N10 112.964 2.24
+WJV C12 C11 H4  109.241 1.50
+WJV C12 C11 H5  109.241 1.50
+WJV N10 C11 H4  109.030 1.50
+WJV N10 C11 H5  109.030 1.50
+WJV H4  C11 H5  108.339 3.00
+WJV O13 C12 C11 109.024 3.00
+WJV O13 C12 H6  109.845 1.50
+WJV O13 C12 H7  109.845 1.50
+WJV C11 C12 H6  109.990 1.50
+WJV C11 C12 H7  109.990 1.50
+WJV H6  C12 H7  108.300 2.14
+WJV C15 C14 O13 109.992 3.00
+WJV C15 C14 H8  109.681 1.50
+WJV C15 C14 H9  109.681 1.50
+WJV O13 C14 H8  109.495 1.50
+WJV O13 C14 H9  109.495 1.50
+WJV H8  C14 H9  108.496 1.95
+WJV C16 C15 C14 114.962 1.50
+WJV C16 C15 H10 107.981 1.50
+WJV C16 C15 H11 107.981 1.50
+WJV C14 C15 H10 108.781 1.80
+WJV C14 C15 H11 108.781 1.80
+WJV H10 C15 H11 107.596 1.50
+WJV C17 C16 C19 108.640 2.32
+WJV C17 C16 C15 109.698 3.00
+WJV C17 C16 C18 108.640 2.32
+WJV C19 C16 C15 109.698 3.00
+WJV C19 C16 C18 108.640 2.32
+WJV C15 C16 C18 109.698 3.00
+WJV C16 C17 H12 109.548 1.50
+WJV C16 C17 H13 109.548 1.50
+WJV C16 C17 H14 109.548 1.50
+WJV H12 C17 H13 109.371 1.86
+WJV H12 C17 H14 109.371 1.86
+WJV H13 C17 H14 109.371 1.86
+WJV C16 C18 H15 109.548 1.50
+WJV C16 C18 H16 109.548 1.50
+WJV C16 C18 H17 109.548 1.50
+WJV H15 C18 H16 109.371 1.86
+WJV H15 C18 H17 109.371 1.86
+WJV H16 C18 H17 109.371 1.86
+WJV C16 C19 H18 109.548 1.50
+WJV C16 C19 H19 109.548 1.50
+WJV C16 C19 H20 109.548 1.50
+WJV H18 C19 H19 109.371 1.86
+WJV H18 C19 H20 109.371 1.86
+WJV H19 C19 H20 109.371 1.86
+WJV C3  C2  N6  109.811 3.00
+WJV C3  C2  C1  129.719 3.00
+WJV N6  C2  C1  120.471 1.50
+WJV C21 C20 C3  180.000 3.00
+WJV C22 C21 C20 180.000 3.00
+WJV C27 C22 C23 117.435 1.50
+WJV C27 C22 C21 121.283 1.50
+WJV C23 C22 C21 121.283 1.50
+WJV C24 C23 C22 119.129 1.50
+WJV C24 C23 H21 120.336 1.50
+WJV C22 C23 H21 120.535 1.50
+WJV N25 C24 C23 123.722 1.50
+WJV N25 C24 H22 117.970 1.50
+WJV C23 C24 H22 118.308 1.50
+WJV C27 C26 N25 123.722 1.50
+WJV C27 C26 H23 118.308 1.50
+WJV N25 C26 H23 117.970 1.50
+WJV C26 C27 C22 119.129 1.50
+WJV C26 C27 H24 120.336 1.50
+WJV C22 C27 H24 120.535 1.50
+WJV C20 C3  S4  121.748 3.00
+WJV C20 C3  C2  127.972 3.00
+WJV S4  C3  C2  110.279 3.00
+WJV S4  C5  N7  122.639 1.50
+WJV S4  C5  N6  114.568 1.50
+WJV N7  C5  N6  122.792 3.00
+WJV O9  C8  N10 123.112 2.12
+WJV O9  C8  N7  122.496 1.50
+WJV N10 C8  N7  114.392 1.50
+WJV C11 N10 C8  121.952 2.01
+WJV C11 N10 H25 119.297 1.50
+WJV C8  N10 H25 118.751 2.72
+WJV C26 N25 C24 116.864 2.24
+WJV C5  N6  C2  109.045 1.50
+WJV C8  N7  C5  124.921 3.00
+WJV C8  N7  H26 118.619 1.50
+WJV C5  N7  H26 116.460 2.52
+WJV C14 O13 C12 113.390 3.00
+WJV C3  S4  C5  96.296  1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+WJV sp2_sp3_1 C3  C2  C1  H1  150.000 20.0 6
+WJV const_0   C21 C22 C23 C24 180.000 0.0  1
+WJV const_1   C21 C22 C27 C26 180.000 0.0  1
+WJV const_2   C22 C23 C24 N25 0.000   0.0  1
+WJV const_3   C23 C24 N25 C26 0.000   0.0  1
+WJV const_4   N25 C26 C27 C22 0.000   0.0  1
+WJV const_5   C27 C26 N25 C24 0.000   0.0  1
+WJV const_6   C20 C3  S4  C5  180.000 0.0  1
+WJV const_7   N7  C5  N6  C2  180.000 0.0  1
+WJV sp2_sp2_1 S4  C5  N7  C8  180.000 5.0  2
+WJV const_8   N7  C5  S4  C3  180.000 0.0  1
+WJV sp2_sp2_2 O9  C8  N10 C11 0.000   5.0  2
+WJV sp2_sp2_3 O9  C8  N7  C5  0.000   5.0  2
+WJV sp3_sp3_1 N10 C11 C12 O13 180.000 10.0 3
+WJV sp2_sp3_2 C8  N10 C11 C12 120.000 20.0 6
+WJV sp3_sp3_2 C11 C12 O13 C14 180.000 10.0 3
+WJV sp3_sp3_3 C15 C14 O13 C12 180.000 10.0 3
+WJV sp3_sp3_4 O13 C14 C15 C16 180.000 10.0 3
+WJV sp3_sp3_5 C14 C15 C16 C17 -60.000 10.0 3
+WJV sp3_sp3_6 C19 C16 C17 H12 60.000  10.0 3
+WJV sp3_sp3_7 C17 C16 C18 H15 60.000  10.0 3
+WJV sp3_sp3_8 C17 C16 C19 H18 180.000 10.0 3
+WJV const_9   C1  C2  C3  C20 0.000   0.0  1
+WJV const_10  C1  C2  N6  C5  180.000 0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+WJV chir_1 C16 C15 C17 C19 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+WJV plan-1 C21 0.020
+WJV plan-1 C22 0.020
+WJV plan-1 C23 0.020
+WJV plan-1 C24 0.020
+WJV plan-1 C26 0.020
+WJV plan-1 C27 0.020
+WJV plan-1 H21 0.020
+WJV plan-1 H22 0.020
+WJV plan-1 H23 0.020
+WJV plan-1 H24 0.020
+WJV plan-1 N25 0.020
+WJV plan-2 C1  0.020
+WJV plan-2 C2  0.020
+WJV plan-2 C20 0.020
+WJV plan-2 C3  0.020
+WJV plan-2 C5  0.020
+WJV plan-2 N6  0.020
+WJV plan-2 N7  0.020
+WJV plan-2 S4  0.020
+WJV plan-3 C8  0.020
+WJV plan-3 N10 0.020
+WJV plan-3 N7  0.020
+WJV plan-3 O9  0.020
+WJV plan-4 C11 0.020
+WJV plan-4 C8  0.020
+WJV plan-4 H25 0.020
+WJV plan-4 N10 0.020
+WJV plan-5 C5  0.020
+WJV plan-5 C8  0.020
+WJV plan-5 H26 0.020
+WJV plan-5 N7  0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+WJV ring-1 C22 YES
+WJV ring-1 C23 YES
+WJV ring-1 C24 YES
+WJV ring-1 C26 YES
+WJV ring-1 C27 YES
+WJV ring-1 N25 YES
+WJV ring-2 C2  YES
+WJV ring-2 C3  YES
+WJV ring-2 C5  YES
+WJV ring-2 N6  YES
+WJV ring-2 S4  YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+WJV SMILES           ACDLabs              12.01 "Cc1nc(NC(NCCOCCC(C)(C)C)=O)sc1C#Cc2ccncc2"
+WJV InChI            InChI                1.03  "InChI=1S/C20H26N4O2S/c1-15-17(6-5-16-7-10-21-11-8-16)27-19(23-15)24-18(25)22-12-14-26-13-9-20(2,3)4/h7-8,10-11H,9,12-14H2,1-4H3,(H2,22,23,24,25)"
+WJV InChIKey         InChI                1.03  LLAXZOBGRHVCCF-UHFFFAOYSA-N
+WJV SMILES_CANONICAL CACTVS               3.385 "Cc1nc(NC(=O)NCCOCCC(C)(C)C)sc1C#Cc2ccncc2"
+WJV SMILES           CACTVS               3.385 "Cc1nc(NC(=O)NCCOCCC(C)(C)C)sc1C#Cc2ccncc2"
+WJV SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "Cc1c(sc(n1)NC(=O)NCCOCCC(C)(C)C)C#Cc2ccncc2"
+WJV SMILES           "OpenEye OEToolkits" 2.0.7 "Cc1c(sc(n1)NC(=O)NCCOCCC(C)(C)C)C#Cc2ccncc2"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+WJV acedrg          326       "dictionary generator"
+WJV acedrg_database 12        "data source"
+WJV rdkit           2023.03.3 "Chemoinformatics tool"
+WJV servalcat       0.4.120   'optimization tool'

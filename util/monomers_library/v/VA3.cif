@@ -1,0 +1,84 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+VA3 VA3 TRIVANADATE NON-POLYMER 8 0 .
+
+data_comp_VA3
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+VA3 V1 V1 V V 0.00  58.153 -29.632 -12.264
+VA3 O0 O0 O O -2.00 57.751 -31.318 -11.776
+VA3 V2 V2 V V 0.00  56.890 -28.512 -9.610
+VA3 O2 O2 O O -1    56.478 -27.015 -9.114
+VA3 O3 O3 O O -2.00 57.304 -28.467 -11.185
+VA3 O4 O4 O O -2.00 55.624 -29.518 -9.409
+VA3 V3 V3 V V 0.00  59.137 -30.331 -8.525
+VA3 O6 O6 O O -2.00 58.154 -29.047 -8.730
+VA3 O7 O7 O O -2.00 60.618 -29.815 -8.081
+VA3 O9 O9 O O -2.00 59.931 -29.375 -12.161
+VA3 O8 O8 O O -2.00 58.528 -31.300 -7.364
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.type
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+VA3 V1 O0 DOUB 1.8  0.07 1.8  0.07
+VA3 V1 O3 SING 1.8  0.07 1.8  0.07
+VA3 V1 O9 DOUB 1.8  0.07 1.8  0.07
+VA3 V2 O2 SING 1.63 0.04 1.63 0.04
+VA3 V2 O3 SING 1.63 0.04 1.63 0.04
+VA3 V2 O4 DOUB 1.63 0.04 1.63 0.04
+VA3 V2 O6 SING 1.63 0.04 1.63 0.04
+VA3 V3 O6 SING 1.63 0.04 1.63 0.04
+VA3 V3 O7 DOUB 1.63 0.04 1.63 0.04
+VA3 V3 O8 DOUB 1.63 0.04 1.63 0.04
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+VA3 acedrg            311       'dictionary generator'
+VA3 'acedrg_database' 12        'data source'
+VA3 rdkit             2019.09.1 'Chemoinformatics tool'
+VA3 metalCoord        0.1.63    'metal coordination analysis'
+VA3 servalcat         0.4.93    'optimization tool'
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+VA3 O0 V1 O3 109.8  5.67
+VA3 O0 V1 O9 109.8  5.67
+VA3 O3 V1 O9 109.8  5.67
+VA3 O3 V2 O4 109.44 2.65
+VA3 O3 V2 O2 109.44 2.65
+VA3 O3 V2 O6 109.44 2.65
+VA3 O4 V2 O2 109.44 2.65
+VA3 O4 V2 O6 109.44 2.65
+VA3 O2 V2 O6 109.44 2.65
+VA3 O8 V3 O6 109.44 2.65
+VA3 O8 V3 O7 109.44 2.65
+VA3 O6 V3 O7 109.44 2.65

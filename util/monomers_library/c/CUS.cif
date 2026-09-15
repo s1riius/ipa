@@ -1,0 +1,340 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+CUS CUS (N-SALICYLIDEN-L-LEUCINATO)-COPPER(II) NON-POLYMER 32 17 .
+
+data_comp_CUS
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+CUS CU1  CU1  CU CU   2.00 1.531  4.053  2.015
+CUS O2   O2   O  OC   -1   1.644  5.971  1.704
+CUS C8   C8   C  C    0    1.080  6.648  2.599
+CUS O3   O3   O  O    0    0.714  7.841  2.489
+CUS C9   C9   C  CH1  0    0.807  5.957  3.946
+CUS C10  C10  C  CH2  0    1.928  6.296  4.958
+CUS C11  C11  C  CH1  0    1.548  7.211  6.159
+CUS C16  C16  C  CH3  0    1.351  6.413  7.465
+CUS C12  C12  C  CH3  0    2.544  8.370  6.361
+CUS N1   N1   N  N    1    0.731  4.515  3.717
+CUS C1   C1   C  C1   0    -0.057 3.729  4.353
+CUS C2   C2   C  CR6  0    -0.118 2.291  4.099
+CUS C7   C7   C  CR6  0    0.781  1.637  3.225
+CUS O1   O1   O  OC   -1   1.708  2.221  2.598
+CUS C6   C6   C  CR16 0    0.640  0.235  3.057
+CUS C5   C5   C  CR16 0    -0.342 -0.475 3.717
+CUS C4   C4   C  CR16 0    -1.210 0.164  4.564
+CUS C3   C3   C  CR16 0    -1.099 1.526  4.760
+CUS H9   H9   H  H    0    -0.067 6.289  4.293
+CUS H101 H101 H  H    0    2.676  6.709  4.473
+CUS H102 H102 H  H    0    2.300  5.457  5.309
+CUS H11  H11  H  H    0    0.674  7.637  5.958
+CUS H161 H161 H  H    0    1.072  7.013  8.179
+CUS H162 H162 H  H    0    2.187  5.982  7.715
+CUS H163 H163 H  H    0    0.667  5.735  7.333
+CUS H121 H121 H  H    0    2.593  8.903  5.549
+CUS H122 H122 H  H    0    3.426  8.014  6.566
+CUS H123 H123 H  H    0    2.247  8.936  7.095
+CUS H1   H1   H  H    0    -0.629 4.087  5.023
+CUS H6   H6   H  H    0    1.231  -0.214 2.478
+CUS H5   H5   H  H    0    -0.414 -1.407 3.584
+CUS H4   H4   H  H    0    -1.879 -0.325 5.013
+CUS H3   H3   H  H    0    -1.701 1.959  5.339
+
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+CUS O3   n/a C8   START
+CUS C8   O3  C9   .
+CUS C9   C8  N1   .
+CUS H9   C9  .    .
+CUS C10  C9  C11  .
+CUS H101 C10 .    .
+CUS H102 C10 .    .
+CUS C11  C10 C16  .
+CUS H11  C11 .    .
+CUS C12  C11 H121 .
+CUS H123 C12 .    .
+CUS H122 C12 .    .
+CUS H121 C12 .    .
+CUS C16  C11 H161 .
+CUS H163 C16 .    .
+CUS H162 C16 .    .
+CUS H161 C16 .    .
+CUS N1   C9  C1   .
+CUS C1   N1  C2   .
+CUS H1   C1  .    .
+CUS C2   C1  C3   .
+CUS C3   C2  C4   .
+CUS H3   C3  .    .
+CUS C4   C3  C5   .
+CUS H4   C4  .    .
+CUS C5   C4  C6   .
+CUS H5   C5  .    .
+CUS C6   C5  C7   .
+CUS H6   C6  .    .
+CUS C7   C6  O1   .
+CUS O1   C7  CU1  .
+CUS CU1  O1  O2   .
+CUS O2   CU1 .    END
+CUS O2   C8  .    ADD
+CUS N1   CU1 .    ADD
+CUS C2   C7  .    ADD
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+CUS O2   O(CCO)
+CUS C8   C(CCHN)(O)2
+CUS O3   O(CCO)
+CUS C9   C(CCHH)(COO)(NC)(H)
+CUS C10  C(CCCH)(CCHN)(H)2
+CUS C11  C(CCHH)(CH3)2(H)
+CUS C16  C(CCCH)(H)3
+CUS C12  C(CCCH)(H)3
+CUS N1   N(CC[6a]H)(CCCH)
+CUS C1   C(C[6a]C[6a]2)(NC)(H)
+CUS C2   C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(CHN){1|C<3>,2|H<1>}
+CUS C7   C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(O){1|C<3>,2|H<1>}
+CUS O1   O(C[6a]C[6a]2)
+CUS C6   C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(H){1|H<1>,2|C<3>}
+CUS C5   C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|H<1>,1|O<1>}
+CUS C4   C[6a](C[6a]C[6a]H)2(H){1|H<1>,2|C<3>}
+CUS C3   C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|O<1>}
+CUS H9   H(CCCN)
+CUS H101 H(CCCH)
+CUS H102 H(CCCH)
+CUS H11  H(CC3)
+CUS H161 H(CCHH)
+CUS H162 H(CCHH)
+CUS H163 H(CCHH)
+CUS H121 H(CCHH)
+CUS H122 H(CCHH)
+CUS H123 H(CCHH)
+CUS H1   H(CC[6a]N)
+CUS H6   H(C[6a]C[6a]2)
+CUS H5   H(C[6a]C[6a]2)
+CUS H4   H(C[6a]C[6a]2)
+CUS H3   H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+CUS O2  CU1  SINGLE n 1.94  0.04   1.94  0.04
+CUS N1  CU1  SINGLE n 1.98  0.04   1.98  0.04
+CUS CU1 O1   SINGLE n 1.94  0.04   1.94  0.04
+CUS O2  C8   SINGLE n 1.252 0.0173 1.252 0.0173
+CUS C8  O3   DOUBLE n 1.252 0.0173 1.252 0.0173
+CUS C8  C9   SINGLE n 1.536 0.0100 1.536 0.0100
+CUS C9  N1   SINGLE n 1.458 0.0100 1.458 0.0100
+CUS C9  C10  SINGLE n 1.532 0.0136 1.532 0.0136
+CUS C10 C11  SINGLE n 1.525 0.0160 1.525 0.0160
+CUS C11 C16  SINGLE n 1.519 0.0200 1.519 0.0200
+CUS C11 C12  SINGLE n 1.519 0.0200 1.519 0.0200
+CUS N1  C1   DOUBLE n 1.269 0.0172 1.269 0.0172
+CUS C1  C2   SINGLE n 1.455 0.0138 1.455 0.0138
+CUS C2  C3   DOUBLE y 1.407 0.0112 1.407 0.0112
+CUS C2  C7   SINGLE y 1.406 0.0129 1.406 0.0129
+CUS C7  O1   SINGLE n 1.259 0.0200 1.259 0.0200
+CUS C7  C6   DOUBLE y 1.413 0.0200 1.413 0.0200
+CUS C6  C5   SINGLE y 1.382 0.0125 1.382 0.0125
+CUS C5  C4   DOUBLE y 1.376 0.0151 1.376 0.0151
+CUS C4  C3   SINGLE y 1.382 0.0111 1.382 0.0111
+CUS C9  H9   SINGLE n 1.092 0.0100 0.997 0.0100
+CUS C10 H101 SINGLE n 1.092 0.0100 0.982 0.0111
+CUS C10 H102 SINGLE n 1.092 0.0100 0.982 0.0111
+CUS C11 H11  SINGLE n 1.092 0.0100 0.992 0.0164
+CUS C16 H161 SINGLE n 1.092 0.0100 0.972 0.0156
+CUS C16 H162 SINGLE n 1.092 0.0100 0.972 0.0156
+CUS C16 H163 SINGLE n 1.092 0.0100 0.972 0.0156
+CUS C12 H121 SINGLE n 1.092 0.0100 0.972 0.0156
+CUS C12 H122 SINGLE n 1.092 0.0100 0.972 0.0156
+CUS C12 H123 SINGLE n 1.092 0.0100 0.972 0.0156
+CUS C1  H1   SINGLE n 1.085 0.0150 0.947 0.0182
+CUS C6  H6   SINGLE n 1.085 0.0150 0.941 0.0175
+CUS C5  H5   SINGLE n 1.085 0.0150 0.944 0.0172
+CUS C4  H4   SINGLE n 1.085 0.0150 0.943 0.0175
+CUS C3  H3   SINGLE n 1.085 0.0150 0.942 0.0169
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+CUS CU1  O2  C8   109.47   5.0
+CUS CU1  N1  C9   121.5555 5.0
+CUS CU1  N1  C1   121.5555 5.0
+CUS CU1  O1  C7   109.47   5.0
+CUS O2   C8  O3   125.817  1.50
+CUS O2   C8  C9   117.091  1.84
+CUS O3   C8  C9   117.091  1.84
+CUS C8   C9  N1   110.245  3.00
+CUS C8   C9  C10  109.369  1.50
+CUS C8   C9  H9   108.587  1.64
+CUS N1   C9  C10  109.686  1.50
+CUS N1   C9  H9   109.552  1.50
+CUS C10  C9  H9   108.586  1.50
+CUS C9   C10 C11  115.386  1.50
+CUS C9   C10 H101 108.920  1.50
+CUS C9   C10 H102 108.920  1.50
+CUS C11  C10 H101 108.390  1.50
+CUS C11  C10 H102 108.390  1.50
+CUS H101 C10 H102 107.673  3.00
+CUS C10  C11 C16  110.898  3.00
+CUS C10  C11 C12  110.898  3.00
+CUS C10  C11 H11  108.090  1.50
+CUS C16  C11 C12  110.647  1.82
+CUS C16  C11 H11  107.962  1.81
+CUS C12  C11 H11  107.962  1.81
+CUS C11  C16 H161 109.527  1.50
+CUS C11  C16 H162 109.527  1.50
+CUS C11  C16 H163 109.527  1.50
+CUS H161 C16 H162 109.390  1.50
+CUS H161 C16 H163 109.390  1.50
+CUS H162 C16 H163 109.390  1.50
+CUS C11  C12 H121 109.527  1.50
+CUS C11  C12 H122 109.527  1.50
+CUS C11  C12 H123 109.527  1.50
+CUS H121 C12 H122 109.390  1.50
+CUS H121 C12 H123 109.390  1.50
+CUS H122 C12 H123 109.390  1.50
+CUS C9   N1  C1   116.889  3.00
+CUS N1   C1  C2   121.931  1.50
+CUS N1   C1  H1   119.211  1.50
+CUS C2   C1  H1   118.858  1.88
+CUS C1   C2  C3   120.353  1.50
+CUS C1   C2  C7   120.087  3.00
+CUS C3   C2  C7   119.568  2.74
+CUS C2   C7  O1   121.741  2.77
+CUS C2   C7  C6   116.947  1.50
+CUS O1   C7  C6   121.312  2.94
+CUS C7   C6  C5   121.008  1.50
+CUS C7   C6  H6   119.081  1.50
+CUS C5   C6  H6   119.911  1.50
+CUS C6   C5  C4   120.755  1.50
+CUS C6   C5  H5   119.428  1.50
+CUS C4   C5  H5   119.818  1.50
+CUS C5   C4  C3   120.298  1.50
+CUS C5   C4  H4   119.906  1.50
+CUS C3   C4  H4   119.796  1.50
+CUS C2   C3  C4   121.425  1.50
+CUS C2   C3  H3   119.072  1.50
+CUS C4   C3  H3   119.503  1.50
+CUS N1   CU1 O1   90.14    3.71
+CUS N1   CU1 O2   90.14    3.71
+CUS O1   CU1 O2   180.0    9.93
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+CUS const_0   C1  C2  C7  O1   0.000   0.0  1
+CUS const_1   C1  C2  C3  C4   180.000 0.0  1
+CUS const_2   C5  C6  C7  O1   180.000 0.0  1
+CUS const_3   C4  C5  C6  C7   0.000   0.0  1
+CUS const_4   C3  C4  C5  C6   0.000   0.0  1
+CUS const_5   C2  C3  C4  C5   0.000   0.0  1
+CUS sp2_sp3_1 O2  C8  C9  N1   0.000   20.0 6
+CUS sp3_sp3_1 C11 C10 C9  C8   180.000 10.0 3
+CUS sp2_sp3_2 C1  N1  C9  C8   0.000   20.0 6
+CUS sp3_sp3_2 C9  C10 C11 C16  -60.000 10.0 3
+CUS sp3_sp3_3 C10 C11 C16 H161 180.000 10.0 3
+CUS sp3_sp3_4 C10 C11 C12 H121 60.000  10.0 3
+CUS sp2_sp2_1 C2  C1  N1  C9   180.000 5.0  2
+CUS sp2_sp2_2 N1  C1  C2  C3   180.000 5.0  2
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+CUS chir_1 C9  N1  C8  C10 positive
+CUS chir_2 C11 C10 C16 C12 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+CUS plan-4 CU1 0.060
+CUS plan-4 N1  0.060
+CUS plan-4 C9  0.060
+CUS plan-4 C1  0.060
+CUS plan-1 C1  0.020
+CUS plan-1 C2  0.020
+CUS plan-1 C3  0.020
+CUS plan-1 C4  0.020
+CUS plan-1 C5  0.020
+CUS plan-1 C6  0.020
+CUS plan-1 C7  0.020
+CUS plan-1 H3  0.020
+CUS plan-1 H4  0.020
+CUS plan-1 H5  0.020
+CUS plan-1 H6  0.020
+CUS plan-1 O1  0.020
+CUS plan-2 C8  0.020
+CUS plan-2 C9  0.020
+CUS plan-2 O2  0.020
+CUS plan-2 O3  0.020
+CUS plan-3 C1  0.020
+CUS plan-3 C2  0.020
+CUS plan-3 H1  0.020
+CUS plan-3 N1  0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+CUS ring-1 C2 YES
+CUS ring-1 C7 YES
+CUS ring-1 C6 YES
+CUS ring-1 C5 YES
+CUS ring-1 C4 YES
+CUS ring-1 C3 YES
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+CUS acedrg            311       'dictionary generator'
+CUS 'acedrg_database' 12        'data source'
+CUS rdkit             2019.09.1 'Chemoinformatics tool'
+CUS servalcat         0.4.93    'optimization tool'
+CUS metalCoord        0.1.63    'metal coordination analysis'

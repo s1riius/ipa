@@ -1,0 +1,249 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+12L 12L "(1R,2S,5S)-6,6-dimethyl-3-azabicyclo[3.1.0]hexane-2-carboxylic        acid" NON-POLYMER 24 11 .
+
+data_comp_12L
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+12L N19 N19 N NT2 1  0.766  -1.578 -0.395
+12L C20 C20 C CH2 0  -0.663 -2.000 -0.224
+12L C21 C21 C CH1 0  0.767  -0.076 -0.462
+12L C22 C22 C CH1 0  -0.409 0.347  0.447
+12L C23 C23 C CH1 0  -1.272 -0.896 0.631
+12L C24 C24 C CT  0  -1.881 0.384  0.038
+12L C25 C25 C CH3 0  -2.779 1.196  0.966
+12L C26 C26 C CH3 0  -2.305 0.559  -1.424
+12L C27 C27 C C   0  2.113  0.503  -0.010
+12L O28 O28 O O   0  2.940  -0.242 0.564
+12L OXT OXT O OC  -1 2.322  1.713  -0.259
+12L H2  H2  H H   0  1.118  -1.918 -1.160
+12L H   H   H H   0  1.264  -1.879 0.307
+12L H26 H26 H H   0  -0.715 -2.853 0.258
+12L H27 H27 H H   0  -1.105 -2.105 -1.093
+12L H28 H28 H H   0  0.634  0.206  -1.397
+12L H29 H29 H H   0  -0.157 0.890  1.229
+12L H30 H30 H H   0  -1.574 -1.165 1.529
+12L H31 H31 H H   0  -3.712 1.051  0.736
+12L H32 H32 H H   0  -2.574 2.138  0.872
+12L H33 H33 H H   0  -2.641 0.934  1.892
+12L H34 H34 H H   0  -3.243 0.332  -1.524
+12L H35 H35 H H   0  -1.783 -0.013 -2.002
+12L H36 H36 H H   0  -2.171 1.482  -1.693
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+12L N19 N[5](C[5]C[3,5]CH)(C[5]C[3,5]HH)(H)2{1|C<4>,2|H<1>}
+12L C20 C[5](C[3,5]C[3,5]C[3]H)(N[5]C[5]HH)(H)2{1|C<3>,2|C<4>,2|H<1>}
+12L C21 C[5](C[3,5]C[3,5]C[3]H)(N[5]C[5]HH)(COO)(H){2|C<4>,3|H<1>}
+12L C22 C[3,5](C[3,5]C[3]C[5]H)(C[3]C[3,5]CC)(C[5]N[5]CH)(H){4|H<1>}
+12L C23 C[3,5](C[3,5]C[3]C[5]H)(C[3]C[3,5]CC)(C[5]N[5]HH)(H){1|C<3>,3|H<1>}
+12L C24 C[3](C[3,5]C[3,5]C[5]H)2(CH3)2{1|C<3>,1|N<4>,3|H<1>}
+12L C25 C(C[3]C[3,5]2C)(H)3
+12L C26 C(C[3]C[3,5]2C)(H)3
+12L C27 C(C[5]C[3,5]N[5]H)(O)2
+12L O28 O(CC[5]O)
+12L OXT O(CC[5]O)
+12L H2  H(N[5]C[5]2H)
+12L H   H(N[5]C[5]2H)
+12L H26 H(C[5]C[3,5]N[5]H)
+12L H27 H(C[5]C[3,5]N[5]H)
+12L H28 H(C[5]C[3,5]N[5]C)
+12L H29 H(C[3,5]C[3,5]C[3]C[5])
+12L H30 H(C[3,5]C[3,5]C[3]C[5])
+12L H31 H(CC[3]HH)
+12L H32 H(CC[3]HH)
+12L H33 H(CC[3]HH)
+12L H34 H(CC[3]HH)
+12L H35 H(CC[3]HH)
+12L H36 H(CC[3]HH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+12L N19 C20 SINGLE n 1.499 0.0126 1.499 0.0126
+12L N19 C21 SINGLE n 1.498 0.0129 1.498 0.0129
+12L C20 C23 SINGLE n 1.514 0.0127 1.514 0.0127
+12L C27 O28 DOUBLE n 1.252 0.0117 1.252 0.0117
+12L C21 C27 SINGLE n 1.527 0.0122 1.527 0.0122
+12L C21 C22 SINGLE n 1.524 0.0161 1.524 0.0161
+12L C22 C23 SINGLE n 1.510 0.0160 1.510 0.0160
+12L C23 C24 SINGLE n 1.511 0.0148 1.511 0.0148
+12L C22 C24 SINGLE n 1.515 0.0100 1.515 0.0100
+12L C24 C26 SINGLE n 1.513 0.0113 1.513 0.0113
+12L C24 C25 SINGLE n 1.513 0.0113 1.513 0.0113
+12L C27 OXT SINGLE n 1.252 0.0117 1.252 0.0117
+12L N19 H2  SINGLE n 1.018 0.0520 0.908 0.0200
+12L N19 H   SINGLE n 1.018 0.0520 0.908 0.0200
+12L C20 H26 SINGLE n 1.092 0.0100 0.982 0.0171
+12L C20 H27 SINGLE n 1.092 0.0100 0.982 0.0171
+12L C21 H28 SINGLE n 1.092 0.0100 0.987 0.0188
+12L C22 H29 SINGLE n 1.092 0.0100 0.983 0.0200
+12L C23 H30 SINGLE n 1.092 0.0100 0.983 0.0200
+12L C25 H31 SINGLE n 1.092 0.0100 0.969 0.0180
+12L C25 H32 SINGLE n 1.092 0.0100 0.969 0.0180
+12L C25 H33 SINGLE n 1.092 0.0100 0.969 0.0180
+12L C26 H34 SINGLE n 1.092 0.0100 0.969 0.0180
+12L C26 H35 SINGLE n 1.092 0.0100 0.969 0.0180
+12L C26 H36 SINGLE n 1.092 0.0100 0.969 0.0180
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+12L C20 N19 C21 107.534 2.54
+12L C20 N19 H2  111.146 3.00
+12L C20 N19 H   111.146 3.00
+12L C21 N19 H2  109.756 3.00
+12L C21 N19 H   109.756 3.00
+12L H2  N19 H   108.287 3.00
+12L N19 C20 C23 104.009 1.50
+12L N19 C20 H26 110.907 1.50
+12L N19 C20 H27 110.907 1.50
+12L C23 C20 H26 110.793 3.00
+12L C23 C20 H27 110.793 3.00
+12L H26 C20 H27 108.853 1.50
+12L N19 C21 C27 110.160 1.67
+12L N19 C21 C22 104.009 1.50
+12L N19 C21 H28 109.430 1.50
+12L C27 C21 C22 110.792 3.00
+12L C27 C21 H28 108.696 3.00
+12L C22 C21 H28 110.507 2.82
+12L C21 C22 C23 108.346 3.00
+12L C21 C22 C24 118.615 3.00
+12L C21 C22 H29 119.214 3.00
+12L C23 C22 C24 59.959  1.50
+12L C23 C22 H29 121.364 3.00
+12L C24 C22 H29 117.315 2.60
+12L C20 C23 C22 108.127 1.50
+12L C20 C23 C24 118.974 1.50
+12L C20 C23 H30 118.841 3.00
+12L C22 C23 C24 59.959  1.50
+12L C22 C23 H30 121.364 3.00
+12L C24 C23 H30 117.315 2.60
+12L C23 C24 C22 60.124  1.50
+12L C23 C24 C26 118.111 3.00
+12L C23 C24 C25 118.111 3.00
+12L C22 C24 C26 118.111 3.00
+12L C22 C24 C25 118.111 3.00
+12L C26 C24 C25 112.721 1.50
+12L C24 C25 H31 109.480 1.50
+12L C24 C25 H32 109.480 1.50
+12L C24 C25 H33 109.480 1.50
+12L H31 C25 H32 109.127 1.68
+12L H31 C25 H33 109.127 1.68
+12L H32 C25 H33 109.127 1.68
+12L C24 C26 H34 109.480 1.50
+12L C24 C26 H35 109.480 1.50
+12L C24 C26 H36 109.480 1.50
+12L H34 C26 H35 109.127 1.68
+12L H34 C26 H36 109.127 1.68
+12L H35 C26 H36 109.127 1.68
+12L O28 C27 C21 117.661 3.00
+12L O28 C27 OXT 124.677 2.17
+12L C21 C27 OXT 117.661 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+12L sp3_sp3_1  C23 C20 N19 C21 60.000   10.0 3
+12L sp3_sp3_51 C27 C21 N19 H   -60.000  10.0 3
+12L sp3_sp3_10 N19 C20 C23 C22 -60.000  10.0 3
+12L sp3_sp3_32 C27 C21 C22 C24 -60.000  10.0 3
+12L sp2_sp3_3  O28 C27 C21 H28 -120.000 10.0 6
+12L sp3_sp3_19 C21 C22 C23 C20 60.000   10.0 3
+12L sp3_sp3_60 C23 C22 C24 C26 -60.000  10.0 3
+12L sp3_sp3_39 C20 C23 C24 C25 180.000  10.0 3
+12L sp3_sp3_79 C27 C21 N19 H   -60.000  10.0 3
+12L sp3_sp3_73 C22 C24 C25 H31 180.000  10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+12L chir_1 C21 N19 C27 C22 positive
+12L chir_2 C22 C21 C24 C23 negative
+12L chir_3 C23 C20 C24 C22 positive
+12L chir_4 C24 C22 C23 C26 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+12L plan-1 C21 0.020
+12L plan-1 C27 0.020
+12L plan-1 O28 0.020
+12L plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+12L SMILES           ACDLabs              12.01 "O=C(O)C1NCC2C1C2(C)C"
+12L InChI            InChI                1.03  "InChI=1S/C8H13NO2/c1-8(2)4-3-9-6(5(4)8)7(10)11/h4-6,9H,3H2,1-2H3,(H,10,11)/t4-,5-,6-/m0/s1"
+12L InChIKey         InChI                1.03  SSKYNJZREFFALT-ZLUOBGJFSA-N
+12L SMILES_CANONICAL CACTVS               3.370 "CC1(C)[C@H]2CN[C@@H]([C@@H]12)C(O)=O"
+12L SMILES           CACTVS               3.370 "CC1(C)[CH]2CN[CH]([CH]12)C(O)=O"
+12L SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "CC1([C@@H]2[C@H]1[C@H](NC2)C(=O)O)C"
+12L SMILES           "OpenEye OEToolkits" 1.7.6 "CC1(C2C1C(NC2)C(=O)O)C"
+
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+12L acedrg          284       "dictionary generator"
+12L acedrg_database 12        "data source"
+12L rdkit           2019.09.1 "Chemoinformatics tool"
+12L servalcat       0.4.57    'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+12L P-peptide N19 N
+12L P-peptide C21 CA
+12L P-peptide C27 C
+12L P-peptide O28 O
+12L P-peptide C20 CD

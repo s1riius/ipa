@@ -1,0 +1,207 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+5VV 5VV N-carbamoyl-L-Asparagine NON-POLYMER 19 12 .
+
+data_comp_5VV
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+5VV N   N   N NH1 0  0.712  0.416  -0.589
+5VV C9  C9  C C   0  1.956  0.956  -0.490
+5VV O10 O10 O OH1 0  2.120  2.070  -1.189
+5VV O11 O11 O O   0  2.862  0.488  0.174
+5VV CA  CA  C CH1 0  0.299  -0.780 0.126
+5VV CB  CB  C CH2 0  -1.225 -0.886 0.284
+5VV CG  CG  C C   0  -1.794 0.198  1.179
+5VV ND2 ND2 N NH2 0  -2.149 1.349  0.618
+5VV OD1 OD1 O O   0  -1.916 -0.009 2.391
+5VV C   C   C C   0  0.838  -2.049 -0.564
+5VV O   O   O O   0  0.738  -2.134 -1.812
+5VV OXT OXT O OC  -1 1.344  -2.922 0.179
+5VV H   H   H H   0  0.134  0.799  -1.125
+5VV H10 H10 H H   0  1.464  2.347  -1.626
+5VV HA  HA  H H   0  0.699  -0.733 1.029
+5VV H4  H4  H H   0  -1.642 -0.826 -0.599
+5VV H5  H5  H H   0  -1.446 -1.761 0.664
+5VV H6  H6  H H   0  -2.486 1.993  1.127
+5VV H7  H7  H H   0  -2.056 1.495  -0.255
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+5VV N   N(CCCH)(COO)(H)
+5VV C9  C(NCH)(OH)(O)
+5VV O10 O(CNO)(H)
+5VV O11 O(CNO)
+5VV CA  C(CCHH)(COO)(NCH)(H)
+5VV CB  C(CCHN)(CNO)(H)2
+5VV CG  C(CCHH)(NHH)(O)
+5VV ND2 N(CCO)(H)2
+5VV OD1 O(CCN)
+5VV C   C(CCHN)(O)2
+5VV O   O(CCO)
+5VV OXT O(CCO)
+5VV H   H(NCC)
+5VV H10 H(OC)
+5VV HA  H(CCCN)
+5VV H4  H(CCCH)
+5VV H5  H(CCCH)
+5VV H6  H(NCH)
+5VV H7  H(NCH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+5VV CG  ND2 SINGLE n 1.325 0.0100 1.325 0.0100
+5VV CG  OD1 DOUBLE n 1.236 0.0100 1.236 0.0100
+5VV CB  CG  SINGLE n 1.514 0.0110 1.514 0.0110
+5VV C9  O11 DOUBLE n 1.211 0.0167 1.211 0.0167
+5VV CA  CB  SINGLE n 1.532 0.0109 1.532 0.0109
+5VV N   C9  SINGLE n 1.346 0.0115 1.346 0.0115
+5VV N   CA  SINGLE n 1.447 0.0100 1.447 0.0100
+5VV C9  O10 SINGLE n 1.307 0.0186 1.307 0.0186
+5VV CA  C   SINGLE n 1.541 0.0100 1.541 0.0100
+5VV C   O   DOUBLE n 1.252 0.0173 1.252 0.0173
+5VV C   OXT SINGLE n 1.252 0.0173 1.252 0.0173
+5VV N   H   SINGLE n 1.013 0.0120 0.874 0.0200
+5VV O10 H10 SINGLE n 0.966 0.0059 0.836 0.0100
+5VV CA  HA  SINGLE n 1.092 0.0100 0.988 0.0200
+5VV CB  H4  SINGLE n 1.092 0.0100 0.979 0.0125
+5VV CB  H5  SINGLE n 1.092 0.0100 0.979 0.0125
+5VV ND2 H6  SINGLE n 1.013 0.0120 0.887 0.0200
+5VV ND2 H7  SINGLE n 1.013 0.0120 0.887 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+5VV C9  N   CA  120.878 2.68
+5VV C9  N   H   119.329 3.00
+5VV CA  N   H   119.793 2.04
+5VV O11 C9  N   125.248 1.50
+5VV O11 C9  O10 123.724 1.50
+5VV N   C9  O10 111.028 3.00
+5VV C9  O10 H10 110.328 3.00
+5VV CB  CA  N   111.753 2.29
+5VV CB  CA  C   110.119 3.00
+5VV CB  CA  HA  109.051 1.59
+5VV N   CA  C   111.439 3.00
+5VV N   CA  HA  107.447 1.50
+5VV C   CA  HA  108.335 1.67
+5VV CG  CB  CA  112.473 3.00
+5VV CG  CB  H4  109.132 1.50
+5VV CG  CB  H5  109.132 1.50
+5VV CA  CB  H4  109.043 1.50
+5VV CA  CB  H5  109.043 1.50
+5VV H4  CB  H5  108.039 1.50
+5VV ND2 CG  OD1 122.581 1.50
+5VV ND2 CG  CB  117.180 1.62
+5VV OD1 CG  CB  120.239 1.50
+5VV CG  ND2 H6  119.917 2.87
+5VV CG  ND2 H7  119.917 2.87
+5VV H6  ND2 H7  120.165 3.00
+5VV CA  C   O   117.283 2.93
+5VV CA  C   OXT 117.283 2.93
+5VV O   C   OXT 125.433 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+5VV sp2_sp2_1 O11 C9 N   CA  0.000   5.0  2
+5VV sp2_sp3_1 C9  N  CA  CB  0.000   20.0 6
+5VV sp2_sp2_2 O11 C9 O10 H10 180.000 5.0  2
+5VV sp3_sp3_1 N   CA CB  CG  180.000 10.0 3
+5VV sp2_sp3_2 O   C  CA  CB  0.000   20.0 6
+5VV sp2_sp3_3 ND2 CG CB  CA  120.000 20.0 6
+5VV sp2_sp2_3 OD1 CG ND2 H6  0.000   5.0  2
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+5VV chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+5VV plan-1 C9  0.020
+5VV plan-1 CA  0.020
+5VV plan-1 H   0.020
+5VV plan-1 N   0.020
+5VV plan-2 C9  0.020
+5VV plan-2 N   0.020
+5VV plan-2 O10 0.020
+5VV plan-2 O11 0.020
+5VV plan-3 CB  0.020
+5VV plan-3 CG  0.020
+5VV plan-3 ND2 0.020
+5VV plan-3 OD1 0.020
+5VV plan-4 CG  0.020
+5VV plan-4 H6  0.020
+5VV plan-4 H7  0.020
+5VV plan-4 ND2 0.020
+5VV plan-5 C   0.020
+5VV plan-5 CA  0.020
+5VV plan-5 O   0.020
+5VV plan-5 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+5VV InChI            InChI                1.06  "InChI=1S/C5H8N2O5/c6-3(8)1-2(4(9)10)7-5(11)12/h2,7H,1H2,(H2,6,8)(H,9,10)(H,11,12)/t2-/m0/s1"
+5VV InChIKey         InChI                1.06  ZDDDMWAFNPCPER-REOHCLBHSA-N
+5VV SMILES_CANONICAL CACTVS               3.385 "NC(=O)C[C@H](NC(O)=O)C(O)=O"
+5VV SMILES           CACTVS               3.385 "NC(=O)C[CH](NC(O)=O)C(O)=O"
+5VV SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "C([C@@H](C(=O)O)NC(=O)O)C(=O)N"
+5VV SMILES           "OpenEye OEToolkits" 2.0.7 "C(C(C(=O)O)NC(=O)O)C(=O)N"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+5VV acedrg          314       "dictionary generator"
+5VV acedrg_database 12        "data source"
+5VV rdkit           2023.03.3 "Chemoinformatics tool"
+5VV servalcat       0.4.102   'optimization tool'

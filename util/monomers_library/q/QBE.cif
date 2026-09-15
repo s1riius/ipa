@@ -1,0 +1,438 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+QBE QBE "~{N}-[5-[[3-cyano-7-(cyclopropylamino)-3~{H}-pyrazolo[1,5-a]pyrimidin-5-yl]amino]-2-methyl-phenyl]propanamide" NON-POLYMER 49 28 .
+
+data_comp_QBE
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+QBE C11 C1  C CR56 0 -1.371 -1.205 1.677
+QBE C2  C2  C CR6  0 3.011  0.233  -1.493
+QBE C3  C3  C C    0 4.040  0.385  0.821
+QBE C4  C4  C CH2  0 4.998  1.258  1.605
+QBE C5  C5  C CH3  0 4.303  2.365  2.362
+QBE C6  C6  C CR16 0 1.669  0.248  -1.112
+QBE C7  C7  C CR16 0 2.332  -0.299 -3.734
+QBE C8  C8  C CR16 0 1.007  -0.308 -3.342
+QBE N   N1  N NH1  0 4.010  0.586  -0.532
+QBE C   C9  C CH3  0 4.794  0.000  -3.323
+QBE O   O1  O O    0 3.375  -0.495 1.378
+QBE N1  N2  N NH1  0 -0.704 -0.078 -1.643
+QBE C1  C10 C CR6  0 3.360  0.014  -2.842
+QBE N6  N3  N NSP  0 1.379  -2.864 3.229
+QBE C19 C11 C CSP  0 0.344  -2.412 3.057
+QBE C12 C12 C CR5  0 -0.944 -1.853 2.842
+QBE C13 C13 C CR15 0 -1.992 -1.836 3.709
+QBE N3  N4  N N20  0 -3.040 -1.219 3.149
+QBE N4  N5  N NH0  0 -2.666 -0.818 1.880
+QBE N2  N6  N N20  0 -0.712 -0.961 0.520
+QBE C14 C14 C CR6  0 -3.375 -0.151 0.894
+QBE N5  N7  N NH1  0 -4.680 0.171  1.242
+QBE C15 C15 C CH1  0 -5.698 0.686  0.374
+QBE C17 C16 C CH2  0 -7.110 0.362  0.669
+QBE C16 C17 C CH2  0 -6.435 -0.232 -0.512
+QBE C18 C18 C CR16 0 -2.718 0.080  -0.317
+QBE C10 C19 C CR6  0 -1.347 -0.307 -0.452
+QBE C9  C20 C CR6  0 0.673  -0.082 -2.018
+QBE H1  H1  H H    0 5.660  1.653  0.998
+QBE H2  H2  H H    0 5.482  0.697  2.247
+QBE H3  H3  H H    0 3.677  1.979  3.001
+QBE H4  H4  H H    0 3.817  2.934  1.737
+QBE H5  H5  H H    0 4.962  2.900  2.840
+QBE H6  H6  H H    0 1.443  0.429  -0.215
+QBE H7  H7  H H    0 2.543  -0.484 -4.635
+QBE H8  H8  H H    0 0.333  -0.523 -3.965
+QBE H9  H9  H H    0 4.712  0.991  -0.863
+QBE H10 H10 H H    0 4.823  -0.124 -4.288
+QBE H11 H11 H H    0 5.273  -0.729 -2.895
+QBE H12 H12 H H    0 5.222  0.843  -3.101
+QBE H13 H13 H H    0 -1.251 0.070  -2.307
+QBE H15 H15 H H    0 -1.985 -2.204 4.580
+QBE H16 H16 H H    0 -4.886 0.011  2.076
+QBE H17 H17 H H    0 -5.535 1.584  0.013
+QBE H18 H18 H H    0 -7.303 -0.246 1.411
+QBE H19 H19 H H    0 -7.781 1.056  0.513
+QBE H20 H20 H H    0 -6.691 0.097  -1.397
+QBE H21 H21 H H    0 -6.205 -1.182 -0.476
+QBE H22 H22 H H    0 -3.160 0.489  -1.041
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+QBE C11 C[5a,6](N[5a,6]N[5a]C[6])(C[5a]C[5a]C)(N[6]C[6]){1|C<3>,1|H<1>,2|N<3>}
+QBE C2  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(NCH){1|C<3>,1|H<1>,1|N<3>}
+QBE C3  C(NC[6a]H)(CCHH)(O)
+QBE C4  C(CH3)(CNO)(H)2
+QBE C5  C(CCHH)(H)3
+QBE C6  C[6a](C[6a]C[6a]N)2(H){1|C<3>,1|C<4>,1|H<1>}
+QBE C7  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,2|N<3>}
+QBE C8  C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(H){1|C<3>,1|C<4>,1|H<1>}
+QBE N   N(C[6a]C[6a]2)(CCO)(H)
+QBE C   C(C[6a]C[6a]2)(H)3
+QBE O   O(CCN)
+QBE N1  N(C[6]C[6]N[6])(C[6a]C[6a]2)(H)
+QBE C1  C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(CH3){1|C<3>,2|H<1>}
+QBE N6  N(CC[5a])
+QBE C19 C(C[5a]C[5a,6]C[5a])(N)
+QBE C12 C[5a](C[5a,6]N[5a,6]N[6])(C[5a]N[5a]H)(CN){2|C<3>}
+QBE C13 C[5a](C[5a]C[5a,6]C)(N[5a]N[5a,6])(H){1|C<3>,1|N<2>}
+QBE N3  N[5a](N[5a,6]C[5a,6]C[6])(C[5a]C[5a]H){1|C<2>,1|C<3>,1|N<2>,1|N<3>}
+QBE N4  N[5a,6](C[5a,6]C[5a]N[6])(N[5a]C[5a])(C[6]C[6]N){1|C<2>,1|C<3>,2|H<1>}
+QBE N2  N[6](C[5a,6]N[5a,6]C[5a])(C[6]C[6]N){1|C<2>,1|H<1>,1|N<2>,2|C<3>}
+QBE C14 C[6](N[5a,6]C[5a,6]N[5a])(C[6]C[6]H)(NC[3]H){1|N<2>,1|N<3>,2|C<3>}
+QBE N5  N(C[6]N[5a,6]C[6])(C[3]C[3]2H)(H)
+QBE C15 C[3](C[3]C[3]HH)2(NC[6]H)(H)
+QBE C17 C[3](C[3]C[3]HH)(C[3]C[3]HN)(H)2
+QBE C16 C[3](C[3]C[3]HH)(C[3]C[3]HN)(H)2
+QBE C18 C[6](C[6]N[5a,6]N)(C[6]N[6]N)(H){1|C<3>,1|N<2>}
+QBE C10 C[6](N[6]C[5a,6])(C[6]C[6]H)(NC[6a]H){1|C<3>,2|N<3>}
+QBE C9  C[6a](C[6a]C[6a]H)2(NC[6]H){1|C<3>,1|H<1>,1|N<3>}
+QBE H1  H(CCCH)
+QBE H2  H(CCCH)
+QBE H3  H(CCHH)
+QBE H4  H(CCHH)
+QBE H5  H(CCHH)
+QBE H6  H(C[6a]C[6a]2)
+QBE H7  H(C[6a]C[6a]2)
+QBE H8  H(C[6a]C[6a]2)
+QBE H9  H(NC[6a]C)
+QBE H10 H(CC[6a]HH)
+QBE H11 H(CC[6a]HH)
+QBE H12 H(CC[6a]HH)
+QBE H13 H(NC[6a]C[6])
+QBE H15 H(C[5a]C[5a]N[5a])
+QBE H16 H(NC[3]C[6])
+QBE H17 H(C[3]C[3]2N)
+QBE H18 H(C[3]C[3]2H)
+QBE H19 H(C[3]C[3]2H)
+QBE H20 H(C[3]C[3]2H)
+QBE H21 H(C[3]C[3]2H)
+QBE H22 H(C[6]C[6]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+QBE C17 C16 SINGLE n 1.484 0.0200 1.484 0.0200
+QBE C15 C16 SINGLE n 1.474 0.0200 1.474 0.0200
+QBE C15 C17 SINGLE n 1.474 0.0200 1.474 0.0200
+QBE N5  C15 SINGLE n 1.429 0.0100 1.429 0.0100
+QBE C14 N5  SINGLE n 1.357 0.0200 1.357 0.0200
+QBE C7  C8  DOUBLE y 1.383 0.0100 1.383 0.0100
+QBE C8  C9  SINGLE y 1.387 0.0127 1.387 0.0127
+QBE C14 C18 DOUBLE n 1.378 0.0162 1.378 0.0162
+QBE C18 C10 SINGLE n 1.412 0.0200 1.412 0.0200
+QBE N1  C9  SINGLE n 1.419 0.0107 1.419 0.0107
+QBE N1  C10 SINGLE n 1.344 0.0189 1.344 0.0189
+QBE C7  C1  SINGLE y 1.394 0.0100 1.394 0.0100
+QBE N4  C14 SINGLE n 1.382 0.0100 1.382 0.0100
+QBE C6  C9  DOUBLE y 1.386 0.0100 1.386 0.0100
+QBE N2  C10 DOUBLE n 1.325 0.0125 1.325 0.0125
+QBE C   C1  SINGLE n 1.495 0.0200 1.495 0.0200
+QBE C2  C1  DOUBLE y 1.401 0.0100 1.401 0.0100
+QBE N3  N4  SINGLE y 1.380 0.0124 1.380 0.0124
+QBE C11 N4  SINGLE y 1.361 0.0194 1.361 0.0194
+QBE C2  C6  SINGLE y 1.391 0.0100 1.391 0.0100
+QBE C11 N2  SINGLE n 1.350 0.0100 1.350 0.0100
+QBE C2  N   SINGLE n 1.421 0.0100 1.421 0.0100
+QBE C13 N3  DOUBLE y 1.336 0.0200 1.336 0.0200
+QBE C11 C12 DOUBLE y 1.403 0.0200 1.403 0.0200
+QBE C3  N   SINGLE n 1.352 0.0131 1.352 0.0131
+QBE C12 C13 SINGLE y 1.361 0.0187 1.361 0.0187
+QBE C19 C12 SINGLE n 1.421 0.0100 1.421 0.0100
+QBE C3  C4  SINGLE n 1.510 0.0100 1.510 0.0100
+QBE C4  C5  SINGLE n 1.508 0.0200 1.508 0.0200
+QBE C3  O   DOUBLE n 1.234 0.0150 1.234 0.0150
+QBE N6  C19 TRIPLE n 1.143 0.0100 1.143 0.0100
+QBE C4  H1  SINGLE n 1.092 0.0100 0.981 0.0200
+QBE C4  H2  SINGLE n 1.092 0.0100 0.981 0.0200
+QBE C5  H3  SINGLE n 1.092 0.0100 0.974 0.0137
+QBE C5  H4  SINGLE n 1.092 0.0100 0.974 0.0137
+QBE C5  H5  SINGLE n 1.092 0.0100 0.974 0.0137
+QBE C6  H6  SINGLE n 1.085 0.0150 0.946 0.0200
+QBE C7  H7  SINGLE n 1.085 0.0150 0.944 0.0143
+QBE C8  H8  SINGLE n 1.085 0.0150 0.942 0.0183
+QBE N   H9  SINGLE n 1.013 0.0120 0.879 0.0200
+QBE C   H10 SINGLE n 1.092 0.0100 0.972 0.0144
+QBE C   H11 SINGLE n 1.092 0.0100 0.972 0.0144
+QBE C   H12 SINGLE n 1.092 0.0100 0.972 0.0144
+QBE N1  H13 SINGLE n 1.013 0.0120 0.869 0.0200
+QBE C13 H15 SINGLE n 1.085 0.0150 0.946 0.0200
+QBE N5  H16 SINGLE n 1.013 0.0120 0.870 0.0200
+QBE C15 H17 SINGLE n 1.092 0.0100 0.982 0.0100
+QBE C17 H18 SINGLE n 1.092 0.0100 0.978 0.0132
+QBE C17 H19 SINGLE n 1.092 0.0100 0.978 0.0132
+QBE C16 H20 SINGLE n 1.092 0.0100 0.978 0.0132
+QBE C16 H21 SINGLE n 1.092 0.0100 0.978 0.0132
+QBE C18 H22 SINGLE n 1.085 0.0150 0.942 0.0196
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+QBE N4  C11 N2  121.219 3.00
+QBE N4  C11 C12 107.633 1.50
+QBE N2  C11 C12 131.148 3.00
+QBE C1  C2  C6  121.166 1.50
+QBE C1  C2  N   118.394 2.08
+QBE C6  C2  N   120.441 1.50
+QBE N   C3  C4  114.372 1.50
+QBE N   C3  O   122.928 1.50
+QBE C4  C3  O   122.700 1.50
+QBE C3  C4  C5  113.284 1.50
+QBE C3  C4  H1  108.824 1.50
+QBE C3  C4  H2  108.824 1.50
+QBE C5  C4  H1  108.930 2.36
+QBE C5  C4  H2  108.930 2.36
+QBE H1  C4  H2  107.921 2.42
+QBE C4  C5  H3  109.562 2.26
+QBE C4  C5  H4  109.562 2.26
+QBE C4  C5  H5  109.562 2.26
+QBE H3  C5  H4  109.381 1.50
+QBE H3  C5  H5  109.381 1.50
+QBE H4  C5  H5  109.381 1.50
+QBE C9  C6  C2  118.854 3.00
+QBE C9  C6  H6  120.757 1.50
+QBE C2  C6  H6  120.389 1.50
+QBE C8  C7  C1  121.043 1.50
+QBE C8  C7  H7  119.475 1.50
+QBE C1  C7  H7  119.482 1.50
+QBE C7  C8  C9  120.366 1.50
+QBE C7  C8  H8  119.944 1.50
+QBE C9  C8  H8  119.690 1.50
+QBE C2  N   C3  127.793 3.00
+QBE C2  N   H9  115.939 3.00
+QBE C3  N   H9  116.269 2.57
+QBE C1  C   H10 109.579 1.50
+QBE C1  C   H11 109.579 1.50
+QBE C1  C   H12 109.579 1.50
+QBE H10 C   H11 109.334 1.91
+QBE H10 C   H12 109.334 1.91
+QBE H11 C   H12 109.334 1.91
+QBE C9  N1  C10 128.355 3.00
+QBE C9  N1  H13 116.547 3.00
+QBE C10 N1  H13 115.096 3.00
+QBE C7  C1  C   120.828 1.50
+QBE C7  C1  C2  117.469 1.50
+QBE C   C1  C2  121.703 1.50
+QBE C12 C19 N6  180.000 3.00
+QBE C11 C12 C13 107.494 3.00
+QBE C11 C12 C19 125.493 3.00
+QBE C13 C12 C19 127.013 3.00
+QBE N3  C13 C12 109.593 3.00
+QBE N3  C13 H15 124.881 1.50
+QBE C12 C13 H15 125.526 3.00
+QBE N4  N3  C13 106.359 3.00
+QBE C14 N4  N3  130.292 3.00
+QBE C14 N4  C11 120.787 3.00
+QBE N3  N4  C11 108.921 2.28
+QBE C10 N2  C11 116.327 1.50
+QBE N5  C14 C18 122.780 3.00
+QBE N5  C14 N4  117.342 3.00
+QBE C18 C14 N4  119.878 3.00
+QBE C15 N5  C14 121.445 3.00
+QBE C15 N5  H16 119.774 1.67
+QBE C14 N5  H16 118.781 3.00
+QBE C16 C15 C17 60.087  1.50
+QBE C16 C15 N5  118.740 1.50
+QBE C16 C15 H17 115.878 1.50
+QBE C17 C15 N5  118.740 1.50
+QBE C17 C15 H17 115.878 1.50
+QBE N5  C15 H17 116.163 1.50
+QBE C16 C17 C15 59.865  1.50
+QBE C16 C17 H18 117.837 1.50
+QBE C16 C17 H19 117.837 1.50
+QBE C15 C17 H18 117.775 1.50
+QBE C15 C17 H19 117.775 1.50
+QBE H18 C17 H19 114.989 1.50
+QBE C17 C16 C15 59.865  1.50
+QBE C17 C16 H20 117.837 1.50
+QBE C17 C16 H21 117.837 1.50
+QBE C15 C16 H20 117.775 1.50
+QBE C15 C16 H21 117.775 1.50
+QBE H20 C16 H21 114.989 1.50
+QBE C14 C18 C10 119.907 2.73
+QBE C14 C18 H22 120.555 1.50
+QBE C10 C18 H22 119.539 3.00
+QBE C18 C10 N1  118.234 3.00
+QBE C18 C10 N2  121.883 1.50
+QBE N1  C10 N2  119.883 2.35
+QBE C8  C9  N1  119.524 3.00
+QBE C8  C9  C6  121.102 1.50
+QBE N1  C9  C6  119.374 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+QBE const_0    N4  C11 C12 C19 180.000  0.0  1
+QBE const_1    N2  C11 N4  C14 0.000    0.0  1
+QBE sp2_sp2_1  C12 C11 N2  C10 180.000  5.0  1
+QBE sp2_sp2_2  C18 C10 N1  H13 0.000    5.0  2
+QBE sp2_sp2_3  C8  C9  N1  H13 0.000    5.0  2
+QBE const_2    C19 C12 C13 N3  180.000  0.0  1
+QBE const_3    C12 C13 N3  N4  0.000    0.0  1
+QBE const_4    C13 N3  N4  C14 180.000  0.0  1
+QBE sp2_sp2_4  N5  C14 N4  N3  0.000    5.0  1
+QBE sp2_sp2_5  N1  C10 N2  C11 180.000  5.0  1
+QBE const_5    C   C1  C2  N   0.000    0.0  1
+QBE const_6    N   C2  C6  H6  0.000    0.0  1
+QBE sp2_sp2_6  C1  C2  N   H9  0.000    5.0  2
+QBE sp2_sp2_7  C18 C14 N5  H16 0.000    5.0  2
+QBE sp2_sp2_8  N5  C14 C18 C10 180.000  5.0  1
+QBE sp2_sp3_1  C14 N5  C15 H17 -120.000 20.0 6
+QBE sp3_sp3_1  N5  C15 C17 H18 180.000  10.0 3
+QBE sp3_sp3_2  N5  C15 C16 C17 60.000   10.0 3
+QBE sp2_sp2_9  N1  C10 C18 C14 180.000  5.0  1
+QBE sp2_sp3_2  N   C3  C4  C5  120.000  20.0 6
+QBE sp2_sp2_10 C4  C3  N   H9  0.000    5.0  2
+QBE sp3_sp3_3  C3  C4  C5  H4  -60.000  10.0 3
+QBE const_7    C2  C6  C9  N1  180.000  0.0  1
+QBE const_8    C   C1  C7  C8  180.000  0.0  1
+QBE const_9    C1  C7  C8  C9  0.000    0.0  1
+QBE const_10   C7  C8  C9  N1  180.000  0.0  1
+QBE sp2_sp3_3  C7  C1  C   H11 -90.000  20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+QBE chir_1 C15 N5 C16 C17 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+QBE plan-1 C11 0.020
+QBE plan-1 C12 0.020
+QBE plan-1 C13 0.020
+QBE plan-1 C14 0.020
+QBE plan-1 C19 0.020
+QBE plan-1 H15 0.020
+QBE plan-1 N2  0.020
+QBE plan-1 N3  0.020
+QBE plan-1 N4  0.020
+QBE plan-2 C   0.020
+QBE plan-2 C1  0.020
+QBE plan-2 C2  0.020
+QBE plan-2 C6  0.020
+QBE plan-2 C7  0.020
+QBE plan-2 C8  0.020
+QBE plan-2 C9  0.020
+QBE plan-2 H6  0.020
+QBE plan-2 H7  0.020
+QBE plan-2 H8  0.020
+QBE plan-2 N   0.020
+QBE plan-2 N1  0.020
+QBE plan-3 C3  0.020
+QBE plan-3 C4  0.020
+QBE plan-3 N   0.020
+QBE plan-3 O   0.020
+QBE plan-4 C2  0.020
+QBE plan-4 C3  0.020
+QBE plan-4 H9  0.020
+QBE plan-4 N   0.020
+QBE plan-5 C10 0.020
+QBE plan-5 C9  0.020
+QBE plan-5 H13 0.020
+QBE plan-5 N1  0.020
+QBE plan-6 C14 0.020
+QBE plan-6 C18 0.020
+QBE plan-6 N4  0.020
+QBE plan-6 N5  0.020
+QBE plan-7 C14 0.020
+QBE plan-7 C15 0.020
+QBE plan-7 H16 0.020
+QBE plan-7 N5  0.020
+QBE plan-8 C10 0.020
+QBE plan-8 C14 0.020
+QBE plan-8 C18 0.020
+QBE plan-8 H22 0.020
+QBE plan-9 C10 0.020
+QBE plan-9 C18 0.020
+QBE plan-9 N1  0.020
+QBE plan-9 N2  0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+QBE ring-1 C11 YES
+QBE ring-1 C12 YES
+QBE ring-1 C13 YES
+QBE ring-1 N3  YES
+QBE ring-1 N4  YES
+QBE ring-2 C11 NO
+QBE ring-2 N4  NO
+QBE ring-2 N2  NO
+QBE ring-2 C14 NO
+QBE ring-2 C18 NO
+QBE ring-2 C10 NO
+QBE ring-3 C2  YES
+QBE ring-3 C6  YES
+QBE ring-3 C7  YES
+QBE ring-3 C8  YES
+QBE ring-3 C1  YES
+QBE ring-3 C9  YES
+QBE ring-4 C15 NO
+QBE ring-4 C17 NO
+QBE ring-4 C16 NO
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+QBE InChI            InChI                1.03  "InChI=1S/C20H21N7O/c1-3-19(28)25-16-8-15(5-4-12(16)2)23-17-9-18(24-14-6-7-14)27-20(26-17)13(10-21)11-22-27/h4-5,8-9,11,14,24H,3,6-7H2,1-2H3,(H,23,26)(H,25,28)"
+QBE InChIKey         InChI                1.03  YKDZIFFKQUNVHH-UHFFFAOYSA-N
+QBE SMILES_CANONICAL CACTVS               3.385 "CCC(=O)Nc1cc(Nc2cc(NC3CC3)n4ncc(C#N)c4n2)ccc1C"
+QBE SMILES           CACTVS               3.385 "CCC(=O)Nc1cc(Nc2cc(NC3CC3)n4ncc(C#N)c4n2)ccc1C"
+QBE SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CCC(=O)Nc1cc(ccc1C)Nc2cc(n3c(n2)c(cn3)C#N)NC4CC4"
+QBE SMILES           "OpenEye OEToolkits" 2.0.7 "CCC(=O)Nc1cc(ccc1C)Nc2cc(n3c(n2)c(cn3)C#N)NC4CC4"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+QBE acedrg          326       "dictionary generator"
+QBE acedrg_database 12        "data source"
+QBE rdkit           2023.03.3 "Chemoinformatics tool"
+QBE servalcat       0.4.120   'optimization tool'

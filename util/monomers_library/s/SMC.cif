@@ -1,0 +1,184 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+SMC SMC S-METHYLCYSTEINE peptide 17 8 .
+
+data_comp_SMC
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+SMC N    N    N NT3 1  88.988 16.228 31.713
+SMC CA   CA   C CH1 0  89.897 17.369 31.402
+SMC CB   CB   C CH2 0  90.270 17.395 29.922
+SMC SG   SG   S S2  0  91.163 15.936 29.344
+SMC CS   CS   C CH3 0  91.031 16.113 27.559
+SMC C    C    C C   0  89.227 18.696 31.811
+SMC O    O    O O   0  88.025 18.860 31.495
+SMC OXT  OXT  O OC  -1 89.935 19.521 32.431
+SMC H    H    H H   0  88.795 16.229 32.594
+SMC H2   H2   H H   0  89.385 15.443 31.510
+SMC H3   H3   H H   0  88.216 16.305 31.252
+SMC HA   HA   H H   0  90.720 17.256 31.942
+SMC HB2  HB2  H H   0  90.823 18.186 29.754
+SMC HB3  HB3  H H   0  89.448 17.488 29.396
+SMC HCS1 HCS1 H H   0  91.488 15.370 27.124
+SMC HCS2 HCS2 H H   0  91.442 16.954 27.285
+SMC HCS3 HCS3 H H   0  90.090 16.112 27.302
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+SMC N    N(CCCH)(H)3
+SMC CA   C(CHHS)(NH3)(COO)(H)
+SMC CB   C(CCHN)(SC)(H)2
+SMC SG   S(CCHH)(CH3)
+SMC CS   C(SC)(H)3
+SMC C    C(CCHN)(O)2
+SMC O    O(CCO)
+SMC OXT  O(CCO)
+SMC H    H(NCHH)
+SMC H2   H(NCHH)
+SMC H3   H(NCHH)
+SMC HA   H(CCCN)
+SMC HB2  H(CCHS)
+SMC HB3  H(CCHS)
+SMC HCS1 H(CHHS)
+SMC HCS2 H(CHHS)
+SMC HCS3 H(CHHS)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+SMC N  CA   SINGLE n 1.487 0.0100 1.487 0.0100
+SMC CA CB   SINGLE n 1.524 0.0100 1.524 0.0100
+SMC CA C    SINGLE n 1.538 0.0113 1.538 0.0113
+SMC CB SG   SINGLE n 1.805 0.0100 1.805 0.0100
+SMC SG CS   SINGLE n 1.798 0.0100 1.798 0.0100
+SMC C  O    DOUBLE n 1.251 0.0183 1.251 0.0183
+SMC C  OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+SMC N  H    SINGLE n 1.018 0.0520 0.902 0.0102
+SMC N  H2   SINGLE n 1.018 0.0520 0.902 0.0102
+SMC N  H3   SINGLE n 1.018 0.0520 0.902 0.0102
+SMC CA HA   SINGLE n 1.092 0.0100 0.991 0.0200
+SMC CB HB2  SINGLE n 1.092 0.0100 0.980 0.0104
+SMC CB HB3  SINGLE n 1.092 0.0100 0.980 0.0104
+SMC CS HCS1 SINGLE n 1.092 0.0100 0.975 0.0110
+SMC CS HCS2 SINGLE n 1.092 0.0100 0.975 0.0110
+SMC CS HCS3 SINGLE n 1.092 0.0100 0.975 0.0110
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+SMC CA   N  H    109.684 2.12
+SMC CA   N  H2   109.684 2.12
+SMC CA   N  H3   109.684 2.12
+SMC H    N  H2   109.032 3.00
+SMC H    N  H3   109.032 3.00
+SMC H2   N  H3   109.032 3.00
+SMC N    CA CB   109.354 2.20
+SMC N    CA C    109.504 1.50
+SMC N    CA HA   107.886 1.50
+SMC CB   CA C    110.419 3.00
+SMC CB   CA HA   109.209 1.50
+SMC C    CA HA   108.362 1.50
+SMC CA   CB SG   114.974 2.42
+SMC CA   CB HB2  108.537 1.50
+SMC CA   CB HB3  108.537 1.50
+SMC SG   CB HB2  108.552 1.50
+SMC SG   CB HB3  108.552 1.50
+SMC HB2  CB HB3  107.737 1.50
+SMC CB   SG CS   100.602 2.78
+SMC SG   CS HCS1 109.472 1.50
+SMC SG   CS HCS2 109.472 1.50
+SMC SG   CS HCS3 109.472 1.50
+SMC HCS1 CS HCS2 109.569 2.44
+SMC HCS1 CS HCS3 109.569 2.44
+SMC HCS2 CS HCS3 109.569 2.44
+SMC CA   C  O    117.126 1.50
+SMC CA   C  OXT  117.126 1.50
+SMC O    C  OXT  125.747 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+SMC chi1      N    CA CB SG -60.000 10.0 3
+SMC sp3_sp3_1 CB   CA N  H  180.000 10.0 3
+SMC sp3_sp3_2 CA   CB SG CS 180.000 10.0 3
+SMC sp3_sp3_3 HCS1 CS SG CB 180.000 10.0 3
+SMC sp2_sp3_1 O    C  CA N  0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+SMC chir_1 CA N CB C negative
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+SMC plan-1 C   0.020
+SMC plan-1 CA  0.020
+SMC plan-1 O   0.020
+SMC plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+SMC SMILES           ACDLabs              10.04 "O=C(O)C(N)CSC"
+SMC SMILES_CANONICAL CACTVS               3.341 "CSC[C@H](N)C(O)=O"
+SMC SMILES           CACTVS               3.341 "CSC[CH](N)C(O)=O"
+SMC SMILES_CANONICAL "OpenEye OEToolkits" 1.5.0 "CSC[C@@H](C(=O)O)N"
+SMC SMILES           "OpenEye OEToolkits" 1.5.0 "CSCC(C(=O)O)N"
+SMC InChI            InChI                1.03  "InChI=1S/C4H9NO2S/c1-8-2-3(5)4(6)7/h3H,2,5H2,1H3,(H,6,7)/t3-/m0/s1"
+SMC InChIKey         InChI                1.03  IDIDJDIHTAOVLG-VKHMYHEASA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+SMC acedrg          290       "dictionary generator"
+SMC acedrg_database 12        "data source"
+SMC rdkit           2019.09.1 "Chemoinformatics tool"
+SMC servalcat       0.4.57    'optimization tool'

@@ -1,0 +1,425 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+1MK 1MK chlorido(eta-6-p-cymene)(N-fluorophenyl-2-pyridinecarbothioamide)osmium(II) NON-POLYMER 50 27 .
+
+data_comp_1MK
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+1MK OS1  OS1  OS OS   1.00 -23.463 -50.840 37.701
+1MK C1   C1   C  CR16 0    -26.319 -52.344 37.778
+1MK C2   C2   C  CR16 0    -27.668 -52.594 37.865
+1MK C3   C3   C  CR16 0    -28.485 -51.602 38.344
+1MK C4   C4   C  CR16 0    -27.933 -50.393 38.713
+1MK C5   C5   C  CR6  0    -26.554 -50.219 38.606
+1MK C6   C6   C  C    0    -25.840 -48.942 38.972
+1MK N1   N1   N  NRD6 1    -25.753 -51.184 38.127
+1MK C7   C7   C  CR6  0    -26.403 -46.521 39.689
+1MK S1   S1   S  S1   0    -24.178 -49.096 39.142
+1MK C8   C8   C  CR16 0    -27.334 -45.529 39.390
+1MK C9   C9   C  CR16 0    -27.226 -44.263 39.941
+1MK C10  C10  C  CR6  0    -26.205 -44.013 40.810
+1MK C11  C11  C  CR16 0    -25.282 -44.959 41.152
+1MK C12  C12  C  CR16 0    -25.390 -46.224 40.596
+1MK C13  C13  C  CR6  0    -21.811 -51.367 39.033
+1MK C14  C14  C  CR16 0    -21.582 -50.128 38.466
+1MK C15  C15  C  CR16 0    -21.569 -49.954 37.092
+1MK C16  C16  C  CR6  0    -21.788 -51.021 36.227
+1MK C17  C17  C  CR16 0    -22.011 -52.269 36.805
+1MK N2   N2   N  NH1  0    -26.583 -47.806 39.094
+1MK C18  C18  C  CR16 0    -22.022 -52.433 38.179
+1MK C19  C19  C  CH3  0    -21.822 -51.552 40.533
+1MK C20  C20  C  CH1  0    -21.764 -50.810 34.706
+1MK C21  C21  C  CH3  0    -20.509 -51.431 34.072
+1MK C22  C22  C  CH3  0    -23.041 -51.256 33.974
+1MK F1   F1   F  F    0    -26.101 -42.771 41.359
+1MK CL1  CL1  CL CL   -1   -23.991 -48.688 36.413
+1MK H1   H1   H  H    0    -25.758 -53.027 37.447
+1MK H2   H2   H  H    0    -28.021 -53.428 37.604
+1MK H3   H3   H  H    0    -29.415 -51.744 38.417
+1MK H4   H4   H  H    0    -28.477 -49.715 39.047
+1MK H5   H5   H  H    0    -28.030 -45.708 38.784
+1MK H6   H6   H  H    0    -27.847 -43.591 39.724
+1MK H7   H7   H  H    0    -24.589 -44.759 41.755
+1MK H8   H8   H  H    0    -24.761 -46.880 40.826
+1MK H201 H201 H  H    0    -21.434 -49.384 39.028
+1MK H211 H211 H  H    0    -21.411 -49.094 36.738
+1MK H221 H221 H  H    0    -22.158 -53.019 36.251
+1MK H12  H12  H  H    0    -27.331 -47.830 38.642
+1MK H231 H231 H  H    0    -22.179 -53.290 38.543
+1MK H14  H14  H  H    0    -22.431 -52.272 40.772
+1MK H15  H15  H  H    0    -22.115 -50.731 40.965
+1MK H16  H16  H  H    0    -20.927 -51.774 40.840
+1MK H17  H17  H  H    0    -21.692 -49.829 34.568
+1MK H18  H18  H  H    0    -20.440 -51.156 33.141
+1MK H19  H19  H  H    0    -20.561 -52.401 34.120
+1MK H20  H20  H  H    0    -19.721 -51.128 34.554
+1MK H21  H21  H  H    0    -23.816 -50.857 34.405
+1MK H22  H22  H  H    0    -23.120 -52.225 34.007
+1MK H23  H23  H  H    0    -23.007 -50.967 33.046
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+1MK C1   C[6a](C[6a]C[6a]H)(N[6a]C[6a])(H){1|H<1>,2|C<3>}
+1MK C2   C[6a](C[6a]C[6a]H)(C[6a]N[6a]H)(H){1|C<3>,1|H<1>}
+1MK C3   C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|H<1>,1|N<2>}
+1MK C4   C[6a](C[6a]C[6a]H)(C[6a]N[6a]C)(H){1|C<3>,1|H<1>}
+1MK C5   C[6a](C[6a]C[6a]H)(N[6a]C[6a])(CNS){1|C<3>,2|H<1>}
+1MK C6   C(C[6a]C[6a]N[6a])(NC[6a]H)(S)
+1MK N1   N[6a](C[6a]C[6a]C)(C[6a]C[6a]H){1|C<3>,2|H<1>}
+1MK C7   C[6a](C[6a]C[6a]H)2(NCH){1|C<3>,2|H<1>}
+1MK S1   S(CC[6a]N)
+1MK C8   C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(H){1|C<3>,1|F<1>,1|H<1>}
+1MK C9   C[6a](C[6a]C[6a]F)(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|N<3>}
+1MK C10  C[6a](C[6a]C[6a]H)2(F){1|C<3>,2|H<1>}
+1MK C11  C[6a](C[6a]C[6a]F)(C[6a]C[6a]H)(H){1|C<3>,1|H<1>,1|N<3>}
+1MK C12  C[6a](C[6a]C[6a]H)(C[6a]C[6a]N)(H){1|C<3>,1|F<1>,1|H<1>}
+1MK C13  C[6a](C[6a]C[6a]H)2(CH3){1|C<3>,2|H<1>}
+1MK C14  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+1MK C15  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+1MK C16  C[6a](C[6a]C[6a]H)2(CCCH){1|C<3>,2|H<1>}
+1MK C17  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+1MK N2   N(C[6a]C[6a]2)(CC[6a]S)(H)
+1MK C18  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,1|C<4>,1|H<1>}
+1MK C19  C(C[6a]C[6a]2)(H)3
+1MK C20  C(C[6a]C[6a]2)(CH3)2(H)
+1MK C21  C(CC[6a]CH)(H)3
+1MK C22  C(CC[6a]CH)(H)3
+1MK F1   F(C[6a]C[6a]2)
+1MK CL1  Cl
+1MK H1   H(C[6a]C[6a]N[6a])
+1MK H2   H(C[6a]C[6a]2)
+1MK H3   H(C[6a]C[6a]2)
+1MK H4   H(C[6a]C[6a]2)
+1MK H5   H(C[6a]C[6a]2)
+1MK H6   H(C[6a]C[6a]2)
+1MK H7   H(C[6a]C[6a]2)
+1MK H8   H(C[6a]C[6a]2)
+1MK H201 H(C[6a]C[6a]2)
+1MK H211 H(C[6a]C[6a]2)
+1MK H221 H(C[6a]C[6a]2)
+1MK H12  H(NC[6a]C)
+1MK H231 H(C[6a]C[6a]2)
+1MK H14  H(CC[6a]HH)
+1MK H15  H(CC[6a]HH)
+1MK H16  H(CC[6a]HH)
+1MK H17  H(CC[6a]CC)
+1MK H18  H(CCHH)
+1MK H19  H(CCHH)
+1MK H20  H(CCHH)
+1MK H21  H(CCHH)
+1MK H22  H(CCHH)
+1MK H23  H(CCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+1MK N1  OS1  SINGLE n 2.15  0.2    2.15  0.2
+1MK OS1 C13  SINGLE n 2.17  0.2    2.17  0.2
+1MK OS1 C16  SINGLE n 2.17  0.2    2.17  0.2
+1MK OS1 CL1  SINGLE n 2.46  0.2    2.46  0.2
+1MK OS1 C14  SINGLE n 2.17  0.2    2.17  0.2
+1MK OS1 C15  SINGLE n 2.17  0.2    2.17  0.2
+1MK OS1 C17  SINGLE n 2.17  0.2    2.17  0.2
+1MK OS1 C18  SINGLE n 2.17  0.2    2.17  0.2
+1MK S1  OS1  SINGLE n 2.49  0.2    2.49  0.2
+1MK C1  C2   DOUBLE y 1.376 0.0147 1.376 0.0147
+1MK C1  N1   SINGLE y 1.338 0.0108 1.338 0.0108
+1MK C2  C3   SINGLE y 1.373 0.0140 1.373 0.0140
+1MK C3  C4   DOUBLE y 1.380 0.0102 1.380 0.0102
+1MK C4  C5   SINGLE y 1.389 0.0100 1.389 0.0100
+1MK C5  C6   SINGLE n 1.499 0.0100 1.499 0.0100
+1MK C5  N1   DOUBLE y 1.340 0.0103 1.340 0.0103
+1MK C6  S1   DOUBLE n 1.674 0.0190 1.674 0.0190
+1MK C6  N2   SINGLE n 1.341 0.0142 1.341 0.0142
+1MK C7  C8   DOUBLE y 1.388 0.0100 1.388 0.0100
+1MK C7  C12  SINGLE y 1.388 0.0100 1.388 0.0100
+1MK C7  N2   SINGLE n 1.417 0.0106 1.417 0.0106
+1MK C8  C9   SINGLE y 1.385 0.0100 1.385 0.0100
+1MK C9  C10  DOUBLE y 1.367 0.0110 1.367 0.0110
+1MK C10 C11  SINGLE y 1.367 0.0110 1.367 0.0110
+1MK C10 F1   SINGLE n 1.361 0.0124 1.361 0.0124
+1MK C11 C12  DOUBLE y 1.385 0.0100 1.385 0.0100
+1MK C13 C14  DOUBLE y 1.382 0.0140 1.382 0.0140
+1MK C13 C18  SINGLE y 1.382 0.0140 1.382 0.0140
+1MK C13 C19  SINGLE n 1.505 0.0200 1.505 0.0200
+1MK C14 C15  SINGLE y 1.384 0.0132 1.384 0.0132
+1MK C15 C16  DOUBLE y 1.387 0.0120 1.387 0.0120
+1MK C16 C17  SINGLE y 1.387 0.0120 1.387 0.0120
+1MK C16 C20  SINGLE n 1.523 0.0118 1.523 0.0118
+1MK C17 C18  DOUBLE y 1.384 0.0132 1.384 0.0132
+1MK C20 C21  SINGLE n 1.526 0.0144 1.526 0.0144
+1MK C20 C22  SINGLE n 1.526 0.0144 1.526 0.0144
+1MK C1  H1   SINGLE n 1.085 0.0150 0.944 0.0200
+1MK C2  H2   SINGLE n 1.085 0.0150 0.943 0.0187
+1MK C3  H3   SINGLE n 1.085 0.0150 0.943 0.0195
+1MK C4  H4   SINGLE n 1.085 0.0150 0.933 0.0200
+1MK C8  H5   SINGLE n 1.085 0.0150 0.940 0.0138
+1MK C9  H6   SINGLE n 1.085 0.0150 0.940 0.0139
+1MK C11 H7   SINGLE n 1.085 0.0150 0.940 0.0139
+1MK C12 H8   SINGLE n 1.085 0.0150 0.940 0.0138
+1MK C14 H201 SINGLE n 1.085 0.0150 0.944 0.0143
+1MK C15 H211 SINGLE n 1.085 0.0150 0.944 0.0143
+1MK C17 H221 SINGLE n 1.085 0.0150 0.944 0.0143
+1MK N2  H12  SINGLE n 1.013 0.0120 0.879 0.0200
+1MK C18 H231 SINGLE n 1.085 0.0150 0.944 0.0143
+1MK C19 H14  SINGLE n 1.092 0.0100 0.972 0.0144
+1MK C19 H15  SINGLE n 1.092 0.0100 0.972 0.0144
+1MK C19 H16  SINGLE n 1.092 0.0100 0.972 0.0144
+1MK C20 H17  SINGLE n 1.092 0.0100 0.993 0.0145
+1MK C21 H18  SINGLE n 1.092 0.0100 0.972 0.0148
+1MK C21 H19  SINGLE n 1.092 0.0100 0.972 0.0148
+1MK C21 H20  SINGLE n 1.092 0.0100 0.972 0.0148
+1MK C22 H21  SINGLE n 1.092 0.0100 0.972 0.0148
+1MK C22 H22  SINGLE n 1.092 0.0100 0.972 0.0148
+1MK C22 H23  SINGLE n 1.092 0.0100 0.972 0.0148
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+1MK OS1 N1  C1   121.4515 5.0
+1MK OS1 N1  C5   121.4515 5.0
+1MK OS1 S1  C6   109.47   5.0
+1MK C2  C1  N1   123.721  1.50
+1MK C2  C1  H1   118.409  1.50
+1MK N1  C1  H1   117.870  1.50
+1MK C1  C2  C3   118.522  1.50
+1MK C1  C2  H2   120.672  1.50
+1MK C3  C2  H2   120.806  1.50
+1MK C2  C3  C4   119.140  1.50
+1MK C2  C3  H3   120.445  1.50
+1MK C4  C3  H3   120.414  1.50
+1MK C3  C4  C5   118.721  1.50
+1MK C3  C4  H4   120.640  1.50
+1MK C5  C4  H4   120.638  1.50
+1MK C4  C5  C6   121.029  1.50
+1MK C4  C5  N1   122.799  1.50
+1MK C6  C5  N1   116.172  1.50
+1MK C5  C6  S1   122.073  3.00
+1MK C5  C6  N2   114.266  1.50
+1MK S1  C6  N2   123.661  3.00
+1MK C1  N1  C5   117.097  1.50
+1MK C8  C7  C12  119.301  1.50
+1MK C8  C7  N2   120.350  3.00
+1MK C12 C7  N2   120.350  3.00
+1MK C7  C8  C9   120.280  1.50
+1MK C7  C8  H5   119.851  1.50
+1MK C9  C8  H5   119.869  1.50
+1MK C8  C9  C10  118.615  1.50
+1MK C8  C9  H6   120.656  1.50
+1MK C10 C9  H6   120.728  1.50
+1MK C9  C10 C11  122.899  1.50
+1MK C9  C10 F1   118.555  1.50
+1MK C11 C10 F1   118.555  1.50
+1MK C10 C11 C12  118.615  1.50
+1MK C10 C11 H7   120.728  1.50
+1MK C12 C11 H7   120.656  1.50
+1MK C7  C12 C11  120.280  1.50
+1MK C7  C12 H8   119.851  1.50
+1MK C11 C12 H8   119.869  1.50
+1MK C14 C13 C18  117.851  1.50
+1MK C14 C13 C19  121.074  1.75
+1MK C18 C13 C19  121.074  1.75
+1MK C13 C14 C15  121.194  1.50
+1MK C13 C14 H201 119.278  1.50
+1MK C15 C14 H201 119.528  1.50
+1MK C14 C15 C16  120.951  1.50
+1MK C14 C15 H211 119.591  1.50
+1MK C16 C15 H211 119.452  1.50
+1MK C15 C16 C17  117.870  1.50
+1MK C15 C16 C20  121.065  1.83
+1MK C17 C16 C20  121.065  1.83
+1MK C16 C17 C18  120.951  1.50
+1MK C16 C17 H221 119.452  1.50
+1MK C18 C17 H221 119.591  1.50
+1MK C6  N2  C7   128.349  3.00
+1MK C6  N2  H12  116.629  3.00
+1MK C7  N2  H12  115.022  3.00
+1MK C13 C18 C17  121.194  1.50
+1MK C13 C18 H231 119.278  1.50
+1MK C17 C18 H231 119.528  1.50
+1MK C13 C19 H14  109.565  1.50
+1MK C13 C19 H15  109.565  1.50
+1MK C13 C19 H16  109.565  1.50
+1MK H14 C19 H15  109.334  1.91
+1MK H14 C19 H16  109.334  1.91
+1MK H15 C19 H16  109.334  1.91
+1MK C16 C20 C21  111.981  3.00
+1MK C16 C20 C22  111.981  3.00
+1MK C16 C20 H17  106.823  3.00
+1MK C21 C20 C22  110.205  1.68
+1MK C21 C20 H17  107.636  1.50
+1MK C22 C20 H17  107.636  1.50
+1MK C20 C21 H18  109.530  1.50
+1MK C20 C21 H19  109.530  1.50
+1MK C20 C21 H20  109.530  1.50
+1MK H18 C21 H19  109.394  1.50
+1MK H18 C21 H20  109.394  1.50
+1MK H19 C21 H20  109.394  1.50
+1MK C20 C22 H21  109.530  1.50
+1MK C20 C22 H22  109.530  1.50
+1MK C20 C22 H23  109.530  1.50
+1MK H21 C22 H22  109.394  1.50
+1MK H21 C22 H23  109.394  1.50
+1MK H22 C22 H23  109.394  1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+1MK const_0   N1  C1  C2  C3  0.000   0.0  1
+1MK const_1   C2  C1  N1  C5  0.000   0.0  1
+1MK const_2   F1  C10 C9  C8  180.000 0.0  1
+1MK const_3   F1  C10 C11 C12 180.000 0.0  1
+1MK const_4   C10 C11 C12 C7  0.000   0.0  1
+1MK const_5   C19 C13 C14 C15 180.000 0.0  1
+1MK const_6   C19 C13 C18 C17 180.000 0.0  1
+1MK sp2_sp3_1 C14 C13 C19 H14 150.000 20.0 6
+1MK const_7   C13 C14 C15 C16 0.000   0.0  1
+1MK const_8   C14 C15 C16 C20 180.000 0.0  1
+1MK const_9   C20 C16 C17 C18 180.000 0.0  1
+1MK sp2_sp3_2 C15 C16 C20 C21 -90.000 20.0 6
+1MK const_10  C16 C17 C18 C13 0.000   0.0  1
+1MK const_11  C1  C2  C3  C4  0.000   0.0  1
+1MK sp3_sp3_1 C22 C20 C21 H18 60.000  10.0 3
+1MK sp3_sp3_2 C21 C20 C22 H21 180.000 10.0 3
+1MK const_12  C2  C3  C4  C5  0.000   0.0  1
+1MK const_13  C3  C4  C5  C6  180.000 0.0  1
+1MK sp2_sp2_1 C4  C5  C6  S1  0.000   5.0  2
+1MK const_14  C6  C5  N1  C1  180.000 0.0  1
+1MK sp2_sp2_2 S1  C6  N2  C7  0.000   5.0  2
+1MK const_15  C11 C12 C7  N2  180.000 0.0  1
+1MK sp2_sp2_3 C8  C7  N2  C6  180.000 5.0  2
+1MK const_16  N2  C7  C8  C9  180.000 0.0  1
+1MK const_17  C7  C8  C9  C10 0.000   0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+1MK chir_1 C20 C16 C21 C22 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+1MK plan-6 OS1  0.060
+1MK plan-6 N1   0.060
+1MK plan-6 C1   0.060
+1MK plan-6 C5   0.060
+1MK plan-1 C1   0.020
+1MK plan-1 C2   0.020
+1MK plan-1 C3   0.020
+1MK plan-1 C4   0.020
+1MK plan-1 C5   0.020
+1MK plan-1 C6   0.020
+1MK plan-1 H1   0.020
+1MK plan-1 H2   0.020
+1MK plan-1 H3   0.020
+1MK plan-1 H4   0.020
+1MK plan-1 N1   0.020
+1MK plan-2 C10  0.020
+1MK plan-2 C11  0.020
+1MK plan-2 C12  0.020
+1MK plan-2 C7   0.020
+1MK plan-2 C8   0.020
+1MK plan-2 C9   0.020
+1MK plan-2 F1   0.020
+1MK plan-2 H5   0.020
+1MK plan-2 H6   0.020
+1MK plan-2 H7   0.020
+1MK plan-2 H8   0.020
+1MK plan-2 N2   0.020
+1MK plan-3 C13  0.020
+1MK plan-3 C14  0.020
+1MK plan-3 C15  0.020
+1MK plan-3 C16  0.020
+1MK plan-3 C17  0.020
+1MK plan-3 C18  0.020
+1MK plan-3 C19  0.020
+1MK plan-3 C20  0.020
+1MK plan-3 H201 0.020
+1MK plan-3 H211 0.020
+1MK plan-3 H221 0.020
+1MK plan-3 H231 0.020
+1MK plan-4 C5   0.020
+1MK plan-4 C6   0.020
+1MK plan-4 N2   0.020
+1MK plan-4 S1   0.020
+1MK plan-5 C6   0.020
+1MK plan-5 C7   0.020
+1MK plan-5 H12  0.020
+1MK plan-5 N2   0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+1MK ring-1 C1  YES
+1MK ring-1 C2  YES
+1MK ring-1 C3  YES
+1MK ring-1 C4  YES
+1MK ring-1 C5  YES
+1MK ring-1 N1  YES
+1MK ring-2 C7  YES
+1MK ring-2 C8  YES
+1MK ring-2 C9  YES
+1MK ring-2 C10 YES
+1MK ring-2 C11 YES
+1MK ring-2 C12 YES
+1MK ring-3 C13 YES
+1MK ring-3 C14 YES
+1MK ring-3 C15 YES
+1MK ring-3 C16 YES
+1MK ring-3 C17 YES
+1MK ring-3 C18 YES
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+1MK acedrg            311       'dictionary generator'
+1MK 'acedrg_database' 12        'data source'
+1MK rdkit             2019.09.1 'Chemoinformatics tool'
+1MK servalcat         0.4.93    'optimization tool'
+1MK metalCoord        0.1.63    'metal coordination analysis'

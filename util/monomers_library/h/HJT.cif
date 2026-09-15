@@ -1,0 +1,208 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HJT HJT "(2~{S})-2-azanyl-4-sulfo-butanoic        acid" NON-POLYMER 20 11 .
+
+data_comp_HJT
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+HJT CA  C1 C CH1 0  21.738 8.877  51.430
+HJT CB  C2 C CH2 0  20.942 8.814  52.745
+HJT N   N1 N NT3 1  21.116 8.046  50.359
+HJT C   C3 C C   0  23.183 8.394  51.672
+HJT OXT O1 O OC  -1 23.376 7.158  51.760
+HJT CG  C4 C CH2 0  19.651 9.638  52.800
+HJT O   O2 O O   0  24.067 9.275  51.765
+HJT O1S O3 O O   0  17.700 10.450 54.285
+HJT O2S O4 O OH1 0  19.852 10.195 55.329
+HJT O3S O5 O O   0  18.621 8.211  54.702
+HJT S   S1 S S3  0  18.850 9.593  54.381
+HJT H1  H1 H H   0  21.774 9.815  51.108
+HJT H2  H2 H H   0  21.530 9.110  53.472
+HJT H3  H3 H H   0  20.721 7.874  52.918
+HJT H4  H4 H H   0  20.281 8.324  50.160
+HJT H5  H5 H H   0  21.086 7.178  50.603
+HJT H   H  H H   0  21.612 8.108  49.608
+HJT H8  H8 H H   0  19.035 9.306  52.133
+HJT H9  H9 H H   0  19.852 10.560 52.583
+HJT H6  H6 H H   0  20.063 11.035 55.172
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+HJT CA  C(CCHH)(NH3)(COO)(H)
+HJT CB  C(CCHN)(CHHS)(H)2
+HJT N   N(CCCH)(H)3
+HJT C   C(CCHN)(O)2
+HJT OXT O(CCO)
+HJT CG  C(CCHH)(SO3)(H)2
+HJT O   O(CCO)
+HJT O1S O(SCOO)
+HJT O2S O(SCOO)(H)
+HJT O3S O(SCOO)
+HJT S   S(CCHH)(OH)(O)2
+HJT H1  H(CCCN)
+HJT H2  H(CCCH)
+HJT H3  H(CCCH)
+HJT H4  H(NCHH)
+HJT H5  H(NCHH)
+HJT H   H(NCHH)
+HJT H8  H(CCHS)
+HJT H9  H(CCHS)
+HJT H6  H(OS)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+HJT CA  N   SINGLE n 1.487 0.0100 1.487 0.0100
+HJT CA  C   SINGLE n 1.538 0.0113 1.538 0.0113
+HJT CA  CB  SINGLE n 1.533 0.0100 1.533 0.0100
+HJT C   O   DOUBLE n 1.251 0.0183 1.251 0.0183
+HJT C   OXT SINGLE n 1.251 0.0183 1.251 0.0183
+HJT CB  CG  SINGLE n 1.522 0.0187 1.522 0.0187
+HJT CG  S   SINGLE n 1.771 0.0100 1.771 0.0100
+HJT O1S S   DOUBLE n 1.437 0.0100 1.437 0.0100
+HJT O3S S   DOUBLE n 1.437 0.0100 1.437 0.0100
+HJT O2S S   SINGLE n 1.503 0.0200 1.503 0.0200
+HJT CA  H1  SINGLE n 1.092 0.0100 0.991 0.0200
+HJT CB  H2  SINGLE n 1.092 0.0100 0.981 0.0141
+HJT CB  H3  SINGLE n 1.092 0.0100 0.981 0.0141
+HJT N   H4  SINGLE n 1.018 0.0520 0.902 0.0102
+HJT N   H5  SINGLE n 1.018 0.0520 0.902 0.0102
+HJT N   H   SINGLE n 1.018 0.0520 0.902 0.0102
+HJT CG  H8  SINGLE n 1.092 0.0100 0.967 0.0200
+HJT CG  H9  SINGLE n 1.092 0.0100 0.967 0.0200
+HJT O2S H6  SINGLE n 0.972 0.0180 0.879 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+HJT N   CA  C   109.258 1.50
+HJT N   CA  CB  110.970 1.50
+HJT N   CA  H1  108.387 1.58
+HJT C   CA  CB  109.608 2.17
+HJT C   CA  H1  108.774 1.79
+HJT CB  CA  H1  109.550 1.56
+HJT CA  CB  CG  114.666 3.00
+HJT CA  CB  H2  108.606 1.50
+HJT CA  CB  H3  108.606 1.50
+HJT CG  CB  H2  109.324 1.50
+HJT CG  CB  H3  109.324 1.50
+HJT H2  CB  H3  107.726 1.50
+HJT CA  N   H4  109.990 3.00
+HJT CA  N   H5  109.990 3.00
+HJT CA  N   H   109.990 3.00
+HJT H4  N   H5  109.032 3.00
+HJT H4  N   H   109.032 3.00
+HJT H5  N   H   109.032 3.00
+HJT CA  C   O   117.148 1.60
+HJT CA  C   OXT 117.148 1.60
+HJT O   C   OXT 125.704 1.50
+HJT CB  CG  S   112.856 1.84
+HJT CB  CG  H8  109.266 1.73
+HJT CB  CG  H9  109.266 1.73
+HJT S   CG  H8  108.786 1.50
+HJT S   CG  H9  108.786 1.50
+HJT H8  CG  H9  107.908 1.50
+HJT S   O2S H6  114.950 3.00
+HJT CG  S   O1S 106.718 1.50
+HJT CG  S   O3S 106.718 1.50
+HJT CG  S   O2S 102.407 3.00
+HJT O1S S   O3S 117.601 3.00
+HJT O1S S   O2S 109.792 3.00
+HJT O3S S   O2S 109.792 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+HJT 'sp3_sp3_10' N  CA  CB CG  180.000 10.0 3
+HJT 'sp3_sp3_1'  C  CA  N  H4  180.000 10.0 3
+HJT 'sp2_sp3_1'  O  C   CA N   0.000   20.0 6
+HJT 'sp3_sp3_19' CA CB  CG S   180.000 10.0 3
+HJT 'sp3_sp3_28' CB CG  S  O1S 180.000 10.0 3
+HJT 'sp3_sp3_39' H6 O2S S  CG  60.000  10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+HJT 'chir_1' CA N   C   CB  positive
+HJT 'chir_2' S  O1S O3S O2S both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+HJT plan-1 C   0.020
+HJT plan-1 CA  0.020
+HJT plan-1 OXT 0.020
+HJT plan-1 O   0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+HJT InChI              InChI                1.03  InChI=1S/C4H9NO5S/c5-3(4(6)7)1-2-11(8,9)10/h3H,1-2,5H2,(H,6,7)(H,8,9,10)/t3-/m0/s1
+HJT InChIKey           InChI                1.03  VBOQYPQEPHKASR-VKHMYHEASA-N
+HJT 'SMILES_CANONICAL' CACTVS               3.385 'N[C@@H](CC[S](O)(=O)=O)C(O)=O'
+HJT SMILES             CACTVS               3.385 'N[CH](CC[S](O)(=O)=O)C(O)=O'
+HJT 'SMILES_CANONICAL' 'OpenEye OEToolkits' 2.0.6 'C(CS(=O)(=O)O)[C@@H](C(=O)O)N'
+HJT SMILES             'OpenEye OEToolkits' 2.0.6 C(CS(=O)(=O)O)C(C(=O)O)N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+HJT acedrg            285       'dictionary generator'
+HJT 'acedrg_database' 12        'data source'
+HJT rdkit             2019.09.1 'Chemoinformatics tool'
+HJT servalcat         0.4.57    'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+HJT peptide H4 H2
+HJT peptide H5 H3

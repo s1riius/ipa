@@ -1,0 +1,219 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+OTH OTH N,O-dimethyl-L-threonine NON-POLYMER 22 10 .
+
+data_comp_OTH
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+OTH N    N    N N31 0  10.380 -21.599 -43.506
+OTH C    C    C C   0  9.084  -20.525 -45.422
+OTH CA   CA   C CH1 0  9.064  -21.415 -44.153
+OTH O    O    O O   0  9.177  -19.277 -45.298
+OTH OG1  OG1  O O2  0  8.129  -21.592 -41.873
+OTH CB   CB   C CH1 0  7.970  -20.950 -43.158
+OTH C22  C22  C CH3 0  8.335  -20.752 -40.735
+OTH CG2  CG2  C CH3 0  6.542  -21.235 -43.591
+OTH C24  C24  C CH3 0  11.284 -20.487 -43.163
+OTH OXT  OXT  O OC  -1 9.006  -21.119 -46.522
+OTH H    H    H H   0  10.851 -22.141 -44.074
+OTH HA   HA   H H   0  8.786  -22.311 -44.463
+OTH HB   HB   H H   0  8.082  -19.966 -43.057
+OTH H22  H22  H H   0  8.431  -21.303 -39.945
+OTH H22A H22A H H   0  7.573  -20.164 -40.617
+OTH H22B H22B H H   0  9.143  -20.229 -40.852
+OTH HG1  HG1  H H   0  5.929  -20.925 -42.903
+OTH HG2  HG2  H H   0  6.425  -22.192 -43.720
+OTH HG3  HG3  H H   0  6.353  -20.770 -44.424
+OTH H24  H24  H H   0  12.079 -20.830 -42.730
+OTH H24A H24A H H   0  10.841 -19.871 -42.562
+OTH H24B H24B H H   0  11.548 -20.013 -43.965
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+OTH N    N(CCCH)(CH3)(H)
+OTH C    C(CCHN)(O)2
+OTH CA   C(CCHO)(COO)(NCH)(H)
+OTH O    O(CCO)
+OTH OG1  O(CCCH)(CH3)
+OTH CB   C(CCHN)(CH3)(OC)(H)
+OTH C22  C(OC)(H)3
+OTH CG2  C(CCHO)(H)3
+OTH C24  C(NCH)(H)3
+OTH OXT  O(CCO)
+OTH H    H(NCC)
+OTH HA   H(CCCN)
+OTH HB   H(CCCO)
+OTH H22  H(CHHO)
+OTH H22A H(CHHO)
+OTH H22B H(CHHO)
+OTH HG1  H(CCHH)
+OTH HG2  H(CCHH)
+OTH HG3  H(CCHH)
+OTH H24  H(CHHN)
+OTH H24A H(CHHN)
+OTH H24B H(CHHN)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+OTH N   CA   SINGLE n 1.467 0.0107 1.467 0.0107
+OTH N   C24  SINGLE n 1.468 0.0100 1.468 0.0100
+OTH C   CA   SINGLE n 1.541 0.0100 1.541 0.0100
+OTH C   O    DOUBLE n 1.251 0.0183 1.251 0.0183
+OTH C   OXT  SINGLE n 1.251 0.0183 1.251 0.0183
+OTH CA  CB   SINGLE n 1.539 0.0100 1.539 0.0100
+OTH OG1 CB   SINGLE n 1.433 0.0127 1.433 0.0127
+OTH OG1 C22  SINGLE n 1.422 0.0100 1.422 0.0100
+OTH CB  CG2  SINGLE n 1.514 0.0100 1.514 0.0100
+OTH N   H    SINGLE n 1.018 0.0520 0.908 0.0200
+OTH CA  HA   SINGLE n 1.092 0.0100 0.985 0.0200
+OTH CB  HB   SINGLE n 1.092 0.0100 0.995 0.0106
+OTH C22 H22  SINGLE n 1.092 0.0100 0.968 0.0164
+OTH C22 H22A SINGLE n 1.092 0.0100 0.968 0.0164
+OTH C22 H22B SINGLE n 1.092 0.0100 0.968 0.0164
+OTH CG2 HG1  SINGLE n 1.092 0.0100 0.972 0.0156
+OTH CG2 HG2  SINGLE n 1.092 0.0100 0.972 0.0156
+OTH CG2 HG3  SINGLE n 1.092 0.0100 0.972 0.0156
+OTH C24 H24  SINGLE n 1.092 0.0100 0.968 0.0100
+OTH C24 H24A SINGLE n 1.092 0.0100 0.968 0.0100
+OTH C24 H24B SINGLE n 1.092 0.0100 0.968 0.0100
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+OTH CA   N   C24  112.451 3.00
+OTH CA   N   H    107.482 3.00
+OTH C24  N   H    108.386 3.00
+OTH CA   C   O    117.404 1.82
+OTH CA   C   OXT  117.404 1.82
+OTH O    C   OXT  125.193 1.50
+OTH N    CA  C    113.481 3.00
+OTH N    CA  CB   111.845 3.00
+OTH N    CA  HA   108.850 1.50
+OTH C    CA  CB   110.158 1.50
+OTH C    CA  HA   107.714 1.50
+OTH CB   CA  HA   107.919 1.50
+OTH CB   OG1 C22  114.192 1.50
+OTH CA   CB  OG1  111.246 2.24
+OTH CA   CB  CG2  112.541 2.53
+OTH CA   CB  HB   108.068 3.00
+OTH OG1  CB  CG2  109.000 3.00
+OTH OG1  CB  HB   108.716 2.22
+OTH CG2  CB  HB   109.392 1.50
+OTH OG1  C22 H22  109.428 1.50
+OTH OG1  C22 H22A 109.428 1.50
+OTH OG1  C22 H22B 109.428 1.50
+OTH H22  C22 H22A 109.526 2.98
+OTH H22  C22 H22B 109.526 2.98
+OTH H22A C22 H22B 109.526 2.98
+OTH CB   CG2 HG1  109.474 1.50
+OTH CB   CG2 HG2  109.474 1.50
+OTH CB   CG2 HG3  109.474 1.50
+OTH HG1  CG2 HG2  109.425 1.50
+OTH HG1  CG2 HG3  109.425 1.50
+OTH HG2  CG2 HG3  109.425 1.50
+OTH N    C24 H24  110.041 1.50
+OTH N    C24 H24A 110.041 1.50
+OTH N    C24 H24B 110.041 1.50
+OTH H24  C24 H24A 109.325 3.00
+OTH H24  C24 H24B 109.325 3.00
+OTH H24A C24 H24B 109.325 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+OTH sp3_sp3_1 C   CA  N   C24 -60.000 10.0 3
+OTH sp3_sp3_2 H24 C24 N   CA  180.000 10.0 3
+OTH sp2_sp3_1 O   C   CA  N   0.000   20.0 6
+OTH sp3_sp3_3 N   CA  CB  OG1 180.000 10.0 3
+OTH sp3_sp3_4 CA  CB  OG1 C22 180.000 10.0 3
+OTH sp3_sp3_5 H22 C22 OG1 CB  180.000 10.0 3
+OTH sp3_sp3_6 CA  CB  CG2 HG1 180.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+OTH chir_1 CA N   C   CB  positive
+OTH chir_2 CB OG1 CA  CG2 negative
+OTH chir_3 N  CA  C24 H   both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+OTH plan-1 C   0.020
+OTH plan-1 CA  0.020
+OTH plan-1 O   0.020
+OTH plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+OTH SMILES           ACDLabs              12.01 "O=C(O)C(NC)C(OC)C"
+OTH SMILES_CANONICAL CACTVS               3.370 "CN[C@@H]([C@@H](C)OC)C(O)=O"
+OTH SMILES           CACTVS               3.370 "CN[CH]([CH](C)OC)C(O)=O"
+OTH SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "C[C@H]([C@@H](C(=O)O)NC)OC"
+OTH SMILES           "OpenEye OEToolkits" 1.7.0 "CC(C(C(=O)O)NC)OC"
+OTH InChI            InChI                1.03  "InChI=1S/C6H13NO3/c1-4(10-3)5(7-2)6(8)9/h4-5,7H,1-3H3,(H,8,9)/t4-,5+/m1/s1"
+OTH InChIKey         InChI                1.03  ZLRWZUVKLXZLRT-UHNVWZDZSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+OTH acedrg          290       "dictionary generator"
+OTH acedrg_database 12        "data source"
+OTH rdkit           2019.09.1 "Chemoinformatics tool"
+OTH servalcat       0.4.57    'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+OTH M-peptide C24 CN

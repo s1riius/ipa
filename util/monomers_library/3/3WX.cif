@@ -1,0 +1,207 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+3WX 3WX 2-methyl-L-proline P-peptide 20 9 .
+
+data_comp_3WX
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+3WX CB  C1  C CH2 0  7.188 87.246 107.489
+3WX CA  C2  C CT  0  6.658 88.684 107.682
+3WX CG  C4  C CH2 0  5.949 86.355 107.362
+3WX C   C5  C C   0  6.427 89.445 106.347
+3WX N   N3  N NT2 1  5.337 88.443 108.377
+3WX O   O6  O O   0  6.123 88.794 105.322
+3WX C39 C33 C CH3 0  7.599 89.495 108.583
+3WX CD  C34 C CH2 0  4.747 87.210 107.721
+3WX OXT OXT O OC  -1 6.534 90.691 106.328
+3WX HB2 HB2 H H   0  7.745 87.185 106.674
+3WX HB3 HB3 H H   0  7.734 86.965 108.266
+3WX HG2 HG2 H H   0  6.013 85.586 107.973
+3WX HG3 HG3 H H   0  5.861 86.016 106.442
+3WX H   H   H H   0  4.768 89.153 108.280
+3WX H2  H2  H H   0  5.460 88.292 109.271
+3WX H55 H55 H H   0  7.835 88.970 109.371
+3WX H56 H56 H H   0  7.152 90.313 108.871
+3WX H57 H57 H H   0  8.409 89.723 108.089
+3WX HD2 HD2 H H   0  4.149 86.732 108.348
+3WX HD3 HD3 H H   0  4.234 87.455 106.911
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+3WX CB  C[5](C[5]C[5]HH)(C[5]N[5]CC)(H)2{4|H<1>}
+3WX CA  C[5](C[5]C[5]HH)(N[5]C[5]HH)(CH3)(COO){4|H<1>}
+3WX CG  C[5](C[5]C[5]HH)(C[5]N[5]HH)(H)2{1|C<3>,1|C<4>,2|H<1>}
+3WX C   C(C[5]C[5]N[5]C)(O)2
+3WX N   N[5](C[5]C[5]CC)(C[5]C[5]HH)(H)2{4|H<1>}
+3WX O   O(CC[5]O)
+3WX C39 C(C[5]C[5]N[5]C)(H)3
+3WX CD  C[5](C[5]C[5]HH)(N[5]C[5]HH)(H)2{1|C<3>,1|C<4>,2|H<1>}
+3WX OXT O(CC[5]O)
+3WX HB2 H(C[5]C[5]2H)
+3WX HB3 H(C[5]C[5]2H)
+3WX HG2 H(C[5]C[5]2H)
+3WX HG3 H(C[5]C[5]2H)
+3WX H   H(N[5]C[5]2H)
+3WX H2  H(N[5]C[5]2H)
+3WX H55 H(CC[5]HH)
+3WX H56 H(CC[5]HH)
+3WX H57 H(CC[5]HH)
+3WX HD2 H(C[5]C[5]N[5]H)
+3WX HD3 H(C[5]C[5]N[5]H)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+3WX C   O   DOUBLE n 1.250 0.0140 1.250 0.0140
+3WX CA  C   SINGLE n 1.548 0.0100 1.548 0.0100
+3WX CB  CG  SINGLE n 1.529 0.0149 1.529 0.0149
+3WX CG  CD  SINGLE n 1.515 0.0128 1.515 0.0128
+3WX CB  CA  SINGLE n 1.543 0.0100 1.543 0.0100
+3WX CA  N   SINGLE n 1.512 0.0100 1.512 0.0100
+3WX CA  C39 SINGLE n 1.531 0.0104 1.531 0.0104
+3WX N   CD  SINGLE n 1.515 0.0188 1.515 0.0188
+3WX C   OXT SINGLE n 1.250 0.0140 1.250 0.0140
+3WX CB  HB2 SINGLE n 1.092 0.0100 0.990 0.0100
+3WX CB  HB3 SINGLE n 1.092 0.0100 0.990 0.0100
+3WX CG  HG2 SINGLE n 1.092 0.0100 0.985 0.0100
+3WX CG  HG3 SINGLE n 1.092 0.0100 0.985 0.0100
+3WX N   H   SINGLE n 1.018 0.0520 0.915 0.0100
+3WX N   H2  SINGLE n 1.018 0.0520 0.915 0.0100
+3WX C39 H55 SINGLE n 1.092 0.0100 0.976 0.0200
+3WX C39 H56 SINGLE n 1.092 0.0100 0.976 0.0200
+3WX C39 H57 SINGLE n 1.092 0.0100 0.976 0.0200
+3WX CD  HD2 SINGLE n 1.092 0.0100 0.990 0.0100
+3WX CD  HD3 SINGLE n 1.092 0.0100 0.990 0.0100
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+3WX CG  CB  CA  105.995 1.50
+3WX CG  CB  HB2 110.704 1.50
+3WX CG  CB  HB3 110.704 1.50
+3WX CA  CB  HB2 110.647 1.50
+3WX CA  CB  HB3 110.647 1.50
+3WX HB2 CB  HB3 108.870 1.50
+3WX C   CA  CB  112.719 3.00
+3WX C   CA  N   109.841 3.00
+3WX C   CA  C39 109.569 1.50
+3WX CB  CA  N   103.332 1.68
+3WX CB  CA  C39 111.251 3.00
+3WX N   CA  C39 111.965 3.00
+3WX CB  CG  CD  105.541 3.00
+3WX CB  CG  HG2 110.948 1.50
+3WX CB  CG  HG3 110.948 1.50
+3WX CD  CG  HG2 110.621 1.50
+3WX CD  CG  HG3 110.621 1.50
+3WX HG2 CG  HG3 108.871 1.50
+3WX O   C   CA  118.298 3.00
+3WX O   C   OXT 123.404 2.17
+3WX CA  C   OXT 118.298 3.00
+3WX CA  N   CD  106.134 3.00
+3WX CA  N   H   111.233 3.00
+3WX CA  N   H2  111.233 3.00
+3WX CD  N   H   110.184 1.50
+3WX CD  N   H2  110.184 1.50
+3WX H   N   H2  108.531 1.50
+3WX CA  C39 H55 109.561 1.50
+3WX CA  C39 H56 109.561 1.50
+3WX CA  C39 H57 109.561 1.50
+3WX H55 C39 H56 109.459 2.42
+3WX H55 C39 H57 109.459 2.42
+3WX H56 C39 H57 109.459 2.42
+3WX CG  CD  N   104.137 1.50
+3WX CG  CD  HD2 111.131 1.62
+3WX CG  CD  HD3 111.131 1.62
+3WX N   CD  HD2 110.942 1.50
+3WX N   CD  HD3 110.942 1.50
+3WX HD2 CD  HD3 109.116 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+3WX sp3_sp3_40 C   CA  CB CG  60.000   10.0 3
+3WX sp3_sp3_1  CA  CB  CG CD  60.000   10.0 3
+3WX sp2_sp3_3  O   C   CA C39 -120.000 10.0 6
+3WX sp3_sp3_31 C   CA  N  CD  180.000  10.0 3
+3WX sp3_sp3_46 H55 C39 CA C   180.000  10.0 3
+3WX sp3_sp3_10 N   CD  CG CB  -60.000  10.0 3
+3WX sp3_sp3_19 CG  CD  N  CA  60.000   10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+3WX chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+3WX plan-1 C   0.020
+3WX plan-1 CA  0.020
+3WX plan-1 O   0.020
+3WX plan-1 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+3WX SMILES           ACDLabs              12.01 "O=C(O)C1(NCCC1)C"
+3WX InChI            InChI                1.03  "InChI=1S/C6H11NO2/c1-6(5(8)9)3-2-4-7-6/h7H,2-4H2,1H3,(H,8,9)/t6-/m0/s1"
+3WX InChIKey         InChI                1.03  LWHHAVWYGIBIEU-LURJTMIESA-N
+3WX SMILES_CANONICAL CACTVS               3.385 "C[C@]1(CCCN1)C(O)=O"
+3WX SMILES           CACTVS               3.385 "C[C]1(CCCN1)C(O)=O"
+3WX SMILES_CANONICAL "OpenEye OEToolkits" 1.9.2 "C[C@]1(CCCN1)C(=O)O"
+3WX SMILES           "OpenEye OEToolkits" 1.9.2 "CC1(CCCN1)C(=O)O"
+
+loop_
+_pdbx_chem_comp_description_generator.comp_id
+_pdbx_chem_comp_description_generator.program_name
+_pdbx_chem_comp_description_generator.program_version
+_pdbx_chem_comp_description_generator.descriptor
+3WX acedrg          281       "dictionary generator"
+3WX acedrg_database 12        "data source"
+3WX rdkit           2019.09.1 "Chemoinformatics tool"
+3WX refmac5         5.8.0419  "optimization tool"

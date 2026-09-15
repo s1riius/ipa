@@ -1,0 +1,290 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HF5 HF5 "HF OXO CLUSTER HF5" NON-POLYMER 33 21 .
+
+data_comp_HF5
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+HF5 HFB  HFB  HF HF 11.00 12.254 50.504 -16.278
+HF5 HFD  HFD  HF HF 10.00 12.200 54.332 -16.346
+HF5 HFA  HFA  HF HF 11.00 10.721 52.096 -13.034
+HF5 HFC  HFC  HF HF 10.00 14.718 51.130 -13.603
+HF5 HFE  HFE  HF HF 8.00  10.351 56.208 -12.580
+HF5 OBD  OBD  O  O  -2    12.836 52.266 -17.638
+HF5 O00  O00  O  O  -2    12.383 50.308 -14.049
+HF5 OAB  OAB  O  O  -2    10.518 51.983 -15.590
+HF5 OAC  OAC  O  O  -2    12.872 51.397 -11.880
+HF5 OAD  OAD  O  O  -2    10.227 52.985 -15.294
+HF5 OAE  OAE  O  O  -2    11.803 54.177 -12.163
+HF5 OA1  OA1  O  O  -1    8.783  50.485 -13.314
+HF5 OBC  OBC  O  O  -2    14.499 50.453 -15.944
+HF5 OB1  OB1  O  O  -1    10.356 48.820 -16.066
+HF5 OB2  OB2  O  O  -1    10.279 50.040 -17.616
+HF5 OB3  OB3  O  O  -1    12.835 49.113 -18.315
+HF5 OCD  OCD  O  O  -2    14.031 53.735 -14.143
+HF5 OC1  OC1  O  O  -1    16.711 52.442 -14.469
+HF5 OC2  OC2  O  O  -1    14.786 53.444 -12.580
+HF5 ODE  ODE  O  O  -2    11.456 56.579 -15.040
+HF5 OD1  OD1  O  O  -1    14.085 55.632 -17.453
+HF5 OD2  OD2  O  O  -1    10.663 54.948 -18.252
+HF5 OE1  OE1  O  O  -1    12.154 57.668 -11.567
+HF5 OE2  OE2  O  O  -1    8.540  54.778 -13.562
+HF5 OE3  OE3  O  O  -1    8.909  58.249 -12.956
+HF5 OE4  OE4  O  O  -1    9.316  55.900 -10.288
+HF5 HA11 HA11 H  H  0     8.067  50.928 -13.519
+HF5 HB11 HB11 H  H  0     9.847  49.040 -15.401
+HF5 HB21 HB21 H  H  0     9.716  50.693 -17.539
+HF5 HB31 HB31 H  H  0     12.201 49.180 -18.902
+HF5 HC11 HC11 H  H  0     16.432 53.143 -14.894
+HF5 HC21 HC21 H  H  0     14.538 53.401 -11.752
+HF5 HD11 HD11 H  H  0     13.775 56.374 -17.773
+HF5 HD21 HD21 H  H  0     9.915  55.245 -17.934
+HF5 HE11 HE11 H  H  0     11.802 58.189 -10.971
+HF5 HE21 HE21 H  H  0     7.770  55.048 -13.271
+HF5 HE31 HE31 H  H  0     8.081  58.007 -13.031
+HF5 HE41 HE41 H  H  0     8.453  55.922 -10.355
+
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+HF5 OE4  n/a HFE  START
+HF5 HE41 OE4 .    .
+HF5 HFE  OE4 ODE  .
+HF5 OE1  HFE HE11 .
+HF5 HE11 OE1 .    .
+HF5 OE2  HFE HE21 .
+HF5 HE21 OE2 .    .
+HF5 OE3  HFE HE31 .
+HF5 HE31 OE3 .    .
+HF5 OAE  HFE HFA  .
+HF5 HFA  OAE OA1  .
+HF5 OA1  HFA HA11 .
+HF5 HA11 OA1 .    .
+HF5 ODE  HFE HFD  .
+HF5 HFD  ODE OCD  .
+HF5 OBD  HFD .    .
+HF5 OAD  HFD .    .
+HF5 OD1  HFD HD11 .
+HF5 HD11 OD1 .    .
+HF5 OD2  HFD HD21 .
+HF5 HD21 OD2 .    .
+HF5 OCD  HFD HFC  .
+HF5 HFC  OCD OBC  .
+HF5 O00  HFC .    .
+HF5 OAC  HFC .    .
+HF5 OC1  HFC HC11 .
+HF5 HC11 OC1 .    .
+HF5 OC2  HFC HC21 .
+HF5 HC21 OC2 .    .
+HF5 OBC  HFC HFB  .
+HF5 HFB  OBC OB1  .
+HF5 OAB  HFB .    .
+HF5 OB3  HFB HB31 .
+HF5 HB31 OB3 .    .
+HF5 OB2  HFB HB21 .
+HF5 HB21 OB2 .    .
+HF5 OB1  HFB HB11 .
+HF5 HB11 OB1 .    END
+HF5 OBD  HFB .    ADD
+HF5 HFA  O00 .    ADD
+HF5 HFA  OAB .    ADD
+HF5 HFA  OAC .    ADD
+HF5 HFA  OAD .    ADD
+HF5 O00  HFB .    ADD
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+HF5 OBD  O
+HF5 O00  O
+HF5 OAB  O
+HF5 OAC  O
+HF5 OAD  O
+HF5 OAE  O
+HF5 OA1  O(H)
+HF5 OBC  O
+HF5 OB1  O(H)
+HF5 OB2  O(H)
+HF5 OB3  O(H)
+HF5 OCD  O
+HF5 OC1  O(H)
+HF5 OC2  O(H)
+HF5 ODE  O
+HF5 OD1  O(H)
+HF5 OD2  O(H)
+HF5 OE1  O(H)
+HF5 OE2  O(H)
+HF5 OE3  O(H)
+HF5 OE4  O(H)
+HF5 HA11 H(O)
+HF5 HB11 H(O)
+HF5 HB21 H(O)
+HF5 HB31 H(O)
+HF5 HC11 H(O)
+HF5 HC21 H(O)
+HF5 HD11 H(O)
+HF5 HD21 H(O)
+HF5 HE11 H(O)
+HF5 HE21 H(O)
+HF5 HE31 H(O)
+HF5 HE41 H(O)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+HF5 OBD HFB  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OBD HFD  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFA O00  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFA OAB  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFA OAC  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFA OAD  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFA OAE  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFA OA1  SINGLE n 2.53  0.2    2.53  0.2
+HF5 O00 HFB  SINGLE n 2.53  0.2    2.53  0.2
+HF5 O00 HFC  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OAB HFB  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OAC HFC  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OAD HFD  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OAE HFE  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFB OBC  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFB OB1  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFB OB2  SINGLE n 2.430 0.04   2.430 0.04
+HF5 HFB OB3  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OBC HFC  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFC OCD  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFC OC1  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFC OC2  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OCD HFD  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFD ODE  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFD OD1  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFD OD2  SINGLE n 2.53  0.2    2.53  0.2
+HF5 ODE HFE  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFE OE1  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFE OE2  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFE OE3  SINGLE n 2.53  0.2    2.53  0.2
+HF5 HFE OE4  SINGLE n 2.53  0.2    2.53  0.2
+HF5 OA1 HA11 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OB1 HB11 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OB2 HB21 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OB3 HB31 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OC1 HC11 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OC2 HC21 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OD1 HD11 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OD2 HD21 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OE1 HE11 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OE2 HE21 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OE3 HE31 SINGLE n 0.972 0.0180 0.866 0.0200
+HF5 OE4 HE41 SINGLE n 0.972 0.0180 0.866 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+HF5 HFB OBD HFD  109.47 5.0
+HF5 HFB O00 HFA  109.47 5.0
+HF5 HFB O00 HFC  109.47 5.0
+HF5 HFB OAB HFA  109.47 5.0
+HF5 HFB OBC HFC  109.47 5.0
+HF5 HFB OB1 HB11 109.47 5.0
+HF5 HFB OB2 HB21 109.47 5.0
+HF5 HFB OB3 HB31 109.47 5.0
+HF5 HFD OAD HFA  109.47 5.0
+HF5 HFD OCD HFC  109.47 5.0
+HF5 HFD ODE HFE  109.47 5.0
+HF5 HFD OD1 HD11 109.47 5.0
+HF5 HFD OD2 HD21 109.47 5.0
+HF5 HFA O00 HFC  109.47 5.0
+HF5 HFA OAC HFC  109.47 5.0
+HF5 HFA OAE HFE  109.47 5.0
+HF5 HFA OA1 HA11 109.47 5.0
+HF5 HFC OC1 HC11 109.47 5.0
+HF5 HFC OC2 HC21 109.47 5.0
+HF5 HFE OE1 HE11 109.47 5.0
+HF5 HFE OE2 HE21 109.47 5.0
+HF5 HFE OE3 HE31 109.47 5.0
+HF5 HFE OE4 HE41 109.47 5.0
+HF5 OBD HFB O00  135.59 5.0
+HF5 OBD HFB OAB  81.79  5.0
+HF5 OBD HFB OBC  81.78  5.0
+HF5 OBD HFB OB1  135.58 5.0
+HF5 OBD HFB OB3  81.79  5.0
+HF5 O00 HFB OAB  81.78  5.0
+HF5 O00 HFB OBC  81.79  5.0
+HF5 O00 HFB OB1  81.78  5.0
+HF5 O00 HFB OB3  135.59 5.0
+HF5 OAB HFB OBC  135.59 5.0
+HF5 OAB HFB OB1  81.79  5.0
+HF5 OAB HFB OB3  135.58 5.0
+HF5 OBC HFB OB1  135.59 5.0
+HF5 OBC HFB OB3  81.78  5.0
+HF5 OB1 HFB OB3  81.79  5.0
+HF5 OBD HFD OAD  90.0   5.0
+HF5 OBD HFD OCD  90.0   5.0
+HF5 OBD HFD ODE  180.0  5.0
+HF5 OBD HFD OD1  90.0   5.0
+HF5 OBD HFD OD2  90.0   5.0
+HF5 OAD HFD OCD  90.0   5.0
+HF5 OAD HFD ODE  90.0   5.0
+HF5 OAD HFD OD1  180.0  5.0
+HF5 OAD HFD OD2  90.0   5.0
+HF5 OCD HFD ODE  90.0   5.0
+HF5 OCD HFD OD1  90.0   5.0
+HF5 OCD HFD OD2  180.0  5.0
+HF5 ODE HFD OD1  90.0   5.0
+HF5 ODE HFD OD2  90.0   5.0
+HF5 OD1 HFD OD2  90.0   5.0
+HF5 OAE HFE ODE  90.0   5.0
+HF5 OAE HFE OE1  90.0   5.0
+HF5 OAE HFE OE2  90.0   5.0
+HF5 OAE HFE OE3  180.0  5.0
+HF5 OAE HFE OE4  90.0   5.0
+HF5 ODE HFE OE1  90.0   5.0
+HF5 ODE HFE OE2  90.0   5.0
+HF5 ODE HFE OE3  90.0   5.0
+HF5 ODE HFE OE4  180.0  5.0
+HF5 OE1 HFE OE2  180.0  5.0
+HF5 OE1 HFE OE3  90.0   5.0
+HF5 OE1 HFE OE4  90.0   5.0
+HF5 OE2 HFE OE3  90.0   5.0
+HF5 OE2 HFE OE4  90.0   5.0
+HF5 OE3 HFE OE4  90.0   5.0
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+HF5 acedrg            311       'dictionary generator'
+HF5 'acedrg_database' 12        'data source'
+HF5 rdkit             2019.09.1 'Chemoinformatics tool'
+HF5 servalcat         0.4.93    'optimization tool'
+HF5 metalCoord        0.1.63    'metal coordination analysis'

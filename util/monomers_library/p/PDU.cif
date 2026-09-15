@@ -1,0 +1,325 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+PDU PDU "5(1-PROPYNYL)-2'-DEOXYURIDINE-5-MONOPHOSPHATE" NON-POLYMER 36 23 .
+
+data_comp_PDU
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+PDU P      P1   P P    0  1.554  11.694 2.775
+PDU OP2    O1   O OP   -1 2.644  12.750 2.861
+PDU OP1    O2   O O    0  1.291  11.252 1.342
+PDU "O5'"  O3   O O2   0  2.140  10.400 3.559
+PDU "C5'"  C1   C CH2  0  1.376  9.181  3.694
+PDU "C4'"  C2   C CH1  0  2.271  8.071  4.199
+PDU "O4'"  O4   O O2   0  1.450  6.966  4.646
+PDU "C3'"  C3   C CH1  0  3.284  7.490  3.193
+PDU "O3'"  O5   O OH1  0  4.568  7.299  3.789
+PDU "C2'"  C4   C CH2  0  2.688  6.138  2.815
+PDU "C1'"  C5   C CH1  0  1.867  5.744  4.047
+PDU N1     N1   N NH0  0  0.661  4.910  3.740
+PDU C2     C6   C CR6  0  0.765  3.536  3.897
+PDU O2     O6   O O    0  1.782  2.978  4.279
+PDU N3     N2   N NH1  0  -0.371 2.825  3.595
+PDU C4     C7   C CR6  0  -1.576 3.330  3.155
+PDU O4     O7   O O    0  -2.510 2.562  2.924
+PDU C5     C8   C CR6  0  -1.626 4.716  3.008
+PDU C5A    C9   C CSP  0  -2.852 5.305  2.553
+PDU C5B    C10  C CSP  0  -3.871 5.797  2.177
+PDU C5M    C11  C CH3  0  -5.118 6.402  1.718
+PDU C6     C12  C CR16 0  -0.501 5.480  3.301
+PDU OP3    O8   O OP   -1 0.284  12.111 3.504
+PDU "H5'"  H5'  H H    0  0.986  8.928  2.818
+PDU "H5''" H5'' H H    0  0.634  9.322  4.335
+PDU "H4'"  H4'  H H    0  2.769  8.422  4.980
+PDU "H3'"  H3'  H H    0  3.365  8.071  2.393
+PDU H2     H2   H H    0  4.960  8.038  3.875
+PDU "H2''" H2'' H H    0  3.385  5.486  2.639
+PDU "H2'"  H2'  H H    0  2.124  6.214  2.030
+PDU "H1'"  H1'  H H    0  2.452  5.263  4.693
+PDU H3     H3   H H    0  -0.312 1.952  3.697
+PDU H71    H71  H H    0  -5.877 5.937  2.106
+PDU H72    H72  H H    0  -5.178 6.348  0.750
+PDU H73    H73  H H    0  -5.154 7.335  1.984
+PDU H6     H6   H H    0  -0.539 6.422  3.198
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+PDU P      P(OC)(O)3
+PDU OP2    O(PO3)
+PDU OP1    O(PO3)
+PDU "O5'"  O(CC[5]HH)(PO3)
+PDU "C5'"  C(C[5]C[5]O[5]H)(OP)(H)2
+PDU "C4'"  C[5](C[5]C[5]HO)(O[5]C[5])(CHHO)(H){1|N<3>,3|H<1>}
+PDU "O4'"  O[5](C[5]N[6a]C[5]H)(C[5]C[5]CH){1|O<2>,2|C<3>,3|H<1>}
+PDU "C3'"  C[5](C[5]C[5]HH)(C[5]O[5]CH)(OH)(H){1|H<1>,1|N<3>}
+PDU "O3'"  O(C[5]C[5]2H)(H)
+PDU "C2'"  C[5](C[5]N[6a]O[5]H)(C[5]C[5]HO)(H)2{1|C<4>,1|H<1>,2|C<3>}
+PDU "C1'"  C[5](N[6a]C[6a]2)(C[5]C[5]HH)(O[5]C[5])(H){1|C<3>,1|C<4>,1|N<3>,1|O<1>,1|O<2>,3|H<1>}
+PDU N1     N[6a](C[5]C[5]O[5]H)(C[6a]C[6a]H)(C[6a]N[6a]O){1|C<2>,1|C<3>,2|C<4>,3|H<1>}
+PDU C2     C[6a](N[6a]C[6a]C[5])(N[6a]C[6a]H)(O){1|C<3>,1|C<4>,1|O<1>,1|O<2>,2|H<1>}
+PDU O2     O(C[6a]N[6a]2)
+PDU N3     N[6a](C[6a]C[6a]O)(C[6a]N[6a]O)(H){1|C<2>,1|C<3>,1|C<4>}
+PDU C4     C[6a](C[6a]C[6a]C)(N[6a]C[6a]H)(O){1|H<1>,1|N<3>,1|O<1>}
+PDU O4     O(C[6a]C[6a]N[6a])
+PDU C5     C[6a](C[6a]N[6a]H)(C[6a]N[6a]O)(CC){1|C<3>,1|C<4>,1|H<1>}
+PDU C5A    C(C[6a]C[6a]2)(CC)
+PDU C5B    C(CC[6a])(CH3)
+PDU C5M    C(CC)(H)3
+PDU C6     C[6a](N[6a]C[6a]C[5])(C[6a]C[6a]C)(H){1|C<4>,1|H<1>,1|N<3>,1|O<2>,2|O<1>}
+PDU OP3    O(PO3)
+PDU "H5'"  H(CC[5]HO)
+PDU "H5''" H(CC[5]HO)
+PDU "H4'"  H(C[5]C[5]O[5]C)
+PDU "H3'"  H(C[5]C[5]2O)
+PDU H2     H(OC[5])
+PDU "H2''" H(C[5]C[5]2H)
+PDU "H2'"  H(C[5]C[5]2H)
+PDU "H1'"  H(C[5]N[6a]C[5]O[5])
+PDU H3     H(N[6a]C[6a]2)
+PDU H71    H(CCHH)
+PDU H72    H(CCHH)
+PDU H73    H(CCHH)
+PDU H6     H(C[6a]C[6a]N[6a])
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+PDU C5B   C5M    SINGLE n 1.460 0.0100 1.460 0.0100
+PDU P     OP1    DOUBLE n 1.521 0.0200 1.521 0.0200
+PDU C5A   C5B    TRIPLE n 1.193 0.0100 1.193 0.0100
+PDU C5    C5A    SINGLE n 1.434 0.0100 1.434 0.0100
+PDU "C3'" "C2'"  SINGLE n 1.523 0.0101 1.523 0.0101
+PDU "C2'" "C1'"  SINGLE n 1.532 0.0100 1.532 0.0100
+PDU "C3'" "O3'"  SINGLE n 1.425 0.0128 1.425 0.0128
+PDU "C4'" "C3'"  SINGLE n 1.530 0.0119 1.530 0.0119
+PDU C5    C6     DOUBLE y 1.392 0.0151 1.392 0.0151
+PDU C4    C5     SINGLE y 1.400 0.0148 1.400 0.0148
+PDU P     "O5'"  SINGLE n 1.621 0.0100 1.621 0.0100
+PDU P     OP2    SINGLE n 1.521 0.0200 1.521 0.0200
+PDU "O5'" "C5'"  SINGLE n 1.444 0.0118 1.444 0.0118
+PDU C4    O4     DOUBLE n 1.231 0.0101 1.231 0.0101
+PDU N1    C6     SINGLE y 1.360 0.0100 1.360 0.0100
+PDU N3    C4     SINGLE y 1.381 0.0100 1.381 0.0100
+PDU "C5'" "C4'"  SINGLE n 1.507 0.0100 1.507 0.0100
+PDU "C1'" N1     SINGLE n 1.478 0.0148 1.478 0.0148
+PDU N1    C2     SINGLE y 1.381 0.0100 1.381 0.0100
+PDU "C4'" "O4'"  SINGLE n 1.445 0.0100 1.445 0.0100
+PDU C2    N3     SINGLE y 1.374 0.0100 1.374 0.0100
+PDU "O4'" "C1'"  SINGLE n 1.422 0.0100 1.422 0.0100
+PDU C2    O2     DOUBLE n 1.221 0.0100 1.221 0.0100
+PDU P     OP3    SINGLE n 1.521 0.0200 1.521 0.0200
+PDU "C5'" "H5'"  SINGLE n 1.092 0.0100 0.991 0.0200
+PDU "C5'" "H5''" SINGLE n 1.092 0.0100 0.991 0.0200
+PDU "C4'" "H4'"  SINGLE n 1.092 0.0100 0.990 0.0200
+PDU "C3'" "H3'"  SINGLE n 1.092 0.0100 0.991 0.0181
+PDU "O3'" H2     SINGLE n 0.972 0.0180 0.839 0.0200
+PDU "C2'" "H2''" SINGLE n 1.092 0.0100 0.970 0.0100
+PDU "C2'" "H2'"  SINGLE n 1.092 0.0100 0.970 0.0100
+PDU "C1'" "H1'"  SINGLE n 1.092 0.0100 0.996 0.0200
+PDU N3    H3     SINGLE n 1.013 0.0120 0.881 0.0200
+PDU C5M   H71    SINGLE n 1.092 0.0100 0.971 0.0200
+PDU C5M   H72    SINGLE n 1.092 0.0100 0.971 0.0200
+PDU C5M   H73    SINGLE n 1.092 0.0100 0.971 0.0200
+PDU C6    H6     SINGLE n 1.085 0.0150 0.949 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+PDU OP1    P     "O5'"  105.989 3.00
+PDU OP1    P     OP2    112.951 3.00
+PDU OP1    P     OP3    112.951 3.00
+PDU "O5'"  P     OP2    105.989 3.00
+PDU "O5'"  P     OP3    105.989 3.00
+PDU OP2    P     OP3    112.951 3.00
+PDU P      "O5'" "C5'"  120.200 3.00
+PDU "O5'"  "C5'" "C4'"  109.454 1.61
+PDU "O5'"  "C5'" "H5'"  109.882 1.50
+PDU "O5'"  "C5'" "H5''" 109.882 1.50
+PDU "C4'"  "C5'" "H5'"  109.589 1.50
+PDU "C4'"  "C5'" "H5''" 109.589 1.50
+PDU "H5'"  "C5'" "H5''" 108.471 1.50
+PDU "C3'"  "C4'" "C5'"  113.954 2.40
+PDU "C3'"  "C4'" "O4'"  105.546 1.50
+PDU "C3'"  "C4'" "H4'"  109.033 1.50
+PDU "C5'"  "C4'" "O4'"  110.351 1.93
+PDU "C5'"  "C4'" "H4'"  108.351 1.59
+PDU "O4'"  "C4'" "H4'"  108.778 1.50
+PDU "C4'"  "O4'" "C1'"  109.881 1.50
+PDU "C2'"  "C3'" "O3'"  110.452 3.00
+PDU "C2'"  "C3'" "C4'"  102.581 1.50
+PDU "C2'"  "C3'" "H3'"  110.938 1.50
+PDU "O3'"  "C3'" "C4'"  110.611 3.00
+PDU "O3'"  "C3'" "H3'"  110.786 1.88
+PDU "C4'"  "C3'" "H3'"  110.734 1.65
+PDU "C3'"  "O3'" H2     108.690 3.00
+PDU "C3'"  "C2'" "C1'"  102.658 2.13
+PDU "C3'"  "C2'" "H2''" 111.287 1.86
+PDU "C3'"  "C2'" "H2'"  111.287 1.86
+PDU "C1'"  "C2'" "H2''" 111.181 1.50
+PDU "C1'"  "C2'" "H2'"  111.181 1.50
+PDU "H2''" "C2'" "H2'"  109.095 1.50
+PDU "C2'"  "C1'" N1     114.169 1.50
+PDU "C2'"  "C1'" "O4'"  106.263 1.50
+PDU "C2'"  "C1'" "H1'"  109.883 1.50
+PDU N1     "C1'" "O4'"  107.769 1.50
+PDU N1     "C1'" "H1'"  109.124 1.71
+PDU "O4'"  "C1'" "H1'"  109.467 1.50
+PDU C6     N1    "C1'"  120.787 1.69
+PDU C6     N1    C2     121.289 1.50
+PDU "C1'"  N1    C2     117.925 1.50
+PDU N1     C2    N3     114.617 1.50
+PDU N1     C2    O2     123.015 1.50
+PDU N3     C2    O2     122.367 1.50
+PDU C4     N3    C2     127.135 1.50
+PDU C4     N3    H3     117.262 3.00
+PDU C2     N3    H3     115.603 3.00
+PDU C5     C4    O4     124.666 1.50
+PDU C5     C4    N3     116.040 1.50
+PDU O4     C4    N3     119.294 1.50
+PDU C5A    C5    C6     122.105 1.50
+PDU C5A    C5    C4     118.015 1.50
+PDU C6     C5    C4     119.880 1.78
+PDU C5B    C5A   C5     180.000 3.00
+PDU C5M    C5B   C5A    180.000 3.00
+PDU C5B    C5M   H71    110.131 2.00
+PDU C5B    C5M   H72    110.131 2.00
+PDU C5B    C5M   H73    110.131 2.00
+PDU H71    C5M   H72    108.952 3.00
+PDU H71    C5M   H73    108.952 3.00
+PDU H72    C5M   H73    108.952 3.00
+PDU C5     C6    N1     121.039 1.50
+PDU C5     C6    H6     120.054 1.50
+PDU N1     C6    H6     118.907 1.83
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+PDU sp3_sp3_1 "C5'" "O5'" P     OP1   60.000  10.0 3
+PDU sp2_sp3_1 C6    N1    "C1'" "C2'" 150.000 20.0 6
+PDU const_0   O2    C2    N1    C6    180.000 0.0  1
+PDU const_1   C5    C6    N1    "C1'" 180.000 0.0  1
+PDU const_2   O2    C2    N3    C4    180.000 0.0  1
+PDU const_3   O4    C4    N3    C2    180.000 0.0  1
+PDU const_4   O4    C4    C5    C5A   0.000   0.0  1
+PDU const_5   C5A   C5    C6    N1    180.000 0.0  1
+PDU sp3_sp3_2 "C4'" "C5'" "O5'" P     180.000 10.0 3
+PDU sp3_sp3_3 "C3'" "C4'" "C5'" "O5'" 180.000 10.0 3
+PDU sp3_sp3_4 "C5'" "C4'" "O4'" "C1'" 60.000  10.0 3
+PDU sp3_sp3_5 "O3'" "C3'" "C4'" "C5'" 60.000  10.0 3
+PDU sp3_sp3_6 "C2'" "C1'" "O4'" "C4'" -60.000 10.0 3
+PDU sp3_sp3_7 "C2'" "C3'" "O3'" H2    180.000 10.0 3
+PDU sp3_sp3_8 "C1'" "C2'" "C3'" "O3'" 60.000  10.0 3
+PDU sp3_sp3_9 N1    "C1'" "C2'" "C3'" -60.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+PDU chir_1 "C4'" "O4'" "C3'" "C5'" negative
+PDU chir_2 "C3'" "O3'" "C4'" "C2'" positive
+PDU chir_3 "C1'" "O4'" N1    "C2'" negative
+PDU chir_4 P     "O5'" OP2   OP3   both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+PDU plan-1 "C1'" 0.020
+PDU plan-1 C2    0.020
+PDU plan-1 C4    0.020
+PDU plan-1 C5    0.020
+PDU plan-1 C5A   0.020
+PDU plan-1 C6    0.020
+PDU plan-1 H3    0.020
+PDU plan-1 H6    0.020
+PDU plan-1 N1    0.020
+PDU plan-1 N3    0.020
+PDU plan-1 O2    0.020
+PDU plan-1 O4    0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+PDU ring-1 C4' NO
+PDU ring-1 O4' NO
+PDU ring-1 C3' NO
+PDU ring-1 C2' NO
+PDU ring-1 C1' NO
+PDU ring-2 N1  YES
+PDU ring-2 C2  YES
+PDU ring-2 N3  YES
+PDU ring-2 C4  YES
+PDU ring-2 C5  YES
+PDU ring-2 C6  YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+PDU InChI            InChI                1.03  "InChI=1S/C12H15N2O8P/c1-2-3-7-5-14(12(17)13-11(7)16)10-4-8(15)9(22-10)6-21-23(18,19)20/h5,8-10,15H,4,6H2,1H3,(H,13,16,17)(H2,18,19,20)/t8-,9+,10+/m0/s1"
+PDU InChIKey         InChI                1.03  NUOBVCABUBRVOG-IVZWLZJFSA-N
+PDU SMILES_CANONICAL CACTVS               3.385 "CC#CC1=CN([C@H]2C[C@H](O)[C@@H](CO[P](O)(O)=O)O2)C(=O)NC1=O"
+PDU SMILES           CACTVS               3.385 "CC#CC1=CN([CH]2C[CH](O)[CH](CO[P](O)(O)=O)O2)C(=O)NC1=O"
+PDU SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CC#CC1=CN(C(=O)NC1=O)[C@H]2C[C@@H]([C@H](O2)COP(=O)(O)O)O"
+PDU SMILES           "OpenEye OEToolkits" 2.0.7 "CC#CC1=CN(C(=O)NC1=O)C2CC(C(O2)COP(=O)(O)O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+PDU acedrg          326       "dictionary generator"
+PDU acedrg_database 12        "data source"
+PDU rdkit           2023.03.3 "Chemoinformatics tool"
+PDU servalcat       0.4.120   'optimization tool'
+
+loop_
+_chem_comp_alias.comp_id
+_chem_comp_alias.group
+_chem_comp_alias.atom_id
+_chem_comp_alias.atom_id_standard
+PDU DNA/RNA H2 HO3'

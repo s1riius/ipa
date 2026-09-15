@@ -1,0 +1,443 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+FCS FCS "(7S)-2-[(3,5-difluoro-4-hydroxyphenyl)amino]-7-methyl-8-(3-methylbutyl)-5-(prop-2-yn-1-yl)-7,8-dihydropteridin-6(5H)-one" NON-POLYMER 53 30 .
+
+data_comp_FCS
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+FCS N2  N1  N N20  0 1.816  1.220  -1.457
+FCS C3  C1  C CR66 0 -0.436 0.516  -1.899
+FCS C4  C2  C CR66 0 -0.346 -0.319 -0.735
+FCS C5  C3  C CR6  0 -2.790 -0.142 -2.188
+FCS C6  C4  C CH1  0 -2.791 -0.687 -0.776
+FCS C7  C5  C CH2  0 -1.768 1.246  -3.924
+FCS C8  C6  C CSP  0 -2.073 2.669  -3.756
+FCS C9  C7  C CSP  0 -2.319 3.811  -3.620
+FCS C10 C8  C CH2  0 -1.261 -2.383 0.450
+FCS C11 C9  C CH2  0 -1.399 -2.201 1.969
+FCS C12 C10 C CH1  0 -2.736 -2.647 2.596
+FCS C15 C11 C CH3  0 -3.402 0.341  0.178
+FCS C16 C12 C CR6  0 4.136  1.132  0.494
+FCS C17 C13 C CR16 0 5.287  0.553  1.025
+FCS C18 C14 C CR6  0 6.418  1.316  1.180
+FCS C19 C15 C CR6  0 6.452  2.665  0.872
+FCS C20 C16 C CR6  0 5.284  3.225  0.379
+FCS C21 C17 C CR16 0 4.136  2.496  0.203
+FCS N1  N2  N N20  0 0.805  -0.391 -0.034
+FCS C1  C18 C CR6  0 1.821  0.417  -0.376
+FCS C2  C19 C CR16 0 0.709  1.288  -2.179
+FCS N3  N3  N NH0  0 -1.671 0.525  -2.638
+FCS N4  N4  N NH0  0 -1.428 -1.150 -0.361
+FCS O1  O1  O O    0 -3.794 -0.272 -2.876
+FCS C13 C20 C CH3  0 -3.166 -1.705 3.745
+FCS C14 C21 C CH3  0 -2.676 -4.117 3.082
+FCS N5  N5  N NH1  0 2.971  0.328  0.359
+FCS F1  F1  F F    0 5.277  4.542  0.065
+FCS F2  F2  F F    0 7.539  0.731  1.664
+FCS O2  O2  O OH1  0 7.587  3.377  1.052
+FCS H1  H1  H H    0 -3.388 -1.481 -0.766
+FCS H2  H2  H H    0 -2.457 0.841  -4.481
+FCS H3  H3  H H    0 -0.926 1.157  -4.407
+FCS H4  H4  H H    0 -2.518 4.736  -3.510
+FCS H5  H5  H H    0 -1.918 -3.057 0.142
+FCS H6  H6  H H    0 -0.367 -2.755 0.264
+FCS H7  H7  H H    0 -0.672 -2.683 2.401
+FCS H8  H8  H H    0 -1.260 -1.257 2.166
+FCS H9  H9  H H    0 -3.454 -2.601 1.911
+FCS H10 H10 H H    0 -4.277 0.609  -0.149
+FCS H11 H11 H H    0 -2.824 1.121  0.230
+FCS H12 H12 H H    0 -3.494 -0.049 1.062
+FCS H13 H13 H H    0 5.299  -0.354 1.230
+FCS H14 H14 H H    0 3.369  2.902  -0.131
+FCS H15 H15 H H    0 0.720  1.874  -2.919
+FCS H16 H16 H H    0 -3.236 -0.794 3.412
+FCS H17 H17 H H    0 -2.507 -1.735 4.461
+FCS H18 H18 H H    0 -4.031 -1.984 4.092
+FCS H19 H19 H H    0 -3.548 -4.387 3.419
+FCS H20 H20 H H    0 -2.016 -4.203 3.792
+FCS H21 H21 H H    0 -2.429 -4.696 2.341
+FCS H22 H22 H H    0 2.977  -0.391 0.866
+FCS H23 H23 H H    0 7.512  4.205  0.834
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+FCS N2  N[6a](C[6a]C[6,6a]H)(C[6a]N[6a]N){1|C<3>,1|N<3>}
+FCS C3  C[6,6a](C[6,6a]N[6a]N[6])(C[6a]N[6a]H)(N[6]C[6]C){1|C<3>,1|O<1>,2|C<4>}
+FCS C4  C[6,6a](C[6,6a]C[6a]N[6])(N[6a]C[6a])(N[6]C[6]C){1|C<3>,1|N<2>,1|N<3>,2|C<4>,2|H<1>}
+FCS C5  C[6](N[6]C[6,6a]C)(C[6]N[6]CH)(O){1|C<4>,2|C<3>}
+FCS C6  C[6](N[6]C[6,6a]C)(C[6]N[6]O)(CH3)(H){1|C<3>,1|C<4>,1|N<2>}
+FCS C7  C(N[6]C[6,6a]C[6])(CC)(H)2
+FCS C8  C(CN[6]HH)(CH)
+FCS C9  C(CC)(H)
+FCS C10 C(N[6]C[6,6a]C[6])(CCHH)(H)2
+FCS C11 C(CN[6]HH)(CCCH)(H)2
+FCS C12 C(CCHH)(CH3)2(H)
+FCS C15 C(C[6]C[6]N[6]H)(H)3
+FCS C16 C[6a](C[6a]C[6a]H)2(NC[6a]H){1|C<3>,2|F<1>}
+FCS C17 C[6a](C[6a]C[6a]F)(C[6a]C[6a]N)(H){1|C<3>,1|H<1>,1|O<2>}
+FCS C18 C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(F){1|C<3>,1|F<1>,1|N<3>}
+FCS C19 C[6a](C[6a]C[6a]F)2(OH){1|C<3>,2|H<1>}
+FCS C20 C[6a](C[6a]C[6a]H)(C[6a]C[6a]O)(F){1|C<3>,1|F<1>,1|N<3>}
+FCS C21 C[6a](C[6a]C[6a]F)(C[6a]C[6a]N)(H){1|C<3>,1|H<1>,1|O<2>}
+FCS N1  N[6a](C[6,6a]C[6,6a]N[6])(C[6a]N[6a]N){1|C<3>,1|N<3>,2|C<4>}
+FCS C1  C[6a](N[6a]C[6,6a])(N[6a]C[6a])(NC[6a]H){1|C<3>,1|H<1>,1|N<3>}
+FCS C2  C[6a](C[6,6a]C[6,6a]N[6])(N[6a]C[6a])(H){1|C<3>,1|C<4>,1|N<2>,2|N<3>}
+FCS N3  N[6](C[6,6a]C[6,6a]C[6a])(C[6]C[6]O)(CCHH){1|C<4>,1|N<3>,2|H<1>,2|N<2>}
+FCS N4  N[6](C[6,6a]C[6,6a]N[6a])(C[6]C[6]CH)(CCHH){1|N<3>,1|O<1>,2|C<3>}
+FCS O1  O(C[6]C[6]N[6])
+FCS C13 C(CCCH)(H)3
+FCS C14 C(CCCH)(H)3
+FCS N5  N(C[6a]C[6a]2)(C[6a]N[6a]2)(H)
+FCS F1  F(C[6a]C[6a]2)
+FCS F2  F(C[6a]C[6a]2)
+FCS O2  O(C[6a]C[6a]2)(H)
+FCS H1  H(C[6]C[6]N[6]C)
+FCS H2  H(CN[6]CH)
+FCS H3  H(CN[6]CH)
+FCS H4  H(CC)
+FCS H5  H(CN[6]CH)
+FCS H6  H(CN[6]CH)
+FCS H7  H(CCCH)
+FCS H8  H(CCCH)
+FCS H9  H(CC3)
+FCS H10 H(CC[6]HH)
+FCS H11 H(CC[6]HH)
+FCS H12 H(CC[6]HH)
+FCS H13 H(C[6a]C[6a]2)
+FCS H14 H(C[6a]C[6a]2)
+FCS H15 H(C[6a]C[6,6a]N[6a])
+FCS H16 H(CCHH)
+FCS H17 H(CCHH)
+FCS H18 H(CCHH)
+FCS H19 H(CCHH)
+FCS H20 H(CCHH)
+FCS H21 H(CCHH)
+FCS H22 H(NC[6a]2)
+FCS H23 H(OC[6a])
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+FCS C12 C14 SINGLE n 1.519 0.0200 1.519 0.0200
+FCS C12 C13 SINGLE n 1.519 0.0200 1.519 0.0200
+FCS C11 C12 SINGLE n 1.525 0.0119 1.525 0.0119
+FCS C10 C11 SINGLE n 1.518 0.0166 1.518 0.0166
+FCS C18 F2  SINGLE n 1.354 0.0100 1.354 0.0100
+FCS C10 N4  SINGLE n 1.474 0.0100 1.474 0.0100
+FCS C19 O2  SINGLE n 1.348 0.0144 1.348 0.0144
+FCS C6  C15 SINGLE n 1.527 0.0100 1.527 0.0100
+FCS C6  N4  SINGLE n 1.479 0.0154 1.479 0.0154
+FCS C5  C6  SINGLE n 1.511 0.0127 1.511 0.0127
+FCS C4  N4  SINGLE n 1.383 0.0200 1.383 0.0200
+FCS C18 C19 SINGLE y 1.386 0.0100 1.386 0.0100
+FCS C17 C18 DOUBLE y 1.372 0.0100 1.372 0.0100
+FCS C5  O1  DOUBLE n 1.221 0.0100 1.221 0.0100
+FCS C19 C20 DOUBLE y 1.386 0.0100 1.386 0.0100
+FCS C5  N3  SINGLE n 1.364 0.0100 1.364 0.0100
+FCS C16 C17 SINGLE y 1.390 0.0106 1.390 0.0106
+FCS C4  N1  DOUBLE y 1.345 0.0142 1.345 0.0142
+FCS C3  C4  SINGLE y 1.420 0.0200 1.420 0.0200
+FCS N1  C1  SINGLE y 1.341 0.0129 1.341 0.0129
+FCS C3  N3  SINGLE n 1.422 0.0100 1.422 0.0100
+FCS C7  N3  SINGLE n 1.466 0.0100 1.466 0.0100
+FCS C20 F1  SINGLE n 1.354 0.0100 1.354 0.0100
+FCS C20 C21 SINGLE y 1.372 0.0100 1.372 0.0100
+FCS C16 C21 DOUBLE y 1.390 0.0106 1.390 0.0106
+FCS C16 N5  SINGLE n 1.414 0.0100 1.414 0.0100
+FCS C3  C2  DOUBLE y 1.395 0.0140 1.395 0.0140
+FCS C1  N5  SINGLE n 1.357 0.0123 1.357 0.0123
+FCS N2  C1  DOUBLE y 1.347 0.0117 1.347 0.0117
+FCS C7  C8  SINGLE n 1.465 0.0100 1.465 0.0100
+FCS N2  C2  SINGLE y 1.324 0.0117 1.324 0.0117
+FCS C8  C9  TRIPLE n 1.176 0.0100 1.176 0.0100
+FCS C6  H1  SINGLE n 1.092 0.0100 0.994 0.0100
+FCS C7  H2  SINGLE n 1.092 0.0100 0.975 0.0100
+FCS C7  H3  SINGLE n 1.092 0.0100 0.975 0.0100
+FCS C9  H4  SINGLE n 1.044 0.0220 0.953 0.0200
+FCS C10 H5  SINGLE n 1.092 0.0100 0.987 0.0200
+FCS C10 H6  SINGLE n 1.092 0.0100 0.987 0.0200
+FCS C11 H7  SINGLE n 1.092 0.0100 0.973 0.0100
+FCS C11 H8  SINGLE n 1.092 0.0100 0.973 0.0100
+FCS C12 H9  SINGLE n 1.092 0.0100 0.992 0.0164
+FCS C15 H10 SINGLE n 1.092 0.0100 0.972 0.0188
+FCS C15 H11 SINGLE n 1.092 0.0100 0.972 0.0188
+FCS C15 H12 SINGLE n 1.092 0.0100 0.972 0.0188
+FCS C17 H13 SINGLE n 1.085 0.0150 0.930 0.0100
+FCS C21 H14 SINGLE n 1.085 0.0150 0.930 0.0100
+FCS C2  H15 SINGLE n 1.085 0.0150 0.946 0.0182
+FCS C13 H16 SINGLE n 1.092 0.0100 0.972 0.0156
+FCS C13 H17 SINGLE n 1.092 0.0100 0.972 0.0156
+FCS C13 H18 SINGLE n 1.092 0.0100 0.972 0.0156
+FCS C14 H19 SINGLE n 1.092 0.0100 0.972 0.0156
+FCS C14 H20 SINGLE n 1.092 0.0100 0.972 0.0156
+FCS C14 H21 SINGLE n 1.092 0.0100 0.972 0.0156
+FCS N5  H22 SINGLE n 1.013 0.0120 0.876 0.0200
+FCS O2  H23 SINGLE n 0.966 0.0059 0.858 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+FCS C1  N2  C2  116.311 1.50
+FCS C4  C3  N3  120.365 2.18
+FCS C4  C3  C2  117.534 1.50
+FCS N3  C3  C2  122.100 2.38
+FCS N4  C4  N1  117.672 1.50
+FCS N4  C4  C3  120.683 2.18
+FCS N1  C4  C3  121.645 3.00
+FCS C6  C5  O1  122.201 1.70
+FCS C6  C5  N3  116.482 3.00
+FCS O1  C5  N3  121.317 1.50
+FCS C15 C6  N4  112.026 3.00
+FCS C15 C6  C5  111.156 1.50
+FCS C15 C6  H1  107.897 1.50
+FCS N4  C6  C5  112.897 3.00
+FCS N4  C6  H1  107.341 1.50
+FCS C5  C6  H1  108.460 1.50
+FCS N3  C7  C8  112.905 1.50
+FCS N3  C7  H2  108.911 1.50
+FCS N3  C7  H3  108.911 1.50
+FCS C8  C7  H2  109.064 1.50
+FCS C8  C7  H3  109.064 1.50
+FCS H2  C7  H3  107.887 1.50
+FCS C7  C8  C9  180.000 3.00
+FCS C8  C9  H4  180.000 3.00
+FCS C11 C10 N4  114.007 3.00
+FCS C11 C10 H5  109.255 1.50
+FCS C11 C10 H6  109.255 1.50
+FCS N4  C10 H5  108.866 1.50
+FCS N4  C10 H6  108.866 1.50
+FCS H5  C10 H6  107.864 1.50
+FCS C12 C11 C10 113.043 3.00
+FCS C12 C11 H7  108.969 1.50
+FCS C12 C11 H8  108.969 1.50
+FCS C10 C11 H7  109.191 1.50
+FCS C10 C11 H8  109.191 1.50
+FCS H7  C11 H8  107.686 1.50
+FCS C14 C12 C13 110.647 1.82
+FCS C14 C12 C11 108.364 3.00
+FCS C14 C12 H9  107.962 1.81
+FCS C13 C12 C11 108.364 3.00
+FCS C13 C12 H9  107.962 1.81
+FCS C11 C12 H9  110.391 3.00
+FCS C6  C15 H10 109.570 1.50
+FCS C6  C15 H11 109.570 1.50
+FCS C6  C15 H12 109.570 1.50
+FCS H10 C15 H11 109.376 1.50
+FCS H10 C15 H12 109.376 1.50
+FCS H11 C15 H12 109.376 1.50
+FCS C17 C16 C21 120.088 3.00
+FCS C17 C16 N5  119.956 3.00
+FCS C21 C16 N5  119.956 3.00
+FCS C18 C17 C16 118.804 1.50
+FCS C18 C17 H13 120.929 1.50
+FCS C16 C17 H13 120.267 1.50
+FCS F2  C18 C19 118.823 1.50
+FCS F2  C18 C17 118.961 1.50
+FCS C19 C18 C17 122.217 1.50
+FCS O2  C19 C18 121.064 3.00
+FCS O2  C19 C20 121.064 3.00
+FCS C18 C19 C20 117.872 2.53
+FCS C19 C20 F1  118.823 1.50
+FCS C19 C20 C21 122.217 1.50
+FCS F1  C20 C21 118.961 1.50
+FCS C20 C21 C16 118.804 1.50
+FCS C20 C21 H14 120.929 1.50
+FCS C16 C21 H14 120.267 1.50
+FCS C4  N1  C1  117.910 1.50
+FCS N1  C1  N5  117.665 3.00
+FCS N1  C1  N2  124.562 1.59
+FCS N5  C1  N2  117.774 3.00
+FCS C3  C2  N2  122.039 1.50
+FCS C3  C2  H15 119.794 3.00
+FCS N2  C2  H15 118.167 1.50
+FCS C5  N3  C3  122.260 2.20
+FCS C5  N3  C7  118.153 1.50
+FCS C3  N3  C7  119.573 1.50
+FCS C10 N4  C6  118.559 3.00
+FCS C10 N4  C4  121.133 2.85
+FCS C6  N4  C4  120.308 3.00
+FCS C12 C13 H16 109.527 1.50
+FCS C12 C13 H17 109.527 1.50
+FCS C12 C13 H18 109.527 1.50
+FCS H16 C13 H17 109.390 1.50
+FCS H16 C13 H18 109.390 1.50
+FCS H17 C13 H18 109.390 1.50
+FCS C12 C14 H19 109.527 1.50
+FCS C12 C14 H20 109.527 1.50
+FCS C12 C14 H21 109.527 1.50
+FCS H19 C14 H20 109.390 1.50
+FCS H19 C14 H21 109.390 1.50
+FCS H20 C14 H21 109.390 1.50
+FCS C16 N5  C1  129.226 3.00
+FCS C16 N5  H22 116.008 3.00
+FCS C1  N5  H22 114.766 3.00
+FCS C19 O2  H23 111.516 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+FCS const_0   N5  C1  N2  C2  180.000 0.0  1
+FCS const_1   C3  C2  N2  C1  0.000   0.0  1
+FCS sp3_sp3_1 C14 C12 C13 H16 180.000 10.0 3
+FCS sp3_sp3_2 C13 C12 C14 H19 60.000  10.0 3
+FCS const_2   N5  C16 C17 C18 180.000 0.0  1
+FCS const_3   N5  C16 C21 C20 180.000 0.0  1
+FCS sp2_sp2_1 C17 C16 N5  C1  180.000 5.0  2
+FCS const_4   C16 C17 C18 F2  180.000 0.0  1
+FCS const_5   F2  C18 C19 O2  0.000   0.0  1
+FCS const_6   O2  C19 C20 F1  0.000   0.0  1
+FCS sp2_sp2_2 C18 C19 O2  H23 180.000 5.0  2
+FCS const_7   F1  C20 C21 C16 180.000 0.0  1
+FCS const_8   N5  C1  N1  C4  180.000 0.0  1
+FCS sp2_sp2_3 N1  C1  N5  C16 180.000 5.0  2
+FCS const_9   N3  C3  C4  N4  0.000   0.0  1
+FCS const_10  N2  C2  C3  C4  0.000   0.0  1
+FCS sp2_sp2_4 C4  C3  N3  C7  180.000 5.0  1
+FCS const_11  N4  C4  N1  C1  180.000 0.0  1
+FCS sp2_sp2_5 N1  C4  N4  C10 0.000   5.0  1
+FCS sp2_sp2_6 O1  C5  N3  C7  0.000   5.0  1
+FCS sp2_sp3_1 O1  C5  C6  C15 -60.000 20.0 6
+FCS sp3_sp3_3 H10 C15 C6  N4  180.000 10.0 3
+FCS sp2_sp3_2 C10 N4  C6  C15 -60.000 20.0 6
+FCS sp2_sp3_3 C5  N3  C7  C8  -90.000 20.0 6
+FCS sp2_sp3_4 C6  N4  C10 C11 -90.000 20.0 6
+FCS sp3_sp3_4 N4  C10 C11 C12 180.000 10.0 3
+FCS sp3_sp3_5 C10 C11 C12 C14 -60.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+FCS chir_1 C6  N4  C5  C15 positive
+FCS chir_2 C12 C11 C14 C13 both
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+FCS plan-1 C1  0.020
+FCS plan-1 C2  0.020
+FCS plan-1 C3  0.020
+FCS plan-1 C4  0.020
+FCS plan-1 H15 0.020
+FCS plan-1 N1  0.020
+FCS plan-1 N2  0.020
+FCS plan-1 N3  0.020
+FCS plan-1 N4  0.020
+FCS plan-1 N5  0.020
+FCS plan-2 C16 0.020
+FCS plan-2 C17 0.020
+FCS plan-2 C18 0.020
+FCS plan-2 C19 0.020
+FCS plan-2 C20 0.020
+FCS plan-2 C21 0.020
+FCS plan-2 F1  0.020
+FCS plan-2 F2  0.020
+FCS plan-2 H13 0.020
+FCS plan-2 H14 0.020
+FCS plan-2 N5  0.020
+FCS plan-2 O2  0.020
+FCS plan-3 C5  0.020
+FCS plan-3 C6  0.020
+FCS plan-3 N3  0.020
+FCS plan-3 O1  0.020
+FCS plan-4 C3  0.020
+FCS plan-4 C5  0.020
+FCS plan-4 C7  0.020
+FCS plan-4 N3  0.020
+FCS plan-5 C10 0.020
+FCS plan-5 C4  0.020
+FCS plan-5 C6  0.020
+FCS plan-5 N4  0.020
+FCS plan-6 C1  0.020
+FCS plan-6 C16 0.020
+FCS plan-6 H22 0.020
+FCS plan-6 N5  0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+FCS ring-1 N2  YES
+FCS ring-1 C3  YES
+FCS ring-1 C4  YES
+FCS ring-1 N1  YES
+FCS ring-1 C1  YES
+FCS ring-1 C2  YES
+FCS ring-2 C16 YES
+FCS ring-2 C17 YES
+FCS ring-2 C18 YES
+FCS ring-2 C19 YES
+FCS ring-2 C20 YES
+FCS ring-2 C21 YES
+FCS ring-3 C3  NO
+FCS ring-3 C4  NO
+FCS ring-3 C5  NO
+FCS ring-3 C6  NO
+FCS ring-3 N3  NO
+FCS ring-3 N4  NO
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+FCS SMILES           ACDLabs              12.01 "n1c(nc2c(c1)N(C(C(C)N2CCC(C)C)=O)CC#C)Nc3cc(c(c(c3)F)O)F"
+FCS InChI            InChI                1.03  "InChI=1S/C21H23F2N5O2/c1-5-7-28-17-11-24-21(25-14-9-15(22)18(29)16(23)10-14)26-19(17)27(8-6-12(2)3)13(4)20(28)30/h1,9-13,29H,6-8H2,2-4H3,(H,24,25,26)/t13-/m0/s1"
+FCS InChIKey         InChI                1.03  IHZPRIAIJQSUAF-ZDUSSCGKSA-N
+FCS SMILES_CANONICAL CACTVS               3.385 "CC(C)CCN1[C@@H](C)C(=O)N(CC#C)c2cnc(Nc3cc(F)c(O)c(F)c3)nc12"
+FCS SMILES           CACTVS               3.385 "CC(C)CCN1[CH](C)C(=O)N(CC#C)c2cnc(Nc3cc(F)c(O)c(F)c3)nc12"
+FCS SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C[C@H]1C(=O)N(c2cnc(nc2N1CCC(C)C)Nc3cc(c(c(c3)F)O)F)CC#C"
+FCS SMILES           "OpenEye OEToolkits" 2.0.6 "CC1C(=O)N(c2cnc(nc2N1CCC(C)C)Nc3cc(c(c(c3)F)O)F)CC#C"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+FCS acedrg          326       "dictionary generator"
+FCS acedrg_database 12        "data source"
+FCS rdkit           2023.03.3 "Chemoinformatics tool"
+FCS servalcat       0.4.120   'optimization tool'

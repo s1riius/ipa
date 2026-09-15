@@ -1,0 +1,329 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+NQK NQK "2-chloranyl-4-[(1,3-dimethyl-2-oxidanylidene-benzimidazol-5-yl)amino]pyridine-3-carbonitrile" NON-POLYMER 34 22 .
+
+data_comp_NQK
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+NQK N1  N1  N  N20  0 5.459  -1.479 0.974
+NQK C2  C1  C  CR6  0 3.036  -0.164 0.459
+NQK N3  N2  N  NH0  0 -3.625 -0.420 0.079
+NQK C4  C2  C  CR16 0 4.356  -2.158 0.639
+NQK N4  N3  N  NH0  0 -2.857 1.205  -1.198
+NQK C5  C3  C  CR6  0 5.379  -0.164 1.038
+NQK C6  C4  C  CR6  0 0.447  0.207  0.201
+NQK C14 C5  C  CH3  0 -4.552 -1.337 0.716
+NQK C13 C6  C  CH3  0 -2.835 2.309  -2.141
+NQK C12 C7  C  CR16 0 -0.409 0.953  -0.588
+NQK C10 C8  C  CR5  0 -4.003 0.550  -0.817
+NQK C11 C9  C  CR56 0 -1.758 0.653  -0.546
+NQK N2  N4  N  NH1  0 1.832  0.528  0.133
+NQK C9  C10 C  CR56 0 -2.246 -0.378 0.262
+NQK C8  C11 C  CR16 0 -1.393 -1.138 1.051
+NQK C1  C12 C  CR6  0 4.215  0.549  0.760
+NQK C3  C13 C  CR16 0 3.166  -1.551 0.356
+NQK C7  C14 C  CR16 0 -0.045 -0.844 1.008
+NQK O   O1  O  O    0 -5.139 0.785  -1.201
+NQK CL  CL1 CL CL   0 6.834  0.667  1.476
+NQK C   C15 C  CSP  0 4.195  1.982  0.867
+NQK N   N5  N  NSP  0 4.179  3.122  0.952
+NQK H1  H1  H  H    0 4.402  -3.099 0.590
+NQK H2  H2  H  H    0 -5.424 -0.921 0.794
+NQK H3  H3  H  H    0 -4.232 -1.564 1.601
+NQK H4  H4  H  H    0 -4.628 -2.143 0.184
+NQK H5  H5  H  H    0 -3.571 2.222  -2.765
+NQK H6  H6  H  H    0 -2.002 2.301  -2.634
+NQK H7  H7  H  H    0 -2.918 3.146  -1.660
+NQK H8  H8  H  H    0 -0.075 1.648  -1.132
+NQK H9  H9  H  H    0 1.979  1.315  -0.206
+NQK H10 H10 H  H    0 -1.715 -1.829 1.595
+NQK H11 H11 H  H    0 2.419  -2.072 0.130
+NQK H12 H12 H  H    0 0.548  -1.340 1.540
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+NQK N1  N[6a](C[6a]C[6a]Cl)(C[6a]C[6a]H){1|C<2>,1|C<3>,1|H<1>}
+NQK C2  C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(NC[6a]H){1|Cl<1>,1|H<1>,1|N<2>}
+NQK N3  N[5a](C[5a,6a]C[5a,6a]C[6a])(C[5a]N[5a]O)(CH3){1|C<4>,1|H<1>,2|C<3>}
+NQK C4  C[6a](C[6a]C[6a]H)(N[6a]C[6a])(H){1|Cl<1>,1|C<3>,1|N<3>}
+NQK N4  N[5a](C[5a,6a]C[5a,6a]C[6a])(C[5a]N[5a]O)(CH3){1|C<4>,1|H<1>,2|C<3>}
+NQK C5  C[6a](C[6a]C[6a]C)(N[6a]C[6a])(Cl){1|C<3>,1|H<1>,1|N<3>}
+NQK C6  C[6a](C[6a]C[5a,6a]H)(C[6a]C[6a]H)(NC[6a]H){1|C<3>,1|H<1>,1|N<3>}
+NQK C14 C(N[5a]C[5a,6a]C[5a])(H)3
+NQK C13 C(N[5a]C[5a,6a]C[5a])(H)3
+NQK C12 C[6a](C[5a,6a]C[5a,6a]N[5a])(C[6a]C[6a]N)(H){1|C<4>,1|H<1>,1|N<3>,2|C<3>}
+NQK C10 C[5a](N[5a]C[5a,6a]C)2(O){2|C<3>}
+NQK C11 C[5a,6a](C[5a,6a]C[6a]N[5a])(C[6a]C[6a]H)(N[5a]C[5a]C){1|C<3>,1|C<4>,1|H<1>,1|N<3>,1|O<1>}
+NQK N2  N(C[6a]C[6a]2)2(H)
+NQK C9  C[5a,6a](C[5a,6a]C[6a]N[5a])(C[6a]C[6a]H)(N[5a]C[5a]C){1|C<3>,1|C<4>,1|O<1>,2|H<1>}
+NQK C8  C[6a](C[5a,6a]C[5a,6a]N[5a])(C[6a]C[6a]H)(H){1|C<4>,2|C<3>,2|N<3>}
+NQK C1  C[6a](C[6a]N[6a]Cl)(C[6a]C[6a]N)(CN){1|C<3>,1|H<1>}
+NQK C3  C[6a](C[6a]C[6a]N)(C[6a]N[6a]H)(H){1|C<2>,1|C<3>}
+NQK C7  C[6a](C[6a]C[5a,6a]H)(C[6a]C[6a]N)(H){1|C<3>,1|H<1>,1|N<3>}
+NQK O   O(C[5a]N[5a]2)
+NQK CL  Cl(C[6a]C[6a]N[6a])
+NQK C   C(C[6a]C[6a]2)(N)
+NQK N   N(CC[6a])
+NQK H1  H(C[6a]C[6a]N[6a])
+NQK H2  H(CN[5a]HH)
+NQK H3  H(CN[5a]HH)
+NQK H4  H(CN[5a]HH)
+NQK H5  H(CN[5a]HH)
+NQK H6  H(CN[5a]HH)
+NQK H7  H(CN[5a]HH)
+NQK H8  H(C[6a]C[5a,6a]C[6a])
+NQK H9  H(NC[6a]2)
+NQK H10 H(C[6a]C[5a,6a]C[6a])
+NQK H11 H(C[6a]C[6a]2)
+NQK H12 H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+NQK C5  CL  SINGLE n 1.732 0.0108 1.732 0.0108
+NQK N1  C5  DOUBLE y 1.320 0.0100 1.320 0.0100
+NQK N1  C4  SINGLE y 1.338 0.0100 1.338 0.0100
+NQK C5  C1  SINGLE y 1.394 0.0122 1.394 0.0122
+NQK C4  C3  DOUBLE y 1.366 0.0100 1.366 0.0100
+NQK C1  C   SINGLE n 1.436 0.0100 1.436 0.0100
+NQK C2  C1  DOUBLE y 1.406 0.0100 1.406 0.0100
+NQK C   N   TRIPLE n 1.143 0.0104 1.143 0.0104
+NQK C2  C3  SINGLE y 1.392 0.0135 1.392 0.0135
+NQK C2  N2  SINGLE n 1.392 0.0200 1.392 0.0200
+NQK C6  N2  SINGLE n 1.403 0.0148 1.403 0.0148
+NQK C6  C7  DOUBLE y 1.407 0.0160 1.407 0.0160
+NQK C6  C12 SINGLE y 1.378 0.0100 1.378 0.0100
+NQK C8  C7  SINGLE y 1.382 0.0100 1.382 0.0100
+NQK C12 C11 DOUBLE y 1.380 0.0100 1.380 0.0100
+NQK C9  C8  DOUBLE y 1.388 0.0100 1.388 0.0100
+NQK C11 C9  SINGLE y 1.398 0.0100 1.398 0.0100
+NQK N4  C11 SINGLE y 1.390 0.0100 1.390 0.0100
+NQK N3  C9  SINGLE y 1.390 0.0100 1.390 0.0100
+NQK N4  C13 SINGLE n 1.449 0.0100 1.449 0.0100
+NQK N4  C10 SINGLE y 1.373 0.0100 1.373 0.0100
+NQK N3  C10 SINGLE y 1.373 0.0100 1.373 0.0100
+NQK N3  C14 SINGLE n 1.449 0.0100 1.449 0.0100
+NQK C10 O   DOUBLE n 1.221 0.0100 1.221 0.0100
+NQK C4  H1  SINGLE n 1.085 0.0150 0.944 0.0118
+NQK C14 H2  SINGLE n 1.092 0.0100 0.969 0.0168
+NQK C14 H3  SINGLE n 1.092 0.0100 0.969 0.0168
+NQK C14 H4  SINGLE n 1.092 0.0100 0.969 0.0168
+NQK C13 H5  SINGLE n 1.092 0.0100 0.969 0.0168
+NQK C13 H6  SINGLE n 1.092 0.0100 0.969 0.0168
+NQK C13 H7  SINGLE n 1.092 0.0100 0.969 0.0168
+NQK C12 H8  SINGLE n 1.085 0.0150 0.944 0.0119
+NQK N2  H9  SINGLE n 1.013 0.0120 0.870 0.0200
+NQK C8  H10 SINGLE n 1.085 0.0150 0.937 0.0105
+NQK C3  H11 SINGLE n 1.085 0.0150 0.939 0.0137
+NQK C7  H12 SINGLE n 1.085 0.0150 0.941 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+NQK C5  N1  C4  117.246 1.52
+NQK C1  C2  C3  118.431 2.44
+NQK C1  C2  N2  120.298 1.50
+NQK C3  C2  N2  121.272 3.00
+NQK C9  N3  C10 109.846 1.50
+NQK C9  N3  C14 126.092 1.50
+NQK C10 N3  C14 124.062 1.50
+NQK N1  C4  C3  122.369 1.50
+NQK N1  C4  H1  118.968 1.50
+NQK C3  C4  H1  118.663 1.50
+NQK C11 N4  C13 126.092 1.50
+NQK C11 N4  C10 109.846 1.50
+NQK C13 N4  C10 124.062 1.50
+NQK CL  C5  N1  116.344 1.50
+NQK CL  C5  C1  120.708 1.50
+NQK N1  C5  C1  122.947 1.50
+NQK N2  C6  C7  118.903 3.00
+NQK N2  C6  C12 118.784 3.00
+NQK C7  C6  C12 122.313 3.00
+NQK N3  C14 H2  109.532 1.50
+NQK N3  C14 H3  109.532 1.50
+NQK N3  C14 H4  109.532 1.50
+NQK H2  C14 H3  109.437 2.37
+NQK H2  C14 H4  109.437 2.37
+NQK H3  C14 H4  109.437 2.37
+NQK N4  C13 H5  109.532 1.50
+NQK N4  C13 H6  109.532 1.50
+NQK N4  C13 H7  109.532 1.50
+NQK H5  C13 H6  109.437 2.37
+NQK H5  C13 H7  109.437 2.37
+NQK H6  C13 H7  109.437 2.37
+NQK C6  C12 C11 116.853 1.50
+NQK C6  C12 H8  121.074 1.50
+NQK C11 C12 H8  122.073 1.50
+NQK N4  C10 N3  106.495 1.50
+NQK N4  C10 O   126.752 1.50
+NQK N3  C10 O   126.752 1.50
+NQK C12 C11 C9  121.000 1.50
+NQK C12 C11 N4  132.094 2.15
+NQK C9  C11 N4  106.906 1.50
+NQK C2  N2  C6  126.524 3.00
+NQK C2  N2  H9  116.754 3.00
+NQK C6  N2  H9  116.722 3.00
+NQK C8  C9  C11 121.611 1.50
+NQK C8  C9  N3  131.483 1.50
+NQK C11 C9  N3  106.906 1.50
+NQK C7  C8  C9  117.715 1.50
+NQK C7  C8  H10 120.987 1.50
+NQK C9  C8  H10 121.298 1.50
+NQK C5  C1  C   121.864 1.50
+NQK C5  C1  C2  119.434 2.77
+NQK C   C1  C2  118.702 3.00
+NQK C4  C3  C2  119.573 1.51
+NQK C4  C3  H11 120.480 1.50
+NQK C2  C3  H11 119.947 1.50
+NQK C6  C7  C8  120.508 1.50
+NQK C6  C7  H12 119.873 1.50
+NQK C8  C7  H12 119.620 1.50
+NQK C1  C   N   180.000 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+NQK const_0   C3  C4  N1  C5  0.000   0.0  1
+NQK const_1   CL  C5  N1  C4  180.000 0.0  1
+NQK const_2   C12 C11 C9  C8  0.000   0.0  1
+NQK const_3   C7  C8  C9  C11 0.000   0.0  1
+NQK const_4   C6  C7  C8  C9  0.000   0.0  1
+NQK sp2_sp2_1 C1  C2  N2  C6  180.000 5.0  2
+NQK const_5   C   C1  C2  N2  0.000   0.0  1
+NQK const_6   N2  C2  C3  C4  180.000 0.0  1
+NQK const_7   O   C10 N3  C14 0.000   0.0  1
+NQK const_8   C8  C9  N3  C14 0.000   0.0  1
+NQK sp2_sp3_1 C9  N3  C14 H2  150.000 20.0 6
+NQK const_9   C2  C3  C4  N1  0.000   0.0  1
+NQK const_10  O   C10 N4  C13 0.000   0.0  1
+NQK const_11  C12 C11 N4  C13 0.000   0.0  1
+NQK sp2_sp3_2 C11 N4  C13 H5  150.000 20.0 6
+NQK const_12  C   C1  C5  CL  0.000   0.0  1
+NQK sp2_sp2_2 C7  C6  N2  C2  180.000 5.0  2
+NQK const_13  N2  C6  C7  C8  180.000 0.0  1
+NQK const_14  C11 C12 C6  N2  180.000 0.0  1
+NQK const_15  C9  C11 C12 C6  0.000   0.0  1
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+NQK plan-1 C   0.020
+NQK plan-1 C1  0.020
+NQK plan-1 C2  0.020
+NQK plan-1 C3  0.020
+NQK plan-1 C4  0.020
+NQK plan-1 C5  0.020
+NQK plan-1 CL  0.020
+NQK plan-1 H1  0.020
+NQK plan-1 H11 0.020
+NQK plan-1 N1  0.020
+NQK plan-1 N2  0.020
+NQK plan-2 C10 0.020
+NQK plan-2 C11 0.020
+NQK plan-2 C12 0.020
+NQK plan-2 C13 0.020
+NQK plan-2 C14 0.020
+NQK plan-2 C8  0.020
+NQK plan-2 C9  0.020
+NQK plan-2 N3  0.020
+NQK plan-2 N4  0.020
+NQK plan-2 O   0.020
+NQK plan-3 C11 0.020
+NQK plan-3 C12 0.020
+NQK plan-3 C6  0.020
+NQK plan-3 C7  0.020
+NQK plan-3 C8  0.020
+NQK plan-3 C9  0.020
+NQK plan-3 H10 0.020
+NQK plan-3 H12 0.020
+NQK plan-3 H8  0.020
+NQK plan-3 N2  0.020
+NQK plan-3 N3  0.020
+NQK plan-3 N4  0.020
+NQK plan-4 C2  0.020
+NQK plan-4 C6  0.020
+NQK plan-4 H9  0.020
+NQK plan-4 N2  0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+NQK ring-1 N1  YES
+NQK ring-1 C2  YES
+NQK ring-1 C4  YES
+NQK ring-1 C5  YES
+NQK ring-1 C1  YES
+NQK ring-1 C3  YES
+NQK ring-2 N3  YES
+NQK ring-2 N4  YES
+NQK ring-2 C10 YES
+NQK ring-2 C11 YES
+NQK ring-2 C9  YES
+NQK ring-3 C6  YES
+NQK ring-3 C12 YES
+NQK ring-3 C11 YES
+NQK ring-3 C9  YES
+NQK ring-3 C8  YES
+NQK ring-3 C7  YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+NQK InChI            InChI                1.03  "InChI=1S/C15H12ClN5O/c1-20-12-4-3-9(7-13(12)21(2)15(20)22)19-11-5-6-18-14(16)10(11)8-17/h3-7H,1-2H3,(H,18,19)"
+NQK InChIKey         InChI                1.03  OTSZAULBNXSOMT-UHFFFAOYSA-N
+NQK SMILES_CANONICAL CACTVS               3.385 "CN1C(=O)N(C)c2cc(Nc3ccnc(Cl)c3C#N)ccc12"
+NQK SMILES           CACTVS               3.385 "CN1C(=O)N(C)c2cc(Nc3ccnc(Cl)c3C#N)ccc12"
+NQK SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "CN1c2ccc(cc2N(C1=O)C)Nc3ccnc(c3C#N)Cl"
+NQK SMILES           "OpenEye OEToolkits" 2.0.7 "CN1c2ccc(cc2N(C1=O)C)Nc3ccnc(c3C#N)Cl"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+NQK acedrg          326       "dictionary generator"
+NQK acedrg_database 12        "data source"
+NQK rdkit           2023.03.3 "Chemoinformatics tool"
+NQK servalcat       0.4.120   'optimization tool'

@@ -1,0 +1,180 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+PHG PHG PHENYLMERCURY NON-POLYMER 11 6 .
+
+data_comp_PHG
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+PHG HG HG HG HG   1.00 -4.245 28.087 -16.921
+PHG C1 C1 C  CR16 0    -7.828 28.000 -20.138
+PHG C2 C2 C  CR16 0    -7.485 29.188 -19.529
+PHG C3 C3 C  CR16 0    -6.465 29.214 -18.613
+PHG C4 C4 C  CR6  -1   -5.778 28.050 -18.297
+PHG C5 C5 C  CR16 0    -6.134 26.860 -18.918
+PHG C6 C6 C  CR16 0    -7.154 26.837 -19.835
+PHG H1 H1 H  H    0    -8.530 27.983 -20.769
+PHG H2 H2 H  H    0    -7.954 29.978 -19.745
+PHG H3 H3 H  H    0    -6.238 30.031 -18.201
+PHG H5 H5 H  H    0    -5.678 26.059 -18.717
+PHG H6 H6 H  H    0    -7.398 26.029 -20.258
+
+loop_
+_chem_comp_tree.comp_id
+_chem_comp_tree.atom_id
+_chem_comp_tree.atom_back
+_chem_comp_tree.atom_forward
+_chem_comp_tree.connect_type
+PHG HG n/a C4 START
+PHG C4 HG  C5 .
+PHG C3 C4  C2 .
+PHG H3 C3  .  .
+PHG C2 C3  H2 .
+PHG H2 C2  .  .
+PHG C5 C4  C6 .
+PHG H5 C5  .  .
+PHG C6 C5  C1 .
+PHG H6 C6  .  .
+PHG C1 C6  H1 .
+PHG H1 C1  .  END
+PHG C1 C2  .  ADD
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+PHG C1 C[6a](C[6a]C[6a]H)2(H){1|C<2>,2|H<1>}
+PHG C2 C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|H<1>}
+PHG C3 C[6a](C[6a]C[6a]H)(C[6a]C[6a])(H){1|C<3>,2|H<1>}
+PHG C4 C[6a](C[6a]C[6a]H)2{1|C<3>,2|H<1>}
+PHG C5 C[6a](C[6a]C[6a]H)(C[6a]C[6a])(H){1|C<3>,2|H<1>}
+PHG C6 C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|H<1>}
+PHG H1 H(C[6a]C[6a]2)
+PHG H2 H(C[6a]C[6a]2)
+PHG H3 H(C[6a]C[6a]2)
+PHG H5 H(C[6a]C[6a]2)
+PHG H6 H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+PHG C4 HG SINGLE n 2.06  0.08   2.06  0.08
+PHG C1 C2 DOUBLE y 1.376 0.0151 1.376 0.0151
+PHG C1 C6 SINGLE y 1.376 0.0151 1.376 0.0151
+PHG C2 C3 SINGLE y 1.372 0.0133 1.372 0.0133
+PHG C3 C4 DOUBLE y 1.391 0.0200 1.391 0.0200
+PHG C4 C5 SINGLE y 1.391 0.0200 1.391 0.0200
+PHG C5 C6 DOUBLE y 1.372 0.0133 1.372 0.0133
+PHG C1 H1 SINGLE n 1.085 0.0150 0.944 0.0172
+PHG C2 H2 SINGLE n 1.085 0.0150 0.944 0.0172
+PHG C3 H3 SINGLE n 1.085 0.0150 0.943 0.0200
+PHG C5 H5 SINGLE n 1.085 0.0150 0.943 0.0200
+PHG C6 H6 SINGLE n 1.085 0.0150 0.944 0.0172
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+PHG HG C4 C3 119.8580 5.0
+PHG HG C4 C5 119.8580 5.0
+PHG C2 C1 C6 120.128  1.50
+PHG C2 C1 H1 119.936  1.50
+PHG C6 C1 H1 119.936  1.50
+PHG C1 C2 C3 119.509  1.50
+PHG C1 C2 H2 119.978  1.50
+PHG C3 C2 H2 120.512  1.50
+PHG C2 C3 C4 120.284  1.50
+PHG C2 C3 H3 119.160  1.50
+PHG C4 C3 H3 120.556  1.50
+PHG C3 C4 C5 120.284  3.00
+PHG C4 C5 C6 120.284  1.50
+PHG C4 C5 H5 120.556  1.50
+PHG C6 C5 H5 119.160  1.50
+PHG C1 C6 C5 119.509  1.50
+PHG C1 C6 H6 119.978  1.50
+PHG C5 C6 H6 120.512  1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+PHG const_0 C6 C1 C2 C3 0.000 0.0 1
+PHG const_1 C2 C1 C6 C5 0.000 0.0 1
+PHG const_2 C1 C2 C3 C4 0.000 0.0 1
+PHG const_3 C2 C3 C4 C5 0.000 0.0 1
+PHG const_4 C3 C4 C5 C6 0.000 0.0 1
+PHG const_5 C4 C5 C6 C1 0.000 0.0 1
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+PHG plan-2 HG 0.060
+PHG plan-2 C4 0.060
+PHG plan-2 C3 0.060
+PHG plan-2 C5 0.060
+PHG plan-1 C1 0.020
+PHG plan-1 C2 0.020
+PHG plan-1 C3 0.020
+PHG plan-1 C4 0.020
+PHG plan-1 C5 0.020
+PHG plan-1 C6 0.020
+PHG plan-1 H1 0.020
+PHG plan-1 H2 0.020
+PHG plan-1 H3 0.020
+PHG plan-1 H5 0.020
+PHG plan-1 H6 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+PHG ring-1 C1 YES
+PHG ring-1 C2 YES
+PHG ring-1 C3 YES
+PHG ring-1 C4 YES
+PHG ring-1 C5 YES
+PHG ring-1 C6 YES
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+PHG acedrg            311       'dictionary generator'
+PHG 'acedrg_database' 12        'data source'
+PHG rdkit             2019.09.1 'Chemoinformatics tool'
+PHG servalcat         0.4.93    'optimization tool'
+PHG metalCoord        0.1.63    'metal coordination analysis'

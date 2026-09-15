@@ -1,0 +1,200 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+DUV DUV "(2R)-2-methanoylhept-6-ynoic acid" NON-POLYMER 20 11 .
+
+data_comp_DUV
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+DUV O1  O1  O O   0  -11.956 55.772 -20.688
+DUV C2  C1  C C   0  -12.567 55.016 -19.900
+DUV O3  O2  O OC  -1 -13.814 54.871 -19.920
+DUV C4  C2  C CH1 0  -11.729 54.238 -18.866
+DUV C5  C3  C CH2 0  -11.790 52.718 -19.110
+DUV C6  C4  C CH2 0  -10.973 52.167 -20.277
+DUV C7  C5  C CH2 0  -11.136 50.670 -20.552
+DUV C8  C6  C CSP 0  -10.603 50.272 -21.858
+DUV C9  C7  C CSP 0  -10.179 49.956 -22.910
+DUV C10 C8  C C1  0  -12.144 54.606 -17.428
+DUV O11 O3  O O   0  -13.256 54.514 -17.006
+DUV H2  H2  H H   0  -10.783 54.523 -18.956
+DUV H3  H3  H H   0  -11.492 52.260 -18.294
+DUV H4  H4  H H   0  -12.729 52.470 -19.252
+DUV H5  H5  H H   0  -11.218 52.661 -21.091
+DUV H6  H6  H H   0  -10.023 52.349 -20.103
+DUV H7  H7  H H   0  -10.678 50.161 -19.853
+DUV H8  H8  H H   0  -12.086 50.431 -20.514
+DUV H9  H9  H H   0  -9.836  49.700 -23.762
+DUV H10 H10 H H   0  -11.429 54.917 -16.903
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+DUV O1  O(CCO)
+DUV C2  C(CCCH)(O)2
+DUV O3  O(CCO)
+DUV C4  C(CCHH)(CHO)(COO)(H)
+DUV C5  C(CCCH)(CCHH)(H)2
+DUV C6  C(CCHH)2(H)2
+DUV C7  C(CCHH)(CC)(H)2
+DUV C8  C(CCHH)(CH)
+DUV C9  C(CC)(H)
+DUV C10 C(CCCH)(H)(O)
+DUV O11 O(CCH)
+DUV H2  H(CC3)
+DUV H3  H(CCCH)
+DUV H4  H(CCCH)
+DUV H5  H(CCCH)
+DUV H6  H(CCCH)
+DUV H7  H(CCCH)
+DUV H8  H(CCCH)
+DUV H9  H(CC)
+DUV H10 H(CCO)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+DUV C8  C9  TRIPLE n 1.178 0.0132 1.178 0.0132
+DUV C7  C8  SINGLE n 1.465 0.0110 1.465 0.0110
+DUV C6  C7  SINGLE n 1.523 0.0200 1.523 0.0200
+DUV O1  C2  DOUBLE n 1.251 0.0189 1.251 0.0189
+DUV C5  C6  SINGLE n 1.512 0.0200 1.512 0.0200
+DUV C2  O3  SINGLE n 1.251 0.0189 1.251 0.0189
+DUV C2  C4  SINGLE n 1.538 0.0100 1.538 0.0100
+DUV C4  C5  SINGLE n 1.535 0.0100 1.535 0.0100
+DUV C4  C10 SINGLE n 1.537 0.0128 1.537 0.0128
+DUV C10 O11 DOUBLE n 1.192 0.0119 1.192 0.0119
+DUV C4  H2  SINGLE n 1.092 0.0100 0.991 0.0200
+DUV C5  H3  SINGLE n 1.092 0.0100 0.980 0.0200
+DUV C5  H4  SINGLE n 1.092 0.0100 0.980 0.0200
+DUV C6  H5  SINGLE n 1.092 0.0100 0.982 0.0149
+DUV C6  H6  SINGLE n 1.092 0.0100 0.982 0.0149
+DUV C7  H7  SINGLE n 1.092 0.0100 0.979 0.0200
+DUV C7  H8  SINGLE n 1.092 0.0100 0.979 0.0200
+DUV C9  H9  SINGLE n 1.044 0.0220 0.953 0.0200
+DUV C10 H10 SINGLE n 1.085 0.0150 0.940 0.0116
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+DUV O1  C2  O3  123.943 2.39
+DUV O1  C2  C4  118.029 2.41
+DUV O3  C2  C4  118.029 2.41
+DUV C2  C4  C5  110.184 3.00
+DUV C2  C4  C10 110.957 3.00
+DUV C2  C4  H2  108.461 1.50
+DUV C5  C4  C10 110.184 3.00
+DUV C5  C4  H2  108.083 2.96
+DUV C10 C4  H2  107.983 3.00
+DUV C6  C5  C4  115.982 3.00
+DUV C6  C5  H3  108.411 1.50
+DUV C6  C5  H4  108.411 1.50
+DUV C4  C5  H3  108.724 1.50
+DUV C4  C5  H4  108.724 1.50
+DUV H3  C5  H4  107.516 1.50
+DUV C7  C6  C5  112.948 3.00
+DUV C7  C6  H5  108.822 1.50
+DUV C7  C6  H6  108.822 1.50
+DUV C5  C6  H5  108.686 1.50
+DUV C5  C6  H6  108.686 1.50
+DUV H5  C6  H6  107.566 1.82
+DUV C8  C7  C6  113.216 3.00
+DUV C8  C7  H7  108.996 1.50
+DUV C8  C7  H8  108.996 1.50
+DUV C6  C7  H7  109.283 1.50
+DUV C6  C7  H8  109.283 1.50
+DUV H7  C7  H8  107.484 3.00
+DUV C9  C8  C7  180.000 3.00
+DUV C8  C9  H9  180.000 3.00
+DUV C4  C10 O11 123.215 3.00
+DUV C4  C10 H10 113.922 3.00
+DUV O11 C10 H10 122.863 2.42
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+DUV sp2_sp3_1 O1  C2  C4 C5 0.000   20.0 6
+DUV sp3_sp3_1 C2  C4  C5 C6 180.000 10.0 3
+DUV sp2_sp3_2 O11 C10 C4 C2 0.000   20.0 6
+DUV sp3_sp3_2 C4  C5  C6 C7 180.000 10.0 3
+DUV sp3_sp3_3 C5  C6  C7 C8 180.000 10.0 3
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+DUV chir_1 C4 C2 C10 C5 negative
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+DUV plan-1 C2  0.020
+DUV plan-1 C4  0.020
+DUV plan-1 O1  0.020
+DUV plan-1 O3  0.020
+DUV plan-2 C10 0.020
+DUV plan-2 C4  0.020
+DUV plan-2 H10 0.020
+DUV plan-2 O11 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+DUV InChI            InChI                1.03  "InChI=1S/C8H10O3/c1-2-3-4-5-7(6-9)8(10)11/h1,6-7H,3-5H2,(H,10,11)/t7-/m1/s1"
+DUV InChIKey         InChI                1.03  XEBGKYCHRCIWRY-SSDOTTSWSA-N
+DUV SMILES_CANONICAL CACTVS               3.385 "OC(=O)[C@H](CCCC#C)C=O"
+DUV SMILES           CACTVS               3.385 "OC(=O)[CH](CCCC#C)C=O"
+DUV SMILES_CANONICAL "OpenEye OEToolkits" 2.0.6 "C#CCCC[C@H](C=O)C(=O)O"
+DUV SMILES           "OpenEye OEToolkits" 2.0.6 "C#CCCCC(C=O)C(=O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+DUV acedrg          326       "dictionary generator"
+DUV acedrg_database 12        "data source"
+DUV rdkit           2023.03.3 "Chemoinformatics tool"
+DUV servalcat       0.4.120   'optimization tool'

@@ -1,0 +1,33 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+HGN HGN mercuriomercury NON-POLYMER 1 0 .
+
+data_comp_HGN
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+HGN HG1 HG HG 0 -35.980 28.983 1.554
+HGN HG2 HG HG 0 -37.351 31.686 0.526
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+HGN acedrg            311    'dictionary generator'
+HGN 'acedrg_database' 12     'data source'
+HGN metalCoord        0.1.63 'metal coordination analysis'
+HGN servalcat         0.4.93 'optimization tool'

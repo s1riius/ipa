@@ -1,0 +1,260 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+KPI KPI "(2S)-2-amino-6-[(1-hydroxy-1-oxo-propan-2-ylidene)amino]hexanoic acid" peptide 30 15 .
+
+data_comp_KPI
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+KPI OXT OXT O OC  -1 -24.483 -17.319 3.948
+KPI N   N   N NT3 1  -26.983 -15.004 3.254
+KPI CA  CA  C CH1 0  -26.285 -15.795 4.306
+KPI CB  CB  C CH2 0  -27.226 -16.156 5.468
+KPI CG  CG  C CH2 0  -26.557 -16.555 6.792
+KPI CD  CD  C CH2 0  -27.508 -16.955 7.920
+KPI CE  CE  C CH2 0  -26.801 -17.484 9.167
+KPI NZ  NZ  N N   0  -27.722 -17.762 10.267
+KPI CX1 CX1 C C   0  -27.595 -18.257 11.510
+KPI C1  C1  C CH3 0  -26.283 -18.714 12.093
+KPI CX2 CX2 C C   0  -28.736 -18.317 12.244
+KPI O1  O1  O OC  -1 -28.733 -18.738 13.433
+KPI O2  O2  O O   0  -29.825 -17.947 11.732
+KPI C   C   C C   0  -25.675 -17.059 3.667
+KPI O   O   O O   0  -26.410 -17.741 2.913
+KPI H   H   H H   0  -26.398 -14.788 2.602
+KPI H2  H2  H H   0  -27.319 -14.238 3.592
+KPI H3  H3  H H   0  -27.654 -15.481 2.883
+KPI HA  HA  H H   0  -25.544 -15.238 4.659
+KPI HB  HB  H H   0  -27.801 -16.897 5.179
+KPI HBA HBA H H   0  -27.808 -15.385 5.640
+KPI HG  HG  H H   0  -26.009 -15.798 7.098
+KPI HGA HGA H H   0  -25.946 -17.304 6.613
+KPI HD  HD  H H   0  -28.118 -17.654 7.596
+KPI HDA HDA H H   0  -28.049 -16.176 8.174
+KPI HE  HE  H H   0  -26.137 -16.827 9.468
+KPI HEA HEA H H   0  -26.319 -18.306 8.940
+KPI H1C H1C H H   0  -25.600 -18.743 11.408
+KPI H1A H1A H H   0  -26.386 -19.601 12.469
+KPI H1B H1B H H   0  -26.007 -18.101 12.791
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+KPI OXT O(CCO)
+KPI N   N(CCCH)(H)3
+KPI CA  C(CCHH)(NH3)(COO)(H)
+KPI CB  C(CCHH)(CCHN)(H)2
+KPI CG  C(CCHH)2(H)2
+KPI CD  C(CCHH)(CHHN)(H)2
+KPI CE  C(CCHH)(NC)(H)2
+KPI NZ  N(CCHH)(CCC)
+KPI CX1 C(CH3)(COO)(NC)
+KPI C1  C(CCN)(H)3
+KPI CX2 C(CCN)(O)2
+KPI O1  O(CCO)
+KPI O2  O(CCO)
+KPI C   C(CCHN)(O)2
+KPI O   O(CCO)
+KPI H   H(NCHH)
+KPI H2  H(NCHH)
+KPI H3  H(NCHH)
+KPI HA  H(CCCN)
+KPI HB  H(CCCH)
+KPI HBA H(CCCH)
+KPI HG  H(CCCH)
+KPI HGA H(CCCH)
+KPI HD  H(CCCH)
+KPI HDA H(CCCH)
+KPI HE  H(CCHN)
+KPI HEA H(CCHN)
+KPI H1C H(CCHH)
+KPI H1A H(CCHH)
+KPI H1B H(CCHH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+KPI OXT C   SINGLE n 1.251 0.0183 1.251 0.0183
+KPI N   CA  SINGLE n 1.487 0.0100 1.487 0.0100
+KPI CA  CB  SINGLE n 1.533 0.0100 1.533 0.0100
+KPI CA  C   SINGLE n 1.538 0.0113 1.538 0.0113
+KPI CB  CG  SINGLE n 1.523 0.0189 1.523 0.0189
+KPI CG  CD  SINGLE n 1.525 0.0102 1.525 0.0102
+KPI CD  CE  SINGLE n 1.524 0.0136 1.524 0.0136
+KPI CE  NZ  SINGLE n 1.454 0.0144 1.454 0.0144
+KPI NZ  CX1 DOUBLE n 1.313 0.0200 1.313 0.0200
+KPI CX1 C1  SINGLE n 1.495 0.0127 1.495 0.0127
+KPI CX1 CX2 SINGLE n 1.327 0.0200 1.327 0.0200
+KPI CX2 O1  SINGLE n 1.254 0.0181 1.254 0.0181
+KPI CX2 O2  DOUBLE n 1.254 0.0181 1.254 0.0181
+KPI C   O   DOUBLE n 1.251 0.0183 1.251 0.0183
+KPI N   H   SINGLE n 1.018 0.0520 0.902 0.0102
+KPI N   H2  SINGLE n 1.018 0.0520 0.902 0.0102
+KPI N   H3  SINGLE n 1.018 0.0520 0.902 0.0102
+KPI CA  HA  SINGLE n 1.092 0.0100 0.991 0.0200
+KPI CB  HB  SINGLE n 1.092 0.0100 0.981 0.0141
+KPI CB  HBA SINGLE n 1.092 0.0100 0.981 0.0141
+KPI CG  HG  SINGLE n 1.092 0.0100 0.982 0.0163
+KPI CG  HGA SINGLE n 1.092 0.0100 0.982 0.0163
+KPI CD  HD  SINGLE n 1.092 0.0100 0.982 0.0161
+KPI CD  HDA SINGLE n 1.092 0.0100 0.982 0.0161
+KPI CE  HE  SINGLE n 1.092 0.0100 0.980 0.0107
+KPI CE  HEA SINGLE n 1.092 0.0100 0.980 0.0107
+KPI C1  H1C SINGLE n 1.092 0.0100 0.969 0.0173
+KPI C1  H1A SINGLE n 1.092 0.0100 0.969 0.0173
+KPI C1  H1B SINGLE n 1.092 0.0100 0.969 0.0173
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+KPI CA  N   H   109.990 3.00
+KPI CA  N   H2  109.990 3.00
+KPI CA  N   H3  109.990 3.00
+KPI H   N   H2  109.032 3.00
+KPI H   N   H3  109.032 3.00
+KPI H2  N   H3  109.032 3.00
+KPI N   CA  CB  110.440 2.46
+KPI N   CA  C   109.258 1.50
+KPI N   CA  HA  108.387 1.58
+KPI CB  CA  C   111.059 3.00
+KPI CB  CA  HA  109.080 2.33
+KPI C   CA  HA  108.774 1.79
+KPI CA  CB  CG  115.148 2.35
+KPI CA  CB  HB  108.677 1.74
+KPI CA  CB  HBA 108.677 1.74
+KPI CG  CB  HB  108.413 1.50
+KPI CG  CB  HBA 108.413 1.50
+KPI HB  CB  HBA 107.655 1.50
+KPI CB  CG  CD  113.403 3.00
+KPI CB  CG  HG  108.381 1.50
+KPI CB  CG  HGA 108.381 1.50
+KPI CD  CG  HG  108.819 1.50
+KPI CD  CG  HGA 108.819 1.50
+KPI HG  CG  HGA 107.566 1.82
+KPI CG  CD  CE  113.139 1.50
+KPI CG  CD  HD  108.993 1.92
+KPI CG  CD  HDA 108.993 1.92
+KPI CE  CD  HD  108.554 3.00
+KPI CE  CD  HDA 108.554 3.00
+KPI HD  CD  HDA 107.958 2.23
+KPI CD  CE  NZ  112.751 3.00
+KPI CD  CE  HE  109.346 1.50
+KPI CD  CE  HEA 109.346 1.50
+KPI NZ  CE  HE  109.224 1.50
+KPI NZ  CE  HEA 109.224 1.50
+KPI HE  CE  HEA 108.186 3.00
+KPI CE  NZ  CX1 124.132 3.00
+KPI NZ  CX1 C1  119.333 3.00
+KPI NZ  CX1 CX2 119.161 3.00
+KPI C1  CX1 CX2 121.506 3.00
+KPI CX1 C1  H1C 109.608 1.50
+KPI CX1 C1  H1A 109.608 1.50
+KPI CX1 C1  H1B 109.608 1.50
+KPI H1C C1  H1A 109.349 2.59
+KPI H1C C1  H1B 109.349 2.59
+KPI H1A C1  H1B 109.349 2.59
+KPI CX1 CX2 O1  118.155 3.00
+KPI CX1 CX2 O2  118.155 3.00
+KPI O1  CX2 O2  123.690 3.00
+KPI OXT C   CA  117.148 1.60
+KPI OXT C   O   125.704 1.50
+KPI CA  C   O   117.148 1.60
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+KPI chi1      N   CA  CB  CG  -60.000 10.0 3
+KPI chi2      CA  CB  CG  CD  180.000 10.0 3
+KPI chi3      CB  CG  CD  CE  180.000 10.0 3
+KPI chi4      CG  CD  CE  NZ  180.000 10.0 3
+KPI sp3_sp3_1 CB  CA  N   H   180.000 10.0 3
+KPI sp2_sp3_1 NZ  CX1 C1  H1C 0.000   20.0 6
+KPI sp2_sp2_1 C1  CX1 CX2 O1  180.000 5.0  2
+KPI sp2_sp2_2 C1  CX1 NZ  CE  180.000 5.0  2
+KPI sp2_sp3_2 OXT C   CA  N   0.000   20.0 6
+KPI sp2_sp3_3 CX1 NZ  CE  HE  0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+KPI chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+KPI plan-1 C1  0.020
+KPI plan-1 CX1 0.020
+KPI plan-1 CX2 0.020
+KPI plan-1 NZ  0.020
+KPI plan-2 CX1 0.020
+KPI plan-2 CX2 0.020
+KPI plan-2 O1  0.020
+KPI plan-2 O2  0.020
+KPI plan-3 C   0.020
+KPI plan-3 CA  0.020
+KPI plan-3 O   0.020
+KPI plan-3 OXT 0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+KPI SMILES           ACDLabs              12.01 "OC(C(N)CCCC\N=C(/C)C(O)=O)=O"
+KPI InChI            InChI                1.03  "InChI=1S/C9H16N2O4/c1-6(8(12)13)11-5-3-2-4-7(10)9(14)15/h7H,2-5,10H2,1H3,(H,12,13)(H,14,15)/b11-6+/t7-/m0/s1"
+KPI InChIKey         InChI                1.03  JXBWDTJQFXOTMZ-KEXZDQNZSA-N
+KPI SMILES_CANONICAL CACTVS               3.385 "CC(=NCCCC[C@H](N)C(O)=O)C(O)=O"
+KPI SMILES           CACTVS               3.385 "CC(=NCCCC[CH](N)C(O)=O)C(O)=O"
+KPI SMILES_CANONICAL "OpenEye OEToolkits" 1.7.6 "C/C(=N\CCCC[C@@H](C(=O)O)N)/C(=O)O"
+KPI SMILES           "OpenEye OEToolkits" 1.7.6 "CC(=NCCCCC(C(=O)O)N)C(=O)O"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+KPI acedrg          290       "dictionary generator"
+KPI acedrg_database 12        "data source"
+KPI rdkit           2019.09.1 "Chemoinformatics tool"
+KPI servalcat       0.4.57    'optimization tool'

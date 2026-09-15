@@ -1,0 +1,217 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+LYH LYH "3,4 ENE-LYSINE" peptide 22 10 .
+
+data_comp_LYH
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+LYH N   N   N NT3 1  62.000 -135.461 37.874
+LYH CA  CA  C CH1 0  61.848 -135.574 39.357
+LYH C   C   C C   0  63.127 -136.170 39.976
+LYH O   O   O O   0  63.611 -137.198 39.447
+LYH CB  CB  C C1  0  60.623 -136.374 39.735
+LYH CG  CG  C C1  0  60.334 -137.640 39.410
+LYH CD  CD  C CH2 0  59.213 -138.482 39.971
+LYH CE  CE  C CH2 0  59.601 -139.296 41.182
+LYH NZ  NZ  N N32 0  59.883 -138.513 42.386
+LYH OXT OXT O OC  -1 63.600 -135.583 40.977
+LYH H   H   H H   0  61.235 -135.109 37.502
+LYH H2  H2  H H   0  62.168 -136.289 37.510
+LYH H3  H3  H H   0  62.707 -134.903 37.688
+LYH HA  HA  H H   0  61.734 -134.663 39.730
+LYH HB  HB  H H   0  59.988 -135.911 40.265
+LYH HG  HG  H H   0  60.887 -138.056 38.757
+LYH HD1 HD1 H H   0  58.901 -139.089 39.273
+LYH HD2 HD2 H H   0  58.470 -137.895 40.212
+LYH HE1 HE1 H H   0  60.396 -139.830 40.970
+LYH HE2 HE2 H H   0  58.877 -139.923 41.391
+LYH HZ1 HZ1 H H   0  60.178 -139.053 43.018
+LYH HZ2 HZ2 H H   0  59.141 -138.139 42.683
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+LYH N   N(CCCH)(H)3
+LYH CA  C(NH3)(CCH)(COO)(H)
+LYH C   C(CCHN)(O)2
+LYH O   O(CCO)
+LYH CB  C(CCHN)(CCH)(H)
+LYH CG  C(CCHH)(CCH)(H)
+LYH CD  C(CHHN)(CCH)(H)2
+LYH CE  C(CCHH)(NHH)(H)2
+LYH NZ  N(CCHH)(H)2
+LYH OXT O(CCO)
+LYH H   H(NCHH)
+LYH H2  H(NCHH)
+LYH H3  H(NCHH)
+LYH HA  H(CCCN)
+LYH HB  H(CCC)
+LYH HG  H(CCC)
+LYH HD1 H(CCCH)
+LYH HD2 H(CCCH)
+LYH HE1 H(CCHN)
+LYH HE2 H(CCHN)
+LYH HZ1 H(NCH)
+LYH HZ2 H(NCH)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+LYH N  CA  SINGLE n 1.487 0.0184 1.487 0.0184
+LYH CA C   SINGLE n 1.538 0.0100 1.538 0.0100
+LYH CA CB  SINGLE n 1.507 0.0113 1.507 0.0113
+LYH C  O   DOUBLE n 1.252 0.0173 1.252 0.0173
+LYH C  OXT SINGLE n 1.252 0.0173 1.252 0.0173
+LYH CB CG  DOUBLE n 1.324 0.0200 1.324 0.0200
+LYH CG CD  SINGLE n 1.502 0.0200 1.502 0.0200
+LYH CD CE  SINGLE n 1.504 0.0200 1.504 0.0200
+LYH CE NZ  SINGLE n 1.460 0.0200 1.460 0.0200
+LYH N  H   SINGLE n 1.018 0.0520 0.920 0.0200
+LYH N  H2  SINGLE n 1.018 0.0520 0.920 0.0200
+LYH N  H3  SINGLE n 1.018 0.0520 0.920 0.0200
+LYH CA HA  SINGLE n 1.092 0.0100 0.991 0.0200
+LYH CB HB  SINGLE n 1.085 0.0150 0.946 0.0190
+LYH CG HG  SINGLE n 1.085 0.0150 0.950 0.0200
+LYH CD HD1 SINGLE n 1.092 0.0100 0.977 0.0200
+LYH CD HD2 SINGLE n 1.092 0.0100 0.977 0.0200
+LYH CE HE1 SINGLE n 1.092 0.0100 0.980 0.0200
+LYH CE HE2 SINGLE n 1.092 0.0100 0.980 0.0200
+LYH NZ HZ1 SINGLE n 1.018 0.0520 0.881 0.0200
+LYH NZ HZ2 SINGLE n 1.018 0.0520 0.881 0.0200
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+LYH CA  N  H   109.033 3.00
+LYH CA  N  H2  109.033 3.00
+LYH CA  N  H3  109.033 3.00
+LYH H   N  H2  109.032 3.00
+LYH H   N  H3  109.032 3.00
+LYH H2  N  H3  109.032 3.00
+LYH N   CA C   109.752 3.00
+LYH N   CA CB  109.752 3.00
+LYH N   CA HA  108.728 1.50
+LYH C   CA CB  110.957 3.00
+LYH C   CA HA  107.983 3.00
+LYH CB  CA HA  107.928 2.09
+LYH CA  C  O   117.292 3.00
+LYH CA  C  OXT 117.292 3.00
+LYH O   C  OXT 125.416 1.50
+LYH CA  CB CG  125.317 3.00
+LYH CA  CB HB  117.175 2.83
+LYH CG  CB HB  117.507 2.91
+LYH CB  CG CD  125.385 3.00
+LYH CB  CG HG  116.930 1.50
+LYH CD  CG HG  117.685 3.00
+LYH CG  CD CE  113.527 2.88
+LYH CG  CD HD1 108.821 1.50
+LYH CG  CD HD2 108.821 1.50
+LYH CE  CD HD1 109.153 1.95
+LYH CE  CD HD2 109.153 1.95
+LYH HD1 CD HD2 108.057 1.50
+LYH CD  CE NZ  113.391 3.00
+LYH CD  CE HE1 109.163 1.50
+LYH CD  CE HE2 109.163 1.50
+LYH NZ  CE HE1 108.448 3.00
+LYH NZ  CE HE2 108.448 3.00
+LYH HE1 CE HE2 107.705 3.00
+LYH CE  NZ HZ1 109.340 3.00
+LYH CE  NZ HZ2 109.340 3.00
+LYH HZ1 NZ HZ2 108.079 3.00
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+LYH chi1      N  CA CB CG  -60.000 20.0 6
+LYH chi2      CA CB CG CD  180.000 5.0  2
+LYH chi3      CB CG CD CE  180.000 20.0 6
+LYH chi4      CG CD CE NZ  180.000 10.0 3
+LYH sp3_sp3_1 C  CA N  H   180.000 10.0 3
+LYH sp3_sp3_2 CD CE NZ HZ1 180.000 10.0 3
+LYH sp2_sp3_1 O  C  CA N   0.000   20.0 6
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+LYH chir_1 CA N C CB positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+LYH plan-1 C   0.020
+LYH plan-1 CA  0.020
+LYH plan-1 O   0.020
+LYH plan-1 OXT 0.020
+LYH plan-2 CA  0.020
+LYH plan-2 CB  0.020
+LYH plan-2 CG  0.020
+LYH plan-2 HB  0.020
+LYH plan-3 CB  0.020
+LYH plan-3 CD  0.020
+LYH plan-3 CG  0.020
+LYH plan-3 HG  0.020
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+LYH SMILES           ACDLabs              12.01 "O=C(O)C(/C=C/CCN)N"
+LYH SMILES_CANONICAL CACTVS               3.370 "NCC/C=C/[C@H](N)C(O)=O"
+LYH SMILES           CACTVS               3.370 "NCCC=C[CH](N)C(O)=O"
+LYH SMILES_CANONICAL "OpenEye OEToolkits" 1.7.0 "C(CN)/C=C/[C@@H](C(=O)O)N"
+LYH SMILES           "OpenEye OEToolkits" 1.7.0 "C(CN)C=CC(C(=O)O)N"
+LYH InChI            InChI                1.03  "InChI=1S/C6H12N2O2/c7-4-2-1-3-5(8)6(9)10/h1,3,5H,2,4,7-8H2,(H,9,10)/b3-1+/t5-/m0/s1"
+LYH InChIKey         InChI                1.03  BLKNAFAMNSXQRW-JRIXXDKMSA-N
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+LYH acedrg          290       "dictionary generator"
+LYH acedrg_database 12        "data source"
+LYH rdkit           2019.09.1 "Chemoinformatics tool"
+LYH servalcat       0.4.57    'optimization tool'

@@ -1,0 +1,238 @@
+data_comp_list
+loop_
+_chem_comp.id
+_chem_comp.three_letter_code
+_chem_comp.name
+_chem_comp.group
+_chem_comp.number_atoms_all
+_chem_comp.number_atoms_nh
+_chem_comp.desc_level
+TA2 TA2 "(2R,3S)-3-AMINO-3-PHENYLPROPANE-1,2-DIOL" NON-POLYMER 22 13 .
+
+data_comp_TA2
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.type_energy
+_chem_comp_atom.charge
+_chem_comp_atom.x
+_chem_comp_atom.y
+_chem_comp_atom.z
+TA2 OH1 OH1 O OC   -1 -1.850 1.284  1.362
+TA2 COH COH C CH1  0  -1.924 0.016  0.718
+TA2 C   C   C C    0  -3.368 -0.351 0.445
+TA2 O   O   O O    0  -4.125 0.542  -0.007
+TA2 CA  CA  C CH1  0  -1.045 0.003  -0.545
+TA2 N   N   N N32  0  -1.367 1.138  -1.448
+TA2 CG  CG  C CR6  0  0.437  -0.087 -0.197
+TA2 CD2 CD2 C CR16 0  1.082  -1.322 -0.183
+TA2 CE2 CE2 C CR16 0  2.428  -1.418 0.132
+TA2 CZ  CZ  C CR16 0  3.152  -0.290 0.436
+TA2 CE1 CE1 C CR16 0  2.537  0.940  0.428
+TA2 CD1 CD1 C CR16 0  1.191  1.045  0.114
+TA2 OXT OXT O OC   -1 -3.706 -1.533 0.691
+TA2 HOH HOH H H    0  -1.562 -0.634 1.364
+TA2 HA  HA  H H    0  -1.271 -0.820 -1.045
+TA2 H   H   H H    0  -0.774 1.154  -2.144
+TA2 H2  H2  H H    0  -2.190 1.021  -1.830
+TA2 HD2 HD2 H H    0  0.596  -2.104 -0.389
+TA2 HE2 HE2 H H    0  2.849  -2.263 0.137
+TA2 HZ  HZ  H H    0  4.068  -0.359 0.650
+TA2 HE1 HE1 H H    0  3.032  1.716  0.637
+TA2 HD1 HD1 H H    0  0.779  1.895  0.113
+
+loop_
+_chem_comp_acedrg.comp_id
+_chem_comp_acedrg.atom_id
+_chem_comp_acedrg.atom_type
+TA2 OH1 O(CCCH)
+TA2 COH C(CC[6a]HN)(COO)(H)(O)
+TA2 C   C(CCHO)(O)2
+TA2 O   O(CCO)
+TA2 CA  C(C[6a]C[6a]2)(CCHO)(NHH)(H)
+TA2 N   N(CC[6a]CH)(H)2
+TA2 CG  C[6a](C[6a]C[6a]H)2(CCHN){1|C<3>,2|H<1>}
+TA2 CD2 C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,2|H<1>}
+TA2 CE2 C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|C<4>,1|H<1>}
+TA2 CZ  C[6a](C[6a]C[6a]H)2(H){1|C<3>,2|H<1>}
+TA2 CE1 C[6a](C[6a]C[6a]H)2(H){1|C<3>,1|C<4>,1|H<1>}
+TA2 CD1 C[6a](C[6a]C[6a]C)(C[6a]C[6a]H)(H){1|C<3>,2|H<1>}
+TA2 OXT O(CCO)
+TA2 HOH H(CCCO)
+TA2 HA  H(CC[6a]CN)
+TA2 H   H(NCH)
+TA2 H2  H(NCH)
+TA2 HD2 H(C[6a]C[6a]2)
+TA2 HE2 H(C[6a]C[6a]2)
+TA2 HZ  H(C[6a]C[6a]2)
+TA2 HE1 H(C[6a]C[6a]2)
+TA2 HD1 H(C[6a]C[6a]2)
+
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.value_dist_nucleus
+_chem_comp_bond.value_dist_nucleus_esd
+_chem_comp_bond.value_dist
+_chem_comp_bond.value_dist_esd
+TA2 OH1 COH SINGLE n 1.423 0.0115 1.423 0.0115
+TA2 COH C   SINGLE n 1.507 0.0200 1.507 0.0200
+TA2 COH CA  SINGLE n 1.531 0.0146 1.531 0.0146
+TA2 C   O   DOUBLE n 1.253 0.0175 1.253 0.0175
+TA2 CA  N   SINGLE n 1.478 0.0159 1.478 0.0159
+TA2 CA  CG  SINGLE n 1.518 0.0100 1.518 0.0100
+TA2 CG  CD2 DOUBLE y 1.385 0.0186 1.385 0.0186
+TA2 CG  CD1 SINGLE y 1.385 0.0186 1.385 0.0186
+TA2 CD2 CE2 SINGLE y 1.386 0.0131 1.386 0.0131
+TA2 CE2 CZ  DOUBLE y 1.376 0.0151 1.376 0.0151
+TA2 CZ  CE1 SINGLE y 1.376 0.0151 1.376 0.0151
+TA2 CE1 CD1 DOUBLE y 1.386 0.0131 1.386 0.0131
+TA2 C   OXT SINGLE n 1.253 0.0175 1.253 0.0175
+TA2 COH HOH SINGLE n 1.092 0.0100 0.984 0.0200
+TA2 CA  HA  SINGLE n 1.092 0.0100 0.987 0.0200
+TA2 N   H   SINGLE n 1.018 0.0520 0.914 0.0200
+TA2 N   H2  SINGLE n 1.018 0.0520 0.914 0.0200
+TA2 CD2 HD2 SINGLE n 1.085 0.0150 0.944 0.0143
+TA2 CE2 HE2 SINGLE n 1.085 0.0150 0.944 0.0180
+TA2 CZ  HZ  SINGLE n 1.085 0.0150 0.944 0.0170
+TA2 CE1 HE1 SINGLE n 1.085 0.0150 0.944 0.0180
+TA2 CD1 HD1 SINGLE n 1.085 0.0150 0.944 0.0143
+
+loop_
+_chem_comp_angle.comp_id
+_chem_comp_angle.atom_id_1
+_chem_comp_angle.atom_id_2
+_chem_comp_angle.atom_id_3
+_chem_comp_angle.value_angle
+_chem_comp_angle.value_angle_esd
+TA2 OH1 COH C   110.719 3.00
+TA2 OH1 COH CA  110.075 3.00
+TA2 OH1 COH HOH 108.109 3.00
+TA2 C   COH CA  113.197 2.85
+TA2 C   COH HOH 108.474 1.50
+TA2 CA  COH HOH 109.198 1.50
+TA2 COH C   O   117.179 3.00
+TA2 COH C   OXT 117.179 3.00
+TA2 O   C   OXT 125.643 1.50
+TA2 COH CA  N   111.845 3.00
+TA2 COH CA  CG  111.725 3.00
+TA2 COH CA  HA  107.977 1.50
+TA2 N   CA  CG  112.928 3.00
+TA2 N   CA  HA  107.607 1.50
+TA2 CG  CA  HA  107.581 1.69
+TA2 CA  N   H   109.508 3.00
+TA2 CA  N   H2  109.508 3.00
+TA2 H   N   H2  106.694 3.00
+TA2 CA  CG  CD2 120.770 2.58
+TA2 CA  CG  CD1 120.770 2.58
+TA2 CD2 CG  CD1 118.461 1.50
+TA2 CG  CD2 CE2 120.630 1.50
+TA2 CG  CD2 HD2 119.655 1.50
+TA2 CE2 CD2 HD2 119.715 1.50
+TA2 CD2 CE2 CZ  120.196 1.50
+TA2 CD2 CE2 HE2 119.847 1.50
+TA2 CZ  CE2 HE2 119.957 1.50
+TA2 CE2 CZ  CE1 119.888 1.50
+TA2 CE2 CZ  HZ  120.056 1.50
+TA2 CE1 CZ  HZ  120.056 1.50
+TA2 CZ  CE1 CD1 120.196 1.50
+TA2 CZ  CE1 HE1 119.957 1.50
+TA2 CD1 CE1 HE1 119.847 1.50
+TA2 CG  CD1 CE1 120.630 1.50
+TA2 CG  CD1 HD1 119.655 1.50
+TA2 CE1 CD1 HD1 119.715 1.50
+
+loop_
+_chem_comp_tor.comp_id
+_chem_comp_tor.id
+_chem_comp_tor.atom_id_1
+_chem_comp_tor.atom_id_2
+_chem_comp_tor.atom_id_3
+_chem_comp_tor.atom_id_4
+_chem_comp_tor.value_angle
+_chem_comp_tor.value_angle_esd
+_chem_comp_tor.period
+TA2 const_0   CG  CD1 CE1 CZ  0.000   0.0  1
+TA2 sp2_sp3_1 O   C   COH OH1 0.000   20.0 6
+TA2 sp3_sp3_1 N   CA  COH OH1 180.000 10.0 3
+TA2 sp3_sp3_2 COH CA  N   H   180.000 10.0 3
+TA2 sp2_sp3_2 CD2 CG  CA  COH 150.000 20.0 6
+TA2 const_1   CE1 CD1 CG  CA  180.000 0.0  1
+TA2 const_2   CE2 CD2 CG  CA  180.000 0.0  1
+TA2 const_3   CG  CD2 CE2 CZ  0.000   0.0  1
+TA2 const_4   CD2 CE2 CZ  CE1 0.000   0.0  1
+TA2 const_5   CD1 CE1 CZ  CE2 0.000   0.0  1
+
+loop_
+_chem_comp_chir.comp_id
+_chem_comp_chir.id
+_chem_comp_chir.atom_id_centre
+_chem_comp_chir.atom_id_1
+_chem_comp_chir.atom_id_2
+_chem_comp_chir.atom_id_3
+_chem_comp_chir.volume_sign
+TA2 chir_1 COH OH1 C   CA negative
+TA2 chir_2 CA  N   COH CG positive
+
+loop_
+_chem_comp_plane_atom.comp_id
+_chem_comp_plane_atom.plane_id
+_chem_comp_plane_atom.atom_id
+_chem_comp_plane_atom.dist_esd
+TA2 plan-1 CA  0.020
+TA2 plan-1 CD1 0.020
+TA2 plan-1 CD2 0.020
+TA2 plan-1 CE1 0.020
+TA2 plan-1 CE2 0.020
+TA2 plan-1 CG  0.020
+TA2 plan-1 CZ  0.020
+TA2 plan-1 HD1 0.020
+TA2 plan-1 HD2 0.020
+TA2 plan-1 HE1 0.020
+TA2 plan-1 HE2 0.020
+TA2 plan-1 HZ  0.020
+TA2 plan-2 C   0.020
+TA2 plan-2 COH 0.020
+TA2 plan-2 O   0.020
+TA2 plan-2 OXT 0.020
+
+loop_
+_chem_comp_ring_atom.comp_id
+_chem_comp_ring_atom.ring_serial_number
+_chem_comp_ring_atom.atom_id
+_chem_comp_ring_atom.is_aromatic_ring
+TA2 ring-1 CG  YES
+TA2 ring-1 CD2 YES
+TA2 ring-1 CE2 YES
+TA2 ring-1 CZ  YES
+TA2 ring-1 CE1 YES
+TA2 ring-1 CD1 YES
+
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+_pdbx_chem_comp_descriptor.descriptor
+TA2 SMILES           ACDLabs              10.04 "OCC(O)C(N)c1ccccc1"
+TA2 InChI            InChI                1.06  "InChI=1S/C9H11NO3/c10-7(8(11)9(12)13)6-4-2-1-3-5-6/h1-5,7-8,11H,10H2,(H,12,13)/t7-,8+/m0/s1"
+TA2 InChIKey         InChI                1.06  RZARFIRJROUVLM-JGVFFNPUSA-N
+TA2 SMILES_CANONICAL CACTVS               3.385 "N[C@H]([C@@H](O)C(O)=O)c1ccccc1"
+TA2 SMILES           CACTVS               3.385 "N[CH]([CH](O)C(O)=O)c1ccccc1"
+TA2 SMILES_CANONICAL "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)[C@@H]([C@H](C(=O)O)O)N"
+TA2 SMILES           "OpenEye OEToolkits" 2.0.7 "c1ccc(cc1)C(C(C(=O)O)O)N"
+
+loop_
+_acedrg_chem_comp_descriptor.comp_id
+_acedrg_chem_comp_descriptor.program_name
+_acedrg_chem_comp_descriptor.program_version
+_acedrg_chem_comp_descriptor.type
+TA2 acedrg          314       "dictionary generator"
+TA2 acedrg_database 12        "data source"
+TA2 rdkit           2023.03.3 "Chemoinformatics tool"
+TA2 servalcat       0.4.102   'optimization tool'
