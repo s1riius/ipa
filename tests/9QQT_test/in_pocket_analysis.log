@@ -1,0 +1,384 @@
+2026-05-04 15:53:20,265 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:53:20,265 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:53:20,266 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:53:20,266 - __main__.InPocketAnalyzer - INFO - Detected mmCIF format
+2026-05-04 15:53:20,266 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:53:20,266 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:53:20,266 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/9QQT.cif
+2026-05-04 15:53:22,047 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom S1; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,047 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom OS3; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom SG2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom OS1; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom OS2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CD; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CC; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom SK; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CK6; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CK5; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CK4; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CK3; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CK2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CK1; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CK; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom OK; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom N; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CA; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom C; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom OXT; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CB; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom CG2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom O3'; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom O1P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,048 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom O2P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT A608 atom O8P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.270).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A714 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.770).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A721 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.840).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A749 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.360).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A752 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.610).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A787 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.490).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A890 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.520).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A898 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.710).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A958 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.380).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A976 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.620).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A984 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.520).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1025 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.280).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1059 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.540).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1063 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.450).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1107 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.760).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1112 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.510).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1125 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.670).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1143 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.630).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1152 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1194 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.570).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1200 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.670).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1217 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.780).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1243 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.450).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1311 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.520).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1318 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.890).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1319 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.870).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1336 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1364 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.920).
+2026-05-04 15:53:22,049 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH A1370 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.660).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B618 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.500).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B633 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.420).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B655 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.380).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B675 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.620).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B680 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.360).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B682 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.630).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B710 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.580).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B721 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B752 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.570).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B769 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.590).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B870 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.590).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B872 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.780).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B882 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.530).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B940 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.570).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B941 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B942 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B947 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.950).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B948 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.740).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B957 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.540).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B976 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B977 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.320).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B985 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.290).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B988 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.940).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B991 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.640).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1010 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.750).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1015 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.990).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1022 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.860).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1029 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.680).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1031 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.640).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1045 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1046 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.960).
+2026-05-04 15:53:22,050 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1054 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1057 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.460).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1063 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.780).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1084 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.760).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1087 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1103 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.710).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1108 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.440).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1118 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.490).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1133 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.460).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1136 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.580).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1145 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.930).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1151 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.580).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1160 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.850).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH B1164 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.980).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C484 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.370).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C511 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.940).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C532 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.650).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C538 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.730).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C575 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.600).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C590 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.410).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C593 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.910).
+2026-05-04 15:53:22,051 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C602 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.640).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C624 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.920).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C643 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.670).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C658 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.750).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C674 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.920).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C690 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.990).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C707 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.800).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C712 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.900).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH C716 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.580).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom S1; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom OS3; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom SG2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom OS1; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom OS2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CD; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CC; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom SK; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CK6; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CK5; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CK4; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CK3; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CK2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CK1; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CK; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom OK; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom N; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CA; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom C; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,052 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom OXT; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CB; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom CG2; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom O3'; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom O1P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom O2P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for SHT D610 atom O8P; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.200).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D701 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.860).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D738 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.650).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D750 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.570).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D832 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.460).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D933 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.820).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D950 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.440).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D956 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.560).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D958 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.500).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D959 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.570).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D986 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.530).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1017 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.240).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1023 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.480).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1031 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.540).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1034 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.530).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1052 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.850).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1084 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.690).
+2026-05-04 15:53:22,053 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1099 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.400).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1135 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.380).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1155 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.570).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1174 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1177 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.670).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1185 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1187 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.900).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1198 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.590).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1207 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.730).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1235 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.990).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1243 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.520).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1254 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1265 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.980).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1274 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.880).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1295 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.770).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1308 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.800).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1330 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.530).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1332 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.720).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1360 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.730).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1362 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.810).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1372 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.500).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH D1376 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.900).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom CA; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom CB; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,054 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom CG; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom SD; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom CE; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom H; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HA; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HB2; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HB3; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HG2; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HG3; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HE1; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HE2; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for MET E193 atom HE3; available altloc(s): B, C. Falling back to highest occupancy altloc 'C' (occupancy = 0.510).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E602 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.970).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E604 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.870).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E618 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.300).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E619 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.400).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E624 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.470).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E652 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.530).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E670 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.190).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E676 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.450).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E692 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.720).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E702 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.420).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E727 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.300).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E755 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.990).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E768 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.490).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E776 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.670).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E846 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.710).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E858 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.380).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E859 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E860 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.780).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E894 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.520).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E908 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.630).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E915 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.550).
+2026-05-04 15:53:22,055 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E928 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.590).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E932 atom O; available altloc(s): C. Falling back to highest occupancy altloc 'C' (occupancy = 0.430).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E938 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.720).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E944 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.950).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E957 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.780).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E961 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.620).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E965 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.730).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E981 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.560).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E982 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.390).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1031 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.890).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1032 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.730).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1038 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.590).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1040 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.570).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1054 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.990).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1064 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.790).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1076 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.400).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1083 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.950).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1097 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.780).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1102 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1111 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.870).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1160 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.580).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1162 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.830).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1163 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.940).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH E1169 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F443 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.670).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F449 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.550).
+2026-05-04 15:53:22,056 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F620 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.680).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F632 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.720).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F640 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.740).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F646 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.670).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F651 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.930).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F656 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F671 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.600).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F675 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 0.990).
+2026-05-04 15:53:22,057 - __main__.InPocketAnalyzer - WARNING - Requested altloc 'A' not present for HOH F720 atom O; available altloc(s): B. Falling back to highest occupancy altloc 'B' (occupancy = 1.000).
+2026-05-04 15:53:22,092 - __main__.InPocketAnalyzer - INFO - Stripped 18649 input H atoms from structure (use --keep-input-h to disable).
+2026-05-04 15:53:22,175 - __main__.InPocketAnalyzer - INFO - Found active residue: A1I9G
+2026-05-04 15:53:22,175 - __main__.InPocketAnalyzer - INFO - Found 5812 protein residues
+2026-05-04 15:53:22,177 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 1.91 seconds
+2026-05-04 15:53:22,177 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:53:22,178 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/9QQT_test/geometries/F159_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:53:22,254 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:53:22,254 - __main__.InPocketAnalyzer - WARNING - keeping state 2
+2026-05-04 15:53:22,357 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:53:22,358 - __main__.InPocketAnalyzer - WARNING - keeping state 2
+2026-05-04 15:53:22,358 - __main__.InPocketAnalyzer - WARNING - rejected state 3 because: amide_iminol
+2026-05-04 15:53:22,358 - __main__.InPocketAnalyzer - WARNING - rejected state 4 because: amide_iminol
+2026-05-04 15:53:22,358 - __main__.InPocketAnalyzer - WARNING - keeping state 5
+2026-05-04 15:53:22,358 - __main__.InPocketAnalyzer - WARNING - keeping state 6
+2026-05-04 15:53:22,358 - __main__.InPocketAnalyzer - WARNING - rejected state 7 because: amide_iminol
+2026-05-04 15:53:22,358 - __main__.InPocketAnalyzer - WARNING - rejected state 8 because: amide_iminol
+2026-05-04 15:53:22,535 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:53:22,535 - __main__.InPocketAnalyzer - WARNING - rejected state 2 because: amide_iminol
+2026-05-04 15:53:22,535 - __main__.InPocketAnalyzer - WARNING - keeping state 3
+2026-05-04 15:53:22,535 - __main__.InPocketAnalyzer - WARNING - rejected state 4 because: amide_iminol
+2026-05-04 15:53:22,558 - __main__.InPocketAnalyzer - WARNING - There are 6 ligand chemical states generated.
+2026-05-04 15:53:22,558 - __main__.InPocketAnalyzer - INFO - Non-interactive mode: using all ligand states
+2026-05-04 15:53:22,558 - __main__.InPocketAnalyzer - INFO - Generated 6 ligand states
+2026-05-04 15:53:22,558 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.38 seconds
+2026-05-04 15:53:22,558 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:53:22,558 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:53:23,113 - __main__.InPocketAnalyzer - INFO -     PHE D 412 3.16 Å
+2026-05-04 15:53:23,114 - __main__.InPocketAnalyzer - INFO -     ARG D 417 3.04 Å
+2026-05-04 15:53:23,145 - __main__.InPocketAnalyzer - INFO -     F43 D 603 3.49 Å
+2026-05-04 15:53:23,251 - __main__.InPocketAnalyzer - INFO -     ASP F 90 3.22 Å
+2026-05-04 15:53:23,251 - __main__.InPocketAnalyzer - INFO -     SER F 91 3.59 Å
+2026-05-04 15:53:23,251 - __main__.InPocketAnalyzer - INFO -     MET F 92 2.86 Å
+2026-05-04 15:53:23,257 - __main__.InPocketAnalyzer - INFO -     SER F 119 3.32 Å
+2026-05-04 15:53:23,257 - __main__.InPocketAnalyzer - INFO -     GLY F 120 3.33 Å
+2026-05-04 15:53:23,264 - __main__.InPocketAnalyzer - INFO - Skipping GLY F 158 1.33 Å (peptide bond)
+2026-05-04 15:53:23,265 - __main__.InPocketAnalyzer - INFO - Skipping SER F 160 1.32 Å (peptide bond)
+2026-05-04 15:53:23,265 - __main__.InPocketAnalyzer - INFO -     LEU F 161 3.18 Å
+2026-05-04 15:53:23,266 - __main__.InPocketAnalyzer - INFO -     MET F 169 3.42 Å
+2026-05-04 15:53:23,295 - __main__.InPocketAnalyzer - INFO - Found 10 neighbor residues
+2026-05-04 15:53:23,297 - __main__.InPocketAnalyzer - INFO - Added caps to 9 neighbour residues
+2026-05-04 15:53:23,297 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.74 seconds
+2026-05-04 15:53:23,297 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 4.50 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 11.14 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO - Ligand state 2 results:
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 5.02 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 8.79 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO - Ligand state 3 results:
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 9.13 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 50.71 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO - Ligand state 4 results:
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 11.66 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 54.08 kcal/mol
+2026-05-04 15:53:29,134 - __main__.InPocketAnalyzer - INFO - Ligand state 5 results:
+2026-05-04 15:53:29,135 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 5.57 kcal/mol
+2026-05-04 15:53:29,135 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 11.23 kcal/mol
+2026-05-04 15:53:29,135 - __main__.InPocketAnalyzer - INFO - Ligand state 6 results:
+2026-05-04 15:53:29,135 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 14.40 kcal/mol
+2026-05-04 15:53:29,135 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 52.06 kcal/mol
+2026-05-04 15:53:29,135 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 5.84 seconds
+2026-05-04 15:53:29,468 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.33 seconds
+2026-05-04 15:53:29,468 - __main__.BindingCalculator - INFO - Calculating energies for 13 residues
+2026-05-04 15:53:48,192 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:57:53,334 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:57:55,752 - __main__.BindingCalculator - INFO - CapCorr summary: done = 9 skipped = 1 total_unique_base = 10
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO - Binding energy calculation completed in 266.28 seconds
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO - 
+============================================================
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO - INTERACTION ENERGY SUMMARY
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO - Ligand State 1:
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]C(=O)N([H])[C@]([H])(C=O)[C@]([H])(c1ncn([H])c1[H])C
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -31.716 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -     1. MET_F92_1: -7.331 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -     2. MET_F169_1: -5.590 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -     3. SER_F91_1: -4.310 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO - Ligand State 2:
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]C(=O)N([H])[C@]([H])(C=O)[C@]([H])(c1cncn1[H])C
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -44.624 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -     1. ARG_D417_1: -7.734 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -     2. MET_F169_1: -5.720 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -     3. F43_D603_1: -4.835 kcal/mol
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO - Ligand State 3:
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]OC=C(N([H])C=O)[C@]([H])(c1cncn1[H])C
+2026-05-04 15:57:55,753 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -95.335 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     1. ARG_D417_1: -12.873 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     2. MET_F169_1: -9.583 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     3. F43_D603_1: -8.821 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO - Ligand State 4:
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]OC=C(N([H])C=O)[C@]([H])(c1ncn([H])c1[H])C
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -79.419 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     1. MET_F169_1: -9.268 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     2. LEU_F161_1: -9.124 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     3. MET_F92_1: -7.308 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO - Ligand State 5:
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]C(=O)N([H])[C@]([H])(C=O)[C@]([H])(c1nc[n-]c1[H])C
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Charge: -1
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -42.871 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     1. ARG_D417_1: -8.217 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     2. SER_F91_1: -5.095 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     3. SER_F119_1f: -4.844 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO - Ligand State 6:
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]OC=C(N([H])C=O)[C@]([H])(c1nc[n-]c1[H])C
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Charge: -1
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -86.145 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     1. ARG_D417_1: -12.763 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     2. LEU_F161_1: -8.770 kcal/mol
+2026-05-04 15:57:55,754 - __main__.InPocketAnalyzer - INFO -     3. SER_F119_1f: -8.705 kcal/mol
+2026-05-04 15:57:55,763 - __main__.InPocketAnalyzer - INFO - Writing results
+2026-05-04 15:57:55,764 - __main__.InPocketAnalyzer - INFO - Results written to tests/9QQT_test
+2026-05-04 15:57:55,764 - __main__.InPocketAnalyzer - INFO - Results writing completed in 0.00 seconds
+2026-05-04 15:57:55,800 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:57:55,801 - __main__.InPocketAnalyzer - INFO - Analysis completed successfully in 275.53 seconds

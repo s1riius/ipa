@@ -1,0 +1,14 @@
+[H]C(=O)[C@]1([H])N([H])C(=O)CC1([H])[H]:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+ASN;A;20;0;ASN20;False;2.320831;-0.788860
+ASN;A;21;0;ASN21;False;-2.906362;-2.402564
+ASN;A;20;0;ASN20;True;0.856393;-0.788860
+ASN;A;21;0;ASN21;True;-3.027371;-0.788860
+
+[H]OC=C1N([H])C(=O)CC1([H])[H]:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+ASN;A;20;0;ASN20;False;-1.003044;-0.811927
+ASN;A;21;0;ASN21;False;-6.589366;-2.485000
+ASN;A;20;0;ASN20;True;-2.604706;-0.811927
+ASN;A;21;0;ASN21;True;-7.139881;-0.811927
+

@@ -1,0 +1,14 @@
+path-to-geometries: tests/9DD1_test/geometries/ip/
+extension: .xyz
+ligand: A23_noH_prot_2_tautomer_2_ip 1
+r:ASN;A;19;0;ASN_A19_ip
+r:GLU;A;20;0;GLU_A20_ip
+r:GLU;A;20;-1;GLU_A20_prot_2_ip
+r:GLU;A;21;0;GLU_A21_ip
+r:GLU;A;21;-1;GLU_A21_prot_2_ip
+r:LEU;A;25;0;LEU_A25_ip
+r:ALA;A;26;0;ALA_A26_ip
+r:GLU;A;27;0;GLU_A27_ip
+r:GLU;A;27;-1;GLU_A27_prot_2_ip
+r:LEU;A;65;0;LEU_A65_ip
+r:ASN;A;19;0;ASN_A19f_ip

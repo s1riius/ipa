@@ -1,0 +1,16 @@
+path-to-geometries: tests/6HN3_test/geometries/ip/
+extension: .xyz
+ligand: A81_noH_tautomer_2_ip 0
+r:ALA;A;43;0;ALA_A43_ip
+r:SER;A;44;0;SER_A44_ip
+r:SER;A;44;0;SER_A44_flip_ip
+r:GLN;A;45;0;GLN_A45_ip
+r:SEC;A;46;0;SEC_A46_ip
+r:ASN;A;76;0;ASN_A76_ip
+r:PHE;A;78;0;PHE_A78_ip
+r:GLY;A;79;0;GLY_A79_ip
+r:PRO;A;83;0;PRO_A83_ip
+r:ASN;A;137;0;ASN_A137_ip
+r:GLN;A;45;0;GLN_A45f_ip
+r:ASN;A;76;0;ASN_A76f_ip
+r:ASN;A;137;0;ASN_A137f_ip

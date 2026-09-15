@@ -1,0 +1,54 @@
+2026-05-04 15:57:57,684 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:57:57,685 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:57:57,685 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:57:57,685 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:57:57,685 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:57:57,685 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/7NRE.pdb
+2026-05-04 15:57:57,709 - __main__.InPocketAnalyzer - INFO - Found active residue: UX8
+2026-05-04 15:57:57,709 - __main__.InPocketAnalyzer - INFO - Found 582 protein residues
+2026-05-04 15:57:57,710 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.02 seconds
+2026-05-04 15:57:57,710 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:57:57,711 - __main__.InPocketAnalyzer - INFO - Added 8 missing X-H bond(s) to native/original SDF template: C3.sdf
+2026-05-04 15:57:57,733 - __main__.InPocketAnalyzer - INFO - Generated 1 ligand states
+2026-05-04 15:57:57,733 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.02 seconds
+2026-05-04 15:57:57,733 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:57:57,733 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:57:57,735 - __main__.InPocketAnalyzer - INFO -     PHE A 426 3.44 Å
+2026-05-04 15:57:57,735 - __main__.InPocketAnalyzer - INFO -     ASN A 427 2.53 Å
+2026-05-04 15:57:57,736 - __main__.InPocketAnalyzer - INFO -     PHE A 428 2.20 Å
+2026-05-04 15:57:57,872 - __main__.InPocketAnalyzer - WARNING - Skipping TRP C 1 1.38 Å (within covalent range)
+2026-05-04 15:57:57,872 - __main__.InPocketAnalyzer - INFO - Skipping ASN C 2 1.40 Å (peptide bond)
+2026-05-04 15:57:57,872 - __main__.InPocketAnalyzer - INFO - Skipping SER C 4 1.42 Å (peptide bond)
+2026-05-04 15:57:57,873 - __main__.InPocketAnalyzer - WARNING - Skipping LYS C 5 1.41 Å (within covalent range)
+2026-05-04 15:57:57,877 - __main__.InPocketAnalyzer - INFO - Found 3 neighbor residues
+2026-05-04 15:57:57,877 - __main__.InPocketAnalyzer - INFO - Added caps to 3 neighbour residues
+2026-05-04 15:57:57,877 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.14 seconds
+2026-05-04 15:57:57,877 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:58:00,553 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:58:00,554 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 5.64 kcal/mol
+2026-05-04 15:58:00,554 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 27.64 kcal/mol
+2026-05-04 15:58:00,554 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 2.68 seconds
+2026-05-04 15:58:00,622 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.07 seconds
+2026-05-04 15:58:00,622 - __main__.BindingCalculator - INFO - Calculating energies for 3 residues
+2026-05-04 15:58:01,887 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:58:04,160 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:58:04,398 - __main__.BindingCalculator - INFO - CapCorr summary: done = 3 skipped = 0 total_unique_base = 3
+2026-05-04 15:58:04,398 - __main__.InPocketAnalyzer - INFO - Binding energy calculation completed in 3.78 seconds
+2026-05-04 15:58:04,398 - __main__.InPocketAnalyzer - INFO - 
+============================================================
+2026-05-04 15:58:04,398 - __main__.InPocketAnalyzer - INFO - INTERACTION ENERGY SUMMARY
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO - Ligand State 1:
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO -   Charge: 0
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -17.405 kcal/mol
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO -     1. PHE_A428_1: -8.575 kcal/mol
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO -     2. ASN_A427_1: -4.803 kcal/mol
+2026-05-04 15:58:04,399 - __main__.InPocketAnalyzer - INFO -     3. PHE_A426_1: -4.027 kcal/mol
+2026-05-04 15:58:04,400 - __main__.InPocketAnalyzer - INFO - ligand_states_ip for C3H: using fallback SDF template C3.sdf.
+2026-05-04 15:58:04,405 - __main__.InPocketAnalyzer - INFO - Augmented native/original SDF template C3.sdf with 4 additional H atom(s) from C3H_ip.xyz and 4 inferred bond(s).
+2026-05-04 15:58:04,405 - __main__.InPocketAnalyzer - INFO - Writing results
+2026-05-04 15:58:04,406 - __main__.InPocketAnalyzer - INFO - Results written to tests/7NRE_test
+2026-05-04 15:58:04,406 - __main__.InPocketAnalyzer - INFO - Results writing completed in 0.00 seconds
+2026-05-04 15:58:04,409 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:58:04,409 - __main__.InPocketAnalyzer - INFO - Analysis completed successfully in 6.72 seconds

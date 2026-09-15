@@ -1,0 +1,6 @@
+path-to-geometries: tests/7NRE_test/geometries/ip/
+extension: .xyz
+ligand: C3H_ip 0
+r:PHE;A;426;0;PHE_A426H_ip
+r:ASN;A;427;0;ASN_A427H_ip
+r:PHE;A;428;0;PHE_A428H_ip

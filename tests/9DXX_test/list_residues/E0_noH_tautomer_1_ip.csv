@@ -1,0 +1,7 @@
+path-to-geometries: tests/9DXX_test/geometries/ip/
+extension: .xyz
+ligand: E0_noH_tautomer_1_ip 0
+r:ASN;A;20;0;ASN_A20_ip
+r:ASN;A;21;0;ASN_A21_ip
+r:ASN;A;20;0;ASN_A20f_ip
+r:ASN;A;21;0;ASN_A21f_ip

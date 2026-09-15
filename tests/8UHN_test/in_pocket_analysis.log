@@ -1,0 +1,104 @@
+2026-05-04 15:50:59,105 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:50:59,106 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:50:59,106 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:50:59,106 - __main__.InPocketAnalyzer - INFO - Detected mmCIF format
+2026-05-04 15:50:59,106 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:50:59,106 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:50:59,106 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/8UHN.cif
+2026-05-04 15:50:59,779 - __main__.InPocketAnalyzer - INFO - Stripped 6439 input H atoms from structure (use --keep-input-h to disable).
+2026-05-04 15:50:59,799 - __main__.InPocketAnalyzer - INFO - Found active residue: NEP
+2026-05-04 15:50:59,799 - __main__.InPocketAnalyzer - INFO - Found 1196 protein residues
+2026-05-04 15:50:59,800 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.69 seconds
+2026-05-04 15:50:59,800 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:50:59,802 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/8UHN_test/geometries/D5_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:50:59,910 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:50:59,910 - __main__.InPocketAnalyzer - WARNING - keeping state 2
+2026-05-04 15:50:59,983 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:50:59,983 - __main__.InPocketAnalyzer - WARNING - rejected state 2 because: amide_iminol
+2026-05-04 15:50:59,983 - __main__.InPocketAnalyzer - WARNING - keeping state 3
+2026-05-04 15:50:59,984 - __main__.InPocketAnalyzer - WARNING - rejected state 4 because: amide_iminol
+2026-05-04 15:51:00,075 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:51:00,076 - __main__.InPocketAnalyzer - WARNING - rejected state 2 because: amide_iminol
+2026-05-04 15:51:00,076 - __main__.InPocketAnalyzer - WARNING - keeping state 3
+2026-05-04 15:51:00,076 - __main__.InPocketAnalyzer - WARNING - rejected state 4 because: amide_iminol
+2026-05-04 15:51:00,112 - __main__.InPocketAnalyzer - WARNING - There are 4 ligand chemical states generated.
+2026-05-04 15:51:00,112 - __main__.InPocketAnalyzer - INFO - Non-interactive mode: using all ligand states
+2026-05-04 15:51:00,112 - __main__.InPocketAnalyzer - INFO - Generated 4 ligand states
+2026-05-04 15:51:00,112 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.31 seconds
+2026-05-04 15:51:00,114 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:51:00,114 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:51:00,198 - __main__.InPocketAnalyzer - INFO -     LYS H 94 2.74 Å
+2026-05-04 15:51:00,198 - __main__.InPocketAnalyzer - INFO -     GLY H 96 3.04 Å
+2026-05-04 15:51:00,199 - __main__.InPocketAnalyzer - INFO -     THR H 97 2.81 Å
+2026-05-04 15:51:00,199 - __main__.InPocketAnalyzer - INFO -     GLY H 98 2.74 Å
+2026-05-04 15:51:00,199 - __main__.InPocketAnalyzer - INFO -     SER H 99 2.77 Å
+2026-05-04 15:51:00,265 - __main__.InPocketAnalyzer - INFO -     TRP L 28 2.74 Å
+2026-05-04 15:51:00,266 - __main__.InPocketAnalyzer - INFO -     ARG L 29 3.04 Å
+2026-05-04 15:51:00,266 - __main__.InPocketAnalyzer - INFO -     PHE L 32 3.25 Å
+2026-05-04 15:51:00,348 - __main__.InPocketAnalyzer - INFO -     TYR L 96 2.57 Å
+2026-05-04 15:51:00,540 - __main__.InPocketAnalyzer - INFO - Skipping GLY D 4 1.33 Å (peptide bond)
+2026-05-04 15:51:00,541 - __main__.InPocketAnalyzer - INFO - Skipping ALA D 6 1.33 Å (peptide bond)
+2026-05-04 15:51:00,541 - __main__.InPocketAnalyzer - INFO - Found 9 neighbor residues
+2026-05-04 15:51:00,541 - __main__.InPocketAnalyzer - INFO - Added caps to 9 neighbour residues
+2026-05-04 15:51:00,541 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.43 seconds
+2026-05-04 15:51:00,541 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 4.23 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 58.66 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO - Ligand state 2 results:
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 17.18 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 88.76 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO - Ligand state 3 results:
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 3.40 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 42.93 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO - Ligand state 4 results:
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 16.23 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 73.95 kcal/mol
+2026-05-04 15:51:07,616 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 7.07 seconds
+2026-05-04 15:51:08,124 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.51 seconds
+2026-05-04 15:51:08,125 - __main__.BindingCalculator - INFO - Calculating energies for 14 residues
+2026-05-04 15:51:10,409 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:51:42,198 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:51:44,238 - __main__.BindingCalculator - INFO - CapCorr summary: done = 9 skipped = 0 total_unique_base = 9
+2026-05-04 15:51:44,239 - __main__.InPocketAnalyzer - INFO - Binding energy calculation completed in 36.11 seconds
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO - 
+============================================================
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO - INTERACTION ENERGY SUMMARY
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO - Ligand State 1:
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]O[P@@](=O)([O-])n1cnc(C[C@@]([H])(C=O)N([H])C=O)c1[H]
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -   Charge: -1
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -54.653 kcal/mol
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -     1. THR_H97_1f: -8.694 kcal/mol
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -     2. LYS_H94_2: -7.022 kcal/mol
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -     3. TYR_L96_1: -6.910 kcal/mol
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO - Ligand State 2:
+2026-05-04 15:51:44,240 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]OC=C(N([H])C=O)Cc1ncn([P@](=O)([O-])O[H])c1[H]
+2026-05-04 15:51:44,241 - __main__.InPocketAnalyzer - INFO -   Charge: -1
+2026-05-04 15:51:44,241 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -133.495 kcal/mol
+2026-05-04 15:51:44,241 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:51:44,241 - __main__.InPocketAnalyzer - INFO -     1. THR_H97_1f: -13.871 kcal/mol
+2026-05-04 15:51:44,241 - __main__.InPocketAnalyzer - INFO -     2. LYS_H94_2: -12.321 kcal/mol
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO -     3. TYR_L96_1: -12.153 kcal/mol
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO - Ligand State 3:
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]C(=O)N([H])[C@]([H])(C=O)Cc1ncn(P(=O)([O-])[O-])c1[H]
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO -   Charge: -2
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -94.259 kcal/mol
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO -     1. THR_H97_1f: -12.529 kcal/mol
+2026-05-04 15:51:44,242 - __main__.InPocketAnalyzer - INFO -     2. LYS_H94_2: -11.236 kcal/mol
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -     3. SER_H99_1f: -9.934 kcal/mol
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO - Ligand State 4:
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]OC=C(N([H])C=O)Cc1ncn(P(=O)([O-])[O-])c1[H]
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -   Charge: -2
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -169.584 kcal/mol
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -     1. THR_H97_1f: -18.023 kcal/mol
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -     2. LYS_H94_2: -16.478 kcal/mol
+2026-05-04 15:51:44,243 - __main__.InPocketAnalyzer - INFO -     3. SER_H99_1f: -15.448 kcal/mol
+2026-05-04 15:51:44,249 - __main__.InPocketAnalyzer - INFO - Writing results
+2026-05-04 15:51:44,250 - __main__.InPocketAnalyzer - INFO - Results written to tests/8UHN_test
+2026-05-04 15:51:44,250 - __main__.InPocketAnalyzer - INFO - Results writing completed in 0.00 seconds
+2026-05-04 15:51:44,271 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:51:44,271 - __main__.InPocketAnalyzer - INFO - Analysis completed successfully in 45.17 seconds

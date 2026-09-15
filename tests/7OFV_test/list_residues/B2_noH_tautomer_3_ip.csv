@@ -1,0 +1,9 @@
+path-to-geometries: tests/7OFV_test/geometries/ip/
+extension: .xyz
+ligand: B2_noH_tautomer_3_ip 0
+r:GLN;A;71;0;GLN_A71_ip
+r:THR;A;104;0;THR_A104_ip
+r:THR;A;104;0;THR_A104_flip_ip
+r:CYS;A;191;0;CYS_A191_ip
+r:ILE;A;192;0;ILE_A192_ip
+r:GLN;A;71;0;GLN_A71f_ip

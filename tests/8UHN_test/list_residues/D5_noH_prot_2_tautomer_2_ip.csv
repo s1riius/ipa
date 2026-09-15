@@ -1,0 +1,17 @@
+path-to-geometries: tests/8UHN_test/geometries/ip/
+extension: .xyz
+ligand: D5_noH_prot_2_tautomer_2_ip -2
+r:LYS;H;94;0;LYS_H94_ip
+r:LYS;H;94;+1;LYS_H94_prot_2_ip
+r:GLY;H;96;0;GLY_H96_ip
+r:THR;H;97;0;THR_H97_ip
+r:THR;H;97;0;THR_H97_flip_ip
+r:GLY;H;98;0;GLY_H98_ip
+r:SER;H;99;0;SER_H99_ip
+r:SER;H;99;0;SER_H99_flip_ip
+r:TRP;L;28;0;TRP_L28_ip
+r:ARG;L;29;+1;ARG_L29_prot_1_ip
+r:PHE;L;32;0;PHE_L32_ip
+r:TYR;L;96;0;TYR_L96_ip
+r:TYR;L;96;-1;TYR_L96_prot_2_ip
+r:TYR;L;96;0;TYR_L96_flip_ip

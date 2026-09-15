@@ -1,0 +1,16 @@
+path-to-geometries: tests/7CNA_test/geometries/ip/
+extension: .xyz
+ligand: F4_noH_tautomer_1_ip 1
+r:TRP;D;151;0;TRP_D151_ip
+r:TYR;D;170;0;TYR_D170_ip
+r:TYR;D;170;-1;TYR_D170_prot_2_ip
+r:TYR;D;170;0;TYR_D170_flip_ip
+r:ASP;D;173;0;ASP_D173_ip
+r:ASP;D;173;-1;ASP_D173_prot_2_ip
+r:TYR;D;179;0;TYR_D179_ip
+r:TYR;D;179;-1;TYR_D179_prot_2_ip
+r:TYR;D;179;0;TYR_D179_flip_ip
+r:ARG;F;2;+1;ARG_F2_prot_1_ip
+r:THR;F;6;0;THR_F6_ip
+r:THR;F;6;0;THR_F6_flip_ip
+r:ALA;F;7;0;ALA_F7_ip

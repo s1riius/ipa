@@ -1,0 +1,6 @@
+Ligand state 1/1: 
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+PHE;A;426;0;PHE426;False;-4.026944;-0.780797
+ASN;A;427;0;ASN427;False;-4.803135;-1.705407
+PHE;A;428;0;PHE428;False;-8.575183;-2.071716
+

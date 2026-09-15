@@ -1,0 +1,16 @@
+path-to-geometries: tests/9QQT_test/geometries/ip/
+extension: .xyz
+ligand: F159_noH_prot_2_tautomer_1_ip -1
+r:PHE;D;412;0;PHE_D412_ip
+r:ARG;D;417;+1;ARG_D417_prot_1_ip
+r:F43;D;603;0;F43_D603_H_ip
+r:ASP;F;90;0;ASP_F90_ip
+r:ASP;F;90;-1;ASP_F90_prot_2_ip
+r:SER;F;91;0;SER_F91_ip
+r:SER;F;91;0;SER_F91_flip_ip
+r:MET;F;92;0;MET_F92_ip
+r:SER;F;119;0;SER_F119_ip
+r:SER;F;119;0;SER_F119_flip_ip
+r:GLY;F;120;0;GLY_F120_ip
+r:LEU;F;161;0;LEU_F161_ip
+r:MET;F;169;0;MET_F169_ip

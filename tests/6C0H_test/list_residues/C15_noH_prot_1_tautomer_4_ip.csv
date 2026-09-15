@@ -1,0 +1,15 @@
+path-to-geometries: tests/6C0H_test/geometries/ip/
+extension: .xyz
+ligand: C15_noH_prot_1_tautomer_4_ip -1
+r:LYS;A;66;0;LYS_A66_ip
+r:LYS;A;66;+1;LYS_A66_prot_2_ip
+r:VAL;B;13;0;VAL_B13_ip
+r:ILE;B;16;0;ILE_B16_ip
+r:ARG;B;17;+1;ARG_B17_prot_1_ip
+r:GLN;B;20;0;GLN_B20_ip
+r:DAL;C;4;0;DAL_C4_ip
+r:DAL;C;4;+1;DAL_C4_prot_2_ip
+r:ALA;C;6;0;ALA_C6_ip
+r:PHE;C;7;0;PHE_C7_ip
+r:VAL;C;13;0;VAL_C13_ip
+r:GLN;B;20;0;GLN_B20f_ip
