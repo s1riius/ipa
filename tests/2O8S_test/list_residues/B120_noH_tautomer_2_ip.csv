@@ -1,0 +1,16 @@
+path-to-geometries: tests/2O8S_test/geometries/ip/
+extension: .xyz
+ligand: B120_noH_tautomer_2_ip 0
+r:HIS;B;28;0;HIS_B28_ip
+r:HIS;B;28;-1;HIS_B28_prot_2_ip
+r:HIS;B;28;0;HIS_B28_prot_3_ip
+r:HIS;B;28;+1;HIS_B28_prot_4_ip
+r:LEU;B;117;0;LEU_B117_ip
+r:GLU;B;118;0;GLU_B118_ip
+r:GLU;B;118;-1;GLU_B118_prot_2_ip
+r:TYR;B;122;0;TYR_B122_ip
+r:TYR;B;122;-1;TYR_B122_prot_2_ip
+r:TYR;B;122;0;TYR_B122_flip_ip
+r:ALA;B;123;0;ALA_B123_ip
+r:HIS;B;28;0;HIS_B28f_ip
+r:HIS;B;28;-1;HIS_B28f_prot_2_ip

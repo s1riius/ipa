@@ -1,0 +1,10 @@
+path-to-geometries: tests/2r10/geometries/ip/
+extension: .xyz
+ligand: A789_noH_ip 0
+r:ILE;A;55;0;ILE_A55_ip
+r:PRO;A;56;0;PRO_A56_ip
+r:LYS;A;57;0;LYS_A57_ip
+r:LYS;A;57;+1;LYS_A57_prot_2_ip
+r:ARG;A;60;+1;ARG_A60_prot_1_ip
+r:PHE;A;61;0;PHE_A61_ip
+r:PHE;A;64;0;PHE_A64_ip

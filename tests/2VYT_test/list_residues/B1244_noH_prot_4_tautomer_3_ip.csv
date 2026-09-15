@@ -1,0 +1,6 @@
+path-to-geometries: tests/2VYT_test/geometries/ip/
+extension: .xyz
+ligand: B1244_noH_prot_4_tautomer_3_ip -1
+r:ASP;B;182;0;ASP_B182_ip
+r:ASP;B;182;-1;ASP_B182_prot_2_ip
+r:TRP;B;209;0;TRP_B209_ip

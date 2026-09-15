@@ -1,0 +1,20 @@
+Energy: -22.64017782 Eh
+RMSD with starting structure: 9.111375261e-08 Angstrom
+Optimisation Converged? True
+Atomic properties: charge    polarisability
+    6   0.070682   6.349
+    8   -0.5143   6.5024
+    6   0.069283   6.3545
+    8   -0.52669   6.5404
+    1   0.057086   2.3371
+    1   0.039624   2.4498
+    1   0.36132   1.178
+    1   0.033539   2.4909
+    1   0.035524   2.4774
+    1   0.37393   1.1492
+    6   0.179   8.0427
+    8   -0.33629   6.0629
+    1   0.078772   2.2072
+    1   0.078517   2.2086
+Total Charge: -3.0000000000446336e-06
+Total Polarisability: 56.35 a0^3

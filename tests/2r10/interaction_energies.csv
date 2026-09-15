@@ -1,0 +1,10 @@
+OCCO:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+ILE;A;55;0;ILE55;False;-0.125810;-0.670568
+PRO;A;56;0;PRO56;False;-0.190726;-0.772457
+LYS;A;57;0;LYS57;False;-2.418109;0.414189
+LYS;A;57;+1;LYS57;False;-2.470914;0.414189
+ARG;A;60;+1;ARG60;False;0.168178;-0.635108
+PHE;A;61;0;PHE61;False;-1.528426;-0.742983
+PHE;A;64;0;PHE64;False;-1.133208;-0.760735
+

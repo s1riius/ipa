@@ -1,0 +1,1 @@
+[2026-05-04 15:59:59] ConstrainedEmbed failed. Used ETKDG fallback for state 1. RMSD_to_template(heavy)=0.990 Å -> moderate. SMILES = C[Se]CC[C@@H](C=O)NC=O | error = AttributeError("'NoneType' object has no attribute 'AddExtraPoint'")

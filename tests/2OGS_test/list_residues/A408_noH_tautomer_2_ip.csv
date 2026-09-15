@@ -1,0 +1,10 @@
+path-to-geometries: tests/2OGS_test/geometries/ip/
+extension: .xyz
+ligand: A408_noH_tautomer_2_ip 0
+r:GLY;A;108;0;GLY_A108_ip
+r:ALA;A;109;0;ALA_A109_ip
+r:SER;A;194;0;SER_A194_ip
+r:SER;A;194;0;SER_A194_flip_ip
+r:ALA;A;195;0;ALA_A195_ip
+r:LYS;A;406;0;LYS_A406_ip
+r:LYS;A;406;+1;LYS_A406_prot_2_ip

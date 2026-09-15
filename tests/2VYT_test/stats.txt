@@ -1,0 +1,144 @@
+[H]N(C)CCCC[C@@]([H])(C(=O)[O-])[N+]([H])([H])[H]:
+    Deformation Energy:          4.53 kcal/mol
+    Distortion:                  11.04 kcal/mol
+    Energy Chemical State:       14.86 kcal/mol
+    IPA Interaction Energy:      -4.95 kcal/mol
+    IPA Binding Energy:          14.44 kcal/mol
+    IPA Model Score:             1.31
+    IPA Binding Score:           3.19
+    Chemical State Total Energy: -37.1331424 Hartree
+    RMSD IPA:                    0.28 Å
+    RMSD full-relax:             0.55 Å
+
+[H]OC([O-])=C(CCCCN([H])C)[N+]([H])([H])[H]:
+    Deformation Energy:          24.00 kcal/mol
+    Distortion:                  18.66 kcal/mol
+    Energy Chemical State:       55.99 kcal/mol
+    IPA Interaction Energy:      -11.11 kcal/mol
+    IPA Binding Energy:          68.89 kcal/mol
+    IPA Model Score:             3.69
+    IPA Binding Score:           2.87
+    Chemical State Total Energy: -37.0676039 Hartree
+    RMSD IPA:                    0.24 Å
+    RMSD full-relax:             0.62 Å
+
+[H]C(CC[N+]([H])([H])C)C[C@@]([H])(C(=O)[O-])[N+]([H])([H])[H]:
+    Deformation Energy:          4.72 kcal/mol
+    Distortion:                  10.23 kcal/mol
+    Energy Chemical State:       0.00 kcal/mol
+    IPA Interaction Energy:      -17.94 kcal/mol
+    IPA Binding Energy:          -13.23 kcal/mol
+    IPA Model Score:             -1.29
+    IPA Binding Score:           -2.80
+    Chemical State Total Energy: -37.3220139 Hartree
+    RMSD IPA:                    0.27 Å
+    RMSD full-relax:             0.56 Å
+
+[H]OC([O-])=C(CCCC[N+]([H])([H])C)[N+]([H])([H])[H]:
+    Deformation Energy:          23.95 kcal/mol
+    Distortion:                  17.62 kcal/mol
+    Energy Chemical State:       40.28 kcal/mol
+    IPA Interaction Energy:      -23.71 kcal/mol
+    IPA Binding Energy:          40.53 kcal/mol
+    IPA Model Score:             2.30
+    IPA Binding Score:           1.69
+    Chemical State Total Energy: -37.2578209 Hartree
+    RMSD IPA:                    0.22 Å
+    RMSD full-relax:             0.60 Å
+
+[H]N([H])[C@]([H])(C(=O)[O-])CCCC[N+]([H])([H])C:
+    Deformation Energy:          5.37 kcal/mol
+    Distortion:                  13.96 kcal/mol
+    Energy Chemical State:       17.99 kcal/mol
+    IPA Interaction Energy:      -16.44 kcal/mol
+    IPA Binding Energy:          6.91 kcal/mol
+    IPA Model Score:             0.50
+    IPA Binding Score:           1.29
+    Chemical State Total Energy: -37.1281648 Hartree
+    RMSD IPA:                    0.43 Å
+    RMSD full-relax:             0.64 Å
+
+[H]OC([O-])=C(N([H])[H])CCCC[N+]([H])([H])C:
+    Deformation Energy:          27.35 kcal/mol
+    Distortion:                  35.64 kcal/mol
+    Energy Chemical State:       68.90 kcal/mol
+    IPA Interaction Energy:      -24.10 kcal/mol
+    IPA Binding Energy:          72.15 kcal/mol
+    IPA Model Score:             2.02
+    IPA Binding Score:           2.64
+    Chemical State Total Energy: -37.0470264 Hartree
+    RMSD IPA:                    0.24 Å
+    RMSD full-relax:             0.59 Å
+
+[H]OC([O-])C(=CCCC[N+]([H])([H])C)N([H])[H]:
+    Deformation Energy:          12.15 kcal/mol
+    Distortion:                  138.13 kcal/mol
+    Energy Chemical State:       71.16 kcal/mol
+    IPA Interaction Energy:      -33.79 kcal/mol
+    IPA Binding Energy:          49.51 kcal/mol
+    IPA Model Score:             0.36
+    IPA Binding Score:           4.08
+    Chemical State Total Energy: -37.0434217 Hartree
+    RMSD IPA:                    0.40 Å
+    RMSD full-relax:             0.81 Å
+
+[H]N=C(C([O-])O[H])CCCC[N+]([H])([H])C:
+    Deformation Energy:          15.35 kcal/mol
+    Distortion:                  115.16 kcal/mol
+    Energy Chemical State:       62.13 kcal/mol
+    IPA Interaction Energy:      -26.11 kcal/mol
+    IPA Binding Energy:          51.36 kcal/mol
+    IPA Model Score:             0.45
+    IPA Binding Score:           3.35
+    Chemical State Total Energy: -37.0578204 Hartree
+    RMSD IPA:                    0.43 Å
+    RMSD full-relax:             0.83 Å
+
+[H]N(C)CCCC[C@@]([H])(C(=O)[O-])N([H])[H]:
+    Deformation Energy:          3.45 kcal/mol
+    Distortion:                  14.10 kcal/mol
+    Energy Chemical State:       32.33 kcal/mol
+    IPA Interaction Energy:      -3.10 kcal/mol
+    IPA Binding Energy:          32.67 kcal/mol
+    IPA Model Score:             2.32
+    IPA Binding Score:           9.47
+    Chemical State Total Energy: -36.9401267 Hartree
+    RMSD IPA:                    0.41 Å
+    RMSD full-relax:             0.60 Å
+
+[H]OC([O-])=C(N([H])[H])CCCCN([H])C:
+    Deformation Energy:          26.90 kcal/mol
+    Distortion:                  36.36 kcal/mol
+    Energy Chemical State:       85.06 kcal/mol
+    IPA Interaction Energy:      -11.78 kcal/mol
+    IPA Binding Energy:          100.17 kcal/mol
+    IPA Model Score:             2.76
+    IPA Binding Score:           3.72
+    Chemical State Total Energy: -36.8560952 Hartree
+    RMSD IPA:                    0.25 Å
+    RMSD full-relax:             0.56 Å
+
+[H]OC([O-])C(=CCCCN([H])C)N([H])[H]:
+    Deformation Energy:          15.39 kcal/mol
+    Distortion:                  139.76 kcal/mol
+    Energy Chemical State:       85.68 kcal/mol
+    IPA Interaction Energy:      -14.51 kcal/mol
+    IPA Binding Energy:          86.57 kcal/mol
+    IPA Model Score:             0.62
+    IPA Binding Score:           5.62
+    Chemical State Total Energy: -36.8550998 Hartree
+    RMSD IPA:                    0.41 Å
+    RMSD full-relax:             0.89 Å
+
+[H]N=C(C([O-])O[H])CCCCN([H])C:
+    Deformation Energy:          12.39 kcal/mol
+    Distortion:                  111.66 kcal/mol
+    Energy Chemical State:       82.16 kcal/mol
+    IPA Interaction Energy:      -11.53 kcal/mol
+    IPA Binding Energy:          83.02 kcal/mol
+    IPA Model Score:             0.74
+    IPA Binding Score:           6.70
+    Chemical State Total Energy: -36.8607133 Hartree
+    RMSD IPA:                    0.30 Å
+    RMSD full-relax:             0.63 Å
+
