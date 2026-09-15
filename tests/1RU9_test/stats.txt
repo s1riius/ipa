@@ -1,0 +1,48 @@
+[H]Oc1cccc2c1c(C[C@@]([H])(C=O)N([H])C=O)cn2[H]:
+    Deformation Energy:          4.21 kcal/mol
+    Distortion:                  37.15 kcal/mol
+    Energy Chemical State:       0.00 kcal/mol
+    IPA Interaction Energy:      -22.14 kcal/mol
+    IPA Binding Energy:          -17.93 kcal/mol
+    IPA Model Score:             -0.48
+    IPA Binding Score:           -4.26
+    Chemical State Total Energy: -49.8664127 Hartree
+    RMSD IPA:                    0.17 Å
+    RMSD full-relax:             0.31 Å
+
+[H]OC=C(N([H])C=O)Cc1cn([H])c2cccc(O[H])c12:
+    Deformation Energy:          14.07 kcal/mol
+    Distortion:                  68.48 kcal/mol
+    Energy Chemical State:       9.34 kcal/mol
+    IPA Interaction Energy:      -33.08 kcal/mol
+    IPA Binding Energy:          -9.68 kcal/mol
+    IPA Model Score:             -0.14
+    IPA Binding Score:           -0.69
+    Chemical State Total Energy: -49.8515289 Hartree
+    RMSD IPA:                    0.21 Å
+    RMSD full-relax:             0.69 Å
+
+[H]C(=O)N([H])[C@]([H])(C=O)Cc1cn([H])c2cccc([O-])c12:
+    Deformation Energy:          3.12 kcal/mol
+    Distortion:                  28.44 kcal/mol
+    Energy Chemical State:       26.28 kcal/mol
+    IPA Interaction Energy:      -22.67 kcal/mol
+    IPA Binding Energy:          6.73 kcal/mol
+    IPA Model Score:             0.24
+    IPA Binding Score:           2.15
+    Chemical State Total Energy: -49.6593496 Hartree
+    RMSD IPA:                    0.11 Å
+    RMSD full-relax:             0.41 Å
+
+[H]OC=C(N([H])C=O)Cc1cn([H])c2cccc([O-])c12:
+    Deformation Energy:          14.21 kcal/mol
+    Distortion:                  60.47 kcal/mol
+    Energy Chemical State:       37.55 kcal/mol
+    IPA Interaction Energy:      -33.63 kcal/mol
+    IPA Binding Energy:          18.13 kcal/mol
+    IPA Model Score:             0.30
+    IPA Binding Score:           1.28
+    Chemical State Total Energy: -49.6413920 Hartree
+    RMSD IPA:                    0.18 Å
+    RMSD full-relax:             0.67 Å
+

@@ -1,0 +1,15 @@
+path-to-geometries: tests/1YIA_test/geometries/ip/
+extension: .xyz
+ligand: B1154_noH_prot_3_tautomer_2_ip -1
+r:LEU;B;26;0;LEU_B26_ip
+r:THR;B;27;0;THR_B27_ip
+r:THR;B;27;0;THR_B27_flip_ip
+r:GLY;B;28;0;GLY_B28_ip
+r:GLN;B;64;0;GLN_B64_ip
+r:GLN;B;154;0;GLN_B154_ip
+r:ASP;B;157;0;ASP_B157_ip
+r:ASP;B;157;-1;ASP_B157_prot_2_ip
+r:GLN;B;172;0;GLN_B172_ip
+r:GLN;B;64;0;GLN_B64f_ip
+r:GLN;B;154;0;GLN_B154f_ip
+r:GLN;B;172;0;GLN_B172f_ip

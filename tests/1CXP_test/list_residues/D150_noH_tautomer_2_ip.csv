@@ -1,0 +1,8 @@
+path-to-geometries: tests/1CXP_test/geometries/ip/
+extension: .xyz
+ligand: D150_noH_tautomer_2_ip 0
+r:PRO;B;101;0;PRO_B101_ip
+r:GLU;B;102;0;GLU_B102_ip
+r:GLU;B;102;-1;GLU_B102_prot_2_ip
+r:ARG;D;148;+1;ARG_D148_prot_1_ip
+r:ARG;D;161;+1;ARG_D161_prot_1_ip

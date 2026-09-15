@@ -1,0 +1,19 @@
+path-to-geometries: tests/1YAL_test/geometries/ip/
+extension: .xyz
+ligand: A25_noH_tautomer_1_ip 0
+r:GLN;A;19;0;GLN_A19_ip
+r:GLY;A;23;0;GLY_A23_ip
+r:ALA;A;27;0;ALA_A27_ip
+r:PHE;A;28;0;PHE_A28_ip
+r:SER;A;29;0;SER_A29_ip
+r:SER;A;29;0;SER_A29_flip_ip
+r:ASP;A;158;0;ASP_A158_ip
+r:ASP;A;158;-1;ASP_A158_prot_2_ip
+r:HIS;A;159;0;HIS_A159_ip
+r:HIS;A;159;-1;HIS_A159_prot_2_ip
+r:HIS;A;159;0;HIS_A159_prot_3_ip
+r:HIS;A;159;+1;HIS_A159_prot_4_ip
+r:ALA;A;160;0;ALA_A160_ip
+r:GLN;A;19;0;GLN_A19f_ip
+r:HIS;A;159;0;HIS_A159f_ip
+r:HIS;A;159;-1;HIS_A159f_prot_2_ip

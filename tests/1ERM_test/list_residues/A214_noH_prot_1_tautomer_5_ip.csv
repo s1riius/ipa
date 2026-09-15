@@ -1,0 +1,12 @@
+path-to-geometries: tests/1ERM_test/geometries/ip/
+extension: .xyz
+ligand: A214_noH_prot_1_tautomer_5_ip -1
+r:THR;A;128;0;THR_A128_ip
+r:THR;A;128;0;THR_A128_flip_ip
+r:MET;A;211;0;MET_A211_ip
+r:GLU;A;212;0;GLU_A212_ip
+r:GLU;A;212;-1;GLU_A212_prot_2_ip
+r:VAL;A;216;0;VAL_A216_ip
+r:ALA;A;217;0;ALA_A217_ip
+r:ASP;A;233;0;ASP_A233_ip
+r:ASP;A;233;-1;ASP_A233_prot_2_ip

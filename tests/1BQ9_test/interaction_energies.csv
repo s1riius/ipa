@@ -1,0 +1,16 @@
+[H]C(=O)N([H])[C@]([H])(C=O)CCSC:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+GLU;A;15;0;GLU15;False;-4.562987;-0.704893
+GLU;A;15;-1;GLU15;False;-3.625111;-0.704893
+ASP;A;16;0;ASP16;False;-1.950684;-1.354039
+ASP;A;16;-1;ASP16;False;-4.560923;-1.354039
+GLY;A;27;0;GLY27;False;-3.974233;-0.944439
+
+[H]OC=C(N([H])C=O)CCSC:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+GLU;A;15;0;GLU15;False;-8.262728;-0.722495
+GLU;A;15;-1;GLU15;False;-6.161348;-0.722495
+ASP;A;16;0;ASP16;False;-8.138481;-1.462329
+ASP;A;16;-1;ASP16;False;-10.117018;-1.462329
+GLY;A;27;0;GLY27;False;-9.877693;-0.966508
+

@@ -1,0 +1,17 @@
+path-to-geometries: tests/1B80_test/geometries/ip/
+extension: .xyz
+ligand: A171_noH_tautomer_1_ip 0
+r:LEU;A;167;0;LEU_A167_ip
+r:GLU;A;168;0;GLU_A168_ip
+r:GLU;A;168;-1;GLU_A168_prot_2_ip
+r:LEU;A;169;0;LEU_A169_ip
+r:LEU;A;173;0;LEU_A173_ip
+r:SER;A;174;0;SER_A174_ip
+r:SER;A;174;0;SER_A174_flip_ip
+r:GLU;A;250;0;GLU_A250_ip
+r:GLU;A;250;-1;GLU_A250_prot_2_ip
+r:PHE;A;254;0;PHE_A254_ip
+r:ASP;A;264;0;ASP_A264_ip
+r:ASP;A;264;-1;ASP_A264_prot_2_ip
+r:PHE;A;265;0;PHE_A265_ip
+r:ILE;A;268;0;ILE_A268_ip

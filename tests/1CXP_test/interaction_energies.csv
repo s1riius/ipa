@@ -1,0 +1,16 @@
+[H]OSC[C@@]([H])(C=O)N([H])C=O:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+PRO;B;101;0;PRO101;False;-6.788023;-0.907767
+GLU;B;102;0;GLU102;False;-2.995544;-5.306879
+GLU;B;102;-1;GLU102;False;-2.894527;-5.306879
+ARG;D;148;+1;ARG148;False;-1.183917;-0.807096
+ARG;D;161;+1;ARG161;False;-4.090686;-0.667613
+
+[H]OSCC(=CO[H])N([H])C=O:
+res;chain;resn;charge;res+resn;flip;Eint(kcal/mol);CapCorr(kcal/mol)
+PRO;B;101;0;PRO101;False;-16.254200;-0.887862
+GLU;B;102;0;GLU102;False;-13.513835;-4.672436
+GLU;B;102;-1;GLU102;False;-13.186061;-4.672436
+ARG;D;148;+1;ARG148;False;-11.507329;-0.849252
+ARG;D;161;+1;ARG161;False;-15.426377;-0.727672
+

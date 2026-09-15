@@ -1,0 +1,6 @@
+path-to-geometries: tests/1QGW_test/geometries/ip/
+extension: .xyz
+ligand: B4_noH_prot_2_tautomer_1_ip 1
+r:MET;B;2;0;MET_B2_ip
+r:ALA;B;6;0;ALA_B6_ip
+r:PEB;D;282;-2;PEB_D282_prot_1_ip

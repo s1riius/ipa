@@ -1,0 +1,45 @@
+path-to-geometries: tests/1EF2_test/geometries/ip/
+extension: .xyz
+ligand: A1217_noH_prot_1_tautomer_2_ip -1
+r:HIS;A;1134;0;HIS_A1134_ip
+r:HIS;A;1134;-1;HIS_A1134_prot_2_ip
+r:HIS;A;1134;0;HIS_A1134_prot_3_ip
+r:HIS;A;1134;+1;HIS_A1134_prot_4_ip
+r:HIS;A;1136;0;HIS_A1136_ip
+r:HIS;A;1136;-1;HIS_A1136_prot_2_ip
+r:HIS;A;1136;0;HIS_A1136_prot_3_ip
+r:HIS;A;1136;+1;HIS_A1136_prot_4_ip
+r:THR;A;1169;0;THR_A1169_ip
+r:THR;A;1169;0;THR_A1169_flip_ip
+r:GLY;A;1195;0;GLY_A1195_ip
+r:GLY;A;1197;0;GLY_A1197_ip
+r:ASN;A;1198;0;ASN_A1198_ip
+r:GLY;A;1215;0;GLY_A1215_ip
+r:HIS;A;1219;0;HIS_A1219_ip
+r:HIS;A;1219;-1;HIS_A1219_prot_2_ip
+r:HIS;A;1219;0;HIS_A1219_prot_3_ip
+r:HIS;A;1219;+1;HIS_A1219_prot_4_ip
+r:VAL;A;1243;0;VAL_A1243_ip
+r:ALA;A;1244;0;ALA_A1244_ip
+r:HIS;A;1246;0;HIS_A1246_ip
+r:HIS;A;1246;-1;HIS_A1246_prot_2_ip
+r:HIS;A;1246;0;HIS_A1246_prot_3_ip
+r:HIS;A;1246;+1;HIS_A1246_prot_4_ip
+r:PHE;A;1271;0;PHE_A1271_ip
+r:HIS;A;1272;0;HIS_A1272_ip
+r:HIS;A;1272;0;HIS_A1272_prot_2_ip
+r:HIS;A;1272;+1;HIS_A1272_prot_3_ip
+r:HIS;A;1272;-1;HIS_A1272_prot_4_ip
+r:MN;A;4774;+2;MN_A4774_ip
+r:MN;A;4775;+2;MN_A4775_ip
+r:HIS;A;1134;0;HIS_A1134f_ip
+r:HIS;A;1134;-1;HIS_A1134f_prot_2_ip
+r:HIS;A;1136;0;HIS_A1136f_ip
+r:HIS;A;1136;-1;HIS_A1136f_prot_2_ip
+r:ASN;A;1198;0;ASN_A1198f_ip
+r:HIS;A;1219;0;HIS_A1219f_ip
+r:HIS;A;1219;-1;HIS_A1219f_prot_2_ip
+r:HIS;A;1246;0;HIS_A1246f_ip
+r:HIS;A;1246;-1;HIS_A1246f_prot_2_ip
+r:HIS;A;1272;0;HIS_A1272f_ip
+r:HIS;A;1272;-1;HIS_A1272f_prot_2_ip

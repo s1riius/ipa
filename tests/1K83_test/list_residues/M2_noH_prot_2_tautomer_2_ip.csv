@@ -1,0 +1,16 @@
+path-to-geometries: tests/1K83_test/geometries/ip/
+extension: .xyz
+ligand: M2_noH_prot_2_tautomer_2_ip -1
+r:ARG;A;726;+1;ARG_A726_prot_1_ip
+r:ILE;A;756;0;ILE_A756_ip
+r:ALA;A;759;0;ALA_A759_ip
+r:GLN;A;760;0;GLN_A760_ip
+r:GLY;A;766;0;GLY_A766_ip
+r:GLN;A;767;0;GLN_A767_ip
+r:GLN;A;768;0;GLN_A768_ip
+r:ASN;M;7;0;ASN_M7_ip
+r:HYP;M;8;0;HYP_M8_ip
+r:GLN;A;760;0;GLN_A760f_ip
+r:GLN;A;767;0;GLN_A767f_ip
+r:GLN;A;768;0;GLN_A768f_ip
+r:ASN;M;7;0;ASN_M7f_ip

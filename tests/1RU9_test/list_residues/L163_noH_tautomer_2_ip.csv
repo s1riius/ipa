@@ -1,0 +1,9 @@
+path-to-geometries: tests/1RU9_test/geometries/ip/
+extension: .xyz
+ligand: L163_noH_tautomer_2_ip 0
+r:ASN;L;161;0;ASN_L161_ip
+r:MET;L;175;0;MET_L175_ip
+r:SER;L;176;0;SER_L176_ip
+r:SER;L;176;0;SER_L176_flip_ip
+r:PRO;H;175;0;PRO_H175_ip
+r:ASN;L;161;0;ASN_L161f_ip

@@ -1,0 +1,8 @@
+path-to-geometries: tests/1BQ9_test/geometries/ip/
+extension: .xyz
+ligand: A1_noH_tautomer_2_ip 0
+r:GLU;A;15;0;GLU_A15_ip
+r:GLU;A;15;-1;GLU_A15_prot_2_ip
+r:ASP;A;16;0;ASP_A16_ip
+r:ASP;A;16;-1;ASP_A16_prot_2_ip
+r:GLY;A;27;0;GLY_A27_ip

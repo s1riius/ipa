@@ -1,0 +1,6 @@
+path-to-geometries: tests/1A39_test/geometries/ip/
+extension: .xyz
+ligand: A1_noH_tautomer_1_ip 0
+r:MET;A;75;0;MET_A75_ip
+r:PHE;A;181;0;PHE_A181_ip
+r:GLY;A;184;0;GLY_A184_ip

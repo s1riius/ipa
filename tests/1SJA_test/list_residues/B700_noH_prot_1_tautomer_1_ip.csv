@@ -1,0 +1,24 @@
+path-to-geometries: tests/1SJA_test/geometries/ip/
+extension: .xyz
+ligand: B700_noH_prot_1_tautomer_1_ip -1
+r:PHE;B;19;0;PHE_B19_ip
+r:PHE;B;23;0;PHE_B23_ip
+r:MET;B;50;0;MET_B50_ip
+r:SER;B;135;0;SER_B135_ip
+r:SER;B;135;0;SER_B135_flip_ip
+r:LYS;B;161;0;LYS_B161_ip
+r:LYS;B;161;+1;LYS_B161_prot_2_ip
+r:LYS;B;163;0;LYS_B163_ip
+r:LYS;B;163;+1;LYS_B163_prot_2_ip
+r:ASP;B;189;0;ASP_B189_ip
+r:ASP;B;189;-1;ASP_B189_prot_2_ip
+r:GLU;B;214;0;GLU_B214_ip
+r:GLU;B;214;-1;GLU_B214_prot_2_ip
+r:ASP;B;239;0;ASP_B239_ip
+r:ASP;B;239;-1;ASP_B239_prot_2_ip
+r:LYS;B;263;0;LYS_B263_ip
+r:LYS;B;263;+1;LYS_B263_prot_2_ip
+r:GLY;B;291;0;GLY_B291_ip
+r:ASP;B;316;0;ASP_B316_ip
+r:ASP;B;316;-1;ASP_B316_prot_2_ip
+r:MG;B;701;+2;MG_B701_ip

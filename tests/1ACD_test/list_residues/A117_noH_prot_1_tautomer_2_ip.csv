@@ -1,0 +1,13 @@
+path-to-geometries: tests/1ACD_test/geometries/ip/
+extension: .xyz
+ligand: A117_noH_prot_1_tautomer_2_ip -1
+r:THR;A;103;0;THR_A103_ip
+r:THR;A;103;0;THR_A103_flip_ip
+r:ILE;A;104;0;ILE_A104_ip
+r:LYS;A;105;0;LYS_A105_ip
+r:LYS;A;105;+1;LYS_A105_prot_2_ip
+r:VAL;A;115;0;VAL_A115_ip
+r:THR;A;123;0;THR_A123_ip
+r:THR;A;123;0;THR_A123_flip_ip
+r:SER;A;124;0;SER_A124_ip
+r:SER;A;124;0;SER_A124_flip_ip

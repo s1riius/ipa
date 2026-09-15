@@ -1,0 +1,13 @@
+path-to-geometries: tests/1F8W_test/geometries/ip/
+extension: .xyz
+ligand: A42_noH_tautomer_1_ip 0
+r:HIS;A;10;0;HIS_A10_ip
+r:HIS;A;10;-1;HIS_A10_prot_2_ip
+r:HIS;A;10;0;HIS_A10_prot_3_ip
+r:HIS;A;10;+1;HIS_A10_prot_4_ip
+r:LEU;A;40;0;LEU_A40_ip
+r:MET;A;44;0;MET_A44_ip
+r:FAD;A;448;-2;FAD_A448_prot_1_ip
+r:FAD;A;448;-3;FAD_A448_prot_2_ip
+r:HIS;A;10;0;HIS_A10f_ip
+r:HIS;A;10;-1;HIS_A10f_prot_2_ip

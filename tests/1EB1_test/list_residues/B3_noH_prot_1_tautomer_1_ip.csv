@@ -1,0 +1,26 @@
+path-to-geometries: tests/1EB1_test/geometries/ip/
+extension: .xyz
+ligand: B3_noH_prot_1_tautomer_1_ip 1
+r:HIS;H;57;0;HIS_H57_ip
+r:HIS;H;57;-1;HIS_H57_prot_2_ip
+r:HIS;H;57;0;HIS_H57_prot_3_ip
+r:HIS;H;57;+1;HIS_H57_prot_4_ip
+r:TRP;H;253;0;TRP_H253_ip
+r:ASP;H;189;0;ASP_H189_ip
+r:ASP;H;189;-1;ASP_H189_prot_2_ip
+r:ALA;H;190;0;ALA_H190_ip
+r:CYS;H;191;0;CYS_H191_ip
+r:GLU;H;192;0;GLU_H192_ip
+r:GLU;H;192;-1;GLU_H192_prot_2_ip
+r:GLY;H;193;0;GLY_H193_ip
+r:SER;H;195;0;SER_H195_ip
+r:SER;H;195;0;SER_H195_flip_ip
+r:SER;H;214;0;SER_H214_ip
+r:SER;H;214;0;SER_H214_flip_ip
+r:GLY;H;216;0;GLY_H216_ip
+r:GLY;H;219;0;GLY_H219_ip
+r:GLY;H;219;+1;GLY_H219_prot_2_ip
+r:ZAL;B;1;0;ZAL_B1_ip
+r:ZAL;B;1;+1;ZAL_B1_prot_2_ip
+r:HIS;H;57;0;HIS_H57f_ip
+r:HIS;H;57;-1;HIS_H57f_prot_2_ip

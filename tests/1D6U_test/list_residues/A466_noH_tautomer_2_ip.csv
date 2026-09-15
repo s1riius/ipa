@@ -1,0 +1,25 @@
+path-to-geometries: tests/1D6U_test/geometries/ip/
+extension: .xyz
+ligand: A466_noH_tautomer_2_ip 0
+r:TYR;A;369;0;TYR_A369_ip
+r:TYR;A;369;-1;TYR_A369_prot_2_ip
+r:TYR;A;369;0;TYR_A369_flip_ip
+r:TYR;A;381;0;TYR_A381_ip
+r:TYR;A;381;-1;TYR_A381_prot_2_ip
+r:TYR;A;381;0;TYR_A381_flip_ip
+r:THR;A;462;0;THR_A462_ip
+r:THR;A;462;0;THR_A462_flip_ip
+r:VAL;A;463;0;VAL_A463_ip
+r:GLY;A;464;0;GLY_A464_ip
+r:TYR;A;468;0;TYR_A468_ip
+r:TYR;A;468;-1;TYR_A468_prot_2_ip
+r:TYR;A;468;0;TYR_A468_flip_ip
+r:GLY;A;488;0;GLY_A488_ip
+r:ILE;A;489;0;ILE_A489_ip
+r:HIS;B;440;0;HIS_B440_ip
+r:HIS;B;440;-1;HIS_B440_prot_2_ip
+r:HIS;B;440;0;HIS_B440_prot_3_ip
+r:HIS;B;440;+1;HIS_B440_prot_4_ip
+r:HY1;A;2001;0;HY1_A2001_ip
+r:HIS;B;440;0;HIS_B440f_ip
+r:HIS;B;440;-1;HIS_B440f_prot_2_ip

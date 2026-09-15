@@ -1,0 +1,141 @@
+2026-05-04 15:58:27,967 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:58:27,968 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:58:27,968 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:58:27,968 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:58:27,968 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:58:27,968 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/1ACD.pdb
+2026-05-04 15:58:27,975 - __main__.InPocketAnalyzer - INFO - Found active residue: CSD
+2026-05-04 15:58:27,975 - __main__.InPocketAnalyzer - INFO - Found 130 protein residues
+2026-05-04 15:58:27,975 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.01 seconds
+2026-05-04 15:58:27,975 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:58:27,976 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/1ACD_test/geometries/A117_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:58:28,034 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:58:28,111 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:58:28,111 - __main__.InPocketAnalyzer - WARNING - rejected state 2 because: amide_iminol
+2026-05-04 15:58:28,111 - __main__.InPocketAnalyzer - WARNING - keeping state 3
+2026-05-04 15:58:28,111 - __main__.InPocketAnalyzer - WARNING - rejected state 4 because: amide_iminol
+2026-05-04 15:58:28,151 - __main__.InPocketAnalyzer - WARNING - There are 2 ligand chemical states generated.
+2026-05-04 15:58:28,151 - __main__.InPocketAnalyzer - INFO - Non-interactive mode: using all ligand states
+2026-05-04 15:58:28,151 - __main__.InPocketAnalyzer - INFO - Generated 2 ligand states
+2026-05-04 15:58:28,151 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.18 seconds
+2026-05-04 15:58:28,152 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:58:28,152 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:58:28,215 - __main__.InPocketAnalyzer - INFO -     THR A 103 3.46 Å
+2026-05-04 15:58:28,215 - __main__.InPocketAnalyzer - INFO -     ILE A 104 3.55 Å
+2026-05-04 15:58:28,215 - __main__.InPocketAnalyzer - INFO -     LYS A 105 2.95 Å
+2026-05-04 15:58:28,217 - __main__.InPocketAnalyzer - INFO -     VAL A 115 3.54 Å
+2026-05-04 15:58:28,217 - __main__.InPocketAnalyzer - INFO - Skipping GLU A 116 1.33 Å (peptide bond)
+2026-05-04 15:58:28,217 - __main__.InPocketAnalyzer - INFO - Skipping VAL A 118 1.33 Å (peptide bond)
+2026-05-04 15:58:28,218 - __main__.InPocketAnalyzer - INFO -     THR A 123 3.25 Å
+2026-05-04 15:58:28,218 - __main__.InPocketAnalyzer - INFO -     SER A 124 2.96 Å
+2026-05-04 15:58:28,219 - __main__.InPocketAnalyzer - INFO - Found 6 neighbor residues
+2026-05-04 15:58:28,219 - __main__.InPocketAnalyzer - INFO - Added caps to 6 neighbour residues
+2026-05-04 15:58:28,219 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.07 seconds
+2026-05-04 15:58:28,219 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:58:32,528 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:58:32,528 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 16.45 kcal/mol
+2026-05-04 15:58:32,528 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 154.55 kcal/mol
+2026-05-04 15:58:32,528 - __main__.InPocketAnalyzer - INFO - Ligand state 2 results:
+2026-05-04 15:58:32,528 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 25.75 kcal/mol
+2026-05-04 15:58:32,528 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 205.32 kcal/mol
+2026-05-04 15:58:32,528 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 4.31 seconds
+2026-05-04 15:58:32,812 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.28 seconds
+2026-05-04 15:58:32,813 - __main__.BindingCalculator - INFO - Calculating energies for 10 residues
+2026-05-04 15:58:34,662 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:58:41,650 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:58:41,894 - __main__.BindingCalculator - ERROR - CapCorr FAILED: base_id = LYS_A105 residue = LYS_A105_1 cap_atoms = 2 cap_geom = 2 protonated_file = tests/1ACD_test/geometries/LYS_A105.sdf error = FileNotFoundError(2, 'No such file or directory')
+Traceback (most recent call last):
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1225, in _calculate_cap_corrections
+    lig_correction = self._calculate_single_cap_correction(residue,ligand_states,formaldehyde_energy,formaldehyde_file)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1302, in _calculate_single_cap_correction
+    FORM.ReorientCap(formaldehyde_file,str(cap_file))
+  File "/Users/sirius/MolPhys/IPA-repo/util/Formaldehyde.py", line 139, in ReorientCap
+    os.remove(temp_opt_filename + ".xyz")
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sirius/MolPhys/IPA-repo/util/formaldehyde/CH2O_water_tmp.xyz'
+2026-05-04 15:58:41,899 - __main__.InPocketAnalyzer - ERROR - Unexpected error: [Errno 2] No such file or directory: '/Users/sirius/MolPhys/IPA-repo/util/formaldehyde/CH2O_water_tmp.xyz'
+Traceback (most recent call last):
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 3648, in run_analysis
+    binding_results = self.calculate_binding_energies(ligand_states,processed_residues)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 3159, in calculate_binding_energies
+    return self.binding_calculator.calculate_binding_energies(ligand_states,processed_residues)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 793, in calculate_binding_energies
+    cap_corrections = self._calculate_cap_corrections(ligand_states,residues)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1225, in _calculate_cap_corrections
+    lig_correction = self._calculate_single_cap_correction(residue,ligand_states,formaldehyde_energy,formaldehyde_file)
+  File "/Users/sirius/MolPhys/IPA-repo/in_pocket.py", line 1302, in _calculate_single_cap_correction
+    FORM.ReorientCap(formaldehyde_file,str(cap_file))
+  File "/Users/sirius/MolPhys/IPA-repo/util/Formaldehyde.py", line 139, in ReorientCap
+    os.remove(temp_opt_filename + ".xyz")
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/sirius/MolPhys/IPA-repo/util/formaldehyde/CH2O_water_tmp.xyz'
+2026-05-04 15:58:45,569 - __main__.InPocketAnalyzer - INFO - Starting In-Pocket Analysis (v260402)
+2026-05-04 15:58:45,569 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:58:45,569 - __main__.InPocketAnalyzer - INFO - Validating inputs...
+2026-05-04 15:58:45,569 - __main__.InPocketAnalyzer - INFO - Input validation completed successfully
+2026-05-04 15:58:45,569 - __main__.InPocketAnalyzer - INFO - Input validation completed in 0.00 seconds
+2026-05-04 15:58:45,569 - __main__.InPocketAnalyzer - INFO - Reading structure from tests/1ACD.pdb
+2026-05-04 15:58:45,578 - __main__.InPocketAnalyzer - INFO - Found active residue: CSD
+2026-05-04 15:58:45,579 - __main__.InPocketAnalyzer - INFO - Found 130 protein residues
+2026-05-04 15:58:45,579 - __main__.InPocketAnalyzer - INFO - Structure reading completed in 0.01 seconds
+2026-05-04 15:58:45,579 - __main__.InPocketAnalyzer - INFO - Processing ligand protonation states
+2026-05-04 15:58:45,580 - __main__.InPocketAnalyzer - INFO - Stripped ~0 explicit H atoms from ligand SDF (1 mols) -> tests/1ACD_test/geometries/A117_noH.sdf (use --keep-input-h to disable).
+2026-05-04 15:58:45,618 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:58:45,646 - __main__.InPocketAnalyzer - WARNING - keeping state 1
+2026-05-04 15:58:45,646 - __main__.InPocketAnalyzer - WARNING - rejected state 2 because: amide_iminol
+2026-05-04 15:58:45,646 - __main__.InPocketAnalyzer - WARNING - keeping state 3
+2026-05-04 15:58:45,646 - __main__.InPocketAnalyzer - WARNING - rejected state 4 because: amide_iminol
+2026-05-04 15:58:45,668 - __main__.InPocketAnalyzer - WARNING - There are 2 ligand chemical states generated.
+2026-05-04 15:58:45,668 - __main__.InPocketAnalyzer - INFO - Non-interactive mode: using all ligand states
+2026-05-04 15:58:45,669 - __main__.InPocketAnalyzer - INFO - Generated 2 ligand states
+2026-05-04 15:58:45,669 - __main__.InPocketAnalyzer - INFO - Ligand state processing completed in 0.09 seconds
+2026-05-04 15:58:45,669 - __main__.InPocketAnalyzer - INFO - Finding neighbor residues within 3.6 Å
+2026-05-04 15:58:45,669 - __main__.InPocketAnalyzer - INFO - List of residues near the ligand and their distances:
+2026-05-04 15:58:45,685 - __main__.InPocketAnalyzer - INFO -     THR A 103 3.46 Å
+2026-05-04 15:58:45,685 - __main__.InPocketAnalyzer - INFO -     ILE A 104 3.55 Å
+2026-05-04 15:58:45,686 - __main__.InPocketAnalyzer - INFO -     LYS A 105 2.95 Å
+2026-05-04 15:58:45,687 - __main__.InPocketAnalyzer - INFO -     VAL A 115 3.54 Å
+2026-05-04 15:58:45,687 - __main__.InPocketAnalyzer - INFO - Skipping GLU A 116 1.33 Å (peptide bond)
+2026-05-04 15:58:45,687 - __main__.InPocketAnalyzer - INFO - Skipping VAL A 118 1.33 Å (peptide bond)
+2026-05-04 15:58:45,688 - __main__.InPocketAnalyzer - INFO -     THR A 123 3.25 Å
+2026-05-04 15:58:45,688 - __main__.InPocketAnalyzer - INFO -     SER A 124 2.96 Å
+2026-05-04 15:58:45,690 - __main__.InPocketAnalyzer - INFO - Found 6 neighbor residues
+2026-05-04 15:58:45,690 - __main__.InPocketAnalyzer - INFO - Added caps to 6 neighbour residues
+2026-05-04 15:58:45,690 - __main__.InPocketAnalyzer - INFO - Neighbor residue identification completed in 0.02 seconds
+2026-05-04 15:58:45,690 - __main__.InPocketAnalyzer - INFO - Calculating ligand deformation energies
+2026-05-04 15:58:48,236 - __main__.InPocketAnalyzer - INFO - Ligand state 1 results:
+2026-05-04 15:58:48,236 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 16.45 kcal/mol
+2026-05-04 15:58:48,236 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 154.55 kcal/mol
+2026-05-04 15:58:48,236 - __main__.InPocketAnalyzer - INFO - Ligand state 2 results:
+2026-05-04 15:58:48,236 - __main__.InPocketAnalyzer - INFO -   Deformation Energy: 25.75 kcal/mol
+2026-05-04 15:58:48,236 - __main__.InPocketAnalyzer - INFO -   Distortion Energy: 205.32 kcal/mol
+2026-05-04 15:58:48,236 - __main__.InPocketAnalyzer - INFO - Deformation energy calculation completed in 2.55 seconds
+2026-05-04 15:58:48,477 - __main__.InPocketAnalyzer - INFO - Neighbor residue processing completed in 0.24 seconds
+2026-05-04 15:58:48,477 - __main__.BindingCalculator - INFO - Calculating energies for 10 residues
+2026-05-04 15:58:50,338 - __main__.BindingCalculator - INFO - Calculating pair energies
+2026-05-04 15:58:56,271 - __main__.BindingCalculator - INFO - Calculating cap corrections
+2026-05-04 15:58:56,801 - __main__.BindingCalculator - INFO - CapCorr summary: done = 6 skipped = 0 total_unique_base = 6
+2026-05-04 15:58:56,801 - __main__.InPocketAnalyzer - INFO - Binding energy calculation completed in 8.32 seconds
+2026-05-04 15:58:56,801 - __main__.InPocketAnalyzer - INFO - 
+============================================================
+2026-05-04 15:58:56,801 - __main__.InPocketAnalyzer - INFO - INTERACTION ENERGY SUMMARY
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO - Ligand State 1:
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]C(=O)N([H])[C@]([H])(C=O)C[S@](=O)[O-]
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   Charge: -1
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -119.654 kcal/mol
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -     1. SER_A124_1f: -15.512 kcal/mol
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -     2. SER_A124_1: -14.804 kcal/mol
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -     3. LYS_A105_2: -13.628 kcal/mol
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO - Ligand State 2:
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   SMILES: [H]OC=C(N([H])C=O)C[S@](=O)[O-]
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   Charge: -1
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   Total Interaction Energy: -179.943 kcal/mol
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -   Top 3 Most Favorable Interactions:
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -     1. SER_A124_1f: -22.535 kcal/mol
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -     2. SER_A124_1: -21.848 kcal/mol
+2026-05-04 15:58:56,802 - __main__.InPocketAnalyzer - INFO -     3. LYS_A105_2: -20.553 kcal/mol
+2026-05-04 15:58:56,806 - __main__.InPocketAnalyzer - INFO - Writing results
+2026-05-04 15:58:56,806 - __main__.InPocketAnalyzer - INFO - Results written to tests/1ACD_test
+2026-05-04 15:58:56,807 - __main__.InPocketAnalyzer - INFO - Results writing completed in 0.00 seconds
+2026-05-04 15:58:56,818 - __main__.InPocketAnalyzer - INFO - ============================================================
+2026-05-04 15:58:56,818 - __main__.InPocketAnalyzer - INFO - Analysis completed successfully in 11.25 seconds
