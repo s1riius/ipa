@@ -328,5 +328,9 @@ Note that protonation codes may introduce other dependencies. Please check the r
 ---
 
 ## License
+Copyright © 2026 Helmholtz Munich. All rights reserved except as expressly granted under the Software License Agreement for Academic Use (the “Agreement”).
+The use, reproduction, modification and distribution of this Software and its Modifications are subject exclusively to the terms and conditions set out in the Agreement provided with the Software.
+By continuing to use, reproduce, modify or distribute the Software, users acknowledge and agree to be bound by the terms of the Academic Use License. Any use, reproduction, distribution or modification outside the scope of this Agreement is strictly prohibited without prior written consent of the copyright holder(s).
+For any use beyond the scope of this Agreement, including commercial use, please contact: innovationandtranslation@helmholtz-munich.de
 
-Distributed under the MIT License. See `LICENSE` for details.
+
